@@ -1,0 +1,919 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Video Share VOD - Turnkey Video Site Builder\n"
+"POT-Creation-Date: 2019-10-26 12:37+0300\n"
+"PO-Revision-Date: 2019-10-26 12:36+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: video-share-vod.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: template-video.php:49
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+
+#: video-share-vod.php:66
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr ""
+
+#: video-share-vod.php:67
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr ""
+
+#: video-share-vod.php:68
+msgid "Videos"
+msgstr ""
+
+#: video-share-vod.php:69
+msgid "Parent Video:"
+msgstr ""
+
+#: video-share-vod.php:70
+msgid "All Videos"
+msgstr ""
+
+#: video-share-vod.php:71
+msgid "View Video"
+msgstr ""
+
+#: video-share-vod.php:72
+msgid "Add New Video"
+msgstr ""
+
+#: video-share-vod.php:73
+msgid "New Video"
+msgstr ""
+
+#: video-share-vod.php:74
+msgid "Edit Video"
+msgstr ""
+
+#: video-share-vod.php:75
+msgid "Update Video"
+msgstr ""
+
+#: video-share-vod.php:76
+msgid "Search Videos"
+msgstr ""
+
+#: video-share-vod.php:77
+msgid "No Videos found"
+msgstr ""
+
+#: video-share-vod.php:78
+msgid "No Videos found in Trash"
+msgstr ""
+
+#: video-share-vod.php:82
+msgid "video"
+msgstr ""
+
+#: video-share-vod.php:83
+msgid "Video Videos"
+msgstr ""
+
+#: video-share-vod.php:109
+msgctxt "taxonomy general name"
+msgid "Playlists"
+msgstr ""
+
+#: video-share-vod.php:110
+msgctxt "taxonomy singular name"
+msgid "Playlist"
+msgstr ""
+
+#: video-share-vod.php:111
+msgid "Search Playlists"
+msgstr ""
+
+#: video-share-vod.php:112
+msgid "All Playlists"
+msgstr ""
+
+#: video-share-vod.php:113
+msgid "Parent Playlist"
+msgstr ""
+
+#: video-share-vod.php:114
+msgid "Parent Playlist:"
+msgstr ""
+
+#: video-share-vod.php:115
+msgid "Edit Playlist"
+msgstr ""
+
+#: video-share-vod.php:116
+msgid "Update Playlist"
+msgstr ""
+
+#: video-share-vod.php:117
+msgid "Add New Playlist"
+msgstr ""
+
+#: video-share-vod.php:118
+msgid "New Playlist Name"
+msgstr ""
+
+#: video-share-vod.php:119
+msgid "Playlists"
+msgstr ""
+
+#: video-share-vod.php:136
+msgctxt "Post Type General Name"
+msgid "TV Shows"
+msgstr ""
+
+#: video-share-vod.php:137
+msgctxt "Post Type Singular Name"
+msgid "TV Show"
+msgstr ""
+
+#: video-share-vod.php:138 video-share-vod.php:153 video-share-vod.php:5765
+#: video-share-vod.php:6080
+msgid "TV Shows"
+msgstr ""
+
+#: video-share-vod.php:139
+msgid "Parent TV Show:"
+msgstr ""
+
+#: video-share-vod.php:140
+msgid "All TV Shows"
+msgstr ""
+
+#: video-share-vod.php:141
+msgid "View TV Show"
+msgstr ""
+
+#: video-share-vod.php:142
+msgid "Add New TV Show"
+msgstr ""
+
+#: video-share-vod.php:143
+msgid "New TV Show"
+msgstr ""
+
+#: video-share-vod.php:144
+msgid "Edit TV Show"
+msgstr ""
+
+#: video-share-vod.php:145
+msgid "Update TV Show"
+msgstr ""
+
+#: video-share-vod.php:146
+msgid "Search TV Show"
+msgstr ""
+
+#: video-share-vod.php:147
+msgid "No TV Shows found"
+msgstr ""
+
+#: video-share-vod.php:148
+msgid "No TV Shows found in Trash"
+msgstr ""
+
+#: video-share-vod.php:152
+msgid "TV show"
+msgstr ""
+
+#: video-share-vod.php:404 video-share-vod.php:487
+msgid "Upload Videos"
+msgstr ""
+
+#: video-share-vod.php:412 video-share-vod.php:1714
+msgid "Import Videos"
+msgstr ""
+
+#: video-share-vod.php:420
+msgid "Manage Videos"
+msgstr ""
+
+#: video-share-vod.php:427
+msgid "Video Posts"
+msgstr ""
+
+#: video-share-vod.php:434
+msgid "Conversions"
+msgstr ""
+
+#: video-share-vod.php:441
+msgid "Export Videos"
+msgstr ""
+
+#: video-share-vod.php:449
+msgid "Statistics & Space"
+msgstr ""
+
+#: video-share-vod.php:456
+msgid "Settings"
+msgstr ""
+
+#: video-share-vod.php:463
+msgid "Documentation"
+msgstr ""
+
+#: video-share-vod.php:478
+msgid "Browse Videos"
+msgstr ""
+
+#: video-share-vod.php:522
+msgid "Once every four minutes"
+msgstr ""
+
+#: video-share-vod.php:649
+msgid "Published a new "
+msgstr ""
+
+#: video-share-vod.php:653 video-share-vod.php:654
+#, php-format
+msgid "%1$s posted a new <a href=\"%2$s\">"
+msgstr ""
+
+#: video-share-vod.php:731
+msgid "VSV Videos"
+msgstr ""
+
+#: video-share-vod.php:733
+msgid "List videos and updates using AJAX."
+msgstr ""
+
+#: video-share-vod.php:847 video-share-vod.php:1467
+msgid "Title"
+msgstr ""
+
+#: video-share-vod.php:851 video-share-vod.php:1695 video-share-vod.php:1697
+#: video-share-vod.php:1764 video-share-vod.php:1766 video-share-vod.php:3540
+msgid "Playlist"
+msgstr ""
+
+#: video-share-vod.php:855
+msgid "Category ID"
+msgstr ""
+
+#: video-share-vod.php:859 video-share-vod.php:1376
+msgid "Order By"
+msgstr ""
+
+#: video-share-vod.php:861 video-share-vod.php:1377
+msgid "Video Date"
+msgstr ""
+
+#: video-share-vod.php:862 video-share-vod.php:1378 video-share-vod.php:1467
+msgid "Views"
+msgstr ""
+
+#: video-share-vod.php:863
+msgid "Recently Watched"
+msgstr ""
+
+#: video-share-vod.php:867 video-share-vod.php:1383 video-share-vod.php:6519
+msgid "Rating"
+msgstr ""
+
+#: video-share-vod.php:868 video-share-vod.php:1384 video-share-vod.php:6520
+msgid "Most Rated"
+msgstr ""
+
+#: video-share-vod.php:869 video-share-vod.php:1385 video-share-vod.php:6521
+msgid "Rate Popularity"
+msgstr ""
+
+#: video-share-vod.php:872 video-share-vod.php:1388
+msgid "Random"
+msgstr ""
+
+#: video-share-vod.php:875
+msgid "Videos per Page"
+msgstr ""
+
+#: video-share-vod.php:879
+msgid "Videos per Row"
+msgstr ""
+
+#: video-share-vod.php:883
+msgid "Category Selector"
+msgstr ""
+
+#: video-share-vod.php:889
+msgid "Tags Selector"
+msgstr ""
+
+#: video-share-vod.php:895
+msgid "Name Selector"
+msgstr ""
+
+#: video-share-vod.php:901
+msgid "Order Selector"
+msgstr ""
+
+#: video-share-vod.php:907
+msgid "Page Selector"
+msgstr ""
+
+#: video-share-vod.php:913
+msgid "Unique List ID"
+msgstr ""
+
+#: video-share-vod.php:917
+msgid "Include CSS"
+msgstr ""
+
+#: video-share-vod.php:1368
+msgid "All"
+msgstr ""
+
+#: video-share-vod.php:1379
+msgid "Watched Recently"
+msgstr ""
+
+#: video-share-vod.php:1400 video-share-vod.php:1704 video-share-vod.php:1772
+msgid "Tags"
+msgstr ""
+
+#: video-share-vod.php:1406
+msgid "Name"
+msgstr ""
+
+#: video-share-vod.php:1414
+msgid "Search"
+msgstr ""
+
+#: video-share-vod.php:1419
+msgid "Reload"
+msgstr ""
+
+#: video-share-vod.php:1467
+msgid "Duration"
+msgstr ""
+
+#: video-share-vod.php:1467
+msgid "Added"
+msgstr ""
+
+#: video-share-vod.php:1468
+msgid "views"
+msgstr ""
+
+#: video-share-vod.php:1528
+msgid "No videos."
+msgstr ""
+
+#: video-share-vod.php:1562
+msgid "Previous"
+msgstr ""
+
+#: video-share-vod.php:1564
+msgid "Page"
+msgstr ""
+
+#: video-share-vod.php:1566
+msgid "Next"
+msgstr ""
+
+#: video-share-vod.php:1674
+msgid "Login is required to import videos!"
+msgstr ""
+
+#: video-share-vod.php:1684 video-share-vod.php:1751 video-share-vod.php:4604
+msgid "You do not have permissions to share videos!"
+msgstr ""
+
+#: video-share-vod.php:1693 video-share-vod.php:1762
+msgid "Category"
+msgstr ""
+
+#: video-share-vod.php:1696
+msgid "(comma separated)"
+msgstr ""
+
+#: video-share-vod.php:1705 video-share-vod.php:1773
+msgid "Tag(s)"
+msgstr ""
+
+#: video-share-vod.php:1708 video-share-vod.php:1709 video-share-vod.php:1776
+#: video-share-vod.php:1777
+msgid "Description"
+msgstr ""
+
+#: video-share-vod.php:1742
+msgid "Login is required to upload videos!"
+msgstr ""
+
+#: video-share-vod.php:1765
+msgid "Playlist(s)"
+msgstr ""
+
+#: video-share-vod.php:1800
+msgid ""
+"or Drag & Drop files to this upload area<br>(fill rest of form options first "
+"to apply for all uploads)"
+msgstr ""
+
+#: video-share-vod.php:1806
+msgid "Upload Files"
+msgstr ""
+
+#: video-share-vod.php:1824
+msgid "Video Upload"
+msgstr ""
+
+#: video-share-vod.php:1824
+msgid "Videos to Upload"
+msgstr ""
+
+#: video-share-vod.php:2385 video-share-vod.php:3249
+msgid "Download Video File"
+msgstr ""
+
+#: video-share-vod.php:2385 video-share-vod.php:3249
+msgid "right click and Save As.."
+msgstr ""
+
+#: video-share-vod.php:2389
+msgid "Embed Video HTML Code"
+msgstr ""
+
+#: video-share-vod.php:2389
+msgid "Copy and Paste to your Page"
+msgstr ""
+
+#: video-share-vod.php:3251
+msgid "Embed Flash Video Code (Copy & Paste to your Page)"
+msgstr ""
+
+#: video-share-vod.php:3533
+msgid "Channel"
+msgstr ""
+
+#: video-share-vod.php:3552
+msgid "Video Views"
+msgstr ""
+
+#: video-share-vod.php:3559
+msgid "My Review"
+msgstr ""
+
+#: video-share-vod.php:3563
+msgid "Reviews"
+msgstr ""
+
+#: video-share-vod.php:3582
+msgid "Channel Playlist"
+msgstr ""
+
+#: video-share-vod.php:3607
+msgid "Episodes"
+msgstr ""
+
+#: video-share-vod.php:4695
+msgid "Video was submitted and is pending approval."
+msgstr ""
+
+#: video-share-vod.php:4697
+msgid "Video was published"
+msgstr ""
+
+#: video-share-vod.php:4697
+msgid "Snapshot, video info and thumbnail will be processed shortly."
+msgstr ""
+
+#: video-share-vod.php:4721
+msgid "Video Post"
+msgstr ""
+
+#: video-share-vod.php:4834
+msgid "Update Thumbnail"
+msgstr ""
+
+#: video-share-vod.php:4878
+msgid "Update"
+msgstr ""
+
+#: video-share-vod.php:4879
+msgid "Convert Again"
+msgstr ""
+
+#: video-share-vod.php:4880
+msgid "Troubleshoot"
+msgstr ""
+
+#: video-share-vod.php:4936
+msgid "Conversion Queue"
+msgstr ""
+
+#: video-share-vod.php:4964 video-share-vod.php:6002
+msgid "Troubleshooting"
+msgstr ""
+
+#: video-share-vod.php:5019 video-share-vod.php:6058
+msgid "CloudLinux Shared Hosting Requirements"
+msgstr ""
+
+#: video-share-vod.php:5023 video-share-vod.php:6062
+msgid "System Process Limitations"
+msgstr ""
+
+#: video-share-vod.php:5297
+msgid "Troubleshoot Video Conversions"
+msgstr ""
+
+#: video-share-vod.php:5759
+msgid "Server"
+msgstr ""
+
+#: video-share-vod.php:5760
+msgid "Video Share"
+msgstr ""
+
+#: video-share-vod.php:5761
+msgid "Convert"
+msgstr ""
+
+#: video-share-vod.php:5762 video-share-vod.php:6474
+msgid "Listings"
+msgstr ""
+
+#: video-share-vod.php:5763 video-share-vod.php:6332
+msgid "Players"
+msgstr ""
+
+#: video-share-vod.php:5764
+msgid "Live Streams"
+msgstr ""
+
+#: video-share-vod.php:5766
+msgid "Membership VOD"
+msgstr ""
+
+#: video-share-vod.php:5767
+msgid "VAST/IAB"
+msgstr ""
+
+#: video-share-vod.php:5768
+msgid "Reset"
+msgstr ""
+
+#: video-share-vod.php:5769
+msgid "Support"
+msgstr ""
+
+#: video-share-vod.php:5840
+msgid "Reset Options"
+msgstr ""
+
+#: video-share-vod.php:5867
+msgid "Video Conversions"
+msgstr ""
+
+#: video-share-vod.php:5886
+msgid "Allow Original Video as Backup"
+msgstr ""
+
+#: video-share-vod.php:5895
+msgid "Convert to High HTML5 Format"
+msgstr ""
+
+#: video-share-vod.php:5924
+msgid "Convert to Mobile HTML5 Format"
+msgstr ""
+
+#: video-share-vod.php:5947
+msgid "Convert to Preview Format"
+msgstr ""
+
+#: video-share-vod.php:5975
+msgid "Generate HLS Segments"
+msgstr ""
+
+#: video-share-vod.php:5987
+msgid "Multiple Formats in Single Process"
+msgstr ""
+
+#: video-share-vod.php:5994
+msgid "Instant Conversion"
+msgstr ""
+
+#: video-share-vod.php:6082
+msgid "Enable TV Shows Post Type"
+msgstr ""
+
+#: video-share-vod.php:6089
+msgid "TV Shows Slug"
+msgstr ""
+
+#: video-share-vod.php:6096
+msgid "Server Configuration"
+msgstr ""
+
+#: video-share-vod.php:6100
+msgid "Uploads Path"
+msgstr ""
+
+#: video-share-vod.php:6109
+msgid ""
+"Path where video files will be stored. Make sure you use a location outside "
+"plugin folder to avoid losing files on updates and plugin uninstallation."
+msgstr ""
+
+#: video-share-vod.php:6128
+msgid "FFMPEG Path"
+msgstr ""
+
+#: video-share-vod.php:6129
+msgid ""
+"Path to latest FFMPEG. Compulsory requirement for extracting snapshots, info "
+"and converting videos."
+msgstr ""
+
+#: video-share-vod.php:6333
+msgid "Strobe RTMP supports multi bitrate sources provided by plugin as:"
+msgstr ""
+
+#: video-share-vod.php:6334
+msgid "HTML playback is supported on most browsers and devices."
+msgstr ""
+
+#: video-share-vod.php:6336
+msgid "HTML5 Player"
+msgstr ""
+
+#: video-share-vod.php:6338
+msgid "Native HTML5 Tag"
+msgstr ""
+
+#: video-share-vod.php:6339
+msgid "WordPress Player (MediaElement.js)"
+msgstr ""
+
+#: video-share-vod.php:6340
+msgid "Video.js"
+msgstr ""
+
+#: video-share-vod.php:6343
+msgid "Player Compatibility"
+msgstr ""
+
+#: video-share-vod.php:6344
+msgid ""
+"Setup appropriate player type and video source depending on OS and browser."
+msgstr ""
+
+#: video-share-vod.php:6345
+msgid "Default Player Type"
+msgstr ""
+
+#: video-share-vod.php:6347
+msgid "Strobe (Flash)"
+msgstr ""
+
+#: video-share-vod.php:6348 video-share-vod.php:6358 video-share-vod.php:6367
+#: video-share-vod.php:6376 video-share-vod.php:6386
+msgid "HTML5"
+msgstr ""
+
+#: video-share-vod.php:6349 video-share-vod.php:6359 video-share-vod.php:6368
+#: video-share-vod.php:6379 video-share-vod.php:6387
+msgid "HTML5 Mobile"
+msgstr ""
+
+#: video-share-vod.php:6350 video-share-vod.php:6360 video-share-vod.php:6370
+#: video-share-vod.php:6380 video-share-vod.php:6389
+msgid "HTML5 HLS"
+msgstr ""
+
+#: video-share-vod.php:6352 video-share-vod.php:6369 video-share-vod.php:6378
+msgid "Strobe RTMP"
+msgstr ""
+
+#: video-share-vod.php:6354
+msgid ""
+"HTML5 Mobile plays lower profile converted video, for mobile support, even "
+"if source video is MP4."
+msgstr ""
+
+#: video-share-vod.php:6356
+msgid "Player on iOS"
+msgstr ""
+
+#: video-share-vod.php:6362
+msgid ""
+"If enabled, use HTML5 mobile for lower bitrate conversion that loads faster "
+"in mobile networks."
+msgstr ""
+
+#: video-share-vod.php:6364
+msgid "Player on Safari"
+msgstr ""
+
+#: video-share-vod.php:6372
+msgid ""
+"Safari requires user to confirm flash player load. Use HTML5 player to avoid "
+"this."
+msgstr ""
+
+#: video-share-vod.php:6374
+msgid "Player on Firefox for MacOS"
+msgstr ""
+
+#: video-share-vod.php:6382
+msgid ""
+"Older Firefox for Mac did not support MP4 HTML5 playback. See <a href="
+"\"https://bugzilla.mozilla.org/show_bug.cgi?id=851290\">bug status</a>."
+msgstr ""
+
+#: video-share-vod.php:6384
+msgid "Player on Android"
+msgstr ""
+
+#: video-share-vod.php:6390
+msgid "Flash Strobe"
+msgstr ""
+
+#: video-share-vod.php:6391
+msgid "Flash Strobe RTMP"
+msgstr ""
+
+#: video-share-vod.php:6393
+msgid ""
+"Latest Android no longer supports Flash in default browser, so HTML5 is "
+"recommended."
+msgstr ""
+
+#: video-share-vod.php:6410
+msgid "Video Width"
+msgstr ""
+
+#: video-share-vod.php:6412
+msgid ""
+"Leave blank to use video width dynamically for player (for HD videos may be "
+"bigger than screen resolution and require scrolling). Does not apply for "
+"VideoJS as that uses adaptive fluid fill."
+msgstr ""
+
+#: video-share-vod.php:6414
+msgid "Player Container CSS"
+msgstr ""
+
+#: video-share-vod.php:6418
+msgid "Playlist Video Width"
+msgstr ""
+
+#: video-share-vod.php:6421
+msgid "Playlist List Width"
+msgstr ""
+
+#: video-share-vod.php:6438
+msgid "Allow Debugging"
+msgstr ""
+
+#: video-share-vod.php:6440 video-share-vod.php:6454
+msgid "Yes"
+msgstr ""
+
+#: video-share-vod.php:6441 video-share-vod.php:6455
+msgid "No"
+msgstr ""
+
+#: video-share-vod.php:6443
+msgid ""
+"Allows forcing players at runtime using url parameters like ?player=html5-"
+"hls&player_html=video-js"
+msgstr ""
+
+#: video-share-vod.php:6446
+msgid "Cross Domain Policy"
+msgstr ""
+
+#: video-share-vod.php:6452
+msgid "Disable"
+msgstr ""
+
+#: video-share-vod.php:6459
+msgid "Referral for Disable"
+msgstr ""
+
+#: video-share-vod.php:6511
+msgid "Default Order By"
+msgstr ""
+
+#: video-share-vod.php:6527
+msgid "Default Videos Per Page"
+msgstr ""
+
+#: video-share-vod.php:6530
+msgid "Default Videos Per Row"
+msgstr ""
+
+#: video-share-vod.php:6534
+msgid "Thumbnail Width"
+msgstr ""
+
+#: video-share-vod.php:6537
+msgid "Thumbnail Height"
+msgstr ""
+
+#: video-share-vod.php:6540
+msgid "Custom CSS"
+msgstr ""
+
+#: video-share-vod.php:6542
+msgid ""
+"Styling used in elements added by this plugin. Must include CSS container "
+"&lt;style type=&quot;text/css&quot;&gt; &lt;/style&gt; ."
+msgstr ""
+
+#: video-share-vod.php:6545
+msgid "Show VideoWhisper Powered by"
+msgstr ""
+
+#: video-share-vod.php:6550
+msgid "Show a mention that videos were posted with VideoWhisper plugin.\n"
+msgstr ""
+
+#: video-share-vod.php:6560
+msgid "Video Sharing"
+msgstr ""
+
+#: video-share-vod.php:6575
+msgid "Users allowed to share videos"
+msgstr ""
+
+#: video-share-vod.php:6577
+msgid ""
+"Who can share videos: comma separated Roles, user Emails, user ID numbers."
+msgstr ""
+
+#: video-share-vod.php:6578 video-share-vod.php:6584 video-share-vod.php:6589
+msgid "\"Guest\" will allow everybody including guests (unregistered users)."
+msgstr ""
+
+#: video-share-vod.php:6580
+msgid "Users allowed to directly publish videos"
+msgstr ""
+
+#: video-share-vod.php:6582
+msgid "Users not in this list will add videos as \"pending\"."
+msgstr ""
+
+#: video-share-vod.php:6583
+msgid ""
+"Who can publish videos: comma separated Roles, user Emails, user ID numbers."
+msgstr ""
+
+#: video-share-vod.php:6586
+msgid "Users allowed to get embed codes"
+msgstr ""
+
+#: video-share-vod.php:6588
+msgid ""
+"Who can see embed code for videos: comma separated Roles, user Emails, user "
+"ID numbers."
+msgstr ""
+
+#: video-share-vod.php:6590
+msgid "Add code below to your .htaccess file for successful resource embeds:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Video Share VOD - Turnkey Video Site Builder"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.videosharevod.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>Video Share / Video on Demand (VOD) - Turnkey Video Site Builder</"
+"strong> plugin enables users to share videos and others to watch on demand. "
+"Allows publishing archived VideoWhisper Live Streaming broadcasts and "
+"recorded videochat streams."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VideoWhisper.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.videowhisper.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "VideoWhisper Full"
+msgstr ""

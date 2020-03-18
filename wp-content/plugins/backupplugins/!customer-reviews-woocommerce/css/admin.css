@@ -1,0 +1,15 @@
+#ivole_trustbadge_admin { display: block; }
+#ivole_trustbadge_admin.ivole-trustbadge-sl, #ivole_trustbadge_admin.ivole-trustbadge-slp, #ivole_trustbadge_admin.ivole-trustbadge-sd, #ivole_trustbadge_admin.ivole-trustbadge-sdp {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;}
+
+#ivole_trustbadge_admin.ivole-trustbadge-sl, #ivole_trustbadge_admin.ivole-trustbadge-slp {background-color: #FFFFFF; border: 1px solid #A3D8CD; width:556px;}
+#ivole_trustbadge_admin.ivole-trustbadge-sd, #ivole_trustbadge_admin.ivole-trustbadge-sdp {background-color: #3D3D3D; border: 1px solid #8B8B8B; width:556px;}
+#ivole_trustbadge_admin.ivole-trustbadge-wl {background-color: #FFFFFF; width:500px;}
+#ivole_trustbadge_admin.ivole-trustbadge-wlp {background-color: #FFFFFF; width:790px;}
+#ivole_trustbadge_admin.ivole-trustbadge-wd {background-color: #003640; width:500px;}
+#ivole_trustbadge_admin.ivole-trustbadge-wdp {background-color: #003640; width:790px;}
+table.ivole-field-map {width: auto;}
+table.ivole-field-map thead tr th {padding: 8px 10px;}
+p.ivole-reply-published-cr-c .dashicons {font-size:13px; width:13px; height:13px; line-height:1.5;}
