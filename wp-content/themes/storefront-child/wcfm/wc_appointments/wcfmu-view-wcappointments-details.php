@@ -166,7 +166,9 @@
                 //  }
                 ?>
                 </div>
+
                 <div class="basic-infos">
+
                 <p class="name-info">
                     <?php
                     echo apply_filters( 'wcfm_wca_customer_name_display',  $customer->full_name, $customer );
@@ -492,26 +494,50 @@ window.onclick = function(event) {
   }
 }
 </script>
+<?php 
+      $appointment = new WC_Appointment( $appointment_id ); 
+      // echo $appointment;
+      ?>
   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
   <script type='text/javascript'>
-    var secondsBeforeExpire = 10;
+    // var secondsBeforeExpire = 10;
+    var appointment_datetime = new Date("<?php echo date('Y-m-d H:i:s',$appointment->get_date_created())?>");
+    console.log('date_created', appointment_datetime);
     
     // This will trigger your timer to begin
+
     var timer = setInterval(function(){
+      var now = new Date();
+      var difference = appointment_datetime.getTime()+(1*24*60*60*1000) - now;
+      var hour_difference = Math.floor(difference /1000/60/60);
+      difference -= hour_difference*1000*60*60;
+      var minute_difference = Math.floor(difference/1000/60);
+      difference -= minute_difference*1000*60; 
+      var second_difference = Math.floor(difference/1000);
+
+      // For 5 Mins sample
+
+      // console.log(hour_difference);
+      // console.log(now);
         // If the timer has expired, disable your button and stop the timer
-        if(secondsBeforeExpire <= 0){
+        if(appointment_datetime.getTime()+(1*24*60*60*1000) <= now){
             
             clearInterval(timer);
             $("#accept").prop('disabled',true);
+            $('#time-remaining').text(`Your Appointment is Expired`) ;
         }
         // Otherwise the timer should tick and display the results
         else{
             // Decrement your time remaining
-            secondsBeforeExpire--;
-            $("#time-remaining").text(secondsBeforeExpire);      
+            // secondsBeforeExpire--;
+            // $("#time-remaining").text(secondsBeforeExpire); 
+            $('#time-remaining').text(`Respond within ${hour_difference} hour/s ${minute_difference} minute/s and ${second_difference} second/s`) ;    
         }
 
     },1000);
+  </script>
+  <script>
+    
   </script>
 </head>
 <body>
@@ -552,6 +578,7 @@ window.onclick = function(event) {
                     </script> 
                     </body>
                     </html> -->
+            
 
 
             
@@ -559,7 +586,9 @@ window.onclick = function(event) {
                 <div class="appointment-content"><p class="left-content">
                     <?php
                         if ($appointment_status == "pending-confirmation") {
-                                    echo "Respond within <span id='time-remaining'></span> seconds";
+                                    echo "<p>Appointment Created:";
+                                    echo date_i18n( wc_date_format() . ' @' . wc_time_format(), $appointment->get_date_created() );
+                                    echo "<br><span id='time-remaining'></span>";
                                 
                                     }
                         ?>

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.8.8//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:http://localhost/gigant-live/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20200324T134500
+UID:wc_appointments_86597
+DTSTAMP:20200318T190337
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:http://localhost/gigant-live/my-account/view-order/86598/
+SUMMARY:#86597 - Basketball Coach
+DTSTART:20200324T133000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

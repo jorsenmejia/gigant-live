@@ -1,0 +1,38 @@
+.elementor-55728 .elementor-element.elementor-element-5aacee2:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-55728 .elementor-element.elementor-element-5aacee2 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#99CC66;}.elementor-55728 .elementor-element.elementor-element-5aacee2 > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-55728 .elementor-element.elementor-element-5aacee2 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-55728 .elementor-element.elementor-element-b810aee .elementor-spacer-inner{height:15px;}.elementor-55728 .elementor-element.elementor-element-c98e045:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-55728 .elementor-element.elementor-element-c98e045 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFF00;}.elementor-55728 .elementor-element.elementor-element-c98e045 > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-55728 .elementor-element.elementor-element-c98e045 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-55728 .elementor-element.elementor-element-d12b514 .elementor-spacer-inner{height:15px;}.elementor-55728 .elementor-element.elementor-element-fdfd19c:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-55728 .elementor-element.elementor-element-fdfd19c > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FF0000;}.elementor-55728 .elementor-element.elementor-element-fdfd19c > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-55728 .elementor-element.elementor-element-fdfd19c > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-55728 .elementor-element.elementor-element-f4b289b .elementor-spacer-inner{height:15px;}.elementor-55728 .elementor-element.elementor-element-69de7cb .elementor-text-editor{text-align:center;}.elementor-55728 .elementor-element.elementor-element-69de7cb{color:#000000;font-family:"Montserrat", montserrat;font-weight:bold;}.elementor-55728 .elementor-element.elementor-element-ecd4738 .elementor-icon-list-icon i{font-size:14px;}.elementor-55728 .elementor-element.elementor-element-ecd4738 .elementor-icon-list-icon svg{width:14px;}.elementor-55728 .elementor-element.elementor-element-ecd4738 .elementor-icon-list-text{color:#000000;}.elementor-55728 .elementor-element.elementor-element-ecd4738 .elementor-icon-list-item{font-family:"Montserrat", montserrat;}.elementor-55728 .elementor-element.elementor-element-b8b5d31 .elementor-text-editor{text-align:center;}.elementor-55728 .elementor-element.elementor-element-b8b5d31{color:#000000;font-family:"Montserrat", montserrat;font-weight:bold;}.elementor-55728 .elementor-element.elementor-element-cff3a43 .elementor-icon-list-icon i{font-size:14px;}.elementor-55728 .elementor-element.elementor-element-cff3a43 .elementor-icon-list-icon svg{width:14px;}.elementor-55728 .elementor-element.elementor-element-cff3a43 .elementor-icon-list-text{color:#000000;}.elementor-55728 .elementor-element.elementor-element-cff3a43 .elementor-icon-list-item{font-family:"Montserrat", montserrat;}.elementor-55728 .elementor-element.elementor-element-ced3d17 .elementor-text-editor{text-align:center;}.elementor-55728 .elementor-element.elementor-element-ced3d17{color:#000000;font-family:"Montserrat", montserrat;font-weight:bold;}.elementor-55728 .elementor-element.elementor-element-a30c84f .elementor-icon-list-icon i{font-size:14px;}.elementor-55728 .elementor-element.elementor-element-a30c84f .elementor-icon-list-icon svg{width:14px;}.elementor-55728 .elementor-element.elementor-element-a30c84f .elementor-icon-list-text{color:#000000;}.elementor-55728 .elementor-element.elementor-element-a30c84f .elementor-icon-list-item{font-family:"Montserrat", montserrat;}/* Start custom CSS for page-settings */i{
+    padding-right: 5px
+}
+
+.elementor-264 .elementor-element.elementor-element-fc13866 .elementor-nav-menu--main .elementor-item:hover {
+    color: #404040;
+    /* padding-left: 9px; */
+    /* padding-right: 9px; */
+    color: black !important;
+    font-weight: 700;
+}
+
+
+nav.elementor-nav-menu--main.elementor-nav-menu__container.elementor-nav-menu--layout-horizontal.e--pointer-underline.e--animation-fade {
+    visibility: hidden;
+}
+
+/*HEADER MAX MENU*/
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-item > a.mega-menu-link {
+        line-height: 1px!important;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+    vertical-align: baseline;
+    width: auto;
+    display: block;
+    color: #404040;
+    text-transform: none;
+    text-decoration: underline;
+    text-align: left;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0);
+    border: 0;
+    border-radius: 0;
+    font-family: inherit;
+    font-size: 15px!important;
+    font-weight: normal;
+    outline: none;
+}/* End custom CSS */
