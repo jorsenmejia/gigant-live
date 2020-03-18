@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.6.2//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:https://gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20190903T120000
+UID:wc_appointments_9248
+DTSTAMP:20190930T133016
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:https://gigant.com.ph/my-account/view-order/9252/
+SUMMARY:#9248 - Web Development
+DTSTART:20190903T110000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.7.6//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:https://gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20191031T220000
+UID:wc_appointments_39007
+DTSTAMP:20191030T210118
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:https://gigant.com.ph/my-account/view-order/39010/
+SUMMARY:#39007 - Medical Advice & Second Opinion
+DTSTART:20191031T210000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

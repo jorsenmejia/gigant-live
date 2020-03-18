@@ -1,0 +1,1148 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
+"POT-Creation-Date: 2017-03-02 10:43+0100\n"
+"PO-Revision-Date: 2018-03-13 17:58+0330\n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: fa_IR\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../functions.php:87
+msgid "YITH WooCommerce Advanced Reviews is enabled but not effective. It requires WooCommerce in order to work."
+msgstr "YITH WooCommerce Advanced Reviews فعال است، اما موثر نیست. برای کار به WooCommerce نیاز است."
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:53
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1568
+msgid "Author"
+msgstr "نویسنده"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:54
+msgid "Review"
+msgstr "دیدگاه"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:55
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:56
+msgid "Rate"
+msgstr "امتیاز"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:57
+#: ../templates/reports/class.ywar-review-report.php:136
+msgid "Product"
+msgstr "محصول"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:342
+#: ../includes/class.yith-advanced-reviews-list-table.php:441
+msgid "Restore"
+msgstr "بازیابی"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:343
+msgid "Move to bin"
+msgstr "انتقال به زباله دان"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:345
+#: ../includes/class.yith-advanced-reviews-list-table.php:446
+msgid "Delete permanently"
+msgstr "کاملا پاک شود"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:346
+msgid "Approve reviews"
+msgstr "دیدگاه های پذیرفته شده"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:347
+msgid "Unapprove reviews"
+msgstr "دیدگاه های تأیید نشده"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:360
+msgid "All"
+msgstr "همه"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:361
+#: ../includes/class.yith-advanced-reviews-list-table.php:443
+msgid "Bin"
+msgstr "زباله دان"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:362
+msgid "Not approved"
+msgstr "تایید نشده"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:418
+msgid "[No Title]"
+msgstr "{بدون عنوان}"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:426
+#, php-format
+msgctxt "a link from a reply that points to the parent review"
+msgid "In reply to %s"
+msgstr "در پاسخ به  %s"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:462
+#: ../templates/ywar-review.php:48
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "%d از 5 امتیاز"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:464
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1784
+#: ../templates/ywar-review.php:50
+msgid "out of 5"
+msgstr "از 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:479
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1383
+msgid "Edit"
+msgstr "ویرایش"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:482
+msgid "View"
+msgstr "مشاهده"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:498
+#: ../templates/ywar-review.php:24
+msgid "Anonymous"
+msgstr "ناشناس"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:525
+msgid "Y/m/d g:i:s a"
+msgstr "Y / m / dg: I: sa"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:532
+#, php-format
+msgid "%s ago"
+msgstr "%s قبل"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:534
+msgid "Y/m/d"
+msgstr "Y / m / d"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:571
+msgid "No reviews found."
+msgstr "دیدگاهی یافت نشد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:512
+msgid "Add to featured"
+msgstr "اضافه به ویژه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:513
+msgid "Remove from featured"
+msgstr "حذف از ویژه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:514
+msgid "Block replies"
+msgstr "مسدود کردن پاسخ"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:515
+msgid "Unblock replies"
+msgstr "باز کردن پاسخ"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:572
+msgid "Inappropriate content"
+msgstr "محتوی نامناسب"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:573
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:940
+msgid "Reply blocked"
+msgstr "پاسخ مسدود شده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:574
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:939
+msgid "Featured"
+msgstr "ویژه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:581
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:282
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:283
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:820
+#: ../templates/reports/class.ywar-review-report.php:137
+#: ../templates/ywar-product-reviews.php:39
+msgid "Reviews"
+msgstr "دیدگاه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:584
+msgid "By most commented"
+msgstr "با بیشترین دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:590
+msgid "By average rate"
+msgstr "با امتیاز میانگین"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:596
+msgid "By min rate"
+msgstr "با کمترین امتیاز"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:602
+msgid "By max rate"
+msgstr "با بیشترین امتیاز"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:816
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2107
+msgid "Impossible to filter by rate"
+msgstr "فیلتر با امتیاز غیر ممکن است"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:938
+msgid "Inappropriate"
+msgstr "نامناسب"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:975
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:980
+msgid "Report for inappropriate content"
+msgstr "گزارش برای محتوای نامناسب"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:996
+msgid "Select/Deselect this as a featured review"
+msgstr "انتخاب/عدم انتخاب به عنوان دیدگاه ویژه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1013
+msgid "Select/Deselect to block any reply of this review"
+msgstr "انتخاب/عدم انتخاب برای مسدود کردن هر پاسخ به این دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1238
+msgid "Flag as inappropriate content"
+msgstr "علامت گذاری به عنوان محتوای نامناسب"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1296
+msgid "Reply to a previous review"
+msgstr "پاسخ به دیدگاه قبلی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1297
+msgid "Reply"
+msgstr "پاسخ"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1361
+msgid "This review cannot receive replies"
+msgstr "به این دیدگاه نمی توان پاسخ داد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1361
+msgid "Block reply"
+msgstr "مسدود کردن پاسخ"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1364
+msgid "This review cannot receive comments."
+msgstr "این دیدگاه نمی تواند کامنت دریافت نماید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1367
+msgid "Allow replies"
+msgstr "اجازه برای پاسخ ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1367
+msgid "Allow reply"
+msgstr "اجازه برای پاسخ"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1379
+msgid "Edit to a previous review"
+msgstr "ویرایش دیدگاه قبلی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1483
+msgid "Was this review helpful to you?"
+msgstr "آیا این دیدگاه برای شما مفید بود؟"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1484
+msgid "This reviews is helpful"
+msgstr "این دیدگاه ها مفید هستند"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1485
+msgid "This reviews is not helpful"
+msgstr "این دیدگاه ها مفید نیستند"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1512
+msgid "Most recent reviews"
+msgstr "بیشترین دیدگاه های اخیر"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1513
+msgid "Most helpful reviews"
+msgstr "بیشترین دیدگاه های مفید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1552
+#, php-format
+msgid "Reviews with %s star"
+msgid_plural "Reviews with %s stars"
+msgstr[0] "دیدگاه ها با %s ستاره"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1583
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2163
+msgid "star"
+msgid_plural "stars"
+msgstr[0] "ستاره"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1584
+#, php-format
+msgid "%d reviews with rating of %s %s (%s of %s)"
+msgstr "%d نظر با امتیاز %s %s ( %s از %s )"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1586
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2168
+msgid "(Show unfiltered results)"
+msgstr "(نمایش نتایج فیلتر نشده)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1642
+msgctxt "The user tried to upload more files than allowed."
+msgid "Too many files selected!"
+msgstr "تعداد زیادی فایل انتخاب شده!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1643
+msgctxt "The user tried to upload files with extension or size not allowed."
+msgid "One or more file was not accepted because do not match the expected requirements"
+msgstr "یک یا چند فایل پذیرفته نشد زیرا با شرایط مورد انتظار مطابقت ندارد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1644
+msgctxt "No attachment is selected"
+msgid "No Files Selected"
+msgstr "هیچ فایلی انتخاب نشده است"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1669
+msgid "Please, write a review"
+msgstr "لطفا دیدگاه خود را بنویسید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1670
+msgid "Please, select a rating before submitting your review"
+msgstr "لطفا قبل از ثبت دیدگاهتان، امتیاز خود را ثبت نمایید."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1671
+msgid "Edit review"
+msgstr "ویرایش دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1672
+#: ../plugin-options/premium-options.php:113
+msgid "Reply to review"
+msgstr "پاسخ به دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1673
+#: ../templates/ywar-product-reviews.php:74
+msgid "Add a review"
+msgstr "اضافه کردن دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1967
+msgid "Thanks for your message, we will check the content of the review."
+msgstr "از پیامتان سپاسگذاریم، به زودی محتوای دیدگاه شما بررسی خواهد شد."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2031
+#, php-format
+msgid "%s of %s people found this review helpful"
+msgstr "%s  از  %s مردم این دیدگاه را مفید دانسته اند"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2078
+msgid "Product ID is not valid"
+msgstr "شناسه محصول معتبر نیست"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2086
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2202
+msgid "Product ID is in an invalid format"
+msgstr "شناسه محصول فرمت غیر قابل قبول دارد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2165
+#, php-format
+msgid "%d reviews with rate of %d %s (%d of %d)"
+msgstr "%d دیدگاه ها با امتیاز %d %s ( %d از %d )"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2450
+#: ../plugin-options/premium-options.php:67
+msgid "Only allow one review for a product. Require \"Only allow reviews from verified owners\" to be set to work properly"
+msgstr "فقط یک دیدگاه برای یک محصول مجاز است. برای اینکه به درست کار کند نیاز است  «تنها صاحبان تایید شده، مجاز به ثبت دیدگاه هستند» فعال باشد."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2478
+msgid "You can't add more than one review for this product. Would you like to edit the review you have already written?"
+msgstr "شما نمی توانید بیش از یک دیدگاه برای این محصول بنویسید، آیا تمایل به ویرایش دیدگاه قبلی خود دارید؟"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:238
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1209
+msgid "Review title"
+msgstr "عنوان دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:473
+msgid "Approve review"
+msgstr "دیدگاه تایید شده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:473
+msgid "Approve"
+msgstr "تایید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:475
+msgid "Unapprove review"
+msgstr "دیدگاه تایید نشده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:475
+msgid "Unapprove"
+msgstr "تایید نشده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:541
+#, php-format
+msgid "Rated %s out of 5 stars"
+msgstr "از 5 ستاره  %s امتیاز گرفته"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:551
+msgid " review"
+msgid_plural " reviews"
+msgstr[0] "دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:595
+msgid "Plugin Documentation"
+msgstr "دستورالعمل افزونه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:616
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:619
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:696
+msgid "Premium Version"
+msgstr "نسخه پولی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:632
+msgid "YITH WooCommerce Advanced Reviews is available in an outstanding PREMIUM version with many new options, discover it now."
+msgstr "YITH WooCommerce Advanced Reviews در نسخه برجسته پولی با بسیاری از گزینه های جدید در دسترس است، اکنون آن را کشف کنید."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:633
+msgid "Premium version"
+msgstr "نسخه پولی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:640
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:652
+msgid "YITH WooCommerce Advanced Reviews"
+msgstr "YITH WooCommerce Advanced Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:641
+msgid "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews options. From this menu you can access all settings of YITH plugins activated."
+msgstr "در تب YIT Plugins شما YITH WooCommerce Advanced Options را می توانید پیدا کنید. از این منو می توانید تمام تنظیمات پلاگین YITH را فعال کنید."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:653
+msgid "From now on, you can find all YITH WooCommerce Advanced Reviews options in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> Advanced Reviews, as in the previous version. Any time one of our plugins is updated, a new entry will be added to this menu."
+msgstr "از حالا به بعد، شما می توانید تمامی گزینه های YITH WooCommerce Advanced را در Plugin YIT -> دیدگاه ها پیشرفته به جای WooCommerce -> تنظیمات -> دیدگاه ها پیشرفته، همانند نسخه قبلی پیدا کنید. هر زمانی که یکی از پلاگین های ما به روز می شود، یک ورودی جدید به این منو اضافه خواهد شد."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:689
+msgid "General"
+msgstr "عمومی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:690
+msgid "Layout"
+msgstr "چیدمان"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:694
+msgid "Voting/Review settings"
+msgstr "رای دادن / تنظیمات مرور"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:702
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:703
+msgid "Advanced Reviews"
+msgstr "بررسی های پیشرفته"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:761
+msgid "Too many files selected!"
+msgstr "تعداد زیادی فایل انتخاب شده!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:762
+msgid "No Files Selected"
+msgstr "فایلی انتخاب نشده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:818
+msgctxt "Post Type General Name"
+msgid "Reviews"
+msgstr "دیدگاه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:819
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr "دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:821
+msgid "Parent Review"
+msgstr "دیدگاه اصلی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:822
+msgid "All reviews"
+msgstr "همه دیدگاه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:823
+msgid "View review"
+msgstr "مشاهده دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:824
+msgid "Add New Review"
+msgstr "اضافه کردن دیدگاه جدید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:825
+msgid "Add New"
+msgstr "اضافه کردن مورد جدید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:826
+msgid "Edit Review"
+msgstr "ویرایش دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:827
+msgid "Update Review"
+msgstr "به روز رسانی دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:828
+msgid "Search Review"
+msgstr "جستجوی دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:829
+msgid "Not Found"
+msgstr "پیدا نشد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:830
+msgid "Not found in bin"
+msgstr "در زباله دان  یافت نشد"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:836
+msgid "YIT Product reviews"
+msgstr "بررسی محصولات YIT "
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:837
+msgid "Advanced WooCommerce product reviews"
+msgstr "Advanced WooCommerce product reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1314
+msgid "Your Rating"
+msgstr "امتیاز شما"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1316
+msgid "Rate&hellip;"
+msgstr "امتیاز &hellip;"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1317
+msgid "Perfect"
+msgstr "عالی"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1318
+msgid "Good"
+msgstr "خوب"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1319
+msgid "Average"
+msgstr "متوسط"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1320
+msgid "Not that bad"
+msgstr "بد نیست"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1321
+msgid "Very Poor"
+msgstr "خیلی ضعیف"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1330
+msgid "Attachments"
+msgstr "پیوست ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1331
+msgid "Choose file(s)"
+msgstr "فایل (ها) را انتخاب کنید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1336
+#, php-format
+msgid "Use one of the allowed file type: %s. "
+msgstr "از یکی از نوع فایل مجاز استفاده کنید: %s . "
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1340
+#, php-format
+msgid "The max size allowed is : %s MB."
+msgstr "حداکثر اندازه مجاز است: %s MB."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1427
+#, php-format
+msgid "Reviews (%d)"
+msgstr "دیدگاه ها  (%d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1469
+msgid "Review information"
+msgstr "اطلاعات دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1530
+msgid "Rating"
+msgstr "امتیاز"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1549
+msgid "Block review edit"
+msgstr "مسدود کردن ویرایش دیدگاه"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1555
+msgid "The review author is a registered user."
+msgstr "نویسنده دیدگاه کاربر ثبت نام شده است"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1556
+msgid "User profile"
+msgstr "پروفایل کاربر"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1559
+msgid "Use user data"
+msgstr "از داده های کاربر استفاده کنید"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1576
+msgid "Author email"
+msgstr "ایمیل نویسنده"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1781
+#: ../templates/ywar-rating.php:24
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "از 5 ستاره  %s امتیاز گرفته"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1810
+msgid "Convert reviews"
+msgstr "تبدیل دیدگاه ها"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1813
+msgid "If this is the first time you install the YITH Advanced Reviews plugin, or if you are using an older version prior to the 1.1.0, first you have to convert the older reviews if you want to use them."
+msgstr "اگر این اولین بار است که شما پلاگین دیدگاه ها پیشرفته YITH را نصب می کنید، یا اگر شما قبل از 1.1.0 از یک نسخه قدیمی تر استفاده می کنید، ابتدا باید دیدگاه های  قدیمی تر را تبدیل نمایید."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1837
+#, php-format
+msgid "Task completed. %d reviews have been processed and converted."
+msgstr "کار تکمیل شد. %d بررسی و پردازش شده است."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1839
+msgid "Task completed. No review to convert has been found."
+msgstr "کار تکمیل شد. هیچ بازبینی برای تبدیل یافت نشد"
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr "تنظیمات عمومی"
+
+#: ../plugin-options/general-options.php:25
+msgid "Show title"
+msgstr "نمایش تیتر"
+
+#: ../plugin-options/general-options.php:27
+msgid "Add a title field in the reviews."
+msgstr "فیلد عنوان را به دیدگاه ها اضافه نمایید."
+
+#: ../plugin-options/general-options.php:32
+msgid "Show attachments"
+msgstr "نمایش پیوست ها"
+
+#: ../plugin-options/general-options.php:34
+msgid "Add an attachment section in the reviews."
+msgstr "بخش پیوست فایل را در دیدگاه  اضافه کنید."
+
+#: ../plugin-options/general-options.php:39
+msgid "Attachment type"
+msgstr "نوع پیوست"
+
+#: ../plugin-options/general-options.php:41
+msgid "Set the file type allowed as the review attachment"
+msgstr "نوع فایل مجاز به عنوان پیوست دیدگاه  را تنظیم کنید"
+
+#: ../plugin-options/general-options.php:47
+msgid "Multiple attachment limit"
+msgstr "محدودیت تعداد پیوست ها"
+
+#: ../plugin-options/general-options.php:49
+msgid "Set the maximum number of attachments that can be selected (0 = no limit)."
+msgstr "حداکثر تعداد پیوست هایی که می توان انتخاب کرد را تنظیم کنید (0 = بدون محدودیت)."
+
+#: ../plugin-options/general-options.php:54
+msgid "Attachment max size"
+msgstr "حداکثر اندازه پیوست"
+
+#: ../plugin-options/general-options.php:56
+msgid "Set the file max size allowed in MB. Set to 0 for no size limit."
+msgstr "حداکثر اندازه فایل را به MB را تنظیم کنید. برای بارگذاری بدون محدودیت  0 را تنظیم کنید."
+
+#: ../plugin-options/general-options.php:66
+msgid "Review content selector"
+msgstr "محتوای دیدگاه را مرور کنید"
+
+#: ../plugin-options/general-options.php:68
+msgid "Set the id or CSS class that matches the review tab content (default: #tab-reviews)."
+msgstr "id یا کلاس CSS که محتوای برگه دیدگاه ها باید با آن هماهنگ باشد (به طور پیش فرض: # tab-reviews)."
+
+#: ../plugin-options/general-options.php:97
+msgid "Previous reviews"
+msgstr "دیدگاه های قبلی"
+
+#: ../plugin-options/layout-options.php:21
+msgid "Layout options"
+msgstr "تنظمیات چیدمان"
+
+#: ../plugin-options/layout-options.php:27
+msgid "Fixed background bar color"
+msgstr "رنگ ثابت پس زمینه نوار"
+
+#: ../plugin-options/layout-options.php:34
+msgid "Percentage bar color"
+msgstr "رنگ نوار درصد"
+
+#: ../plugin-options/layout-options.php:41
+msgid "Show percentage value"
+msgstr "نمایش درصد ارزش"
+
+#: ../plugin-options/layout-options.php:43
+msgid "Show % value on percentage bars."
+msgstr "نمایش درصد٪ در میله های درصد."
+
+#: ../plugin-options/layout-options.php:48
+msgid "Rating label color"
+msgstr "رنگ برچسب رتبه بندی"
+
+#: ../plugin-options/layout-options.php:55
+msgid "Percentage value color"
+msgstr "رنگ متغییر درصد"
+
+#: ../plugin-options/layout-options.php:62
+msgid "Rating count color"
+msgstr "رنگ شمارش امتیاز"
+
+#: ../plugin-options/premium-options.php:21
+msgid "Voting system"
+msgstr "سیستم رای گیری"
+
+#: ../plugin-options/premium-options.php:26
+msgid "Show vote section"
+msgstr "نمایش بخش رای"
+
+#: ../plugin-options/premium-options.php:28
+msgid "Allow user to upvote or downvote a review."
+msgstr "به کاربر اجازه دهید که رای یک دیدگاه را ارتقا یا کاهش دهد."
+
+#: ../plugin-options/premium-options.php:34
+msgid "Show review votes"
+msgstr "نمایش رای های دیدگاه"
+
+#: ../plugin-options/premium-options.php:36
+msgid "Add a string stating how many people found the review useful."
+msgstr "یک متغییر اضافه کنید تا نشان دهید از نظر خوانندگان چقدر آن دیدگاه مفید بوده."
+
+#: ../plugin-options/premium-options.php:42
+msgid "Enable vote for all"
+msgstr "همه بتوانند رای بدهند."
+
+#: ../plugin-options/premium-options.php:44
+msgid "Allow unregistered users to vote the reviews."
+msgstr "اجازه دادن به کاربران ثبت نام نشده برای رای دادن به دیدگاه ها."
+
+#: ../plugin-options/premium-options.php:53
+msgid "Review settings"
+msgstr "تنظیمات دیدگاه"
+
+#: ../plugin-options/premium-options.php:59
+msgid "Manual review approval"
+msgstr "تایید دیدگاه به صورت دستی"
+
+#: ../plugin-options/premium-options.php:61
+msgid "When a user submits a review, it should be manually approved to be showed"
+msgstr "هنگامی که یک کاربر یک دیدگاه را ارائه می کند، باید به صورت دستی تایید شود تا نشان داده شود"
+
+#: ../plugin-options/premium-options.php:66
+msgid "Limit multiple reviews"
+msgstr "محدود کردن دیدگاه های متعدد"
+
+#: ../plugin-options/premium-options.php:73
+msgid "Edit reviews"
+msgstr "ویرایش دیدگاه ها"
+
+#: ../plugin-options/premium-options.php:74
+msgid "Allow the users to edit their review"
+msgstr "به کاربران اجازه دهید دیدگاه خود را ویرایش کنند"
+
+#: ../plugin-options/premium-options.php:80
+msgid "Number of reviews to display"
+msgstr "تعداد دیدگاههایی که نمایش داده شوند"
+
+#: ../plugin-options/premium-options.php:82
+msgid "Limit the maximum number of reviews to display, 0 for unlimited"
+msgstr "حداکثر تعداد دیدگاهها را برای نمایش محدود کنید، 0 برای نامحدود"
+
+#: ../plugin-options/premium-options.php:92
+msgid "\"Load more\""
+msgstr "\"نمایش بیشتر\""
+
+#: ../plugin-options/premium-options.php:94
+msgid "Choose if reviews should be shown grouped and which link style should be applied."
+msgstr "چنانچه قصد گروه بندی دیدگاه ها و  انتخاب استایل لینک زیر آن را دارید، اینجا انتخاب نمایید."
+
+#: ../plugin-options/premium-options.php:97
+msgid "Don't group reviews"
+msgstr "دیدگاه ها رو گروه بندی نکن"
+
+#: ../plugin-options/premium-options.php:98
+msgid "Group reviews and show a textual link on bottom"
+msgstr "دیدگاه ها گروه بندی شده و متن لینک دار در پایین نمایش داده شود."
+
+#: ../plugin-options/premium-options.php:99
+msgid "Group reviews and show a button link on bottom"
+msgstr "دیدگاه ها گروه بندی شده و دکمه لینک دار در پایین نمایش داده شود."
+
+#: ../plugin-options/premium-options.php:105
+msgid "Modal window"
+msgstr "پنجره مودال"
+
+#: ../plugin-options/premium-options.php:107
+msgid "Display reviews filtered by rate in a modal window."
+msgstr "فیلتر دیدگاه ها با آرا در پنجره مودال نمایش داده شود."
+
+#: ../plugin-options/premium-options.php:115
+msgid "Choose who can reply to a review."
+msgstr "انتخاب کنید چه کسانی می توانند به یک دیدگاه پاسخ دهند."
+
+#: ../plugin-options/premium-options.php:118
+msgid "No one can reply"
+msgstr "هیچکس نمیتواند پاسخ دهد"
+
+#: ../plugin-options/premium-options.php:119
+msgid "Only administrators can reply"
+msgstr "فقط مدیران می توانند پاسخ دهند"
+
+#: ../plugin-options/premium-options.php:120
+msgid "Everyone can reply"
+msgstr "هر کس می تواند پاسخ دهد"
+
+#: ../plugin-options/premium-options.php:126
+msgid "Inappropriate reviews"
+msgstr "دیدگاه های نامناسب"
+
+#: ../plugin-options/premium-options.php:128
+msgid "Let users report a review as inappropriate content."
+msgstr "اجازه دهید کاربران یک دیدگاه را به عنوان محتوای نامناسب گزارش دهند."
+
+#: ../plugin-options/premium-options.php:131
+msgid "Not enabled"
+msgstr "غیر فعال"
+
+#: ../plugin-options/premium-options.php:132
+msgid "Only registered users can report an inappropriate content"
+msgstr "فقط کاربران ثبت نام شده می توانند یک محتوای نامناسب گزارش دهند"
+
+#: ../plugin-options/premium-options.php:133
+msgid "Everyone can report an inappropriate content"
+msgstr "هر کس می تواند یک محتوای نامناسب را گزارش کند"
+
+#: ../plugin-options/premium-options.php:139
+msgid "Hiding threshold"
+msgstr "Hiding threshold"
+
+#: ../plugin-options/premium-options.php:141
+msgid "Hide temporarily a review when a specific number of users has flagged it as inappropriate. Set this value to 0 to never hide automatically the reviews."
+msgstr "زمانی که تعداد مشخصی از کاربران یک دیدگاه را بعنوان نامناسب تعیین کرده اند، به طور موقت آن را پنهان نماید. این مقدار را به 0 تنظیم کنید تا هرگز به طور خودکار دیدگاه ها را پنهان نشود."
+
+#: ../plugin-options/premium-options.php:151
+msgid "Featured reviews"
+msgstr "دیدگاه های ویژه"
+
+#: ../plugin-options/premium-options.php:153
+msgid "Number of reviews to show as featured items. Set this value to 0 to never show featured reviews."
+msgstr "تعداد دیدگاه ها برای نمایش موارد برجسته این مقدار را به 0 تنظیم کنید تا دیدگاه های برجسته هرگز نشان داده نشود."
+
+#: ../plugin-options/premium-options.php:163
+msgid "\"Load more\" text"
+msgstr "\\ \"نمایش بیشتر \" متن"
+
+#: ../plugin-options/premium-options.php:165
+msgid "Text to show in the textual link or button."
+msgstr "متن برای نشان دادن در لینک متنی یا دکمه"
+
+#: ../plugin-options/premium-options.php:168
+msgid "Load more"
+msgstr "نمایش بیشتر"
+
+#: ../templates/reports/class.ywar-review-report.php:43
+msgid "Export CSV"
+msgstr "صادرات به صورت  CSV"
+
+#: ../templates/reports/class.ywar-review-report.php:56
+msgid "Year"
+msgstr "سال"
+
+#: ../templates/reports/class.ywar-review-report.php:57
+msgid "Last Month"
+msgstr "ماه گذشته"
+
+#: ../templates/reports/class.ywar-review-report.php:58
+msgid "This Month"
+msgstr "این ماه"
+
+#: ../templates/reports/class.ywar-review-report.php:138
+msgid "Best rate"
+msgstr "بهترین امتیاز"
+
+#: ../templates/reports/class.ywar-review-report.php:139
+msgid "Worst rate"
+msgstr "بدترین امتیاز"
+
+#: ../templates/reports/class.ywar-review-report.php:140
+msgid "Average rate"
+msgstr "امتیاز متوسط"
+
+#: ../templates/reports/class.ywar-review-report.php:162
+msgid "No reviews found in this period"
+msgstr "در این بازه زمانی هیچ دیدگاهی یافت نشد."
+
+#: ../templates/reports/ywar-html-review-report.php:23
+msgid "Custom:"
+msgstr "دلخواه:"
+
+#: ../templates/reports/ywar-html-review-report.php:41
+msgid "Go"
+msgstr "برو"
+
+#: ../templates/ywar-product-reviews-table.php:17
+msgid "Product reviews"
+msgstr "دیدگاه ها محصول ها"
+
+#: ../templates/ywar-product-reviews-table.php:23
+msgid "Search reviews"
+msgstr "جستجو در دیدگاه ها"
+
+#: ../templates/ywar-product-reviews.php:37
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s پاسخ برای %s"
+
+#: ../templates/ywar-product-reviews.php:57
+msgid "There are no reviews yet."
+msgstr "هیچ دیدگاهی هنوز نوشته نشده "
+
+#: ../templates/ywar-product-reviews.php:74
+msgid "Be the first to review"
+msgstr "اولین نظر دهنده باشید"
+
+#: ../templates/ywar-product-reviews.php:75
+msgid "Write a reply"
+msgstr "نوشتن پاسخ"
+
+#: ../templates/ywar-product-reviews.php:79
+msgid "Name"
+msgstr "نام"
+
+#: ../templates/ywar-product-reviews.php:81
+msgid "Email"
+msgstr "پست الکترونیک"
+
+#: ../templates/ywar-product-reviews.php:84
+msgid "Submit"
+msgstr "ثبت"
+
+#: ../templates/ywar-product-reviews.php:89
+msgid "Your Review"
+msgstr "دیدگاه شما"
+
+#: ../templates/ywar-product-reviews.php:100
+msgid "Only logged in customers who have purchased this product may write a review."
+msgstr "فقط مشتریانی که این محصول را خریده اند می توانند دیدگاه خود را درباره ی آن بنویسند."
+
+#: ../templates/ywar-product-reviews.php:103
+msgid "Edit my reviews"
+msgstr "ویرایش دیدگاه های من"
+
+#: ../templates/ywar-rating.php:26
+#, php-format
+msgid "out of %s5%s"
+msgstr "خارج از %s 5 %s"
+
+#: ../templates/ywar-rating.php:27
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "بر پایه امتیاز   %s  مشتری"
+
+#: ../templates/ywar-rating.php:32
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s دیدگاه مشتری"
+
+#: ../templates/ywar-review.php:58
+msgid "Your comment is waiting for approval"
+msgstr "دیدگاه شما در حال انتظار برای تایید است"
+
+#: ../templates/ywar-review.php:69
+msgid "verified owner"
+msgstr "خریدار محصول"
+
+#: ../templates/ywar-single-product-reviews.php:28
+msgid "Customers' review"
+msgstr "دیدگاه های مشتریان"
+
+#: ../templates/ywar-single-product-reviews.php:42
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "ستاره %s"
+
+msgid "Choose to show a textual link or a button to load additionally reviews."
+msgstr "تصمیم بگیرید که لینک متنی یا یک دکمه برای دیدگاه های بیشتر نمایش داده شود."
+
+msgid "This review is closed for replies"
+msgstr "این دیدگاه برای پاسخ بسته شده است."
+
+msgid "This review is closed for comments"
+msgstr "این دیدگاه برای کامنت بسته شده است."
+
+msgid "Product id is in invalid format"
+msgstr "شناسه محصول فرمت غیر قابل قبول دارد"
+
+msgid "Voting/Reviews settings"
+msgstr "تنظیمات دیدگاه ها/امتیاز دهی"
+
+msgid "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews options. With this menu, you can access to all the settings of our plugins that you have activated."
+msgstr "In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews options. From this menu you can access all settings of YITH plugins activated."
+
+msgid "From now on, you can find all the options of YITH WooCommerce Advanced Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> Advanced Reviews, as in the previous version. When one of our plugins updates, a new voice will be added to this menu."
+msgstr "From now on, you can find all YITH WooCommerce Advanced Reviews options in YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> Advanced Reviews, as in the previous version. Any time one of our plugins is updated, a new entry will be added to this menu."
+
+msgid "The layout for this "
+msgstr "چیدمان برای این"
+
+msgid "The word used for the URL of each project (the slug of post if empty)"
+msgstr "Univocal identification name in the URL for each product (slug from post if empty)"
+
+msgid "Label Singular"
+msgstr "Label in Singular"
+
+msgid "Set the label in singular to use for each label (the title of portfolio if empty)"
+msgstr "Set a label in singular (title of portfolio if empty)"
+
+msgid "Label Plural"
+msgstr "Label in Plural"
+
+msgid "Set the label in plural to use for each label (the title of portfolio if empty)"
+msgstr "Set a label in plural (title of portfolio if empty)"
+
+msgid "If you want to use a category section for the portfolio, set the name of taxonomy. Name should be in slug form (must not contain capital letters or spaces) and not more than 32 characters long (database structure restriction)."
+msgstr "If you want to use categories in the portfolio, set a name for taxonomy. Name should be a slug (must not contain capital letters nor spaces) and must not be more than 32 characters long (database structure restriction)."
+
+msgid "Set the word to use in the URL for each category page."
+msgstr "Set the word for each category page URL."
+
+msgid "The layout for single page of this portfolio"
+msgstr "Layout for single page of this portfolio"
+
+msgid "Show the frontend of the %s"
+msgstr "Show frontend of the %s"
+
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "اگر این صفحه را ترک نمایید، تغییراتی که انجام داده اید از بین خواهد رفت."
+
+msgid "If you continue with this action, you will reset all options are in this page."
+msgstr "چنانچه شما این عملیات را انجام دهید، تمامی تنظیمات این صفحه ریست و به حالت پیش فرض بر میگردد."
+
+msgid "The element you have written is already exists. Please, add another name."
+msgstr "این المنت هم اکنون موجود است. لطفا نام دیگری انتخاب نمایید."
+
+msgid "An error encoured during during import. Please try again."
+msgstr "هنگام ورود اطلاعات خطایی اتفاق افتاد. لطفا مجدد امتحان نمایید."
+
+msgid "The file you have insert doesn't valid."
+msgstr "فایلی که انتخاب شده نامعتبر است."
+
+msgid "I'm sorry, the import featured is disabled."
+msgstr "به بخشید! وارد کردن غیر فعال است"
+
+msgid "Sorting done correctly."
+msgstr "مرتب سازی با موفقیت انجام شد."
+
+msgid ""
+"From now on, you can find all the options of your plugins under the YIT Plugin menu voice.\n"
+"                                     For every installation of our new plugins, a new voice will be added to access to the customization settings."
+msgstr ""
+"From now on, you can find all plugin options in YIT Plugin menu.\n"
+"                                     For each plugin installed, customization settings will be available as a new entry in YIT Plugin menu."
+
+msgid ""
+"From now on, you can find all the options of your plugins under the YIT Plugin menu voice.\n"
+"                                    When one of our plugins updates, a new voice will be added to this menu.\n"
+"                                    For example, after the update, the options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be removed from the previous location and moved under the YIT Plugin tab."
+msgstr ""
+"From now on, you can find all the options of your plugins in YIT Plugin menu.\n"
+"                                    Any time one of our plugins is updated, a new entry will be added to this menu.\n"
+"                                    For example, after update, plugin options (such for YITH WooCommerce Wishlist, YITH WooCommerce Ajax Search, etc.)\n"
+"                                    will be moved from previous location to YIT Plugin tab."
+
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from the automatic updates.</em>"
+msgstr "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s details</a>. <em>You have to activate the plugin on a single site of the network to benefit from automatic updates.</em>"
+
+msgid "%field% field can not be empty"
+msgstr "%field% field cannot be empty"
+
+msgid "%field_1% and %field_2% fields can not be empty"
+msgstr "%field_1% and %field_2% fields cannot be empty"
+
+msgid "Software has been deactive"
+msgstr "نرم افزار غیر فعال شده است."
+
+msgid "Licence key has be banned"
+msgstr "کلید لایسنس مسدود شده است."
+
+msgid "To Active"
+msgstr "فعال سازی"
+
+msgid "Insert the title of field."
+msgstr "یک عنوان برای این فیلد انتخاب نمایید."
+
+msgid "REQUIRED: The identification name of this field, that you can insert into body email configuration. <strong>Note:</strong>Use only lowercase characters and underscores."
+msgstr "REQUIRED: Field identification name to be entered into email body. <strong>Note:</strong>Use only lowercase characters and underscores."
+
+msgid "Select the type of this field."
+msgstr "نوع این فیلد را انتخاب نمایید."
+
+msgid "Select this if it's the email where you can reply."
+msgstr "چنانچه این ایمیل هست که می توانید به آن پاسخ (ریپلای) دهید، این گزینه را انتخاب نمایید"
+
+msgid "Insert an additional class(es) (separateb by comma) for more personalization."
+msgstr "برای شخصی سازی بیشتر کلاس (های) اضافی را می توانید وارد نمایید (با کاما جداسازی نمایید)."
+
+msgid "Choose how much long will be the field."
+msgstr "طول فیلد را تنظیم کنید"
+
+msgid "The content of the tab. (HTML is supported)"
+msgstr "محتوای تب (دستورات html پشتیبانی می شوند)"
+
+msgid "Sidebar Left"
+msgstr "ساید بار چپ"
+
+msgid "Sidebar Right"
+msgstr "ساید بار راست"
+
+msgid "Add a title field on reviews."
+msgstr "اضافه کردن فیلد عنوان برای دیدگاه ها"
+
+msgid "Set maximum number of attachments selectable (0 = no limit)."
+msgstr "بیشترین تعداد پیوست ها را مشخص نمایید (0 برای نامحدود)"
+
+msgid "Reviews summary options"
+msgstr "چکیده خصوصیات دیدگاه ها"
+
+msgid "Fixed bars color"
+msgstr "رنگ نوار های ثابت"
+
+msgid "Percentage bars color"
+msgstr "رنگ نوار های درصد"
+
+msgid "Show people's votes"
+msgstr "نمایش آرای مردم"
+
+msgid "Add a string stating how many people's found the review useful."
+msgstr "یک متغییر اضافه کنید تا نشان دهید از نظر خوانندگان چقدر آن دیدگاه مفید بوده."
+
+msgid "Reviews settings"
+msgstr "تنظیمات دیدگاه"
+
+msgid "How many reviews to show"
+msgstr "تعداد نمایش دیدگاه ها"
+
+msgid "Limit how many reviews to show (0 for unlimited)."
+msgstr "تعداد نمایش دیدگاه ها را محدود کنید (0 برای نامحدود)"
+
+msgid "Show reviews filtered by users rating in a modal window."
+msgstr "نمایش فیلتر های دیدگاه توسط آرای کاربران در پنجره مودال"
+
+msgid "Load more text"
+msgstr "متن \"نمایش بیشتر\""
+
+msgid "Text to show inside textual link or button."
+msgstr "متنی که باید برای متن لینکی یا دکمه نمایش داده شود."
+
+msgid "Customers reviews"
+msgstr "دیدگاه های مشتریان"

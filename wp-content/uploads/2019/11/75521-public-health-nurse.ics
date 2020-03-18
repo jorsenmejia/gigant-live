@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.8.5//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:https://gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20191126T100000
+UID:wc_appointments_75521
+DTSTAMP:20191125T142012
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:https://gigant.com.ph/my-account/view-order/75523/
+SUMMARY:#75521 - Public Health Nurse
+DTSTART:20191126T090000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

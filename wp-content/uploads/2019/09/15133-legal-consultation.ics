@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.5.14//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:https://gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20190908T140000
+UID:wc_appointments_15133
+DTSTAMP:20190907T101010
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:https://gigant.com.ph/my-account/view-order/15155/
+SUMMARY:#15133 - Legal Consultation
+DTSTART:20190908T130000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

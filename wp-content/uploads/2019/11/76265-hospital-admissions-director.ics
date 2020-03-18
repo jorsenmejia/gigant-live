@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.8.8//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:https://gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20191221T130000
+UID:wc_appointments_76265
+DTSTAMP:20191129T094512
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:https://gigant.com.ph/my-account/view-order/76268/
+SUMMARY:#76265 - Hospital Admissions Director
+DTSTART:20191221T110000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

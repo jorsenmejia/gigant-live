@@ -1,0 +1,314 @@
+2020-02-22T00:13:36+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:15:08+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:15:10+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:15:26+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:15:29+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:31:47+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:45:42+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:47:16+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(561): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(715): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:50:49+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:50:53+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:56:46+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(657): Elementor\Widget_Base->_print_content()
+#7 /home/gigant/public_html/wp-content in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:56:49+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:56:58+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T00:59:01+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(657): Elementor\Widget_Base->_print_content()
+#7 /home/gigant/public_html/wp-content in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T05:53:50+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T05:54:10+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T05:54:21+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T07:09:52+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T07:10:31+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T07:10:33+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T07:10:38+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T07:41:14+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-22T08:13:55+00:00 CRITICAL Cannot redeclare pendingstatus() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1699) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 1699
+
+2020-02-22T08:42:52+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:42:59+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:42:59+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:03+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:07+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:11+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:12+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:12+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:14+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:28+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:30+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:30+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:38+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:38+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:42+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:43:42+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:28+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:29+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:30+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:31+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:31+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:31+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:38+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-22T08:44:38+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+

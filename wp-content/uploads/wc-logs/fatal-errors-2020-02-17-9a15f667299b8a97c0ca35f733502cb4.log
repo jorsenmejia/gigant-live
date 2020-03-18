@@ -1,0 +1,172 @@
+2020-02-17T03:25:18+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 189
+
+2020-02-17T03:35:24+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment::get_product_status() in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php:188
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#2 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(992): do_action('wcfm_load_views', 'wcfm-appointmen...')
+#6 /home/gigant/public_html/wp-content/plugin in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 188
+
+2020-02-17T03:39:56+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 191
+
+2020-02-17T03:41:16+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 143
+
+2020-02-17T05:16:53+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 170
+
+2020-02-17T05:17:20+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF), expecting end of file in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 170
+
+2020-02-17T05:22:25+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 160
+
+2020-02-17T05:22:27+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 160
+
+2020-02-17T06:48:57+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:48:59+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:03+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:04+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:05+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:06+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:07+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:07+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:07+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:07+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:07+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:11+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:15+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:19+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:21+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:24+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:25+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:25+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T06:49:26+00:00 CRITICAL Object of class Closure could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1561
+
+2020-02-17T07:27:03+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1501
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1501
+
+2020-02-17T07:28:54+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1501
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1501
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:26+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:27+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:29+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:31+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:37+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:44+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:47+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:38:49+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:00+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:02+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:05+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:09+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:10+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:11+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:18+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:21+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:30+00:00 CRITICAL Cannot use "self" when no class scope is active in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1579
+
+2020-02-17T07:39:52+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1501
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1501
+
+2020-02-17T07:41:05+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1501
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1501
+
+2020-02-17T07:49:20+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1501
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584539100, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '6 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584539100, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '6 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1501
+
+2020-02-17T08:02:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1500
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1500
+
+2020-02-17T08:05:59+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1500
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1500
+
+2020-02-17T08:07:30+00:00 CRITICAL Uncaught Error: Cannot use object of type WC_Product_Appointment as array in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1500
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): custom_time_slot_html('<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#1 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('<li class="slot...', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php(2839): apply_filters('woocommerce_app...', '<li class="slot...', 1584716400, Array, 0, 0, 'UTC', Object(WC_Product_Appointment), '4 left')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/admin/class-wc-appointments-admin-ajax.php(506): WC_Product_Appointment->get_time_slots_html(Array)
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WC_Appointments_Admin_Ajax->get_time_slots_for_date(' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1500
+

@@ -1,0 +1,219 @@
+2020-02-20T01:52:37+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 43
+
+2020-02-20T01:57:56+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 43
+
+2020-02-20T03:42:37+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 28
+
+2020-02-20T05:18:30+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/sold-by/wcfmmp-view-sold-by-simple.php on line 217
+
+2020-02-20T05:43:24+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T05:43:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T05:44:37+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T05:45:07+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T05:45:43+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T05:45:59+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T06:26:25+00:00 CRITICAL Uncaught Error: Call to a member function get_product_name() on null in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugi in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T06:28:25+00:00 CRITICAL Uncaught Error: Call to a member function get_product_name() on null in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugi in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T06:32:55+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 33
+
+2020-02-20T06:33:18+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 33
+
+2020-02-20T06:43:23+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 33
+
+2020-02-20T06:44:23+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 33
+
+2020-02-20T07:05:46+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T07:07:25+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T07:07:52+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T07:08:09+00:00 CRITICAL Object of class WCFMmp_Store could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T07:13:23+00:00 CRITICAL Uncaught Error: Call to undefined function get_star_rating() in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php:32
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/comment-template.php(1508): require()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/eleme in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 32
+
+2020-02-20T08:28:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:40+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:47+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:54+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:28:56+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:29:11+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:29:12+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1671
+
+2020-02-20T08:32:34+00:00 CRITICAL Uncaught Error: Call to a member function get_review_count() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1662
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_stars('', '', 'getstars')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(getsta...', 'do_shortcode_ta...', '[getstars]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[getstars]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(637): Elementor\Widget_Base->_print_content()
+#7 /home/gigant/public_html/wp-content/plugins/elementor/inc in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1662
+
+2020-02-20T08:38:34+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1651
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_stars('', '', 'getstars')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(getsta...', 'do_shortcode_ta...', '[getstars]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[getstars]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(637): Elementor\Widget_Base->_print_content()
+#7 /home/gigant/public_html/wp-content/plugins/elementor/inc in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1651
+
+2020-02-20T08:38:55+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1651
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_stars('', '', 'getstars')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(getsta...', 'do_shortcode_ta...', '[getstars]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[getstars]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(578): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(637): Elementor\Widget_Base->_print_content()
+#7 /home/gigant/public_html/wp-content/plugins/elementor/inc in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1651
+
+2020-02-20T08:40:44+00:00 CRITICAL Uncaught Error: Call to a member function get_rating_count() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1641
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php(37): get_star_rating()
+#1 /home/gigant/public_html/wp-includes/comment-template.php(1508): require('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/woocommerce/templates/single-product/tabs/tabs.php(47): comments_template('reviews', Array)
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-data-tabs.php(280): wc_get_template('single-product/...')
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(448): ElementorPro\Modules\Woocommerce\Widgets\Product_Data_Tabs->render()
+#6 /home/gigant/public_html/wp-content/plugins/elemento in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1641
+
+2020-02-20T09:13:03+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1655
+
+2020-02-20T09:13:06+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1655
+
+2020-02-20T09:13:08+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1655
+
+2020-02-20T09:13:26+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1655
+
+2020-02-20T09:13:27+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1655
+
+2020-02-20T09:18:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1657
+
+2020-02-20T09:18:27+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1657
+
+2020-02-20T09:19:20+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:19:26+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:19:28+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:20:04+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:20:06+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:20:09+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:20:17+00:00 CRITICAL syntax error, unexpected 'woocommerce_product_author' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:26+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:28+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:29+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:42+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:44+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:45+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+
+2020-02-20T09:23:45+00:00 CRITICAL syntax error, unexpected ',' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1656
+

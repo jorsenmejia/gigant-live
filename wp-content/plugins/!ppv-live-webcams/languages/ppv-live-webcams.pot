@@ -1,0 +1,2023 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: PPV Live Webcams - Paid Videochat\n"
+"POT-Creation-Date: 2019-12-17 15:03+0200\n"
+"PO-Revision-Date: 2017-12-05 19:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ppv-live-webcams.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/h5videochat.php:20
+msgid "Login is required to access your own videochat room!"
+msgstr ""
+
+#: inc/h5videochat.php:20 inc/h5videochat.php:170 inc/shortcodes.php:50
+#: inc/shortcodes.php:186 inc/shortcodes.php:392 inc/shortcodes.php:423
+#: inc/shortcodes.php:508 ppv-live-webcams.php:743 ppv-live-webcams.php:4937
+#: ppv-live-webcams.php:5136 ppv-live-webcams.php:5584
+msgid "Login"
+msgstr ""
+
+#: inc/h5videochat.php:20 inc/h5videochat.php:170 inc/shortcodes.php:50
+#: inc/shortcodes.php:186 inc/shortcodes.php:392 inc/shortcodes.php:423
+#: inc/shortcodes.php:508 ppv-live-webcams.php:743 ppv-live-webcams.php:4937
+#: ppv-live-webcams.php:5584
+msgid "Register"
+msgstr ""
+
+#: inc/h5videochat.php:26 ppv-live-webcams.php:4967 ppv-live-webcams.php:5623
+msgid ""
+"Your account is not currently enabled. Update your account records and wait "
+"for site admins to approve your account."
+msgstr ""
+
+#: inc/h5videochat.php:30 ppv-live-webcams.php:5628
+msgid ""
+"Studio disabled your account: dashboard access is forbidden. Contact studio "
+"or site administrator!"
+msgstr ""
+
+#: inc/h5videochat.php:67
+msgid "No random cam room found with current criteria!"
+msgstr ""
+
+#: inc/h5videochat.php:170
+msgid "Login is required to access private calls."
+msgstr ""
+
+#: inc/h5videochat.php:180
+msgid "This private call was closed."
+msgstr ""
+
+#: inc/h5videochat.php:181
+msgid "Private call is only available to performer and client, as setup."
+msgstr ""
+
+#: inc/h5videochat.php:187
+msgid "This private call does not exist."
+msgstr ""
+
+#: inc/h5videochat.php:339
+msgid "Send"
+msgstr ""
+
+#: inc/h5videochat.php:340
+msgid "Type your message"
+msgstr ""
+
+#: inc/h5videochat.php:342
+msgid "Chat"
+msgstr ""
+
+#: inc/h5videochat.php:343
+msgid "Camera"
+msgstr ""
+
+#: inc/h5videochat.php:344
+msgid "Users"
+msgstr ""
+
+#: inc/h5videochat.php:345
+msgid "Options"
+msgstr ""
+
+#: inc/h5videochat.php:346
+msgid "Files"
+msgstr ""
+
+#: inc/h5videochat.php:347
+msgid "Presentation"
+msgstr ""
+
+#: inc/h5videochat.php:349
+msgid "Tap for Sound"
+msgstr ""
+
+#: inc/h5videochat.php:350
+msgid "Enable Audio"
+msgstr ""
+
+#: inc/h5videochat.php:351
+msgid "Mute"
+msgstr ""
+
+#: inc/h5videochat.php:352
+msgid "Reload"
+msgstr ""
+
+#: inc/h5videochat.php:354
+msgid "Broadcast"
+msgstr ""
+
+#: inc/h5videochat.php:355
+msgid "Stop Broadcast"
+msgstr ""
+
+#: inc/h5videochat.php:356
+msgid "Make a selection to start!"
+msgstr ""
+
+#: inc/h5videochat.php:358
+msgid "Lights On"
+msgstr ""
+
+#: inc/h5videochat.php:359
+msgid "Dark Mode"
+msgstr ""
+
+#: inc/h5videochat.php:360
+msgid "Enter Fullscreen"
+msgstr ""
+
+#: inc/h5videochat.php:361
+msgid "Exit Fullscreen"
+msgstr ""
+
+#: inc/h5videochat.php:363
+msgid "Site Menu"
+msgstr ""
+
+#: inc/h5videochat.php:365
+msgid "Request Private"
+msgstr ""
+
+#: inc/h5videochat.php:366
+msgid "Request Private 2 Way Videochat Show"
+msgstr ""
+
+#: inc/h5videochat.php:367
+msgid "Performer Disabled Private Requests"
+msgstr ""
+
+#: inc/h5videochat.php:368
+msgid "Performer is Busy in Private"
+msgstr ""
+
+#: inc/h5videochat.php:369
+msgid "Performer is Not Online"
+msgstr ""
+
+#: inc/h5videochat.php:370
+msgid "Nevermind"
+msgstr ""
+
+#: inc/h5videochat.php:371
+msgid "Accept"
+msgstr ""
+
+#: inc/h5videochat.php:372
+msgid "Decline"
+msgstr ""
+
+#: inc/h5videochat.php:373
+msgid "Close Private"
+msgstr ""
+
+#: inc/h5videochat.php:375 ppv-live-webcams.php:4554
+msgid "Next"
+msgstr ""
+
+#: inc/h5videochat.php:376
+msgid "Next: Random Videochat Room"
+msgstr ""
+
+#: inc/h5videochat.php:378 ppv-live-webcams.php:4149
+msgid "Name"
+msgstr ""
+
+#: inc/h5videochat.php:379
+msgid "Size"
+msgstr ""
+
+#: inc/h5videochat.php:380
+msgid "Age"
+msgstr ""
+
+#: inc/h5videochat.php:381
+msgid "Upload: Drag and drop files here, or click to select files"
+msgstr ""
+
+#: inc/h5videochat.php:382
+msgid "Uploading. Please wait..."
+msgstr ""
+
+#: inc/h5videochat.php:383
+msgid "Open"
+msgstr ""
+
+#: inc/h5videochat.php:384
+msgid "Delete"
+msgstr ""
+
+#: inc/h5videochat.php:386
+msgid "Media Displayed"
+msgstr ""
+
+#: inc/h5videochat.php:387
+msgid "Remove"
+msgstr ""
+
+#: inc/h5videochat.php:388 ppv-live-webcams.php:6572 ppv-live-webcams.php:6586
+#: ppv-live-webcams.php:6654 ppv-live-webcams.php:6708
+msgid "Default"
+msgstr ""
+
+#: inc/h5videochat.php:389
+msgid "Empty"
+msgstr ""
+
+#: inc/h5videochat.php:391 ppv-live-webcams.php:834 ppv-live-webcams.php:4515
+#: ppv-live-webcams.php:6785
+msgid "Profile"
+msgstr ""
+
+#: inc/h5videochat.php:392 ppv-live-webcams.php:6607
+msgid "Show"
+msgstr ""
+
+#: inc/h5videochat.php:394
+msgid "Private Call"
+msgstr ""
+
+#: inc/h5videochat.php:395
+msgid "Exit"
+msgstr ""
+
+#: inc/h5videochat.php:438
+msgid "New"
+msgstr ""
+
+#: inc/h5videochat.php:491
+msgid "Disable Call Requests"
+msgstr ""
+
+#: inc/h5videochat.php:491
+msgid "Disable users from sending private call requests to room owner."
+msgstr ""
+
+#: inc/h5videochat.php:492
+msgid "Private Room"
+msgstr ""
+
+#: inc/h5videochat.php:492
+msgid "Hide room from public listings. Can be accessed by room link."
+msgstr ""
+
+#: inc/h5videochat.php:493
+msgid "Audio Only"
+msgstr ""
+
+#: inc/h5videochat.php:493
+msgid "Audio only mode. Only microphone, no webcam video."
+msgstr ""
+
+#: inc/h5videochat.php:494
+msgid "Conference Mode"
+msgstr ""
+
+#: inc/h5videochat.php:494
+msgid ""
+"Enable owner to show multiple users streams at same time in split view. All "
+"users can publish webcam."
+msgstr ""
+
+#: inc/h5videochat.php:501
+msgid "Display Slots"
+msgstr ""
+
+#: inc/h5videochat.php:501
+msgid "Split display to show multiple media items, in conference mode."
+msgstr ""
+
+#: inc/h5videochat.php:522
+msgid "Collaboration Mode"
+msgstr ""
+
+#: inc/h5videochat.php:522
+msgid "Enable collaboration mode with multiple media, files, presentation."
+msgstr ""
+
+#: inc/h5videochat.php:527
+msgid "Room Options"
+msgstr ""
+
+#: inc/h5videochat.php:735
+msgid "This is a private room (not listed)."
+msgstr ""
+
+#: inc/h5videochat.php:749
+msgid "This is a paid room:"
+msgstr ""
+
+#: inc/h5videochat.php:751 ppv-live-webcams.php:9490
+msgid "Group Mode"
+msgstr ""
+
+#: inc/h5videochat.php:752 ppv-live-webcams.php:9491
+msgid "Group session cost"
+msgstr ""
+
+#: inc/h5videochat.php:753 inc/h5videochat.php:776 inc/h5videochat.php:802
+#: ppv-live-webcams.php:9401 ppv-live-webcams.php:9468
+msgid "Charging starts after a grace time:"
+msgstr ""
+
+#: inc/h5videochat.php:762
+msgid ""
+"You are in Voyeur mode: hidden from user list. Participants will not be "
+"aware of your presence unless you write in text chat."
+msgstr ""
+
+#: inc/h5videochat.php:763
+msgid "Voyeur cost"
+msgstr ""
+
+#: inc/h5videochat.php:773
+msgid ""
+"You are performer. Registered users can request private chats and you can "
+"accept:"
+msgstr ""
+
+#: inc/h5videochat.php:775 ppv-live-webcams.php:9466
+msgid "Private show cost per minute for client:"
+msgstr ""
+
+#: inc/h5videochat.php:777 ppv-live-webcams.php:9470
+msgid "Private show earning per minute for performer:"
+msgstr ""
+
+#: inc/h5videochat.php:794 ppv-live-webcams.php:9397
+msgid "You do not have enough credits to request a private show."
+msgstr ""
+
+#: inc/h5videochat.php:799
+msgid "You can request private session from room performer when available:"
+msgstr ""
+
+#: inc/h5videochat.php:801 ppv-live-webcams.php:9365
+msgid "Private show cost per minute:"
+msgstr ""
+
+#: inc/h5videochat.php:845
+msgid "Room is in collaboration mode, with a Files panel."
+msgstr ""
+
+#: inc/h5videochat.php:1302
+msgid "Only room owner can edit room options."
+msgstr ""
+
+#: inc/h5videochat.php:1345 inc/h5videochat.php:1392 inc/h5videochat.php:1417
+msgid "Only performer can moderate presentation."
+msgstr ""
+
+#: inc/h5videochat.php:1376
+msgid "User not found to display:"
+msgstr ""
+
+#: inc/h5videochat.php:1453
+msgid "File not found to display:"
+msgstr ""
+
+#: inc/h5videochat.php:1468
+msgid "Only performer can delete files."
+msgstr ""
+
+#: inc/h5videochat.php:1484
+msgid "File not found:"
+msgstr ""
+
+#: inc/h5videochat.php:1618
+msgid "You can move a different room using Next button again."
+msgstr ""
+
+#: inc/h5videochat.php:1620
+msgid "No next room found with current criteria!"
+msgstr ""
+
+#: inc/h5videochat.php:1756
+msgid "You closed private call."
+msgstr ""
+
+#: inc/h5videochat.php:2073 inc/h5videochat.php:2074
+msgid "Private call was closed."
+msgstr ""
+
+#: inc/options.php:1254 ppv-live-webcams.php:6534
+msgid "Paid Questions and Messages"
+msgstr ""
+
+#: inc/options.php:1275
+msgid "Random Video Chat"
+msgstr ""
+
+#: inc/options.php:1308
+msgid "Setup Pages"
+msgstr ""
+
+#: inc/options.php:1317
+msgid "Update Pages"
+msgstr ""
+
+#: inc/options.php:1356
+msgid "Setup Overview"
+msgstr ""
+
+#: inc/options.php:1366
+msgid "Setup Checkpoints"
+msgstr ""
+
+#: inc/options.php:1535 inc/options.php:1763
+msgid "Client IP"
+msgstr ""
+
+#: inc/options.php:1538 inc/options.php:1766
+msgid ""
+"ERROR: Can not detect location. GeoIP extension is required on host for this "
+"functionality."
+msgstr ""
+
+#: inc/options.php:1542 inc/options.php:1770
+msgid "Continent"
+msgstr ""
+
+#: inc/options.php:1543 inc/options.php:1771
+msgid "Country"
+msgstr ""
+
+#: inc/options.php:1544 inc/options.php:1772
+msgid "Region"
+msgstr ""
+
+#: inc/options.php:1545 inc/options.php:1773
+msgid "City"
+msgstr ""
+
+#: inc/options.php:1782
+msgid "Reset Options"
+msgstr ""
+
+#: inc/options.php:3820 ppv-live-webcams.php:556 ppv-live-webcams.php:5192
+msgid "Webcams"
+msgstr ""
+
+#: inc/options.php:3821 ppv-live-webcams.php:11514
+msgid "Performer Dashboard"
+msgstr ""
+
+#: inc/options.php:3822
+msgid "Buy Credits"
+msgstr ""
+
+#: inc/options.php:3823 ppv-live-webcams.php:11532
+msgid "Studio Dashboard"
+msgstr ""
+
+#: inc/options.php:3824
+msgid "Chat Logout"
+msgstr ""
+
+#: inc/options.php:3825
+msgid "Random Cam"
+msgstr ""
+
+#: inc/options.php:3826 ppv-live-webcams.php:11523
+msgid "Client Dashboard"
+msgstr ""
+
+#: inc/shortcodes.php:50
+msgid "Login to send questions or messages!"
+msgstr ""
+
+#: inc/shortcodes.php:78
+msgid "You need cost of message in balance to send it."
+msgstr ""
+
+#: inc/shortcodes.php:78 ppv-live-webcams.php:738
+msgid "Wallet"
+msgstr ""
+
+#: inc/shortcodes.php:95
+msgid "Paid Message to"
+msgstr ""
+
+#: inc/shortcodes.php:100
+msgid "Your message was sent."
+msgstr ""
+
+#: inc/shortcodes.php:101 inc/shortcodes.php:370 inc/shortcodes.php:487
+msgid "View Message"
+msgstr ""
+
+#: inc/shortcodes.php:113
+msgid "Your Question or Message"
+msgstr ""
+
+#: inc/shortcodes.php:114
+msgid "Send Message to"
+msgstr ""
+
+#: inc/shortcodes.php:116
+msgid "Cost per question or message"
+msgstr ""
+
+#: inc/shortcodes.php:117 ppv-live-webcams.php:5390
+msgid "Your current balance"
+msgstr ""
+
+#: inc/shortcodes.php:174 inc/shortcodes.php:380 inc/shortcodes.php:495
+msgid "No Messages"
+msgstr ""
+
+#: inc/shortcodes.php:186 inc/shortcodes.php:423
+msgid "Login to manage messages and replies!"
+msgstr ""
+
+#: inc/shortcodes.php:303
+msgid "Paid Message Earning from "
+msgstr ""
+
+#: inc/shortcodes.php:304
+msgid "Your reply was sent and you got paid."
+msgstr ""
+
+#: inc/shortcodes.php:306
+msgid "Your reply was sent."
+msgstr ""
+
+#: inc/shortcodes.php:334
+msgid "Send Reply"
+msgstr ""
+
+#: inc/shortcodes.php:368 inc/shortcodes.php:484
+msgid "Replied"
+msgstr ""
+
+#: inc/shortcodes.php:375
+msgid ""
+"You receive payment for paid messages on reply. Clients can access their "
+"messages and replies from client dashboard and in messages section from "
+"webcam profile."
+msgstr ""
+
+#: inc/shortcodes.php:392
+msgid "Login to access as client!"
+msgstr ""
+
+#: inc/shortcodes.php:399
+msgid "Active balance"
+msgstr ""
+
+#: inc/shortcodes.php:400
+msgid "All Balances"
+msgstr ""
+
+#: inc/shortcodes.php:401
+msgid "Manage Wallet"
+msgstr ""
+
+#: inc/shortcodes.php:406
+msgid "My Questions and Messages"
+msgstr ""
+
+#: inc/shortcodes.php:410
+msgid "My Calls"
+msgstr ""
+
+#: inc/shortcodes.php:508
+msgid "Login to manage calls!"
+msgstr ""
+
+#: inc/shortcodes.php:590
+msgid "New call was setup"
+msgstr ""
+
+#: inc/shortcodes.php:596
+msgid ""
+"Error: Client was not found by email or username! User needs to register to "
+"be able to login and access the private call."
+msgstr ""
+
+#: inc/shortcodes.php:608
+msgid "Setup Call"
+msgstr ""
+
+#: inc/shortcodes.php:609
+msgid "Client Username/Email"
+msgstr ""
+
+#: inc/shortcodes.php:612
+msgid ""
+"Setup locked private calls that can only be accessed by client using "
+"dedicated call link. Clients can access their persistent calls list in "
+"client dashboard.  "
+msgstr ""
+
+#: inc/shortcodes.php:648
+msgid "Access"
+msgstr ""
+
+#: inc/shortcodes.php:649
+msgid "Closed"
+msgstr ""
+
+#: inc/shortcodes.php:657
+msgid "No Calls"
+msgstr ""
+
+#: inc/shortcodes.php:1279
+msgid "Loading Live Webcams"
+msgstr ""
+
+#: inc/shortcodes.php:1458
+msgid "Broadcasting not allowed: Only logged in users can broadcast!"
+msgstr ""
+
+#: inc/shortcodes.php:1854 ppv-live-webcams.php:2849 ppv-live-webcams.php:9322
+msgid ""
+"Free chat daily time limit reached: You can only access paid group rooms "
+"today!"
+msgstr ""
+
+#: inc/shortcodes.php:1855 ppv-live-webcams.php:2850 ppv-live-webcams.php:9323
+msgid ""
+"Free chat daily visitor time limit reached: Register and login for more chat "
+"time today!"
+msgstr ""
+
+#: ppv-live-webcams.php:554
+msgctxt "Post Type General Name"
+msgid "Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:555
+msgctxt "Post Type Singular Name"
+msgid "Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:557
+msgid "Parent Webcam:"
+msgstr ""
+
+#: ppv-live-webcams.php:558
+msgid "All Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:559
+msgid "View Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:560
+msgid "Add New Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:561
+msgid "New Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:562
+msgid "Edit Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:563
+msgid "Update Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:564
+msgid "Search Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:565
+msgid "No webcams found"
+msgstr ""
+
+#: ppv-live-webcams.php:566
+msgid "No webcams found in Trash"
+msgstr ""
+
+#: ppv-live-webcams.php:570
+msgid "webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:571
+msgid "Live Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:643
+msgid "Access Forbidden!"
+msgstr ""
+
+#: ppv-live-webcams.php:738
+msgid "This is a paid room. A minimum balance required to access."
+msgstr ""
+
+#: ppv-live-webcams.php:743
+msgid "This is a paid room. Login is required to access a paid room."
+msgstr ""
+
+#: ppv-live-webcams.php:836 ppv-live-webcams.php:905 ppv-live-webcams.php:6969
+#: ppv-live-webcams.php:7656
+msgid "Videos"
+msgstr ""
+
+#: ppv-live-webcams.php:837 ppv-live-webcams.php:920 ppv-live-webcams.php:7432
+#: ppv-live-webcams.php:7662
+msgid "Pictures"
+msgstr ""
+
+#: ppv-live-webcams.php:838 ppv-live-webcams.php:937
+msgid "Reviews"
+msgstr ""
+
+#: ppv-live-webcams.php:839 ppv-live-webcams.php:6530
+msgid "Messages"
+msgstr ""
+
+#: ppv-live-webcams.php:850 ppv-live-webcams.php:7002
+msgid "Teaser"
+msgstr ""
+
+#: ppv-live-webcams.php:859
+msgid "Meta"
+msgstr ""
+
+#: ppv-live-webcams.php:869
+msgid "Maximum viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:880
+msgid "Paid sessions"
+msgstr ""
+
+#: ppv-live-webcams.php:880
+msgid "private"
+msgstr ""
+
+#: ppv-live-webcams.php:880
+msgid "group"
+msgstr ""
+
+#: ppv-live-webcams.php:880 ppv-live-webcams.php:7549 ppv-live-webcams.php:7575
+msgid "Logged days"
+msgstr ""
+
+#: ppv-live-webcams.php:888
+msgid "Profile Info"
+msgstr ""
+
+#: ppv-live-webcams.php:890 ppv-live-webcams.php:6635 ppv-live-webcams.php:7686
+msgid "Description"
+msgstr ""
+
+#: ppv-live-webcams.php:933
+msgid "My Review"
+msgstr ""
+
+#: ppv-live-webcams.php:964
+msgid "Send Question or Message"
+msgstr ""
+
+#: ppv-live-webcams.php:966
+msgid "My Previous Questions and Messages"
+msgstr ""
+
+#: ppv-live-webcams.php:1180 ppv-live-webcams.php:6708
+#: ppv-live-webcams.php:7645 ppv-live-webcams.php:7656
+#: ppv-live-webcams.php:7662 ppv-live-webcams.php:7668
+#: ppv-live-webcams.php:7682 ppv-live-webcams.php:11725
+msgid "Yes"
+msgstr ""
+
+#: ppv-live-webcams.php:1180 ppv-live-webcams.php:6708
+#: ppv-live-webcams.php:7645 ppv-live-webcams.php:7656
+#: ppv-live-webcams.php:7662 ppv-live-webcams.php:7668
+#: ppv-live-webcams.php:7682 ppv-live-webcams.php:11725
+msgid "No"
+msgstr ""
+
+#: ppv-live-webcams.php:2501 ppv-live-webcams.php:10189
+msgid ""
+"Not enough funds left for client to continue session. Minimum required: "
+msgstr ""
+
+#: ppv-live-webcams.php:2507 ppv-live-webcams.php:10195
+msgid "Session was already ended."
+msgstr ""
+
+#: ppv-live-webcams.php:2816 ppv-live-webcams.php:9246
+#: ppv-live-webcams.php:9978
+msgid "You are banned from accessing this room! By"
+msgstr ""
+
+#: ppv-live-webcams.php:2831
+msgid ""
+"Not enough funds left for client to continue group chat session. Minimum "
+"required: "
+msgstr ""
+
+#: ppv-live-webcams.php:2833
+msgid "Only registered and logged in users can access paid sessions."
+msgstr ""
+
+#: ppv-live-webcams.php:3889 ppv-live-webcams.php:11433
+msgid "LIVE"
+msgstr ""
+
+#: ppv-live-webcams.php:4068
+msgid "All"
+msgstr ""
+
+#: ppv-live-webcams.php:4070
+msgid "All, Paid"
+msgstr ""
+
+#: ppv-live-webcams.php:4072
+msgid "All, Free"
+msgstr ""
+
+#: ppv-live-webcams.php:4075
+msgid "Online"
+msgstr ""
+
+#: ppv-live-webcams.php:4077
+msgid "Online, Available"
+msgstr ""
+
+#: ppv-live-webcams.php:4079
+msgid "Available, Paid"
+msgstr ""
+
+#: ppv-live-webcams.php:4081
+msgid "Available, Free"
+msgstr ""
+
+#: ppv-live-webcams.php:4084
+msgid "Online, In Private"
+msgstr ""
+
+#: ppv-live-webcams.php:4086
+msgid "Offline"
+msgstr ""
+
+#: ppv-live-webcams.php:4094
+msgid "All Categories"
+msgstr ""
+
+#: ppv-live-webcams.php:4102
+msgid "Order By"
+msgstr ""
+
+#: ppv-live-webcams.php:4104
+msgid "Default Order"
+msgstr ""
+
+#: ppv-live-webcams.php:4106
+msgid "Current Viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:4108
+msgid "Broadcast Recently"
+msgstr ""
+
+#: ppv-live-webcams.php:4109
+msgid "Created Recently"
+msgstr ""
+
+#: ppv-live-webcams.php:4111
+msgid "Maximum Viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:4113
+msgid "Random"
+msgstr ""
+
+#: ppv-live-webcams.php:4118 ppv-live-webcams.php:4124
+msgid "Rating"
+msgstr ""
+
+#: ppv-live-webcams.php:4119 ppv-live-webcams.php:4125
+msgid "Ratings Number"
+msgstr ""
+
+#: ppv-live-webcams.php:4120 ppv-live-webcams.php:4126
+msgid "Rate Popularity"
+msgstr ""
+
+#: ppv-live-webcams.php:4124 ppv-live-webcams.php:4125
+#: ppv-live-webcams.php:4126
+msgid "in Category"
+msgstr ""
+
+#: ppv-live-webcams.php:4143 ppv-live-webcams.php:6698
+msgid "Tags"
+msgstr ""
+
+#: ppv-live-webcams.php:4157
+msgid "Search"
+msgstr ""
+
+#: ppv-live-webcams.php:4363
+msgid "Ban This Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:4457 ppv-live-webcams.php:7645
+msgid "Featured"
+msgstr ""
+
+#: ppv-live-webcams.php:4468
+msgid "Enter"
+msgstr ""
+
+#: ppv-live-webcams.php:4474
+msgid "Login for More"
+msgstr ""
+
+#: ppv-live-webcams.php:4483
+msgid "Private"
+msgstr ""
+
+#: ppv-live-webcams.php:4488
+msgid "Question"
+msgstr ""
+
+#: ppv-live-webcams.php:4501 ppv-live-webcams.php:6656
+msgid "2 Way"
+msgstr ""
+
+#: ppv-live-webcams.php:4509
+msgid "Voyeur"
+msgstr ""
+
+#: ppv-live-webcams.php:4550
+msgid "Previous"
+msgstr ""
+
+#: ppv-live-webcams.php:4552
+msgid "Page"
+msgstr ""
+
+#: ppv-live-webcams.php:4855
+msgid "You Were Disconnected from Chat Room"
+msgstr ""
+
+#: ppv-live-webcams.php:4859
+msgid "You have been disconnected from server."
+msgstr ""
+
+#: ppv-live-webcams.php:4860
+msgid "Free daily time limit reached: Check paid rooms!"
+msgstr ""
+
+#: ppv-live-webcams.php:4861
+msgid "Free daily visitor time limit reached: Register for more!"
+msgstr ""
+
+#: ppv-live-webcams.php:4937
+msgid "Login to manage studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:4949 ppv-live-webcams.php:5373
+#: ppv-live-webcams.php:5596
+msgid "Login is required to access this section!"
+msgstr ""
+
+#: ppv-live-webcams.php:4959
+msgid "User role does not allow managing studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:4982 ppv-live-webcams.php:4986
+#: ppv-live-webcams.php:5697
+msgid "Performers"
+msgstr ""
+
+#: ppv-live-webcams.php:4986
+msgid "Manage studio performer accounts."
+msgstr ""
+
+#: ppv-live-webcams.php:5003
+msgid "Performer Transactions"
+msgstr ""
+
+#: ppv-live-webcams.php:5014
+msgid "You are not allowed to view transactions for this user!"
+msgstr ""
+
+#: ppv-live-webcams.php:5023
+msgid "Create Performer Account"
+msgstr ""
+
+#: ppv-live-webcams.php:5027
+msgid ""
+"After setting up performer account you will also receive password to "
+"communicate to performer for quick access. Account password should be "
+"changed by performer. Warning: Make sure you fill details correctly. Only "
+"administrator can delete incorrect accounts."
+msgstr ""
+
+#: ppv-live-webcams.php:5028 ppv-live-webcams.php:5229
+#: ppv-live-webcams.php:5451 ppv-live-webcams.php:5698
+#: ppv-live-webcams.php:6946
+msgid "Save"
+msgstr ""
+
+#: ppv-live-webcams.php:5044
+msgid "Adding Performer Account"
+msgstr ""
+
+#: ppv-live-webcams.php:5051
+msgid "Username already in use!"
+msgstr ""
+
+#: ppv-live-webcams.php:5052
+msgid "Email already in use!"
+msgstr ""
+
+#: ppv-live-webcams.php:5063
+msgid "Performers limit reached!"
+msgstr ""
+
+#: ppv-live-webcams.php:5065
+msgid "Could not create performer account: "
+msgstr ""
+
+#: ppv-live-webcams.php:5072
+msgid "Performer account was created"
+msgstr ""
+
+#: ppv-live-webcams.php:5072
+msgid "Password"
+msgstr ""
+
+#: ppv-live-webcams.php:5072 ppv-live-webcams.php:5136
+msgid "Email"
+msgstr ""
+
+#: ppv-live-webcams.php:5108
+msgid "That performer is not assigned to this studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:5132
+msgid "Performers List"
+msgstr ""
+
+#: ppv-live-webcams.php:5136
+msgid "Balance"
+msgstr ""
+
+#: ppv-live-webcams.php:5136 ppv-live-webcams.php:11724
+msgid "Status"
+msgstr ""
+
+#: ppv-live-webcams.php:5136
+msgid "Current Cam"
+msgstr ""
+
+#: ppv-live-webcams.php:5148 ppv-live-webcams.php:6709
+msgid "Enabled"
+msgstr ""
+
+#: ppv-live-webcams.php:5149 ppv-live-webcams.php:6710
+msgid "Disabled"
+msgstr ""
+
+#: ppv-live-webcams.php:5154
+msgid "Original Password"
+msgstr ""
+
+#: ppv-live-webcams.php:5164
+msgid "Studio has no performer accounts, yet."
+msgstr ""
+
+#: ppv-live-webcams.php:5167
+msgid "Add Performer"
+msgstr ""
+
+#: ppv-live-webcams.php:5167
+msgid "Create a new performer account."
+msgstr ""
+
+#: ppv-live-webcams.php:5169
+msgid "View Your Performers List"
+msgstr ""
+
+#: ppv-live-webcams.php:5192
+msgid "Manage webcam listings for studio performers."
+msgstr ""
+
+#: ppv-live-webcams.php:5201 ppv-live-webcams.php:5690
+msgid "Create Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:5228 ppv-live-webcams.php:5699
+msgid ""
+"Warning: Make sure webcam listing name is correct. Only administrator can "
+"delete webcams."
+msgstr ""
+
+#: ppv-live-webcams.php:5274 ppv-live-webcams.php:5761
+msgid "Webcam listing with that name already exists."
+msgstr ""
+
+#: ppv-live-webcams.php:5278 ppv-live-webcams.php:5765
+msgid "Webcam listing was successfully created!"
+msgstr ""
+
+#: ppv-live-webcams.php:5386
+msgid "Account Status"
+msgstr ""
+
+#: ppv-live-webcams.php:5386 ppv-live-webcams.php:11725
+msgid "Verified"
+msgstr ""
+
+#: ppv-live-webcams.php:5386
+msgid "Not Verified"
+msgstr ""
+
+#: ppv-live-webcams.php:5386
+msgid "Suspended by Admin"
+msgstr ""
+
+#: ppv-live-webcams.php:5387
+msgid "Update Account Records"
+msgstr ""
+
+#: ppv-live-webcams.php:5400
+msgid "Account Administrative Records"
+msgstr ""
+
+#: ppv-live-webcams.php:5400
+msgid ""
+"These details are required by administrators for account approval and "
+"administrative operations."
+msgstr ""
+
+#: ppv-live-webcams.php:5404
+msgid "No record fields defined by administrator!"
+msgstr ""
+
+#: ppv-live-webcams.php:5584
+msgid "Login to manage webcams!"
+msgstr ""
+
+#: ppv-live-webcams.php:5608
+msgid "User role does not allow publishing webcams!"
+msgstr ""
+
+#: ppv-live-webcams.php:5661
+msgid "Selected webcam listing is invalid."
+msgstr ""
+
+#: ppv-live-webcams.php:5694
+msgid ""
+"Partner performers that can also go live in this room: Comma separated list "
+"of performer usernames or emails."
+msgstr ""
+
+#: ppv-live-webcams.php:5696
+msgid "Webcam Listing Name"
+msgstr ""
+
+#: ppv-live-webcams.php:5715
+msgid "Adding Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:5755
+msgid "Warning: Performer not found: use a valid username (login) or email!"
+msgstr ""
+
+#: ppv-live-webcams.php:5764
+msgid "Could not create webcam listing:"
+msgstr ""
+
+#: ppv-live-webcams.php:5806
+msgid "Select Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:5812
+msgid "Webcam listings you created or were granted access to broadcast:"
+msgstr ""
+
+#: ppv-live-webcams.php:5828
+msgid "You do not have any active webcam listings: one will be setup for you."
+msgstr ""
+
+#: ppv-live-webcams.php:5846
+msgid "Add Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:5846
+msgid "Create a new webcam listing."
+msgstr ""
+
+#: ppv-live-webcams.php:5849
+msgid "View Your Webcams List"
+msgstr ""
+
+#: ppv-live-webcams.php:5882
+msgid "Custom CPM out of range: removed."
+msgstr ""
+
+#: ppv-live-webcams.php:5900
+msgid "Custom group CPM out of range: removed."
+msgstr ""
+
+#: ppv-live-webcams.php:6003
+msgid "Picture Updated."
+msgstr ""
+
+#: ppv-live-webcams.php:6005
+msgid "ERROR: Cound not create JPG thumb file "
+msgstr ""
+
+#: ppv-live-webcams.php:6008
+msgid "ERROR: Cound not create temporary image!"
+msgstr ""
+
+#: ppv-live-webcams.php:6011
+msgid "ERROR: Failed loading image data "
+msgstr ""
+
+#: ppv-live-webcams.php:6013
+msgid "ERROR: File does not exist "
+msgstr ""
+
+#: ppv-live-webcams.php:6015
+msgid "ERROR: Could not retrieve image size for "
+msgstr ""
+
+#: ppv-live-webcams.php:6196
+msgid "Room ID"
+msgstr ""
+
+#: ppv-live-webcams.php:6218
+msgid "Setting webcam group mode to"
+msgstr ""
+
+#: ppv-live-webcams.php:6319
+msgid "Warning: Performer"
+msgstr ""
+
+#: ppv-live-webcams.php:6319
+msgid "not found: use a valid username (login) or email!"
+msgstr ""
+
+#: ppv-live-webcams.php:6327
+msgid "Room Interface"
+msgstr ""
+
+#: ppv-live-webcams.php:6329
+msgid "Checked in performers"
+msgstr ""
+
+#: ppv-live-webcams.php:6331
+msgid "Assigning you"
+msgstr ""
+
+#: ppv-live-webcams.php:6331
+msgid ""
+"as room performer (streamer) and redirecting to webcam room page. Please "
+"wait..."
+msgstr ""
+
+#: ppv-live-webcams.php:6337
+msgid ">Click here"
+msgstr ""
+
+#: ppv-live-webcams.php:6337
+msgid "to access your webcam room if you do not get automatically redirected"
+msgstr ""
+
+#: ppv-live-webcams.php:6345
+msgid "Webcam Room"
+msgstr ""
+
+#: ppv-live-webcams.php:6353
+msgid "Custom cost per minute in paid group chat:"
+msgstr ""
+
+#: ppv-live-webcams.php:6367
+msgid "Free"
+msgstr ""
+
+#: ppv-live-webcams.php:6372
+msgid "Select group mode for your new session in this room, before going live."
+msgstr ""
+
+#: ppv-live-webcams.php:6375
+msgid "This room is in presentation/collaboration mode."
+msgstr ""
+
+#: ppv-live-webcams.php:6396
+msgid "HTML5 Videochat"
+msgstr ""
+
+#: ppv-live-webcams.php:6402
+msgid "HTML5 Streaming"
+msgstr ""
+
+#: ppv-live-webcams.php:6414
+msgid "Flash"
+msgstr ""
+
+#: ppv-live-webcams.php:6420
+msgid "Select room interface before going live. Also applies to clients."
+msgstr ""
+
+#: ppv-live-webcams.php:6425
+msgid "Checkin Options"
+msgstr ""
+
+#: ppv-live-webcams.php:6428 ppv-live-webcams.php:6445
+msgid "Checkin Performers"
+msgstr ""
+
+#: ppv-live-webcams.php:6428
+msgid ""
+"You can select partner performers or specify other performers that are "
+"present in session."
+msgstr ""
+
+#: ppv-live-webcams.php:6429
+msgid ""
+"If paid group chat is enabled, earnings will be shared equally between "
+"checked in performers."
+msgstr ""
+
+#: ppv-live-webcams.php:6435
+msgid "Partner Performers"
+msgstr ""
+
+#: ppv-live-webcams.php:6445
+msgid "Comma separated list of performer usernames or emails."
+msgstr ""
+
+#: ppv-live-webcams.php:6463
+msgid "Select Different Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:6468
+msgid "Go Live"
+msgstr ""
+
+#: ppv-live-webcams.php:6506
+msgid "Calls"
+msgstr ""
+
+#: ppv-live-webcams.php:6510
+msgid "Locked Private Calls"
+msgstr ""
+
+#: ppv-live-webcams.php:6556 ppv-live-webcams.php:6754
+msgid "Setup"
+msgstr ""
+
+#: ppv-live-webcams.php:6574
+msgid "Cost Per Minute"
+msgstr ""
+
+#: ppv-live-webcams.php:6574
+msgid "Cost per minute for private shows (set 0 to use default)."
+msgstr ""
+
+#: ppv-live-webcams.php:6588
+msgid "Cost Per Minute in Group Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:6588
+msgid ""
+"Cost per minute for group shows. Replaces paid group CPM (set 0 to use "
+"default)."
+msgstr ""
+
+#: ppv-live-webcams.php:6595
+msgid "2 Way Slots"
+msgstr ""
+
+#: ppv-live-webcams.php:6595
+msgid ""
+"2 way slots in room. Replaces default group mode slots (set 0 to use "
+"default)."
+msgstr ""
+
+#: ppv-live-webcams.php:6602 ppv-live-webcams.php:6608
+msgid "Picture"
+msgstr ""
+
+#: ppv-live-webcams.php:6602
+msgid "Update room picture to use instead of live snapshot."
+msgstr ""
+
+#: ppv-live-webcams.php:6609
+msgid "Live Snapshot"
+msgstr ""
+
+#: ppv-live-webcams.php:6610
+msgid "Select what to show in webcam listings."
+msgstr ""
+
+#: ppv-live-webcams.php:6620
+msgid "Label"
+msgstr ""
+
+#: ppv-live-webcams.php:6620
+msgid "Shows in room listings instead of name."
+msgstr ""
+
+#: ppv-live-webcams.php:6629
+msgid "Category"
+msgstr ""
+
+#: ppv-live-webcams.php:6629
+msgid "Webcam category."
+msgstr ""
+
+#: ppv-live-webcams.php:6635
+msgid ""
+"Room description: profile, schedule. Shows on room page and full row list "
+"layout."
+msgstr ""
+
+#: ppv-live-webcams.php:6644
+msgid "Brief"
+msgstr ""
+
+#: ppv-live-webcams.php:6644
+msgid "Room brief info: profile, schedule. Shows in room listings."
+msgstr ""
+
+#: ppv-live-webcams.php:6653
+msgid "Private Videochat Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:6655
+msgid "1 Way"
+msgstr ""
+
+#: ppv-live-webcams.php:6658
+msgid "Allow clients to start their cams for 2 way videochat."
+msgstr ""
+
+#: ppv-live-webcams.php:6676
+msgid "Detected IP"
+msgstr ""
+
+#: ppv-live-webcams.php:6678
+msgid "Detected Continent, Country, Region, City"
+msgstr ""
+
+#: ppv-live-webcams.php:6681
+msgid "ERROR: GeoIP extension is required on host for this functionality."
+msgstr ""
+
+#: ppv-live-webcams.php:6683
+msgid "Ban Countries"
+msgstr ""
+
+#: ppv-live-webcams.php:6683
+msgid ""
+"You may want to ban your location for privacy reasons. Or countries and "
+"regions where your content is not legal or well received. List of locations "
+"(country, region, city or continent code, separated by comma) that can not "
+"access webcam room."
+msgstr ""
+
+#: ppv-live-webcams.php:6698
+msgid "Tags separated by comma. Show in room listings."
+msgstr ""
+
+#: ppv-live-webcams.php:6707
+msgid "Presentation Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:6712
+msgid ""
+"Enables presentations mode with presentation screen, annotations, "
+"whiteboard, file sharing."
+msgstr ""
+
+#: ppv-live-webcams.php:6719
+msgid "Logo Image"
+msgstr ""
+
+#: ppv-live-webcams.php:6719
+msgid ""
+"Floating logo URL (preferably a transparent PNG image). Leave blank to hide."
+msgstr ""
+
+#: ppv-live-webcams.php:6721
+msgid "Logo Link"
+msgstr ""
+
+#: ppv-live-webcams.php:6721
+msgid "URL to open on logo click."
+msgstr ""
+
+#: ppv-live-webcams.php:6731
+msgid "Access List"
+msgstr ""
+
+#: ppv-live-webcams.php:6731
+msgid ""
+"User roles, logins, emails separated by comma. Leave empty to allow "
+"everybody to access."
+msgstr ""
+
+#: ppv-live-webcams.php:6740
+msgid "Webcam room access price. Leave 0 for free access."
+msgstr ""
+
+#: ppv-live-webcams.php:6753
+msgid "Webcam Profile Setup"
+msgstr ""
+
+#: ppv-live-webcams.php:6801
+msgid "Webcam Room Listing Profile"
+msgstr ""
+
+#: ppv-live-webcams.php:6801
+msgid ""
+"These details will show on webcam room page (under videochat interface)."
+msgstr ""
+
+#: ppv-live-webcams.php:6986
+msgid ""
+"Multiple profile videos can show on webcam listing page. Each listing has "
+"own videos."
+msgstr ""
+
+#: ppv-live-webcams.php:7013
+msgid "Teaser Video"
+msgstr ""
+
+#: ppv-live-webcams.php:7016
+msgid ""
+"Teaser video (featured video) plays shortly as preview in listings, in room "
+"when performer is offline in HTML5 Videochat interface and shows on profile "
+"page. Can be selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:7055
+msgid "Playlist"
+msgstr ""
+
+#: ppv-live-webcams.php:7155
+msgid "Playlist is enabled and room stream updated to"
+msgstr ""
+
+#: ppv-live-webcams.php:7226
+msgid "No videos found! Please add some videos first."
+msgstr ""
+
+#: ppv-live-webcams.php:7231
+msgid "Quick Loop Setup"
+msgstr ""
+
+#: ppv-live-webcams.php:7232
+msgid ""
+"Video will play in loop while playlist is active. Warning: Going live (with "
+"real webcam) will stop video loop (needs to be setup again). Can also be "
+"disabled by setting Playlist Status as Inactive."
+msgstr ""
+
+#: ppv-live-webcams.php:7233
+msgid "Set Video Loop"
+msgstr ""
+
+#: ppv-live-webcams.php:7251
+msgid "Inactive"
+msgstr ""
+
+#: ppv-live-webcams.php:7252
+msgid "Active"
+msgstr ""
+
+#: ppv-live-webcams.php:7267
+msgid "Advanced Playlist Editor"
+msgstr ""
+
+#: ppv-live-webcams.php:7268
+msgid ""
+"After editing playlist contents below, update it to apply changes. Last "
+"Updated:"
+msgstr ""
+
+#: ppv-live-webcams.php:7269
+msgid ""
+"Playlist is loaded with web application (on access) and reloaded if "
+"necessary when users access"
+msgstr ""
+
+#: ppv-live-webcams.php:7270
+msgid ""
+"First create a Schedule (Add new record), then Edit Videos (Add new record "
+"under Videos):"
+msgstr ""
+
+#: ppv-live-webcams.php:7271
+msgid "videochat interface"
+msgstr ""
+
+#: ppv-live-webcams.php:7272
+msgid "last time reloaded"
+msgstr ""
+
+#: ppv-live-webcams.php:7399
+msgid ""
+"Schedule playlist items as: Year-Month-Day Hours:Minutes:Seconds in "
+"scheduling server timezone. In example, current server OS time"
+msgstr ""
+
+#: ppv-live-webcams.php:7399
+msgid "in timezone"
+msgstr ""
+
+#: ppv-live-webcams.php:7399
+msgid "default timezone was"
+msgstr ""
+
+#: ppv-live-webcams.php:7401
+msgid ""
+"If the schedule time is in the past, each video is loaded in order and "
+"immediately replaces the previous video for the stream. Repeat will cause "
+"that videos to repeat in loop."
+msgstr ""
+
+#: ppv-live-webcams.php:7408
+msgid ""
+"Scheduled videos play instead of performer live stream in videochat "
+"interface. Can be selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:7446
+msgid ""
+"Multiple profile pictures can show on webcam listing page. Each listing has "
+"own pictures."
+msgstr ""
+
+#: ppv-live-webcams.php:7477 ppv-live-webcams.php:7511
+msgid "Bans"
+msgstr ""
+
+#: ppv-live-webcams.php:7490
+msgid "Cleared ban for"
+msgstr ""
+
+#: ppv-live-webcams.php:7493
+msgid "Not found!"
+msgstr ""
+
+#: ppv-live-webcams.php:7517
+msgid "There are no bans for this room."
+msgstr ""
+
+#: ppv-live-webcams.php:7519
+msgid ""
+"Bans occur when performer kicks or bans users from videochat interface. "
+"Kicks result in short bans (15 minutes) and full bans have longer cooldown "
+"(1 week). Bans prevent viewers from accessing or remaining in chat room."
+msgstr ""
+
+#: ppv-live-webcams.php:7541
+msgid "TeraWallet"
+msgstr ""
+
+#: ppv-live-webcams.php:7544
+msgid "TeraWallet (WooCommerce)"
+msgstr ""
+
+#: ppv-live-webcams.php:7550 ppv-live-webcams.php:7576
+msgid "Logged private sessions billed"
+msgstr ""
+
+#: ppv-live-webcams.php:7551 ppv-live-webcams.php:7577
+msgid "Logged group sessions billed"
+msgstr ""
+
+#: ppv-live-webcams.php:7552 ppv-live-webcams.php:7578
+msgid "Session logs are kept for limited time and transaction logs forever."
+msgstr ""
+
+#: ppv-live-webcams.php:7568 ppv-live-webcams.php:7571
+msgid "My Credits"
+msgstr ""
+
+#: ppv-live-webcams.php:7591
+msgid "Overview"
+msgstr ""
+
+#: ppv-live-webcams.php:7610
+msgid "Webcam Room Listing Overview"
+msgstr ""
+
+#: ppv-live-webcams.php:7632
+msgid "Listing (Room) Name"
+msgstr ""
+
+#: ppv-live-webcams.php:7633
+msgid "Current Room Performer"
+msgstr ""
+
+#: ppv-live-webcams.php:7634
+msgid "Current Room Performer ID"
+msgstr ""
+
+#: ppv-live-webcams.php:7635
+msgid "Your Performer Name"
+msgstr ""
+
+#: ppv-live-webcams.php:7636
+msgid "Listing Label"
+msgstr ""
+
+#: ppv-live-webcams.php:7637
+msgid "Listing Status"
+msgstr ""
+
+#: ppv-live-webcams.php:7638
+msgid "Listing URL"
+msgstr ""
+
+#: ppv-live-webcams.php:7639
+msgid "Listing Slug"
+msgstr ""
+
+#: ppv-live-webcams.php:7640
+msgid "Listing ID"
+msgstr ""
+
+#: ppv-live-webcams.php:7649
+msgid "Client CPM"
+msgstr ""
+
+#: ppv-live-webcams.php:7650
+msgid "Earning Ratio"
+msgstr ""
+
+#: ppv-live-webcams.php:7668
+msgid "HTML5 Transcoding"
+msgstr ""
+
+#: ppv-live-webcams.php:7674
+msgid "Multiple Cameras"
+msgstr ""
+
+#: ppv-live-webcams.php:7682
+msgid "Scheduled Playlist"
+msgstr ""
+
+#: ppv-live-webcams.php:7722
+msgid "Role"
+msgstr ""
+
+#: ppv-live-webcams.php:8231
+msgid "PPM group"
+msgstr ""
+
+#: ppv-live-webcams.php:8231
+msgid "session in"
+msgstr ""
+
+#: ppv-live-webcams.php:8251
+msgid "Earning from PPM group"
+msgstr ""
+
+#: ppv-live-webcams.php:8251
+msgid " session with "
+msgstr ""
+
+#: ppv-live-webcams.php:8296
+msgid "Earning from PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:8299
+msgid "Performer cost for PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:9263
+msgid ""
+"You are NOT logged in. Only registered users can request private show or "
+"send tips!"
+msgstr ""
+
+#: ppv-live-webcams.php:9270
+msgid ""
+"Please login first or register an account if you do not have one! Click here "
+"to return to website."
+msgstr ""
+
+#: ppv-live-webcams.php:9276
+msgid "you are not in the allowed watchers list."
+msgstr ""
+
+#: ppv-live-webcams.php:9277
+msgid "Please login first or register an account if you do not have one!"
+msgstr ""
+
+#: ppv-live-webcams.php:9293
+msgid "Paid group session: login to access!"
+msgstr ""
+
+#: ppv-live-webcams.php:9298
+msgid "Minimum balance required for paid session:"
+msgstr ""
+
+#: ppv-live-webcams.php:9341
+msgid "Your are not in room access list."
+msgstr ""
+
+#: ppv-live-webcams.php:9349
+msgid ""
+"Password Protected: Room can be accessed after filling password from room "
+"page."
+msgstr ""
+
+#: ppv-live-webcams.php:9361 ppv-live-webcams.php:9457
+msgid "Your current balance:"
+msgstr ""
+
+#: ppv-live-webcams.php:9363 ppv-live-webcams.php:10059
+msgid "Pending balance"
+msgstr ""
+
+#: ppv-live-webcams.php:9378
+msgid "2 way slots:"
+msgstr ""
+
+#: ppv-live-webcams.php:9460
+msgid "Private show cost per minute for performer is:"
+msgstr ""
+
+#: ppv-live-webcams.php:9482
+msgid "You are in room"
+msgstr ""
+
+#: ppv-live-webcams.php:9484
+msgid "Active performer (stream):"
+msgstr ""
+
+#: ppv-live-webcams.php:9577
+msgid ""
+"Warning: HTTPS not detected. Some browsers like Chrome will not permit "
+"webcam access when accessing without SSL!"
+msgstr ""
+
+#: ppv-live-webcams.php:10047
+msgid "Tip from "
+msgstr ""
+
+#: ppv-live-webcams.php:10056
+msgid "After tip, your balance is"
+msgstr ""
+
+#: ppv-live-webcams.php:10062
+msgid "Tip from"
+msgstr ""
+
+#: ppv-live-webcams.php:10064
+msgid "Tip"
+msgstr ""
+
+#: ppv-live-webcams.php:10775 ppv-live-webcams.php:11291
+msgid "Comment added successfully!"
+msgstr ""
+
+#: ppv-live-webcams.php:10782
+msgid "Not implemented, yet!"
+msgstr ""
+
+#: ppv-live-webcams.php:10839
+msgid "Comment deleted successfully!"
+msgstr ""
+
+#: ppv-live-webcams.php:11100
+msgid "Whiteboard elements added successfully!"
+msgstr ""
+
+#: ppv-live-webcams.php:11104
+msgid "No whiteboard elements to add!"
+msgstr ""
+
+#: ppv-live-webcams.php:11459
+msgid "Approve Users"
+msgstr ""
+
+#: ppv-live-webcams.php:11466
+msgid "Session Logs"
+msgstr ""
+
+#: ppv-live-webcams.php:11473
+msgid "RTMP Admin"
+msgstr ""
+
+#: ppv-live-webcams.php:11480
+msgid "Webcam Posts"
+msgstr ""
+
+#: ppv-live-webcams.php:11488 ppv-live-webcams.php:11572
+msgid "Settings"
+msgstr ""
+
+#: ppv-live-webcams.php:11495
+msgid "Billing"
+msgstr ""
+
+#: ppv-live-webcams.php:11502
+msgid "Documentation"
+msgstr ""
+
+#: ppv-live-webcams.php:11605
+msgid "User not found by email or login: "
+msgstr ""
+
+#: ppv-live-webcams.php:11612
+msgid "User not found by ID: "
+msgstr ""
+
+#: ppv-live-webcams.php:11623
+msgid "Studio not found: "
+msgstr ""
+
+#: ppv-live-webcams.php:11696
+msgid "User not found: "
+msgstr ""
+
+#: ppv-live-webcams.php:11726
+msgid "Toggle Verified"
+msgstr ""
+
+#: ppv-live-webcams.php:11728
+msgid "Suspended"
+msgstr ""
+
+#: ppv-live-webcams.php:11729
+msgid "Toggle Suspended"
+msgstr ""
+
+#: ppv-live-webcams.php:11731
+msgid "Records Updated"
+msgstr ""
+
+#: ppv-live-webcams.php:11732
+msgid "Last Verified"
+msgstr ""
+
+#: template-app.php:19
+msgid "Video Chat"
+msgstr ""
+
+#: template-webcam.php:40
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Paid Videochat Turnkey Site - HTML5 PPV Live Webcams"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://paidvideochat.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>Paid Videochat Turnkey Site - HTML5 PPV Live Webcams</strong>: pay "
+"per view / minute (PPV/PPM) videochat sites.  Includes custom registration "
+"(performers, clients, studios), live webcams list, public lobby for each "
+"performer with live stream, mult-performer in show checkin, custom tips/"
+"gifts with notification, pay per minute private 2 way calls and group "
+"videochat shows, HTML5 WebRTC live video streaming, adaptive interface for "
+"mobile browsers, snapshots/pictures and videos profile, video conference "
+"mode with split view streaming, presentation/collaboration mode with file "
+"sharing and image/video display, paid questions/messages.  <a href='https://"
+"videowhisper.com/tickets_submit.php?topic=PPV-Live-Webcams'>Contact Support</"
+"a> | <a href='admin.php?page=live-webcams&tab=setup'>Setup</a>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "VideoWhisper.com"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://videowhisper.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "VideoWhisper App - Full Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "VideoWhisper Full"
+msgstr ""

@@ -1,0 +1,38 @@
+.elementor-163 .elementor-element.elementor-element-350c0ca{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}body.elementor-page-163 h1.entry-title, .elementor-page-title{display:none;}/* Start custom CSS for page-settings */p.country.wcfm_title.wcfm_ele {
+    display: none !important;
+}
+#wcfm_membership_container .select2-container, #wcfm_membership_container .select2-container .select2-selection {
+    display: none !important;
+}
+span#select2-country-container {
+    display: none !important;
+}
+span.select2-selection__arrow {
+    display: none;
+}
+span.select2-selection.select2-selection--single {
+    display: none;
+}
+span.selection {
+    display: none;
+}
+/*FORM DESIGN*/
+h2:before {
+    font-family: montserrat!important;
+    content: 'PROFESSIONAL ';
+    font-weight: 400;
+
+}
+h2 {
+    font-family: montserrat!important;
+    text-transform: uppercase!important;
+    font-weight: 400;
+}
+/**/
+#wcfm_membership_container p.wcfm_title strong, #wcfm_membership_container span.wcfm_title strong {
+     font-style: normal!important; 
+    font-weight: 600!important;
+    font-family: montserrat!important;
+    text-transform: uppercase;
+    color: black!Important;
+}/* End custom CSS */

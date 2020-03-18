@@ -1,0 +1,1328 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Project-Id-Version: PPV Live Webcams - Paid Videochat\n"
+"POT-Creation-Date: 2017-11-09 19:13+0200\n"
+"PO-Revision-Date: 2017-11-10 20:59+0200\n"
+"Language-Team: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ppv-live-webcams.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"Language: zh_CN\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ppv-live-webcams.php:315
+#, fuzzy
+msgctxt "Post Type General Name"
+msgid "Webcams"
+msgstr "摄像头"
+
+#: ppv-live-webcams.php:316
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Webcam"
+msgstr "网络摄像头"
+
+#: ppv-live-webcams.php:317 ppv-live-webcams.php:4104 ppv-live-webcams.php:6216
+#, fuzzy
+msgid "Webcams"
+msgstr "摄像头"
+
+#: ppv-live-webcams.php:318
+msgid "Parent Webcam:"
+msgstr ""
+
+#: ppv-live-webcams.php:319
+#, fuzzy
+msgid "All Webcams"
+msgstr "摄像头"
+
+#: ppv-live-webcams.php:320
+#, fuzzy
+msgid "View Webcam"
+msgstr "查看摄像头"
+
+#: ppv-live-webcams.php:321
+msgid "Add New Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:322
+#, fuzzy
+msgid "New Webcam"
+msgstr "网络摄像头"
+
+#: ppv-live-webcams.php:323
+#, fuzzy
+msgid "Edit Webcam"
+msgstr "编辑网络摄像头"
+
+#: ppv-live-webcams.php:324
+#, fuzzy
+msgid "Update Webcam"
+msgstr "更新网络摄像头"
+
+#: ppv-live-webcams.php:325
+msgid "Search Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:326
+msgid "No webcams found"
+msgstr ""
+
+#: ppv-live-webcams.php:327
+#, fuzzy
+msgid "No webcams found in Trash"
+msgstr "在垃圾桶中找不到网络摄像头"
+
+#: ppv-live-webcams.php:331
+#, fuzzy
+msgid "webcam"
+msgstr "网络摄像头, 摄像头"
+
+#: ppv-live-webcams.php:332
+#, fuzzy
+msgid "Live Webcams"
+msgstr "实时网络摄像头"
+
+#: ppv-live-webcams.php:476
+msgid "Maximum viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:639 ppv-live-webcams.php:6029 ppv-live-webcams.php:6040
+#: ppv-live-webcams.php:6046 ppv-live-webcams.php:6052
+#: ppv-live-webcams.php:6066 ppv-live-webcams.php:9058
+#, fuzzy
+msgid "Yes"
+msgstr "是"
+
+#: ppv-live-webcams.php:639 ppv-live-webcams.php:6029 ppv-live-webcams.php:6040
+#: ppv-live-webcams.php:6046 ppv-live-webcams.php:6052
+#: ppv-live-webcams.php:6066 ppv-live-webcams.php:9058
+#, fuzzy
+msgid "No"
+msgstr "否"
+
+#: ppv-live-webcams.php:1745
+msgid "Loading Live Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:2210
+#, fuzzy
+msgid ""
+"Performer started a different room type: current session type ended. Please "
+"re-enter!"
+msgstr "执行者开始了不同的房间类型: 当前会话类型已结束。请重新输入!"
+
+#: ppv-live-webcams.php:2223
+#, fuzzy
+msgid ""
+"Not enough funds left for client to continue group chat session. Minimum "
+"required: "
+msgstr "没有足够的资金留给客户继续分组聊天会话。最低要求:"
+
+#: ppv-live-webcams.php:2225
+msgid "Only registered and logged in users can access paid sessions."
+msgstr ""
+
+#: ppv-live-webcams.php:2241 ppv-live-webcams.php:3792
+#: ppv-live-webcams.php:7030
+msgid "Free daily time limit reached: Check paid rooms!"
+msgstr ""
+
+#: ppv-live-webcams.php:2242 ppv-live-webcams.php:3793
+#, fuzzy
+msgid "Free daily visitor time limit reached: Register for more!"
+msgstr "免费每日访客时间限制达到: 注册更多!"
+
+#: ppv-live-webcams.php:3240 ppv-live-webcams.php:3256
+#, fuzzy
+msgid "All"
+msgstr "全部"
+
+#: ppv-live-webcams.php:3242
+#, fuzzy
+msgid "Online"
+msgstr "在线的"
+
+#: ppv-live-webcams.php:3244
+msgid "Online, Public"
+msgstr ""
+
+#: ppv-live-webcams.php:3246
+msgid "Online, In Private"
+msgstr ""
+
+#: ppv-live-webcams.php:3248
+#, fuzzy
+msgid "Offline"
+msgstr "离线的"
+
+#: ppv-live-webcams.php:3264
+#, fuzzy
+msgid "Order By"
+msgstr "排序"
+
+#: ppv-live-webcams.php:3266 ppv-live-webcams.php:5186
+#: ppv-live-webcams.php:5247
+#, fuzzy
+msgid "Default"
+msgstr "默認"
+
+#: ppv-live-webcams.php:3268
+msgid "Created Recently"
+msgstr ""
+
+#: ppv-live-webcams.php:3270
+msgid "Broadcast Recently"
+msgstr ""
+
+#: ppv-live-webcams.php:3272
+msgid "Current Viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:3274
+msgid "Maximum Viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:3276
+#, fuzzy
+msgid "Random"
+msgstr "随机"
+
+#: ppv-live-webcams.php:3425
+msgid "Ban This Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:3479
+#, fuzzy
+msgid "Enter"
+msgstr "输入"
+
+#: ppv-live-webcams.php:3487
+msgid "Login for More"
+msgstr ""
+
+#: ppv-live-webcams.php:3538
+#, fuzzy
+msgid "Previous"
+msgstr "上一个"
+
+#: ppv-live-webcams.php:3540
+#, fuzzy
+msgid "Next"
+msgstr "下一篇"
+
+#: ppv-live-webcams.php:3787
+msgid "You Were Disconnected from Chat Room"
+msgstr ""
+
+#: ppv-live-webcams.php:3791
+#, fuzzy
+msgid "You have been disconnected from server."
+msgstr "你已经与服务器断开连接。"
+
+#: ppv-live-webcams.php:3850
+msgid "Login to manage studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:3862 ppv-live-webcams.php:4282
+#: ppv-live-webcams.php:4490
+msgid "Login is required to access this section!"
+msgstr ""
+
+#: ppv-live-webcams.php:3872
+msgid "User role does not allow managing studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:3880 ppv-live-webcams.php:4514
+msgid "Your account is not currently enabled!"
+msgstr ""
+
+#: ppv-live-webcams.php:3895 ppv-live-webcams.php:3899
+#: ppv-live-webcams.php:4592
+#, fuzzy
+msgid "Performers"
+msgstr "表演者"
+
+#: ppv-live-webcams.php:3899
+msgid "Manage studio performer accounts."
+msgstr ""
+
+#: ppv-live-webcams.php:3916
+#, fuzzy
+msgid "Performer Transactions"
+msgstr "执行者事务"
+
+#: ppv-live-webcams.php:3927
+msgid "You are not allowed to view transactions for this user!"
+msgstr ""
+
+#: ppv-live-webcams.php:3936
+msgid "Create Performer Account"
+msgstr ""
+
+#: ppv-live-webcams.php:3940
+msgid ""
+"After setting up performer account you will also receive password to "
+"communicate to performer for quick access. Account password should be "
+"changed by performer. Warning: Make sure you fill details correctly. Only "
+"administrator can delete incorrect accounts."
+msgstr ""
+
+#: ppv-live-webcams.php:3941 ppv-live-webcams.php:4141
+#: ppv-live-webcams.php:4353 ppv-live-webcams.php:4593
+#: ppv-live-webcams.php:5410
+#, fuzzy
+msgid "Save"
+msgstr "保存"
+
+#: ppv-live-webcams.php:3957
+msgid "Adding Performer Account"
+msgstr ""
+
+#: ppv-live-webcams.php:3964
+#, fuzzy
+msgid "Username already in use!"
+msgstr "该用户名已被使用"
+
+#: ppv-live-webcams.php:3965
+#, fuzzy
+msgid "Email already in use!"
+msgstr "已经使用的电子邮件。"
+
+#: ppv-live-webcams.php:3976
+msgid "Performers limit reached!"
+msgstr ""
+
+#: ppv-live-webcams.php:3978
+msgid "Could not create performer account: "
+msgstr ""
+
+#: ppv-live-webcams.php:3985
+msgid "Performer account was created"
+msgstr ""
+
+#: ppv-live-webcams.php:3985
+#, fuzzy
+msgid "Password"
+msgstr "密码"
+
+#: ppv-live-webcams.php:3985 ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Email"
+msgstr "邮箱"
+
+#: ppv-live-webcams.php:4020
+msgid "That performer is not assigned to this studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:4044
+#, fuzzy
+msgid "Performers List"
+msgstr "表演者"
+
+#: ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Login"
+msgstr "登录"
+
+#: ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Balance"
+msgstr "平衡"
+
+#: ppv-live-webcams.php:4048 ppv-live-webcams.php:9057
+#, fuzzy
+msgid "Status"
+msgstr "状态"
+
+#: ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Current Cam"
+msgstr "当前位置"
+
+#: ppv-live-webcams.php:4060
+#, fuzzy
+msgid "Enabled"
+msgstr "启用"
+
+#: ppv-live-webcams.php:4061
+#, fuzzy
+msgid "Disabled"
+msgstr "禁用"
+
+#: ppv-live-webcams.php:4066
+#, fuzzy
+msgid "Original Password"
+msgstr "英文原版提取码："
+
+#: ppv-live-webcams.php:4076
+#, fuzzy
+msgid "Studio has no performer accounts, yet."
+msgstr "工作室没有执行者帐户, 但。"
+
+#: ppv-live-webcams.php:4079
+#, fuzzy
+msgid "Add Performer"
+msgstr "演员"
+
+#: ppv-live-webcams.php:4079
+#, fuzzy
+msgid "Create a new performer account."
+msgstr "创建新的执行者帐户。"
+
+#: ppv-live-webcams.php:4081
+msgid "View Your Performers List"
+msgstr ""
+
+#: ppv-live-webcams.php:4104
+#, fuzzy
+msgid "Manage webcam listings for studio performers."
+msgstr "管理工作室执行者的网络摄像头列表。"
+
+#: ppv-live-webcams.php:4113 ppv-live-webcams.php:4585
+msgid "Create Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:4140 ppv-live-webcams.php:4594
+msgid ""
+"Warning: Make sure webcam listing name is correct. Only administrator can "
+"delete webcams."
+msgstr ""
+
+#: ppv-live-webcams.php:4186 ppv-live-webcams.php:4656
+msgid "Webcam listing with that name already exists."
+msgstr ""
+
+#: ppv-live-webcams.php:4190 ppv-live-webcams.php:4660
+#, fuzzy
+msgid "Webcam listing was successfully created!"
+msgstr "摄像头列表已成功创建!"
+
+#: ppv-live-webcams.php:4295
+#, fuzzy
+msgid "Account Status"
+msgstr "账户状态"
+
+#: ppv-live-webcams.php:4295 ppv-live-webcams.php:9058
+#, fuzzy
+msgid "Verified"
+msgstr "已认证"
+
+#: ppv-live-webcams.php:4295
+#, fuzzy
+msgid "Not Verified"
+msgstr "不验证"
+
+#: ppv-live-webcams.php:4295
+msgid "Suspended by Admin"
+msgstr ""
+
+#: ppv-live-webcams.php:4296
+#, fuzzy
+msgid "Update Account Records"
+msgstr "更新账号"
+
+#: ppv-live-webcams.php:4305
+#, fuzzy
+msgid "Account Administrative Records"
+msgstr "行政记录"
+
+#: ppv-live-webcams.php:4305
+msgid ""
+"These details are required by administrators for account approval and "
+"administrative operations."
+msgstr ""
+
+#: ppv-live-webcams.php:4309
+#, fuzzy
+msgid "No record fields defined by administrator!"
+msgstr "没有管理员定义的记录字段!"
+
+#: ppv-live-webcams.php:4478
+msgid "Login to manage webcams!"
+msgstr ""
+
+#: ppv-live-webcams.php:4502
+#, fuzzy
+msgid "User role does not allow publishing webcams!"
+msgstr "用户角色不允许发布网络摄像头!"
+
+#: ppv-live-webcams.php:4519
+msgid ""
+"Studio disabled your account: dashboard access is forbidden. Contact studio "
+"or site administrator!"
+msgstr ""
+
+#: ppv-live-webcams.php:4529
+#, fuzzy
+msgid "Your current balance"
+msgstr "您目前的餘額"
+
+#: ppv-live-webcams.php:4557
+msgid "Selected webcam listing is invalid."
+msgstr ""
+
+#: ppv-live-webcams.php:4589
+msgid ""
+"Partner performers that can also go live in this room: Comma separated list "
+"of performer usernames or emails."
+msgstr ""
+
+#: ppv-live-webcams.php:4591
+msgid "Webcam Listing Name"
+msgstr ""
+
+#: ppv-live-webcams.php:4610
+msgid "Adding Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:4650
+msgid "Warning: Performer not found: use a valid username (login) or email!"
+msgstr ""
+
+#: ppv-live-webcams.php:4659
+#, fuzzy
+msgid "Could not create webcam listing:"
+msgstr "无法创建网络摄像头列表:"
+
+#: ppv-live-webcams.php:4701
+msgid "Select Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:4706
+msgid "Webcam listings you created or were granted access to broadcast:"
+msgstr ""
+
+#: ppv-live-webcams.php:4722
+msgid "You do not have any active webcam listings: one will be setup for you."
+msgstr ""
+
+#: ppv-live-webcams.php:4728
+#, fuzzy
+msgid "Add Webcam"
+msgstr "添加网络摄像头"
+
+#: ppv-live-webcams.php:4728
+#, fuzzy
+msgid "Create a new webcam listing."
+msgstr "创建一个新的网络摄像头列表。"
+
+#: ppv-live-webcams.php:4731
+#, fuzzy
+msgid "View Your Webcams List"
+msgstr "查看您的网络摄像头列表"
+
+#: ppv-live-webcams.php:4764
+#, fuzzy
+msgid "Setting webcam group mode to"
+msgstr "将网络摄像头组模式设置为"
+
+#: ppv-live-webcams.php:4829
+#, fuzzy
+msgid "Warning: Performer"
+msgstr "警告: 执行者"
+
+#: ppv-live-webcams.php:4829
+msgid "not found: use a valid username (login) or email!"
+msgstr ""
+
+#: ppv-live-webcams.php:4837
+#, fuzzy
+msgid "Checked in performers"
+msgstr "签入表演者"
+
+#: ppv-live-webcams.php:4839
+#, fuzzy
+msgid "Assigning you"
+msgstr "分配您"
+
+#: ppv-live-webcams.php:4839
+msgid ""
+"as room performer (streamer) and redirecting to webcam room page. Please "
+"wait..."
+msgstr ""
+
+#: ppv-live-webcams.php:4842
+#, fuzzy
+msgid ">Click here"
+msgstr "点击这里"
+
+#: ppv-live-webcams.php:4842
+msgid "to access your webcam room if you do not get automatically redirected"
+msgstr ""
+
+#: ppv-live-webcams.php:4850
+#, fuzzy
+msgid "Webcam"
+msgstr "网络摄像头"
+
+#: ppv-live-webcams.php:4852
+#, fuzzy
+msgid "Select Different Webcam Listing/Channel"
+msgstr "选择不同的网络摄像头列表/频道"
+
+#: ppv-live-webcams.php:4861
+#, fuzzy
+msgid "Set group mode for your new session."
+msgstr "为新的会话设置组模式。"
+
+#: ppv-live-webcams.php:4865
+msgid "Checkin Options"
+msgstr ""
+
+#: ppv-live-webcams.php:4868
+#, fuzzy
+msgid "Checkin Performers"
+msgstr "签入执行者"
+
+#: ppv-live-webcams.php:4868
+msgid ""
+"You can select partner performers or specify other performers that are "
+"present in session."
+msgstr ""
+
+#: ppv-live-webcams.php:4869
+msgid ""
+"If paid group chat is enabled, earnings will be shared equally between "
+"checked in performers."
+msgstr ""
+
+#: ppv-live-webcams.php:4875
+#, fuzzy
+msgid "Partner performers"
+msgstr "合作伙伴"
+
+#: ppv-live-webcams.php:4885
+msgid "Checkin performers"
+msgstr ""
+
+#: ppv-live-webcams.php:4885
+msgid "Comma separated list of performer usernames or emails."
+msgstr ""
+
+#: ppv-live-webcams.php:4902
+#, fuzzy
+msgid "Go Live"
+msgstr "进行直播！"
+
+#: ppv-live-webcams.php:5007
+#, fuzzy
+msgid "Picture Updated."
+msgstr "图片已更新。"
+
+#: ppv-live-webcams.php:5009
+msgid "ERROR: Cound not create JPG thumb file "
+msgstr ""
+
+#: ppv-live-webcams.php:5012
+msgid "ERROR: Cound not create temporary image!"
+msgstr ""
+
+#: ppv-live-webcams.php:5015
+msgid "ERROR: Failed loading image data "
+msgstr ""
+
+#: ppv-live-webcams.php:5017
+#, fuzzy
+msgid "ERROR: File does not exist "
+msgstr "错误：文件不存在！"
+
+#: ppv-live-webcams.php:5019
+msgid "ERROR: Could not retrieve image size for "
+msgstr ""
+
+#: ppv-live-webcams.php:5169 ppv-live-webcams.php:5328
+#, fuzzy
+msgid "Setup"
+msgstr "计划"
+
+#: ppv-live-webcams.php:5188
+#, fuzzy
+msgid "Cost Per Minute"
+msgstr ""
+"<g id=\"1578\"><g id=\"1593\">Co2波形（</g><g id=\"1596\">2</g><g id="
+"\"1599\">波形</g>（分别为从下到上）</g>"
+
+#: ppv-live-webcams.php:5188
+msgid "Cost per minute for private shows."
+msgstr ""
+
+#: ppv-live-webcams.php:5195 ppv-live-webcams.php:5201
+#, fuzzy
+msgid "Picture"
+msgstr "图片"
+
+#: ppv-live-webcams.php:5195
+msgid "Update room picture to use instead of live snapshot."
+msgstr ""
+
+#: ppv-live-webcams.php:5200
+#, fuzzy
+msgid "Show"
+msgstr "显示"
+
+#: ppv-live-webcams.php:5202
+#, fuzzy
+msgid "Live Snapshot"
+msgstr "实时快照"
+
+#: ppv-live-webcams.php:5203
+msgid "Select what to show in webcam listings."
+msgstr ""
+
+#: ppv-live-webcams.php:5213
+#, fuzzy
+msgid "Label"
+msgstr "标签"
+
+#: ppv-live-webcams.php:5213
+msgid "Shows in room listings instead of name."
+msgstr ""
+
+#: ppv-live-webcams.php:5222
+#, fuzzy
+msgid "Category"
+msgstr "分类"
+
+#: ppv-live-webcams.php:5222
+msgid "Webcam category."
+msgstr ""
+
+#: ppv-live-webcams.php:5228 ppv-live-webcams.php:6070
+#, fuzzy
+msgid "Description"
+msgstr "描述"
+
+#: ppv-live-webcams.php:5228
+msgid "Room description: profile, schedule. Shows on room page."
+msgstr ""
+
+#: ppv-live-webcams.php:5237
+#, fuzzy
+msgid "Brief"
+msgstr "基本信息"
+
+#: ppv-live-webcams.php:5237
+msgid "Room brief info: profile, schedule. Shows in room listings."
+msgstr ""
+
+#: ppv-live-webcams.php:5246
+msgid "Private Videochat Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:5248
+#, fuzzy
+msgid "1 Way"
+msgstr "1路"
+
+#: ppv-live-webcams.php:5249
+#, fuzzy
+msgid "2 Way"
+msgstr "2路"
+
+#: ppv-live-webcams.php:5251
+msgid "Allow clients to start their cams for 2 way videochat."
+msgstr ""
+
+#: ppv-live-webcams.php:5268
+#, fuzzy
+msgid "Detected IP"
+msgstr "发现"
+
+#: ppv-live-webcams.php:5270
+msgid "Detected Continent, Country, Region, City"
+msgstr ""
+
+#: ppv-live-webcams.php:5275
+msgid ">ERROR: GeoIP extension is required on host for this functionality."
+msgstr ""
+
+#: ppv-live-webcams.php:5278
+#, fuzzy
+msgid "Ban Countries"
+msgstr "禁令国家"
+
+#: ppv-live-webcams.php:5278
+msgid ""
+"List of locations (country, region, city or continent code, separated by "
+"comma) that can not access webcam room."
+msgstr ""
+
+#: ppv-live-webcams.php:5293
+#, fuzzy
+msgid "Tags"
+msgstr "标签"
+
+#: ppv-live-webcams.php:5293
+msgid "Tags separated by comma. Show in room listings."
+msgstr ""
+
+#: ppv-live-webcams.php:5301
+#, fuzzy
+msgid "Logo Image"
+msgstr "Logo图像"
+
+#: ppv-live-webcams.php:5301
+msgid ""
+"Floating logo URL (preferably a transparent PNG image). Leave blank to hide."
+msgstr ""
+
+#: ppv-live-webcams.php:5303
+#, fuzzy
+msgid "Logo Link"
+msgstr "标志链接"
+
+#: ppv-live-webcams.php:5303
+msgid "URL to open on logo click."
+msgstr ""
+
+#: ppv-live-webcams.php:5313
+#, fuzzy
+msgid "Access List"
+msgstr "使用权限列表"
+
+#: ppv-live-webcams.php:5313
+msgid ""
+"User roles, logins, emails separated by comma. Leave empty to allow "
+"everybody to access."
+msgstr ""
+
+#: ppv-live-webcams.php:5322
+msgid "Webcam room access price. Leave 0 for free access."
+msgstr ""
+
+#: ppv-live-webcams.php:5327
+#, fuzzy
+msgid "Webcam Profile Setup"
+msgstr "个人资料设置"
+
+#: ppv-live-webcams.php:5357
+#, fuzzy
+msgid "Profile"
+msgstr "简介"
+
+#: ppv-live-webcams.php:5366
+msgid "Webcam listing profile"
+msgstr ""
+
+#: ppv-live-webcams.php:5366
+msgid ""
+"These details will show on webcam room page (under videochat interface)."
+msgstr ""
+
+#: ppv-live-webcams.php:5437 ppv-live-webcams.php:6040
+#, fuzzy
+msgid "Videos"
+msgstr "视频"
+
+#: ppv-live-webcams.php:5445
+msgid ""
+"Multiple profile videos can show on webcam listing page. Each listing has "
+"own videos."
+msgstr ""
+
+#: ppv-live-webcams.php:5465
+#, fuzzy
+msgid "Teaser"
+msgstr "预告海报"
+
+#: ppv-live-webcams.php:5469
+msgid "Teaser Video"
+msgstr ""
+
+#: ppv-live-webcams.php:5472
+msgid ""
+"One teaser video shows above on webcam listing page (featured video). Can be "
+"selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:5515
+#, fuzzy
+msgid "Scheduler"
+msgstr "调度"
+
+#: ppv-live-webcams.php:5649
+msgid "No videos found! Please add some videos first."
+msgstr ""
+
+#: ppv-live-webcams.php:5654
+msgid "Quick Loop Setup"
+msgstr ""
+
+#: ppv-live-webcams.php:5655
+msgid ""
+"Video will play in loop while playlist is active. Warning: Going live (with "
+"real webcam) will stop video loop (needs to be setup again)."
+msgstr ""
+
+#: ppv-live-webcams.php:5656
+#, fuzzy
+msgid "Set Video Loop"
+msgstr "设置视频连接"
+
+#: ppv-live-webcams.php:5681
+msgid "Playlist is enabled and room stream updated to"
+msgstr ""
+
+#: ppv-live-webcams.php:5691
+#, fuzzy
+msgid "Inactive"
+msgstr "无效"
+
+#: ppv-live-webcams.php:5692
+#, fuzzy
+msgid "Active"
+msgstr "有效"
+
+#: ppv-live-webcams.php:5707
+msgid "Advanced Playlist Editor"
+msgstr ""
+
+#: ppv-live-webcams.php:5708
+msgid ""
+"After editing playlist contents below, update it to apply changes. Last "
+"Updated:"
+msgstr ""
+
+#: ppv-live-webcams.php:5709
+msgid ""
+"Playlist is loaded with web application (on access) and reloaded if "
+"necessary when users access"
+msgstr ""
+
+#: ppv-live-webcams.php:5710
+msgid ""
+"First create a Schedule (Add new record), then Edit Videos (Add new record "
+"under Videos):"
+msgstr ""
+
+#: ppv-live-webcams.php:5711
+msgid "videochat interface"
+msgstr ""
+
+#: ppv-live-webcams.php:5712
+msgid "last time reloaded"
+msgstr ""
+
+#: ppv-live-webcams.php:5840
+msgid ""
+"Schedule playlist items as: Year-Month-Day Hours:Minutes:Seconds in "
+"scheduling server timezone. In example, current server OS time"
+msgstr ""
+
+#: ppv-live-webcams.php:5840
+msgid "in timezone"
+msgstr ""
+
+#: ppv-live-webcams.php:5840
+#, fuzzy
+msgid "default timezone was"
+msgstr "默认时区"
+
+#: ppv-live-webcams.php:5842
+msgid ""
+"If the schedule time is in the past, each video is loaded in order and "
+"immediately replaces the previous video for the stream. Repeat will cause "
+"that videos to repeat in loop."
+msgstr ""
+
+#: ppv-live-webcams.php:5849
+msgid ""
+"Scheduled videos play instead of performer live stream in videochat "
+"interface. Can be selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:5884
+msgid ""
+"Multiple profile pictures can show on webcam listing page. Each listing has "
+"own pictures."
+msgstr ""
+
+#: ppv-live-webcams.php:5926
+msgid "Cleared ban for"
+msgstr ""
+
+#: ppv-live-webcams.php:5929
+#, fuzzy
+msgid "Not found!"
+msgstr "找不到!"
+
+#: ppv-live-webcams.php:5942 ppv-live-webcams.php:5946
+#, fuzzy
+msgid "Bans"
+msgstr "禁止投票"
+
+#: ppv-live-webcams.php:5952
+msgid "There are no bans for this room."
+msgstr ""
+
+#: ppv-live-webcams.php:5954
+msgid ""
+"Bans result when performer kicks or bans users from videochat interface. "
+"Kicks result in short bans (15 minutes) and full bans have longer cooldown "
+"(1 week). "
+msgstr ""
+
+#: ppv-live-webcams.php:5970 ppv-live-webcams.php:5977
+#, fuzzy
+msgid "Transactions"
+msgstr "交易"
+
+#: ppv-live-webcams.php:5990
+#, fuzzy
+msgid "Overview"
+msgstr "概述"
+
+#: ppv-live-webcams.php:6003
+msgid "Webcam Room Listing Overview"
+msgstr ""
+
+#: ppv-live-webcams.php:6019
+#, fuzzy
+msgid "Room Name"
+msgstr "房间名称"
+
+#: ppv-live-webcams.php:6020
+#, fuzzy
+msgid "Streaming"
+msgstr "流媒体"
+
+#: ppv-live-webcams.php:6021
+#, fuzzy
+msgid "Your Name"
+msgstr "您的名字"
+
+#: ppv-live-webcams.php:6022
+msgid "Listing Label"
+msgstr ""
+
+#: ppv-live-webcams.php:6023
+#, fuzzy
+msgid "Listing Status"
+msgstr "新增清單狀態"
+
+#: ppv-live-webcams.php:6024
+#, fuzzy
+msgid "Listing URL"
+msgstr "廣告連結："
+
+#: ppv-live-webcams.php:6025
+#, fuzzy
+msgid " Webcam Slug"
+msgstr "网络摄像头"
+
+#: ppv-live-webcams.php:6029
+#, fuzzy
+msgid "Featured"
+msgstr "精选"
+
+#: ppv-live-webcams.php:6033
+#, fuzzy
+msgid "Client CPM"
+msgstr "客户"
+
+#: ppv-live-webcams.php:6034
+msgid "Earning Ratio"
+msgstr ""
+
+#: ppv-live-webcams.php:6046
+#, fuzzy
+msgid "Pictures"
+msgstr "图片"
+
+#: ppv-live-webcams.php:6052
+msgid "HTML5 Transcoding"
+msgstr ""
+
+#: ppv-live-webcams.php:6058
+msgid "Multiple Cameras"
+msgstr ""
+
+#: ppv-live-webcams.php:6066
+msgid "Scheduled Playlist"
+msgstr ""
+
+#: ppv-live-webcams.php:6099
+#, fuzzy
+msgid "Role"
+msgstr "角色"
+
+#: ppv-live-webcams.php:6217
+msgid "Performer Dashboard"
+msgstr ""
+
+#: ppv-live-webcams.php:6218
+#, fuzzy
+msgid "Buy Credits"
+msgstr "购买积分"
+
+#: ppv-live-webcams.php:6219
+msgid "Studio Dashboard"
+msgstr ""
+
+#: ppv-live-webcams.php:6220
+#, fuzzy
+msgid "Chat Logout"
+msgstr "登出"
+
+#: ppv-live-webcams.php:6498
+msgid "PPM group "
+msgstr ""
+
+#: ppv-live-webcams.php:6498
+msgid "session in"
+msgstr ""
+
+#: ppv-live-webcams.php:6518
+msgid "Earning from PPM group "
+msgstr ""
+
+#: ppv-live-webcams.php:6518
+msgid " session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6565
+msgid "Earning from PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6568
+msgid "Performer cost for PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6955
+msgid "You are banned from accessing this room! By"
+msgstr ""
+
+#: ppv-live-webcams.php:6972
+msgid ""
+"You are NOT logged in. Only registered users can request private show or "
+"send tips!"
+msgstr ""
+
+#: ppv-live-webcams.php:6979
+msgid ""
+"Please login first or register an account if you do not have one! Click here "
+"to return to website."
+msgstr ""
+
+#: ppv-live-webcams.php:6985
+#, fuzzy
+msgid "you are not in the allowed watchers list."
+msgstr "您不在用户允许列表中"
+
+#: ppv-live-webcams.php:6986
+msgid "Please login first or register an account if you do not have one!"
+msgstr ""
+
+#: ppv-live-webcams.php:7001
+msgid "Paid group session: login to access!"
+msgstr ""
+
+#: ppv-live-webcams.php:7006
+msgid "Minimum balance required for paid session:"
+msgstr ""
+
+#: ppv-live-webcams.php:7031
+msgid "Free visitor daily time limit reached: Register for more!"
+msgstr ""
+
+#: ppv-live-webcams.php:7049
+msgid "Your are not in room access list."
+msgstr ""
+
+#: ppv-live-webcams.php:7061 ppv-live-webcams.php:7153
+#, fuzzy
+msgid "Your current balance:"
+msgstr "您目前的餘額"
+
+#: ppv-live-webcams.php:7063 ppv-live-webcams.php:7649
+msgid "Pending balance"
+msgstr ""
+
+#: ppv-live-webcams.php:7068
+msgid "Private show cost per minute:"
+msgstr ""
+
+#: ppv-live-webcams.php:7080
+msgid "2 way slots:"
+msgstr ""
+
+#: ppv-live-webcams.php:7097
+msgid "You do not have enough credits to request a private show."
+msgstr ""
+
+#: ppv-live-webcams.php:7101 ppv-live-webcams.php:7164
+msgid "Charging starts after a grace time:"
+msgstr ""
+
+#: ppv-live-webcams.php:7156
+msgid "Private show cost per minute for performer is:"
+msgstr ""
+
+#: ppv-live-webcams.php:7162
+msgid "Private show cost per minute for client:"
+msgstr ""
+
+#: ppv-live-webcams.php:7166
+msgid "Private show earning per minute for performer:"
+msgstr ""
+
+#: ppv-live-webcams.php:7178
+#, fuzzy
+msgid "You are in room"
+msgstr "您的位置:"
+
+#: ppv-live-webcams.php:7180
+msgid "Active performer (stream):"
+msgstr ""
+
+#: ppv-live-webcams.php:7186
+msgid "Group Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:7187
+msgid "Group session cost"
+msgstr ""
+
+#: ppv-live-webcams.php:7254
+msgid ""
+"Warning: HTTPS not detected. Some browsers like Chrome will not permit "
+"webcam access when accessing without SSL!"
+msgstr ""
+
+#: ppv-live-webcams.php:7637
+#, fuzzy
+msgid "Tip from "
+msgstr "提示"
+
+#: ppv-live-webcams.php:7646
+msgid "After tip, your balance is"
+msgstr ""
+
+#: ppv-live-webcams.php:7652
+#, fuzzy
+msgid "Tip from"
+msgstr "提示"
+
+#: ppv-live-webcams.php:7654
+#, fuzzy
+msgid "Tip"
+msgstr "提示"
+
+#: ppv-live-webcams.php:7777
+msgid ""
+"Not enough funds left for client to continue session. Minimum required: "
+msgstr ""
+
+#: ppv-live-webcams.php:7783
+msgid "Session was already ended."
+msgstr ""
+
+#: ppv-live-webcams.php:8329 ppv-live-webcams.php:8835
+#, fuzzy
+msgid "Comment added successfully!"
+msgstr "备注添加成功"
+
+#: ppv-live-webcams.php:8336
+#, fuzzy
+msgid "Not implemented, yet!"
+msgstr "ưµ㼯A"
+
+#: ppv-live-webcams.php:8393
+#, fuzzy
+msgid "Comment deleted successfully!"
+msgstr "评论已成功删除！"
+
+#: ppv-live-webcams.php:8650
+msgid "Whiteboard elements added successfully!"
+msgstr ""
+
+#: ppv-live-webcams.php:8654
+msgid "No whiteboard elements to add!"
+msgstr ""
+
+#: ppv-live-webcams.php:9013
+#, fuzzy
+msgid "Settings"
+msgstr "设置"
+
+#: ppv-live-webcams.php:9033
+#, fuzzy
+msgid "User not found: "
+msgstr "未找到用戶"
+
+#: ppv-live-webcams.php:9059
+msgid "Toggle Verified"
+msgstr ""
+
+#: ppv-live-webcams.php:9061
+#, fuzzy
+msgid "Suspended"
+msgstr "停用"
+
+#: ppv-live-webcams.php:9062
+msgid "Toggle Suspended"
+msgstr ""
+
+#: ppv-live-webcams.php:9064
+#, fuzzy
+msgid "Records Updated"
+msgstr "记录已更新"
+
+#: ppv-live-webcams.php:10300
+#, fuzzy
+msgid "Reset Options"
+msgstr "重置选项"
+
+#: template-webcam.php:40
+#, fuzzy
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr "我们找不到任何查询匹配的帖子。请再试一次。"
+
+#. Plugin Name of the plugin/theme
+msgid "PPV Live Webcams - Paid Videochat"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://videowhisper.com/?p=WordPress-PPV-Live-Webcams"
+msgstr ""
+
+#. Description of the plugin/theme
+#, fuzzy
+msgid ""
+"<strong>VideoWhisper PPV Live Webcams - Paid Videochat</strong> solution can "
+"be used to build pay per minute (PPM) videochat sites.  Includes custom "
+"registration (performers, clients, studios), live webcams list, public lobby "
+"for each performer with live stream, multiple cams (angles) that can be "
+"broadcast by performer, custom tips with message and sound notification, "
+"private pay per minute private and group videochat shows, special ppm modes "
+"(voyeur, 2 way), HLS/MPEG stream delivery for mobile browsers, snapshot and "
+"video archiving,  presentation mode (with slideshow, annotations, file "
+"sharing)."
+msgstr ""
+"<strong> VideoWhisper PPV实时摄像头 - 付费视频聊天</ strong>解决方案可用于建"
+"立每分钟付费（PPM）视频聊天站点。 包括自定义注册（表演者，客户，工作室），现"
+"场摄像头列表，每个表演者的公共大厅，现场直播，可以由表演者播放的多个凸轮（角"
+"度），带有留言和声音通知的自定义提示，每分钟私人支付私人和 组合视频显示，特殊"
+"的ppm模式（偷窥，2路），移动浏览器的HLS / MPEG流传输，快照和视频存档，演示模"
+"式（幻灯片，注释，文件共享）。"
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "VideoWhisper.com"
+msgstr "VideoWhisper.com"
+
+#. Author URI of the plugin/theme
+msgid "https://videowhisper.com/"
+msgstr ""

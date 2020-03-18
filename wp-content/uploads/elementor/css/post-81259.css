@@ -1,0 +1,10 @@
+.elementor-bc-flex-widget .elementor-81259 .elementor-element.elementor-element-344bf4e.elementor-column .elementor-column-wrap{align-items:center;}.elementor-81259 .elementor-element.elementor-element-344bf4e.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-81259 .elementor-element.elementor-element-b99bf94{color:#54595F;font-family:"Montserrat", montserrat;font-size:13px;font-weight:bold;}.elementor-81259 .elementor-element.elementor-element-b99bf94 > .elementor-widget-container{padding:0px 0px 0px 0px;}@media(min-width:768px){.elementor-81259 .elementor-element.elementor-element-344bf4e{width:18.423%;}.elementor-81259 .elementor-element.elementor-element-1b98c92{width:81.593%;}}/* Start custom CSS for page-settings */button.popularSearch {
+    width: 128px;
+    height: 40px;
+    transform: skew(-12deg);
+    background: black;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    text-align: center !important;
+}/* End custom CSS */

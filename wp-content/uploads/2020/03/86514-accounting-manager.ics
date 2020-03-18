@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//BookingWP//WooCommerce Appointments 4.8.8//EN
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Gigant
+X-ORIGINAL-URL:http://192.168.0.32/gigant.com.ph/
+X-WR-CALDESC:Appointments from Gigant
+X-WR-TIMEZONE:Asia/Manila
+BEGIN:VEVENT
+DTEND:20200320T104500
+UID:wc_appointments_86514
+DTSTAMP:20200313T113509
+LOCATION:
+DESCRIPTION:
+URL;VALUE=URI:http://192.168.0.32/gigant.com.ph/my-account/view-order/86515/
+SUMMARY:#86514 - Accounting Manager
+DTSTART:20200320T103000
+ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
+END:VEVENT
+END:VCALENDAR

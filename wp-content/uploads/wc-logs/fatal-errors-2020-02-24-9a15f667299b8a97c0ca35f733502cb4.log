@@ -1,0 +1,267 @@
+2020-02-24T00:42:37+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-24T01:32:35+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 147
+
+2020-02-24T01:37:20+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment_Data_Store::wp_get_current_user() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:149
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCF in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 149
+
+2020-02-24T01:45:39+00:00 CRITICAL syntax error, unexpected ';' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 148
+
+2020-02-24T01:50:47+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 723
+
+2020-02-24T02:03:20+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 147
+
+2020-02-24T02:03:40+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 126
+
+2020-02-24T02:10:23+00:00 CRITICAL syntax error, unexpected '$user' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 128
+
+2020-02-24T02:10:41+00:00 CRITICAL syntax error, unexpected '$user' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 128
+
+2020-02-24T02:10:56+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T02:11:17+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T02:30:39+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 147
+
+2020-02-24T02:30:56+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 147
+
+2020-02-24T02:41:48+00:00 CRITICAL syntax error, unexpected '$user' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 129
+
+2020-02-24T02:43:44+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 724
+
+2020-02-24T02:48:47+00:00 CRITICAL syntax error, unexpected '$user' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 129
+
+2020-02-24T02:49:03+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:128
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 128
+
+2020-02-24T02:49:32+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:128
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 128
+
+2020-02-24T03:06:56+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:135
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manager('', '', 'w in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 135
+
+2020-02-24T03:15:56+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-02-24T03:22:27+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T03:22:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T03:24:27+00:00 CRITICAL syntax error, unexpected '{', expecting '(' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 133
+
+2020-02-24T03:40:39+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-02-24T03:48:04+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-02-24T03:56:08+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:132
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 132
+
+2020-02-24T03:57:28+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:133
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 133
+
+2020-02-24T03:58:35+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:133
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 133
+
+2020-02-24T04:00:01+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:132
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_manage in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 132
+
+2020-02-24T04:00:48+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment_Data_Store::get_current_user_id() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:136
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCF in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 136
+
+2020-02-24T04:01:19+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment_Data_Store::get_current_user_id() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:136
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCF in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 136
+
+2020-02-24T04:02:33+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T04:02:53+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T04:03:21+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T04:03:48+00:00 CRITICAL Uncaught Error: Call to undefined function get_wcmp_vendor() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(877): WCFM_Template->get_template('dashboard/wcfm-...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(36): WCFM_Library->load_views('wcfm-dashboard')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Shortcode::output('')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(43): WCFM_Shortcode->shortcode_wrapper(Array, '')
+#5 /home/gigant/public_html/wp-includes/shortcodes.php(325): WCFM_Shortcode->wc_frontend_mana in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/dashboard/wcfm-view-wcfmmarketplace-dashboard.php on line 127
+
+2020-02-24T05:12:30+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-24T05:12:58+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-24T05:13:08+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-24T05:16:20+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1704
+
+2020-02-24T05:17:55+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1704
+
+2020-02-24T05:21:12+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1704
+
+2020-02-24T05:22:22+00:00 CRITICAL Object of class WP_User could not be converted to string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1704
+

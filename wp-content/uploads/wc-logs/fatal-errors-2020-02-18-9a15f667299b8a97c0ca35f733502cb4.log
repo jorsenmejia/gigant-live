@@ -1,0 +1,38 @@
+2020-02-18T03:17:55+00:00 CRITICAL Uncaught Exception: Invalid appointment. in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-stores/class-wc-appointment-data-store.php:87
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Appointment_Data_Store->read(Object(WC_Appointment))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-appointment.php(159): WC_Data_Store->read(Object(WC_Appointment))
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php(27): WC_Appointment->__construct(136)
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#5 /home/gigant/public_html/wp- in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-stores/class-wc-appointment-data-store.php on line 87
+
+2020-02-18T04:04:03+00:00 CRITICAL syntax error, unexpected 'transacUpdateStatus' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 145
+
+2020-02-18T05:13:11+00:00 CRITICAL syntax error, unexpected 'transacUpdateStatus' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 145
+
+2020-02-18T05:22:07+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-02-18T05:45:37+00:00 CRITICAL syntax error, unexpected 'transacUpdateStatus' (T_STRING), expecting ',' or ';' in /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/views/wc_appointments/wcfmu-view-wcappointments-details.php on line 146
+
+2020-02-18T07:34:04+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 149
+
+2020-02-18T07:35:08+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 151
+
+2020-02-18T07:35:40+00:00 CRITICAL syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 153
+
+2020-02-18T08:48:56+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 80
+
+2020-02-18T08:49:48+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 84
+
+2020-02-18T08:51:03+00:00 CRITICAL syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 110
+
+2020-02-18T08:52:55+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 68
+

@@ -1,0 +1,213 @@
+2020-02-27T00:53:22+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-02-27T02:42:20+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_count_from_status() in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1714
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_htm in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1714
+
+2020-02-27T02:42:54+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_count_from_status() in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1713
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_htm in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1713
+
+2020-02-27T02:47:39+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:41+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:55+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:56+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:56+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:56+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:47:57+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:48:09+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:48:09+00:00 CRITICAL Cannot redeclare get_orders_count_from_status() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1742
+
+2020-02-27T02:54:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#5 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#6 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:07+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:08+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:21+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-27T02:54:22+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-27T02:54:26+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-27T02:54:30+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708
+
+2020-02-27T02:54:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#5 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#6 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:54:59+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+
+2020-02-27T02:55:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_orders_count_from_status(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1708 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1698
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/functions.php(1708): get_orders_count_from_status()
+#1 /home/gigant/public_html/wp-settings.php(497): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-config.php(81): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1698
+

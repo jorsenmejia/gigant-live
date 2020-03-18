@@ -1,0 +1,1331 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Project-Id-Version: PPV Live Webcams - Paid Videochat\n"
+"POT-Creation-Date: 2017-11-09 19:13+0200\n"
+"PO-Revision-Date: 2017-11-10 20:29+0200\n"
+"Language-Team: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ppv-live-webcams.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: VideoWhisper.com <submit.ticket@videowhisper.com>\n"
+"Language: es\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: ppv-live-webcams.php:315
+msgctxt "Post Type General Name"
+msgid "Webcams"
+msgstr "Cámaras Web"
+
+#: ppv-live-webcams.php:316
+#, fuzzy
+msgctxt "Post Type Singular Name"
+msgid "Webcam"
+msgstr "Webcam"
+
+#: ppv-live-webcams.php:317 ppv-live-webcams.php:4104 ppv-live-webcams.php:6216
+msgid "Webcams"
+msgstr "Cámaras Web"
+
+#: ppv-live-webcams.php:318
+msgid "Parent Webcam:"
+msgstr ""
+
+#: ppv-live-webcams.php:319
+#, fuzzy
+msgid "All Webcams"
+msgstr "Cámaras Web"
+
+#: ppv-live-webcams.php:320
+#, fuzzy
+msgid "View Webcam"
+msgstr "Ver webcam"
+
+#: ppv-live-webcams.php:321
+#, fuzzy
+msgid "Add New Webcam"
+msgstr "Añadir nueva Webcam"
+
+#: ppv-live-webcams.php:322
+#, fuzzy
+msgid "New Webcam"
+msgstr "Nueva Webcam"
+
+#: ppv-live-webcams.php:323
+msgid "Edit Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:324
+#, fuzzy
+msgid "Update Webcam"
+msgstr "Actualizar Webcam"
+
+#: ppv-live-webcams.php:325
+msgid "Search Webcams"
+msgstr ""
+
+#: ppv-live-webcams.php:326
+msgid "No webcams found"
+msgstr ""
+
+#: ppv-live-webcams.php:327
+#, fuzzy
+msgid "No webcams found in Trash"
+msgstr "No hay webcams que encontró en la basura"
+
+#: ppv-live-webcams.php:331
+#, fuzzy
+msgid "webcam"
+msgstr "cámara web"
+
+#: ppv-live-webcams.php:332
+msgid "Live Webcams"
+msgstr "Cámaras Web"
+
+#: ppv-live-webcams.php:476
+msgid "Maximum viewers"
+msgstr ""
+
+#: ppv-live-webcams.php:639 ppv-live-webcams.php:6029 ppv-live-webcams.php:6040
+#: ppv-live-webcams.php:6046 ppv-live-webcams.php:6052
+#: ppv-live-webcams.php:6066 ppv-live-webcams.php:9058
+msgid "Yes"
+msgstr "Sí"
+
+#: ppv-live-webcams.php:639 ppv-live-webcams.php:6029 ppv-live-webcams.php:6040
+#: ppv-live-webcams.php:6046 ppv-live-webcams.php:6052
+#: ppv-live-webcams.php:6066 ppv-live-webcams.php:9058
+msgid "No"
+msgstr "No"
+
+#: ppv-live-webcams.php:1745
+#, fuzzy
+msgid "Loading Live Webcams"
+msgstr "Webcams en directo de carga"
+
+#: ppv-live-webcams.php:2210
+#, fuzzy
+msgid ""
+"Performer started a different room type: current session type ended. Please "
+"re-enter!"
+msgstr ""
+"Artista intérprete o ejecutante inició un tipo de habitación diferente: tipo "
+"de sesión terminada. Por favor volver a entrar!"
+
+#: ppv-live-webcams.php:2223
+#, fuzzy
+msgid ""
+"Not enough funds left for client to continue group chat session. Minimum "
+"required: "
+msgstr ""
+"No hay suficientes fondos para cliente a continuar la sesión de chat de "
+"grupo. Mínimo requerido:"
+
+#: ppv-live-webcams.php:2225
+msgid "Only registered and logged in users can access paid sessions."
+msgstr ""
+
+#: ppv-live-webcams.php:2241 ppv-live-webcams.php:3792
+#: ppv-live-webcams.php:7030
+msgid "Free daily time limit reached: Check paid rooms!"
+msgstr ""
+
+#: ppv-live-webcams.php:2242 ppv-live-webcams.php:3793
+msgid "Free daily visitor time limit reached: Register for more!"
+msgstr ""
+
+#: ppv-live-webcams.php:3240 ppv-live-webcams.php:3256
+msgid "All"
+msgstr "Todos"
+
+#: ppv-live-webcams.php:3242
+msgid "Online"
+msgstr "En línea"
+
+#: ppv-live-webcams.php:3244
+msgid "Online, Public"
+msgstr ""
+
+#: ppv-live-webcams.php:3246
+msgid "Online, In Private"
+msgstr ""
+
+#: ppv-live-webcams.php:3248
+msgid "Offline"
+msgstr "Offline"
+
+#: ppv-live-webcams.php:3264
+msgid "Order By"
+msgstr "Ordenar por"
+
+#: ppv-live-webcams.php:3266 ppv-live-webcams.php:5186
+#: ppv-live-webcams.php:5247
+msgid "Default"
+msgstr "Por defecto"
+
+#: ppv-live-webcams.php:3268
+msgid "Created Recently"
+msgstr ""
+
+#: ppv-live-webcams.php:3270
+#, fuzzy
+msgid "Broadcast Recently"
+msgstr "Difusión recientemente"
+
+#: ppv-live-webcams.php:3272
+#, fuzzy
+msgid "Current Viewers"
+msgstr "Espectadores actuales"
+
+#: ppv-live-webcams.php:3274
+#, fuzzy
+msgid "Maximum Viewers"
+msgstr "Máximo espectadores"
+
+#: ppv-live-webcams.php:3276
+msgid "Random"
+msgstr "Aleatorio"
+
+#: ppv-live-webcams.php:3425
+#, fuzzy
+msgid "Ban This Webcam"
+msgstr "Prohibir esta Webcam"
+
+#: ppv-live-webcams.php:3479
+msgid "Enter"
+msgstr "Ingrese"
+
+#: ppv-live-webcams.php:3487
+#, fuzzy
+msgid "Login for More"
+msgstr "Inicio de sesión para más"
+
+#: ppv-live-webcams.php:3538
+msgid "Previous"
+msgstr "Anterior"
+
+#: ppv-live-webcams.php:3540
+msgid "Next"
+msgstr "Siguiente"
+
+#: ppv-live-webcams.php:3787
+msgid "You Were Disconnected from Chat Room"
+msgstr ""
+
+#: ppv-live-webcams.php:3791
+msgid "You have been disconnected from server."
+msgstr "Has sido desconectado del servidor."
+
+#: ppv-live-webcams.php:3850
+#, fuzzy
+msgid "Login to manage studio!"
+msgstr "¡Inicio de sesión para administrar studio!"
+
+#: ppv-live-webcams.php:3862 ppv-live-webcams.php:4282
+#: ppv-live-webcams.php:4490
+msgid "Login is required to access this section!"
+msgstr "Se requiere autenticación para acceder a esta página"
+
+#: ppv-live-webcams.php:3872
+msgid "User role does not allow managing studio!"
+msgstr ""
+
+#: ppv-live-webcams.php:3880 ppv-live-webcams.php:4514
+#, fuzzy
+msgid "Your account is not currently enabled!"
+msgstr "¡Su cuenta no está activado!"
+
+#: ppv-live-webcams.php:3895 ppv-live-webcams.php:3899
+#: ppv-live-webcams.php:4592
+#, fuzzy
+msgid "Performers"
+msgstr "Ejecutores"
+
+#: ppv-live-webcams.php:3899
+#, fuzzy
+msgid "Manage studio performer accounts."
+msgstr "Administrar cuentas de artista intérprete o ejecutante de estudio."
+
+#: ppv-live-webcams.php:3916
+#, fuzzy
+msgid "Performer Transactions"
+msgstr "Transacciones del artista intérprete o ejecutante"
+
+#: ppv-live-webcams.php:3927
+msgid "You are not allowed to view transactions for this user!"
+msgstr ""
+
+#: ppv-live-webcams.php:3936
+#, fuzzy
+msgid "Create Performer Account"
+msgstr "Crear cuenta de artista intérprete o ejecutante"
+
+#: ppv-live-webcams.php:3940
+msgid ""
+"After setting up performer account you will also receive password to "
+"communicate to performer for quick access. Account password should be "
+"changed by performer. Warning: Make sure you fill details correctly. Only "
+"administrator can delete incorrect accounts."
+msgstr ""
+
+#: ppv-live-webcams.php:3941 ppv-live-webcams.php:4141
+#: ppv-live-webcams.php:4353 ppv-live-webcams.php:4593
+#: ppv-live-webcams.php:5410
+msgid "Save"
+msgstr "Guardar"
+
+#: ppv-live-webcams.php:3957
+#, fuzzy
+msgid "Adding Performer Account"
+msgstr "Agregar cuenta de artista intérprete o ejecutante"
+
+#: ppv-live-webcams.php:3964
+#, fuzzy
+msgid "Username already in use!"
+msgstr "¡Este nombre de usuario ya está en uso!"
+
+#: ppv-live-webcams.php:3965
+msgid "Email already in use!"
+msgstr "Email ya utilizado."
+
+#: ppv-live-webcams.php:3976
+#, fuzzy
+msgid "Performers limit reached!"
+msgstr "Alcanza límite de artistas!"
+
+#: ppv-live-webcams.php:3978
+#, fuzzy
+msgid "Could not create performer account: "
+msgstr "No se pudo crear la cuenta de artista intérprete o ejecutante:"
+
+#: ppv-live-webcams.php:3985
+#, fuzzy
+msgid "Performer account was created"
+msgstr "Cuenta de artista intérprete o ejecutante nace"
+
+#: ppv-live-webcams.php:3985
+msgid "Password"
+msgstr "Contraseña"
+
+#: ppv-live-webcams.php:3985 ppv-live-webcams.php:4048
+msgid "Email"
+msgstr "Email"
+
+#: ppv-live-webcams.php:4020
+#, fuzzy
+msgid "That performer is not assigned to this studio!"
+msgstr "Ese actor no se asigna a este estudio."
+
+#: ppv-live-webcams.php:4044
+#, fuzzy
+msgid "Performers List"
+msgstr "Lista de los artistas"
+
+#: ppv-live-webcams.php:4048
+msgid "Login"
+msgstr "Iniciar sesión"
+
+#: ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Balance"
+msgstr "Saldo"
+
+#: ppv-live-webcams.php:4048 ppv-live-webcams.php:9057
+msgid "Status"
+msgstr "Estatus"
+
+#: ppv-live-webcams.php:4048
+#, fuzzy
+msgid "Current Cam"
+msgstr "Actual Cam"
+
+#: ppv-live-webcams.php:4060
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ppv-live-webcams.php:4061
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: ppv-live-webcams.php:4066
+#, fuzzy
+msgid "Original Password"
+msgstr "Contraseña original"
+
+#: ppv-live-webcams.php:4076
+msgid "Studio has no performer accounts, yet."
+msgstr ""
+
+#: ppv-live-webcams.php:4079
+msgid "Add Performer"
+msgstr "Añadir nuevo artista"
+
+#: ppv-live-webcams.php:4079
+msgid "Create a new performer account."
+msgstr "Crea una nueva cuenta"
+
+#: ppv-live-webcams.php:4081
+msgid "View Your Performers List"
+msgstr ""
+
+#: ppv-live-webcams.php:4104
+#, fuzzy
+msgid "Manage webcam listings for studio performers."
+msgstr "Gestionar anuncios de webcam para los artistas de estudio."
+
+#: ppv-live-webcams.php:4113 ppv-live-webcams.php:4585
+#, fuzzy
+msgid "Create Webcam Listing"
+msgstr "Crear listado de Webcam"
+
+#: ppv-live-webcams.php:4140 ppv-live-webcams.php:4594
+#, fuzzy
+msgid ""
+"Warning: Make sure webcam listing name is correct. Only administrator can "
+"delete webcams."
+msgstr ""
+"ADVERTENCIA: Asegúrese de que el nombre de listado de webcam es correcta. "
+"Sólo el administrador puede borrar webcams."
+
+#: ppv-live-webcams.php:4186 ppv-live-webcams.php:4656
+msgid "Webcam listing with that name already exists."
+msgstr ""
+
+#: ppv-live-webcams.php:4190 ppv-live-webcams.php:4660
+msgid "Webcam listing was successfully created!"
+msgstr ""
+
+#: ppv-live-webcams.php:4295
+msgid "Account Status"
+msgstr "Estado de la cuenta"
+
+#: ppv-live-webcams.php:4295 ppv-live-webcams.php:9058
+msgid "Verified"
+msgstr "Verificado"
+
+#: ppv-live-webcams.php:4295
+msgid "Not Verified"
+msgstr "No verificada"
+
+#: ppv-live-webcams.php:4295
+#, fuzzy
+msgid "Suspended by Admin"
+msgstr "Suspendido por Admin"
+
+#: ppv-live-webcams.php:4296
+msgid "Update Account Records"
+msgstr "Actualizar Cuenta"
+
+#: ppv-live-webcams.php:4305
+#, fuzzy
+msgid "Account Administrative Records"
+msgstr "Cuenta de registros administrativos"
+
+#: ppv-live-webcams.php:4305
+msgid ""
+"These details are required by administrators for account approval and "
+"administrative operations."
+msgstr ""
+
+#: ppv-live-webcams.php:4309
+msgid "No record fields defined by administrator!"
+msgstr ""
+
+#: ppv-live-webcams.php:4478
+#, fuzzy
+msgid "Login to manage webcams!"
+msgstr "Inicio de sesión para gestionar cámaras Web."
+
+#: ppv-live-webcams.php:4502
+msgid "User role does not allow publishing webcams!"
+msgstr ""
+
+#: ppv-live-webcams.php:4519
+#, fuzzy
+msgid ""
+"Studio disabled your account: dashboard access is forbidden. Contact studio "
+"or site administrator!"
+msgstr ""
+"Estudio deshabilitado su cuenta: panel de control acceso está prohibido. ¡En "
+"contacto con el administrador del sitio o estudio!"
+
+#: ppv-live-webcams.php:4529
+#, fuzzy
+msgid "Your current balance"
+msgstr "Su saldo actual es:"
+
+#: ppv-live-webcams.php:4557
+msgid "Selected webcam listing is invalid."
+msgstr ""
+
+#: ppv-live-webcams.php:4589
+msgid ""
+"Partner performers that can also go live in this room: Comma separated list "
+"of performer usernames or emails."
+msgstr ""
+
+#: ppv-live-webcams.php:4591
+#, fuzzy
+msgid "Webcam Listing Name"
+msgstr "Nombre de lista de webcam"
+
+#: ppv-live-webcams.php:4610
+#, fuzzy
+msgid "Adding Webcam Listing"
+msgstr "Agregar listado de Webcam"
+
+#: ppv-live-webcams.php:4650
+#, fuzzy
+msgid "Warning: Performer not found: use a valid username (login) or email!"
+msgstr ""
+"ADVERTENCIA: Artista intérprete o ejecutante no encontrado: utilice un "
+"nombre de usuario válido (iniciar sesión) o por correo electrónico!"
+
+#: ppv-live-webcams.php:4659
+msgid "Could not create webcam listing:"
+msgstr ""
+
+#: ppv-live-webcams.php:4701
+msgid "Select Webcam Listing"
+msgstr ""
+
+#: ppv-live-webcams.php:4706
+#, fuzzy
+msgid "Webcam listings you created or were granted access to broadcast:"
+msgstr "Anuncios de webcam se creó o se les concedió acceso a la difusión:"
+
+#: ppv-live-webcams.php:4722
+msgid "You do not have any active webcam listings: one will be setup for you."
+msgstr ""
+
+#: ppv-live-webcams.php:4728
+msgid "Add Webcam"
+msgstr ""
+
+#: ppv-live-webcams.php:4728
+msgid "Create a new webcam listing."
+msgstr ""
+
+#: ppv-live-webcams.php:4731
+msgid "View Your Webcams List"
+msgstr ""
+
+#: ppv-live-webcams.php:4764
+msgid "Setting webcam group mode to"
+msgstr ""
+
+#: ppv-live-webcams.php:4829
+msgid "Warning: Performer"
+msgstr ""
+
+#: ppv-live-webcams.php:4829
+#, fuzzy
+msgid "not found: use a valid username (login) or email!"
+msgstr ""
+"no encontrado: utilice un nombre de usuario válido (iniciar sesión) o por "
+"correo electrónico!"
+
+#: ppv-live-webcams.php:4837
+msgid "Checked in performers"
+msgstr ""
+
+#: ppv-live-webcams.php:4839
+msgid "Assigning you"
+msgstr "Asignando..."
+
+#: ppv-live-webcams.php:4839
+#, fuzzy
+msgid ""
+"as room performer (streamer) and redirecting to webcam room page. Please "
+"wait..."
+msgstr ""
+"como ejecutante de sala (streamer) y redireccionar a la página de la sala de "
+"webcam. Espera..."
+
+#: ppv-live-webcams.php:4842
+#, fuzzy
+msgid ">Click here"
+msgstr "Haga clic aquí"
+
+#: ppv-live-webcams.php:4842
+msgid "to access your webcam room if you do not get automatically redirected"
+msgstr ""
+
+#: ppv-live-webcams.php:4850
+#, fuzzy
+msgid "Webcam"
+msgstr "Webcam"
+
+#: ppv-live-webcams.php:4852
+msgid "Select Different Webcam Listing/Channel"
+msgstr ""
+
+#: ppv-live-webcams.php:4861
+#, fuzzy
+msgid "Set group mode for your new session."
+msgstr "Ajuste el modo de grupo para la sesión de nuevo."
+
+#: ppv-live-webcams.php:4865
+msgid "Checkin Options"
+msgstr ""
+
+#: ppv-live-webcams.php:4868
+#, fuzzy
+msgid "Checkin Performers"
+msgstr "Registro de artistas"
+
+#: ppv-live-webcams.php:4868
+msgid ""
+"You can select partner performers or specify other performers that are "
+"present in session."
+msgstr ""
+
+#: ppv-live-webcams.php:4869
+msgid ""
+"If paid group chat is enabled, earnings will be shared equally between "
+"checked in performers."
+msgstr ""
+
+#: ppv-live-webcams.php:4875
+msgid "Partner performers"
+msgstr ""
+
+#: ppv-live-webcams.php:4885
+msgid "Checkin performers"
+msgstr ""
+
+#: ppv-live-webcams.php:4885
+#, fuzzy
+msgid "Comma separated list of performer usernames or emails."
+msgstr ""
+"Lista separada por comas de nombres de usuario de artista intérprete o "
+"ejecutante o mensajes de correo electrónico."
+
+#: ppv-live-webcams.php:4902
+#, fuzzy
+msgid "Go Live"
+msgstr "ir al panel"
+
+#: ppv-live-webcams.php:5007
+#, fuzzy
+msgid "Picture Updated."
+msgstr "Cuadro actualizado."
+
+#: ppv-live-webcams.php:5009
+#, fuzzy
+msgid "ERROR: Cound not create JPG thumb file "
+msgstr "ERROR: Cound no crear archivo de thumb JPG"
+
+#: ppv-live-webcams.php:5012
+#, fuzzy
+msgid "ERROR: Cound not create temporary image!"
+msgstr "ERROR: Cound no crear imagen temporal!"
+
+#: ppv-live-webcams.php:5015
+#, fuzzy
+msgid "ERROR: Failed loading image data "
+msgstr "ERROR: Error carga los datos de imagen"
+
+#: ppv-live-webcams.php:5017
+#, fuzzy
+msgid "ERROR: File does not exist "
+msgstr "ERROR: el archivo de licencia no existe:"
+
+#: ppv-live-webcams.php:5019
+#, fuzzy
+msgid "ERROR: Could not retrieve image size for "
+msgstr "ERROR: No pudo recuperar el tamaño de la imagen para"
+
+#: ppv-live-webcams.php:5169 ppv-live-webcams.php:5328
+#, fuzzy
+msgid "Setup"
+msgstr "Configuración general"
+
+#: ppv-live-webcams.php:5188
+msgid "Cost Per Minute"
+msgstr "Por minuto"
+
+#: ppv-live-webcams.php:5188
+#, fuzzy
+msgid "Cost per minute for private shows."
+msgstr "Muestra el costo por minutos de privado."
+
+#: ppv-live-webcams.php:5195 ppv-live-webcams.php:5201
+msgid "Picture"
+msgstr "Imagen"
+
+#: ppv-live-webcams.php:5195
+#, fuzzy
+msgid "Update room picture to use instead of live snapshot."
+msgstr ""
+"Actualizar cuadro de habitación a utilizar en lugar de instantáneas vivo."
+
+#: ppv-live-webcams.php:5200
+#, fuzzy
+msgid "Show"
+msgstr "Mostrar"
+
+#: ppv-live-webcams.php:5202
+msgid "Live Snapshot"
+msgstr "Captura"
+
+#: ppv-live-webcams.php:5203
+#, fuzzy
+msgid "Select what to show in webcam listings."
+msgstr "Seleccionar qué Mostrar en anuncios de webcam."
+
+#: ppv-live-webcams.php:5213
+msgid "Label"
+msgstr "Etiqueta"
+
+#: ppv-live-webcams.php:5213
+#, fuzzy
+msgid "Shows in room listings instead of name."
+msgstr "Muestra en los listados de sala en lugar de nombre."
+
+#: ppv-live-webcams.php:5222
+msgid "Category"
+msgstr "Categoría"
+
+#: ppv-live-webcams.php:5222
+msgid "Webcam category."
+msgstr ""
+
+#: ppv-live-webcams.php:5228 ppv-live-webcams.php:6070
+msgid "Description"
+msgstr "Descripción"
+
+#: ppv-live-webcams.php:5228
+msgid "Room description: profile, schedule. Shows on room page."
+msgstr ""
+
+#: ppv-live-webcams.php:5237
+#, fuzzy
+msgid "Brief"
+msgstr "Pasar información"
+
+#: ppv-live-webcams.php:5237
+#, fuzzy
+msgid "Room brief info: profile, schedule. Shows in room listings."
+msgstr ""
+"Sala información breve: perfil, horario. Muestra en los listados de "
+"habitación."
+
+#: ppv-live-webcams.php:5246
+#, fuzzy
+msgid "Private Videochat Mode"
+msgstr "Modo de Videochat privado"
+
+#: ppv-live-webcams.php:5248
+#, fuzzy
+msgid "1 Way"
+msgstr "1 vía"
+
+#: ppv-live-webcams.php:5249
+#, fuzzy
+msgid "2 Way"
+msgstr "Multiprocesamiento simétrico"
+
+#: ppv-live-webcams.php:5251
+msgid "Allow clients to start their cams for 2 way videochat."
+msgstr ""
+
+#: ppv-live-webcams.php:5268
+msgid "Detected IP"
+msgstr "IP"
+
+#: ppv-live-webcams.php:5270
+#, fuzzy
+msgid "Detected Continent, Country, Region, City"
+msgstr "Detectado el continente, país, región, ciudad"
+
+#: ppv-live-webcams.php:5275
+#, fuzzy
+msgid ">ERROR: GeoIP extension is required on host for this functionality."
+msgstr "> ERROR: GeoIP extensión es necesaria en host para esta funcionalidad."
+
+#: ppv-live-webcams.php:5278
+#, fuzzy
+msgid "Ban Countries"
+msgstr "Países de prohibición"
+
+#: ppv-live-webcams.php:5278
+msgid ""
+"List of locations (country, region, city or continent code, separated by "
+"comma) that can not access webcam room."
+msgstr ""
+
+#: ppv-live-webcams.php:5293
+#, fuzzy
+msgid "Tags"
+msgstr "Etiquetas"
+
+#: ppv-live-webcams.php:5293
+msgid "Tags separated by comma. Show in room listings."
+msgstr ""
+
+#: ppv-live-webcams.php:5301
+msgid "Logo Image"
+msgstr "Imagen Logo"
+
+#: ppv-live-webcams.php:5301
+msgid ""
+"Floating logo URL (preferably a transparent PNG image). Leave blank to hide."
+msgstr ""
+
+#: ppv-live-webcams.php:5303
+msgid "Logo Link"
+msgstr "Enlace al logo"
+
+#: ppv-live-webcams.php:5303
+#, fuzzy
+msgid "URL to open on logo click."
+msgstr "Haz clic en el enlace para abrir en logo."
+
+#: ppv-live-webcams.php:5313
+msgid "Access List"
+msgstr "Acceder lista"
+
+#: ppv-live-webcams.php:5313
+msgid ""
+"User roles, logins, emails separated by comma. Leave empty to allow "
+"everybody to access."
+msgstr ""
+
+#: ppv-live-webcams.php:5322
+msgid "Webcam room access price. Leave 0 for free access."
+msgstr ""
+
+#: ppv-live-webcams.php:5327
+msgid "Webcam Profile Setup"
+msgstr "Actualizar Perfil"
+
+#: ppv-live-webcams.php:5357
+msgid "Profile"
+msgstr "Perfil"
+
+#: ppv-live-webcams.php:5366
+#, fuzzy
+msgid "Webcam listing profile"
+msgstr "Perfil de listado de webcam"
+
+#: ppv-live-webcams.php:5366
+msgid ""
+"These details will show on webcam room page (under videochat interface)."
+msgstr ""
+
+#: ppv-live-webcams.php:5437 ppv-live-webcams.php:6040
+msgid "Videos"
+msgstr "Vídeos"
+
+#: ppv-live-webcams.php:5445
+msgid ""
+"Multiple profile videos can show on webcam listing page. Each listing has "
+"own videos."
+msgstr ""
+
+#: ppv-live-webcams.php:5465
+msgid "Teaser"
+msgstr "Muestra"
+
+#: ppv-live-webcams.php:5469
+#, fuzzy
+msgid "Teaser Video"
+msgstr "Video teaser"
+
+#: ppv-live-webcams.php:5472
+msgid ""
+"One teaser video shows above on webcam listing page (featured video). Can be "
+"selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:5515
+msgid "Scheduler"
+msgstr "Planificador"
+
+#: ppv-live-webcams.php:5649
+msgid "No videos found! Please add some videos first."
+msgstr ""
+
+#: ppv-live-webcams.php:5654
+#, fuzzy
+msgid "Quick Loop Setup"
+msgstr "Configuración de Quick Loop"
+
+#: ppv-live-webcams.php:5655
+msgid ""
+"Video will play in loop while playlist is active. Warning: Going live (with "
+"real webcam) will stop video loop (needs to be setup again)."
+msgstr ""
+
+#: ppv-live-webcams.php:5656
+#, fuzzy
+msgid "Set Video Loop"
+msgstr "Establecer Vídeo"
+
+#: ppv-live-webcams.php:5681
+msgid "Playlist is enabled and room stream updated to"
+msgstr ""
+
+#: ppv-live-webcams.php:5691
+msgid "Inactive"
+msgstr "Inactivo"
+
+#: ppv-live-webcams.php:5692
+msgid "Active"
+msgstr "Activo"
+
+#: ppv-live-webcams.php:5707
+#, fuzzy
+msgid "Advanced Playlist Editor"
+msgstr "Editor de la lista de reproducción"
+
+#: ppv-live-webcams.php:5708
+#, fuzzy
+msgid ""
+"After editing playlist contents below, update it to apply changes. Last "
+"Updated:"
+msgstr ""
+"Después de editar el contenido de la lista a continuación, actualizar para "
+"aplicar los cambios. Última actualización del anuncio:"
+
+#: ppv-live-webcams.php:5709
+msgid ""
+"Playlist is loaded with web application (on access) and reloaded if "
+"necessary when users access"
+msgstr ""
+
+#: ppv-live-webcams.php:5710
+msgid ""
+"First create a Schedule (Add new record), then Edit Videos (Add new record "
+"under Videos):"
+msgstr ""
+
+#: ppv-live-webcams.php:5711
+#, fuzzy
+msgid "videochat interface"
+msgstr "interfaz de videochat"
+
+#: ppv-live-webcams.php:5712
+msgid "last time reloaded"
+msgstr ""
+
+#: ppv-live-webcams.php:5840
+msgid ""
+"Schedule playlist items as: Year-Month-Day Hours:Minutes:Seconds in "
+"scheduling server timezone. In example, current server OS time"
+msgstr ""
+
+#: ppv-live-webcams.php:5840
+#, fuzzy
+msgid "in timezone"
+msgstr "en zona horaria"
+
+#: ppv-live-webcams.php:5840
+msgid "default timezone was"
+msgstr "La zona horaria predeterminada"
+
+#: ppv-live-webcams.php:5842
+msgid ""
+"If the schedule time is in the past, each video is loaded in order and "
+"immediately replaces the previous video for the stream. Repeat will cause "
+"that videos to repeat in loop."
+msgstr ""
+
+#: ppv-live-webcams.php:5849
+msgid ""
+"Scheduled videos play instead of performer live stream in videochat "
+"interface. Can be selected from all videos of user."
+msgstr ""
+
+#: ppv-live-webcams.php:5884
+msgid ""
+"Multiple profile pictures can show on webcam listing page. Each listing has "
+"own pictures."
+msgstr ""
+
+#: ppv-live-webcams.php:5926
+msgid "Cleared ban for"
+msgstr ""
+
+#: ppv-live-webcams.php:5929
+msgid "Not found!"
+msgstr "No encontrado"
+
+#: ppv-live-webcams.php:5942 ppv-live-webcams.php:5946
+#, fuzzy
+msgid "Bans"
+msgstr "Clases"
+
+#: ppv-live-webcams.php:5952
+#, fuzzy
+msgid "There are no bans for this room."
+msgstr "No hay fotos para esta habitación."
+
+#: ppv-live-webcams.php:5954
+msgid ""
+"Bans result when performer kicks or bans users from videochat interface. "
+"Kicks result in short bans (15 minutes) and full bans have longer cooldown "
+"(1 week). "
+msgstr ""
+
+#: ppv-live-webcams.php:5970 ppv-live-webcams.php:5977
+msgid "Transactions"
+msgstr "Transacciones"
+
+#: ppv-live-webcams.php:5990
+#, fuzzy
+msgid "Overview"
+msgstr "Vista previa"
+
+#: ppv-live-webcams.php:6003
+msgid "Webcam Room Listing Overview"
+msgstr ""
+
+#: ppv-live-webcams.php:6019
+#, fuzzy
+msgid "Room Name"
+msgstr "Nombre de Habitacón"
+
+#: ppv-live-webcams.php:6020
+msgid "Streaming"
+msgstr "Transmisión"
+
+#: ppv-live-webcams.php:6021
+msgid "Your Name"
+msgstr "Su nombre"
+
+#: ppv-live-webcams.php:6022
+msgid "Listing Label"
+msgstr "Etiqueta de anuncio"
+
+#: ppv-live-webcams.php:6023
+msgid "Listing Status"
+msgstr "Estado de lista"
+
+#: ppv-live-webcams.php:6024
+msgid "Listing URL"
+msgstr "Listados de URL"
+
+#: ppv-live-webcams.php:6025
+msgid " Webcam Slug"
+msgstr ""
+
+#: ppv-live-webcams.php:6029
+msgid "Featured"
+msgstr "Destacado"
+
+#: ppv-live-webcams.php:6033
+msgid "Client CPM"
+msgstr ""
+
+#: ppv-live-webcams.php:6034
+msgid "Earning Ratio"
+msgstr ""
+
+#: ppv-live-webcams.php:6046
+#, fuzzy
+msgid "Pictures"
+msgstr "Imágenes"
+
+#: ppv-live-webcams.php:6052
+msgid "HTML5 Transcoding"
+msgstr ""
+
+#: ppv-live-webcams.php:6058
+msgid "Multiple Cameras"
+msgstr ""
+
+#: ppv-live-webcams.php:6066
+msgid "Scheduled Playlist"
+msgstr ""
+
+#: ppv-live-webcams.php:6099
+#, fuzzy
+msgid "Role"
+msgstr "Rol"
+
+#: ppv-live-webcams.php:6217
+msgid "Performer Dashboard"
+msgstr ""
+
+#: ppv-live-webcams.php:6218
+msgid "Buy Credits"
+msgstr "Comprar Créditos"
+
+#: ppv-live-webcams.php:6219
+msgid "Studio Dashboard"
+msgstr ""
+
+#: ppv-live-webcams.php:6220
+#, fuzzy
+msgid "Chat Logout"
+msgstr "Salir"
+
+#: ppv-live-webcams.php:6498
+msgid "PPM group "
+msgstr ""
+
+#: ppv-live-webcams.php:6498
+msgid "session in"
+msgstr ""
+
+#: ppv-live-webcams.php:6518
+msgid "Earning from PPM group "
+msgstr ""
+
+#: ppv-live-webcams.php:6518
+msgid " session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6565
+msgid "Earning from PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6568
+msgid "Performer cost for PPM private session with "
+msgstr ""
+
+#: ppv-live-webcams.php:6955
+msgid "You are banned from accessing this room! By"
+msgstr ""
+
+#: ppv-live-webcams.php:6972
+msgid ""
+"You are NOT logged in. Only registered users can request private show or "
+"send tips!"
+msgstr ""
+
+#: ppv-live-webcams.php:6979
+msgid ""
+"Please login first or register an account if you do not have one! Click here "
+"to return to website."
+msgstr ""
+
+#: ppv-live-webcams.php:6985
+msgid "you are not in the allowed watchers list."
+msgstr ""
+
+#: ppv-live-webcams.php:6986
+msgid "Please login first or register an account if you do not have one!"
+msgstr ""
+
+#: ppv-live-webcams.php:7001
+msgid "Paid group session: login to access!"
+msgstr ""
+
+#: ppv-live-webcams.php:7006
+msgid "Minimum balance required for paid session:"
+msgstr ""
+
+#: ppv-live-webcams.php:7031
+msgid "Free visitor daily time limit reached: Register for more!"
+msgstr ""
+
+#: ppv-live-webcams.php:7049
+#, fuzzy
+msgid "Your are not in room access list."
+msgstr "Está no en la lista de acceso de la sala."
+
+#: ppv-live-webcams.php:7061 ppv-live-webcams.php:7153
+msgid "Your current balance:"
+msgstr "Su saldo actual es:"
+
+#: ppv-live-webcams.php:7063 ppv-live-webcams.php:7649
+#, fuzzy
+msgid "Pending balance"
+msgstr "SALDO POR REGULARIZAR"
+
+#: ppv-live-webcams.php:7068
+msgid "Private show cost per minute:"
+msgstr ""
+
+#: ppv-live-webcams.php:7080
+msgid "2 way slots:"
+msgstr ""
+
+#: ppv-live-webcams.php:7097
+msgid "You do not have enough credits to request a private show."
+msgstr ""
+
+#: ppv-live-webcams.php:7101 ppv-live-webcams.php:7164
+#, fuzzy
+msgid "Charging starts after a grace time:"
+msgstr "Carga comienza después de un tiempo de gracia:"
+
+#: ppv-live-webcams.php:7156
+#, fuzzy
+msgid "Private show cost per minute for performer is:"
+msgstr "Costo show privado por minuto para el intérprete es:"
+
+#: ppv-live-webcams.php:7162
+#, fuzzy
+msgid "Private show cost per minute for client:"
+msgstr "Show privado costo por minuto por cliente:"
+
+#: ppv-live-webcams.php:7166
+#, fuzzy
+msgid "Private show earning per minute for performer:"
+msgstr "Privado ver ganar por minuto para el ejecutante:"
+
+#: ppv-live-webcams.php:7178
+#, fuzzy
+msgid "You are in room"
+msgstr "Estás en"
+
+#: ppv-live-webcams.php:7180
+msgid "Active performer (stream):"
+msgstr ""
+
+#: ppv-live-webcams.php:7186
+msgid "Group Mode"
+msgstr ""
+
+#: ppv-live-webcams.php:7187
+#, fuzzy
+msgid "Group session cost"
+msgstr "Sesión de grupo"
+
+#: ppv-live-webcams.php:7254
+msgid ""
+"Warning: HTTPS not detected. Some browsers like Chrome will not permit "
+"webcam access when accessing without SSL!"
+msgstr ""
+
+#: ppv-live-webcams.php:7637
+#, fuzzy
+msgid "Tip from "
+msgstr "CONSEJO"
+
+#: ppv-live-webcams.php:7646
+#, fuzzy
+msgid "After tip, your balance is"
+msgstr "Después de la punta, su saldo es"
+
+#: ppv-live-webcams.php:7652
+#, fuzzy
+msgid "Tip from"
+msgstr "CONSEJO"
+
+#: ppv-live-webcams.php:7654
+#, fuzzy
+msgid "Tip"
+msgstr "Tip"
+
+#: ppv-live-webcams.php:7777
+msgid ""
+"Not enough funds left for client to continue session. Minimum required: "
+msgstr ""
+
+#: ppv-live-webcams.php:7783
+msgid "Session was already ended."
+msgstr ""
+
+#: ppv-live-webcams.php:8329 ppv-live-webcams.php:8835
+#, fuzzy
+msgid "Comment added successfully!"
+msgstr "Comentario añadido con éxito."
+
+#: ppv-live-webcams.php:8336
+#, fuzzy
+msgid "Not implemented, yet!"
+msgstr "¡Compruebe la vía de acceso y vuelva a intentarlo!"
+
+#: ppv-live-webcams.php:8393
+#, fuzzy
+msgid "Comment deleted successfully!"
+msgstr "¡Eliminado correctamente!"
+
+#: ppv-live-webcams.php:8650
+msgid "Whiteboard elements added successfully!"
+msgstr ""
+
+#: ppv-live-webcams.php:8654
+msgid "No whiteboard elements to add!"
+msgstr ""
+
+#: ppv-live-webcams.php:9013
+msgid "Settings"
+msgstr "Ajustes"
+
+#: ppv-live-webcams.php:9033
+msgid "User not found: "
+msgstr "Usuario no encontrado:"
+
+#: ppv-live-webcams.php:9059
+#, fuzzy
+msgid "Toggle Verified"
+msgstr "Toggle verificado"
+
+#: ppv-live-webcams.php:9061
+msgid "Suspended"
+msgstr "Suspendido"
+
+#: ppv-live-webcams.php:9062
+msgid "Toggle Suspended"
+msgstr ""
+
+#: ppv-live-webcams.php:9064
+msgid "Records Updated"
+msgstr "Registros actualizados"
+
+#: ppv-live-webcams.php:10300
+msgid "Reset Options"
+msgstr "Restablecer Opciones"
+
+#: template-webcam.php:40
+msgid "We couldn't find any posts that matched your query. Please try again."
+msgstr ""
+"No hemos podido encontrar ningun post en la busqueda que solicita. Intente "
+"nuevamente."
+
+#. Plugin Name of the plugin/theme
+msgid "PPV Live Webcams - Paid Videochat"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://videowhisper.com/?p=WordPress-PPV-Live-Webcams"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"<strong>VideoWhisper PPV Live Webcams - Paid Videochat</strong> solution can "
+"be used to build pay per minute (PPM) videochat sites.  Includes custom "
+"registration (performers, clients, studios), live webcams list, public lobby "
+"for each performer with live stream, multiple cams (angles) that can be "
+"broadcast by performer, custom tips with message and sound notification, "
+"private pay per minute private and group videochat shows, special ppm modes "
+"(voyeur, 2 way), HLS/MPEG stream delivery for mobile browsers, snapshot and "
+"video archiving,  presentation mode (with slideshow, annotations, file "
+"sharing)."
+msgstr ""
+"<strong> La solución VideoWhisper PPV Live Webcams - Paid Videochat </ "
+"strong> puede utilizarse para crear sitios de videochat de pago por minuto "
+"(PPM). Incluye registro personalizado (intérpretes, clientes, estudios), "
+"lista de webcams en vivo, lobby público para cada intérprete con transmisión "
+"en vivo, múltiples cámaras (ángulos) que pueden ser transmitidas por el "
+"artista intérprete o ejecutante, consejos personalizados con notificación de "
+"mensajes y sonido, pago privado por minuto privado y videochat de grupo "
+"muestra, modos especiales en ppm (voyeur, 2 vías), entrega de secuencias "
+"HLS / MPEG para navegadores móviles, captura de imágenes y archivos de "
+"video, modo de presentación (con presentación de diapositivas, anotaciones, "
+"intercambio de archivos)."
+
+#. Author of the plugin/theme
+#, fuzzy
+msgid "VideoWhisper.com"
+msgstr "VideoWhisper.com"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://videowhisper.com/"
+msgstr "https://videowhisper.com/"

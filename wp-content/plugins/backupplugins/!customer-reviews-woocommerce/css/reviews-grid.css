@@ -1,0 +1,193 @@
+.ivole-reviews-grid {
+	padding: 10px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	display: flex;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	border-radius: 5px;
+	margin: 0;
+	width: 100%;
+}
+
+.ivole-reviews-grid .ivole-review-card {
+	flex: 0 0 320px;
+	padding: 15px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: transparent;
+	border-radius: inherit;
+	width: 300px;
+	margin: 5px;
+	max-width: 100%;
+}
+
+.ivole-reviews-grid .breaker {
+	display: block;
+	margin: 5px 0px;
+	height: 0px;
+	width: 100%;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row {
+	display: flex;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating {
+	flex: 0 0 50%;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating .star-rating {
+	color: #6bba70;
+	font-size: 0.8em;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer {
+	flex: 0 0 50%;
+	text-align: right;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .rating .datetime {
+	font-size: 0.9em;
+	color: #676767;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-name {
+	line-height: 1;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-name .ivole-grid-country-icon {
+	height: 0.8em;
+	display: inline;
+	vertical-align: middle;
+	margin: 0 0 0 5px;
+}
+
+.ivole-reviews-grid .ivole-review-card .top-row .reviewer .reviewer-verified {
+	font-size: 0.9em;
+	color: #676767;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row {
+	display: flex;
+	margin-top: 2px;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-thumbnail {
+	flex-basis: 50px;
+	flex-shrink: 0;
+}
+
+.ivole-reviews-grid .ivole-review-card .middle-row .review-content {
+	flex-grow: 1;
+	padding-left: 15px;
+	line-height: 1.1;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row {
+	margin-top: 5px;
+	text-align: right;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row p.ivole-verified-badge {
+	margin: 0px;
+}
+
+.ivole-reviews-grid .ivole-review-card .verified-review-row .verified-badge-empty {
+	min-height: 20px;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product {
+	border-radius: inherit;
+	display: flex;
+	padding: 10px;
+	margin-top: 10px;
+	line-height: 1;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-thumbnail {
+	flex: 0 0 20%;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-thumbnail img {
+	width: 50px;
+	height: 50px;
+}
+
+.ivole-reviews-grid .ivole-review-card .review-product .product-title {
+	flex: 0 0 80%;
+	margin: auto;
+	padding-left: 10px;
+}
+
+p.ivole-verified-badge {
+	font-size: 12px;
+	vertical-align:middle;
+}
+
+span.ivole-verified-badge-text {
+	vertical-align:middle;
+}
+
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-icon,
+.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-icon,
+p.ivole-verified-badge img.ivole-verified-badge-icon,
+img.ivole-verified-badge-icon {
+	float: none;
+	height: 20px;
+	vertical-align:middle;
+	margin: 0px 5px 0px 0px;
+	display: inline;
+}
+
+.woocommerce #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce-page #content div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+.woocommerce-page div.product #reviews .comment img.ivole-verified-badge-ext-icon,
+p.ivole-verified-badge img.ivole-verified-badge-ext-icon,
+img.ivole-verified-badge-ext-icon {
+	float: none;
+	height: 11px;
+	width: 11px;
+	vertical-align:middle;
+	margin: 0px 0px 0px 5px;
+	display: inline;
+  }
+.ivole-reviews-grid .ivole-review-card .star-rating {
+    overflow: hidden;
+    position: relative;
+    height: 1em;
+    line-height: 1;
+    font-size: 1em;
+    width: 5.4em;
+    font-family: star
+}
+
+.ivole-reviews-grid .ivole-review-card .star-rating::before {
+    content: '\73\73\73\73\73';
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute
+}
+
+.ivole-reviews-grid .ivole-review-card .star-rating span {
+    overflow: hidden;
+    float: left;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding-top: 1.5em
+}
+
+.ivole-reviews-grid .ivole-review-card .star-rating span::before {
+    content: '\53\53\53\53\53';
+    top: 0;
+    position: absolute;
+    left: 0
+}

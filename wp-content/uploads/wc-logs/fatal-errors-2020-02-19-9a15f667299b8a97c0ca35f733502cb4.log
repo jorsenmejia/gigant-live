@@ -1,0 +1,68 @@
+2020-02-19T01:58:20+00:00 CRITICAL Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 280
+
+2020-02-19T01:58:53+00:00 CRITICAL syntax error, unexpected ')' in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 280
+
+2020-02-19T02:07:01+00:00 CRITICAL syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 280
+
+2020-02-19T02:07:32+00:00 CRITICAL syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 280
+
+2020-02-19T02:12:15+00:00 CRITICAL syntax error, unexpected 'isset' (T_ISSET), expecting '(' in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 280
+
+2020-02-19T02:42:33+00:00 CRITICAL Cannot redeclare businessbloomer_remove_prices() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1547) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 1547
+
+2020-02-19T02:42:49+00:00 CRITICAL Cannot redeclare businessbloomer_remove_prices() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1547) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 1547
+
+2020-02-19T02:43:13+00:00 CRITICAL Cannot redeclare businessbloomer_remove_prices() (previously declared in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1547) in /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/single-product-reviews.php on line 1547
+
+2020-02-19T03:16:47+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:10+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:11+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:19+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:25+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:27+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:17:52+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:18:38+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:19:27+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:22:50+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T03:22:51+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 185
+
+2020-02-19T05:33:32+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 187
+
+2020-02-19T05:33:56+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 187
+
+2020-02-19T05:34:23+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 187
+
+2020-02-19T07:15:08+00:00 CRITICAL Uncaught ReflectionException: Class get_appointments_for_user does not exist in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php:243
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php(243): ReflectionClass->__construct('get_appointment...')
+#1 /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php(218): printFunction(Array)
+#2 /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/wcfm-custom-menus.php(175): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): wcfm_csm_load_views('wcfm-upgrade')
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(871): do_action('before_wcfm_loa...', 'wcfm-upgrade')
+#7 / in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 243
+
+2020-02-19T08:04:19+00:00 CRITICAL syntax error, unexpected 'woocommerce_appointments_my_ap' (T_STRING), expecting ')' in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 186
+
+2020-02-19T08:56:59+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-comments.php:179
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(290): WC_Comments::add_comment_rating(221639)
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-includes/comment.php(2159): do_action('comment_post', 221639, 1, Array)
+#4 /home/gigant/public_html/wp-includes/comment.php(3378): wp_new_comment(Array, true)
+#5 /home/gigant/public_html/wp-comments-post.php(25): wp_handle_comment_submission(Array)
+#6 {main}
+  thrown in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-comments.php on line 179
+

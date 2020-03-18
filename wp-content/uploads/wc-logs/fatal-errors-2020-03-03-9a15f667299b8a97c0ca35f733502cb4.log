@@ -1,0 +1,535 @@
+2020-03-03T01:20:06+00:00 CRITICAL Uncaught Exception: Invalid appointment. in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-stores/class-wc-appointment-data-store.php:87
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): WC_Appointment_Data_Store->read(Object(WC_Appointment))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-appointment.php(159): WC_Data_Store->read(Object(WC_Appointment))
+#2 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php(27): WC_Appointment->__construct(84413)
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include('/home/gigant/pu...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#5 /home/gigant/public_html/wp-includes/cla in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-stores/class-wc-appointment-data-store.php on line 87
+
+2020-03-03T01:22:15+00:00 CRITICAL Uncaught Error: Call to a member function get_ID() on null in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php:127
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#2 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(992): do_action('wcfm_load_views', 'wcfm-appointmen...')
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/sh in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 127
+
+2020-03-03T02:34:20+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(735): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-03-03T03:45:05+00:00 CRITICAL Uncaught Error: Call to undefined function URP_Return_Pointers() in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php:310
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): URP_Set_Pointers('toplevel_page_E...')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'toplevel_page_E...')
+#4 /home/gigant/public_html/wp-admin/admin.php(234): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php on line 310
+
+2020-03-03T03:45:20+00:00 CRITICAL Uncaught Error: Call to undefined function URP_Return_Pointers() in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php:310
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): URP_Set_Pointers('toplevel_page_E...')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'toplevel_page_E...')
+#4 /home/gigant/public_html/wp-admin/admin.php(234): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php on line 310
+
+2020-03-03T03:45:59+00:00 CRITICAL Uncaught Error: Call to undefined function URP_Return_Pointers() in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php:310
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): URP_Set_Pointers('toplevel_page_E...')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-header.php(104): do_action('admin_enqueue_s...', 'toplevel_page_E...')
+#4 /home/gigant/public_html/wp-admin/admin.php(234): require_once('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Main.php on line 310
+
+2020-03-03T03:56:48+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T03:57:02+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T03:57:43+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T03:58:19+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T03:58:54+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T03:59:45+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:00:15+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:01:11+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:02:10+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:05:06+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:06:09+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:06:53+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:07:16+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:07:55+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T04:08:26+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T05:46:21+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T05:46:36+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:00:29+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:01:11+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:01:17+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:01:25+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:01:26+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:01:35+00:00 CRITICAL Uncaught Exception: Invalid order. in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-order.php(112): WC_Data_Store->read(Object(WC_Order))
+#2 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(629): WC_Abstract_Order->__construct('76486')
+#3 /home/gigant/public_html/wp-content/plugins/ultimate-reviews/Shortcodes/SubmitReview.php(100): EWD_URP_WooCommerce_Customer_Login()
+#4 /home/gigant/public_html/wp-includes/shortcodes.php(325): Insert_Review_Form(Array, '', 'submit-review')
+#5 [internal function]: do_shortcode_tag(Array)
+#6 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(submit...', 'do_shortcode_ta...' in /home/gigant/public_html/wp-content/plugins/woocommerce/includes/data-stores/abstract-wc-order-data-store-cpt.php on line 101
+
+2020-03-03T06:35:10+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(746): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-03-03T06:48:41+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(746): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-03-03T07:11:41+00:00 CRITICAL Uncaught Error: Call to a member function get_average_rating() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1637
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): get_star_ratings('', '', 'star-reviews')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(star\\-...', 'do_shortcode_ta...', '[star-reviews]')
+#3 /home/gigant/public_html/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[star-reviews]')
+#4 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#5 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/widget-base.php(644): Elementor\Widget_Base->render_content()
+#6 /home/gigant/public_html/wp-content/plugins/elementor/includes/base/element-base.php(746): Elementor\Widget_Base->get_raw_data(true)
+#7 /home/gigant/public_html/wp-conte in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1637
+
+2020-03-03T07:13:37+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:40+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:49+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:51+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:52+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:56+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:13:58+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:00+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:11+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:12+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:13+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:14+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:17+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:19+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:19+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:14:26+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1740
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(22): require_once('/home/gigant/pu...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1740
+
+2020-03-03T07:17:12+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1747
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1747
+
+2020-03-03T07:17:13+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1747
+Stack trace:
+#0 /home/gigant/public_html/wp-settings.php(497): include()
+#1 /home/gigant/public_html/wp-config.php(82): require_once('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-load.php(37): require_once('/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-blog-header.php(13): require_once('/home/gigant/pu...')
+#4 /home/gigant/public_html/index.php(17): require('/home/gigant/pu...')
+#5 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1747
+
+2020-03-03T07:44:14+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1746
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1746
+
+2020-03-03T07:44:46+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1746
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1746
+
+2020-03-03T07:46:47+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1746
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1746
+
+2020-03-03T07:53:57+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1745
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1745
+
+2020-03-03T08:15:10+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/class-wc-product-appointment-rule-manager.php on line 1204
+
+2020-03-03T18:35:15+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/class-wc-product-appointment-rule-manager.php on line 1096
+

@@ -1,0 +1,279 @@
+.elementor-353 .elementor-element.elementor-element-68648ee{margin-top:10px;margin-bottom:0px;padding:0px 20px 50px 20px;}.elementor-353 .elementor-element.elementor-element-89878c5 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-353 .elementor-element.elementor-element-a388895 > .elementor-column-wrap > .elementor-widget-wrap > .elementor-widget:not(.elementor-widget__width-auto):not(.elementor-widget__width-initial):not(:last-child):not(.elementor-absolute){margin-bottom:0px;}.elementor-353 .elementor-element.elementor-element-a388895 > .elementor-element-populated{padding:0px 10px 0px 0px;}.elementor-353 .elementor-element.elementor-element-1cf70a7{color:#000000;font-family:"Montserrat", montserrat;font-size:14.875px;font-weight:bold;}.elementor-353 .elementor-element.elementor-element-e3ec8ff > .elementor-widget-container{margin:0% 0% 0% 0%;}body.elementor-page-353{padding:0px 0px 0px 0px;}@media(min-width:768px){.elementor-353 .elementor-element.elementor-element-89878c5{width:18.038%;}.elementor-353 .elementor-element.elementor-element-1d82854{width:81.962%;}}@media(max-width:767px){.elementor-353 .elementor-element.elementor-element-68648ee{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}}/* Start custom CSS for page-settings */p span {
+    display: none;
+}
+#wcfmmp-stores-lists .right_side {
+    width: 98% !important;
+    padding: 2% 2% 0 2% !important;
+}
+
+.wide-span {
+    grid-column: span 2;
+    padding: 15px;
+    margin-right: 0px;
+    margin-left: 12px!important;
+}  
+
+
+.one.gridcell{
+    margin-left: -20px;
+    margin-right: -42px;
+    padding-top: 10px;
+    color: #242424 !important;
+}
+
+.one.gridcell a {
+    text-decoration: none !important;
+    color: #242424;
+}
+
+
+.two.gridcell {
+    margin-left: 35px;
+    text-align:right;
+    padding-right: 10px;
+    padding-top: 10px;
+     color: #242424;
+}
+.two.gridcell a {
+    text-decoration: none !important;
+}
+.three.gridcell {
+    margin-left: -20px;
+}
+.four.gridcell {
+    margin-left: -35px;
+    text-align:right;
+    padding-right: 10px;
+     color: #242424;
+}
+
+.five.gridcell {
+    margin-left: -20px;
+    margin-right: -35px;
+    font-size: 13px;
+     color: #242424;
+ 
+}
+
+.six.gridcell {
+    margin-left: -3px;
+    text-align:right;
+    padding-right: 10px;
+     color: #242424;
+}
+
+.seven.gridcell {
+    margin-left: -20px;
+}
+
+.seven.gridcell a {
+    text-decoration: none;
+}
+
+.gridcell {
+   border: none !important;
+}
+
+.wrapper {
+    font-family: montserrat;
+    font-size: 15px;
+        padding: 5px !important;
+        border:1px solid #CECECE !important;
+}
+img.img-size.wcfmmp_sold_by_logos {
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a#wcfm_follow_now {
+    padding: 8px;
+    background-color: #43cf62;
+    /* border: 1px solid black; */
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+}
+
+.con1.gridcell {
+    padding-right: 21px !important;
+    word-break: keep-all !important;
+    line-height: 1.5;
+}
+.con2.gridcell {
+    padding-left: 16px !important;
+    margin-left: -17px;
+}
+
+/*Header Text Decoration*/
+span.elementor-button-content-wrapper {
+    text-decoration: none;
+}
+
+.elementor-widget-container a {
+    text-decoration: none !important;
+}
+
+.service-title{
+    color:#242424;
+}
+
+
+	.toggleBtn {
+    font:14px noral Futura, sans-serif;
+    color:black;
+    cursor:pointer
+}
+.wrapper {
+    border-radius: 8px;
+}
+/*image radius*/
+img.img-size.wcfmmp_sold_by_logos {
+    border-radius: 5px;
+}
+/*wrapper shadow*/
+#wcfmmp-stores-lists {
+    box-shadow: 0 0 0 0 !important;
+ 
+}
+
+.wcfmmp-store-lists-sorting {
+    display: none;
+}
+
+
+img.img-size.wcfmmp_sold_by_logos {
+    border-radius: 50%!important;
+    height: 115px!Important;
+    padding-top: 5px!important;
+    padding-left: 5px!important;
+    width: 114px!important;
+}
+
+
+/*end header-text decoration*/
+
+
+/*ADDRESS*/
+.four.gridcell {
+    margin-left: -180px!important;
+    text-align: left!important;
+    padding-right: 10px;
+    color: #242424;
+    font-weight: 500;
+}
+
+/*View Featured Listing*/
+.toggleBtn {
+    font-family: montserrat!important;
+    color: #67A3DF!Important;
+}
+
+
+/*Style Start*/
+
+img.img-size.wcfmmp_sold_by_logos {
+    border-radius: 50%!important;
+    height: 95px!Important;
+    width: 80%!important;
+     margin-left: 8%;
+}
+
+
+.elementor-element.elementor-element-e3ec8ff.procss.elementor-widget.elementor-widget-text-editor {
+    margin-top: -6%!important;
+}
+
+.wcfmmp-stores-content {
+    margin-left: -2%;
+}
+
+.two.gridcell {
+    margin-left: 50px;
+}
+
+.one.gridcell {
+    margin-left: -29px;
+    color: #242424 !important;
+    padding-top: 0px !important;
+}
+
+
+.four.gridcell {
+    margin-left: -196px!important;
+    text-align: left!important;
+    color: #242424;
+    font-weight: 500;
+}
+
+.five.gridcell {
+    margin-left: -28px;
+    font-size: 13px;
+    color: #242424;
+}
+
+.image.gridcell {
+    background-color: #f2f2f2;
+    border-radius: 10px 0px 0px 0px;
+    width: 82%;
+}
+
+
+
+
+/*Style End*/
+
+
+
+@media(max-width: 1280px) and (min-width: 1141px){
+.four.gridcell {
+    margin-left: -170px!important;
+}
+
+a#wcfm_follow_now {
+    margin-left: -23px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+
+}
+}
+
+.wrapper {
+    background: -webkit-linear-gradient(right, white 74%, #F2F2F2 19%);
+}
+
+.image.gridcell {
+    background-color: none !important
+  
+}
+
+.wrapper {
+    padding: 3px 3px 11px 0px !important;
+}
+
+
+/**/
+
+@media(width: 1366px){
+    .toggleBtn {
+    margin-left: 70px!important;
+}
+}
+
+@media(width: 1920px){
+    .four.gridcell {
+    margin-left: -267px!Important;
+}
+.toggleBtn {
+    margin-left: 134px!Important;
+}
+
+.two.gridcell {
+    margin-left: 110px!important;
+}
+
+}/* End custom CSS */

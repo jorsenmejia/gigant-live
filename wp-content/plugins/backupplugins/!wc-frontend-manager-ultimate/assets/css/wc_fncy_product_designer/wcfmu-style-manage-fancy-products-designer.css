@@ -1,0 +1,7 @@
+ul#fpd-products-list, ul.fpd-views-list { margin: 0; }
+
+ul#fpd-products-list li {list-style:none;}
+
+[class^="fpd-admin-icon-"], [class*=" fpd-admin-icon-"] {color:#17a2b8;}
+
+a.fpd-duplicate-product, a.fpd-duplicate-view {display:none;}

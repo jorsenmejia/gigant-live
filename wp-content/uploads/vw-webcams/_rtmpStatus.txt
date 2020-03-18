@@ -1,0 +1,9 @@
+VideoWhisper Log for RTMP Session Control
+Server Date: 
+Wed Jan 15 9:03:23 UTC 2020
+$_POST:
+a:8:{s:12:"VideoWhisper";s:1:"1";s:5:"users";s:6:"a:0:{}";s:11:"rtpsessions";s:6:"a:0:{}";s:8:"appStart";s:13:"1577931256729";s:4:"call";s:6:"114233";s:12:"instanceInfo";s:79:"gigant/_definst_ Wed, Jan 1 2020 21:14:16 -0500 1577931256729 VideoWhisper v5.6";s:8:"licensed";s:4:"true";s:19:"videowhisperVersion";s:3:"5.6";}
+Control RTP Sessions: 
+a:0:{}
+Control RTMP Users: 
+a:0:{}

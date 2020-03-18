@@ -1,0 +1,62 @@
+2020-03-10T03:55:06+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 93
+
+2020-03-10T03:55:30+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 93
+
+2020-03-10T03:55:50+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 93
+
+2020-03-10T05:25:32+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment::get_items() in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1762
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): order_detail_page(Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-content/themes/storefront-child/woocommerce/order/order-details.php(100): do_action('woocommerce_ord...', Object(Automattic\WooCommerce\Admin\Overrides\Order))
+#4 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include('/home/gigant/pu...')
+#5 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-template-functions.php(2551): wc_get_template('order/order-det...', Array)
+#6 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): woocommerce_or in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1762
+
+2020-03-10T05:32:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function order_detail_page(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 83 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1755
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php(83): order_detail_page()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 / in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1755
+
+2020-03-10T05:32:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function order_detail_page(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 83 and exactly 1 expected in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1755
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php(83): order_detail_page()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 / in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1755
+
+2020-03-10T05:33:36+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment::get_items() in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1762
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php(83): order_detail_page(NULL)
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#4 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#5 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.ph in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1762
+
+2020-03-10T06:32:35+00:00 CRITICAL syntax error, unexpected '$product_id' (T_VARIABLE), expecting '(' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 101
+
+2020-03-10T06:33:06+00:00 CRITICAL Uncaught Error: Call to a member function get_field() on int in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php:101
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#2 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(992): do_action('wcfm_load_views', 'wcfm-appointmen...')
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/ in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 101
+
+2020-03-10T06:44:00+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 114
+
+2020-03-10T07:03:13+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 638
+
+2020-03-10T07:39:08+00:00 CRITICAL syntax error, unexpected end of file in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 676
+

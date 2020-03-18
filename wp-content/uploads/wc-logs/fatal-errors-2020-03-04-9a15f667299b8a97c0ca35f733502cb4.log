@@ -1,0 +1,139 @@
+2020-03-04T02:28:32+00:00 CRITICAL Uncaught Error: Call to a member function get_the_ID() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1746
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1746
+
+2020-03-04T02:38:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1746
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1746
+
+2020-03-04T02:45:38+00:00 CRITICAL Uncaught Error: Using $this when not in object context in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1745
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): {closure}('')
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/gigant/public_html/wp-admin/admin-ajax.php(175): do_action('wp_ajax_wcfmu_d...')
+#4 {main}
+  thrown in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1745
+
+2020-03-04T02:57:11+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 996 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(996): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:57:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 996 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(996): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:58:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 996 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(996): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:58:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 996 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(996): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:58:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:58:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:59:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T02:59:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:01:42+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:01:46+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:03:57+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:04:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:05:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+
+2020-03-04T03:05:04+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function do_action(), 0 passed in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php on line 995 and exactly 1 expected in /home/gigant/public_html/wp-includes/plugin.php:444
+Stack trace:
+#0 /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/products-manager/wcfm-view-products-manage.php(995): do_action()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-template.php(38): include('/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(888): WCFM_Template->get_template('products-manage...')
+#3 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-products-m...')
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sh in /home/gigant/public_html/wp-includes/plugin.php on line 444
+

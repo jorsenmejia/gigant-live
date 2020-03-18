@@ -1,0 +1,58 @@
+ffmpeg version N-94454-gad97be9 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-23)
+  configuration: --prefix=/root/ffmpeg_build --pkg-config-flags=--static --extra-cflags=-I/root/ffmpeg_build/include --extra-ldflags=-L/root/ffmpeg_build/lib --extra-libs=-lpthread --extra-libs=-lm --bindir=/root/bin --enable-gpl --enable-libfdk_aac --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-nonfree --enable-libspeex --enable-decoder=png --enable-encoder=png --enable-postproc --enable-openssl --enable-librtmp
+  libavutil      56. 33.100 / 56. 33.100
+  libavcodec     58. 55.100 / 58. 55.100
+  libavformat    58. 30.100 / 58. 30.100
+  libavdevice    58.  9.100 / 58.  9.100
+  libavfilter     7. 58.100 /  7. 58.100
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Metadata:
+  title                 paidvideochat
+  copyright             Published with VideoWhisper.com Software
+  codec                 H264Avc
+  keyFrameInterval      15.00
+  bandwith              75000.00
+  profile               main
+  width                 640.00
+  fps                   30.00
+  level                 3.1
+  height                480.00
+Input #0, flv, from 'rtmp://r1.webrtchost.com/gigant?ffmpeg_paidvideochat&paidvideochat&5b1e691fa4ee67454a64172329905101&0&videowhisper/paidvideochat':
+  Metadata:
+    title           : paidvideochat
+    copyright       : Published with VideoWhisper.com Software
+    codec           : H264Avc
+    keyFrameInterval: 15
+    bandwith        : 75000
+    profile         : main
+    fps             : 30
+    level           : 3.1
+  Duration: N/A, start: 0.000000, bitrate: N/A
+    Stream #0:0: Video: h264 (Main), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], 30.30 fps, 5 tbr, 1k tbn, 60 tbc
+    Stream #0:1: Audio: nellymoser, 22050 Hz, mono, flt
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (nellymoser (native) -> aac (libfdk_aac))
+Press [q] to stop, [?] for help
+Output #0, flv, to 'rtmp://r1.webrtchost.com/gigant?i_paidvideochat&paidvideochat&cf4e44ccb1966e59e9ab1dc3e31a7611&1&28&videowhisper/i_paidvideochat':
+  Metadata:
+    title           : paidvideochat
+    copyright       : Published with VideoWhisper.com Software
+    codec           : H264Avc
+    keyFrameInterval: 15
+    bandwith        : 75000
+    profile         : main
+    fps             : 30
+    level           : 3.1
+    encoder         : Lavf58.30.100
+    Stream #0:0: Video: h264 (Main) ([7][0][0][0] / 0x0007), yuv420p(tv, progressive), 640x480 [SAR 1:1 DAR 4:3], q=2-31, 30.30 fps, 5 tbr, 1k tbn, 1k tbc
+    Stream #0:1: Audio: aac (libfdk_aac) ([10][0][0][0] / 0x000A), 22050 Hz, mono, s16, 96 kb/s
+    Metadata:
+      encoder         : Lavc58.55.100 libfdk_aac
+[flv @ 0x4036580] Failed to update header with correct duration.
+[flv @ 0x4036580] Failed to update header with correct filesize.
+frame=    8 fps=0.0 q=-1.0 Lsize=     149kB time=00:00:07.10 bitrate= 171.3kbits/s speed=25.4x    
+video:61kB audio:84kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 2.293926%

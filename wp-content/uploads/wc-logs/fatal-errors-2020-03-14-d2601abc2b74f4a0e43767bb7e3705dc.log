@@ -1,0 +1,115 @@
+2020-03-14T03:08:29+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/rod/public_html/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-mysqli.php on line 45
+
+2020-03-14T03:08:39+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/rod/public_html/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-mysqli.php on line 45
+
+2020-03-14T03:08:49+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/rod/public_html/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-mysqli.php on line 45
+
+2020-03-14T03:09:00+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/rod/public_html/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-mysqli.php on line 45
+
+2020-03-14T03:09:26+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 73728 bytes) in /home/rod/public_html/wp-content/plugins/all-in-one-wp-migration/lib/vendor/servmask/database/class-ai1wm-database-mysqli.php on line 45
+
+2020-03-14T07:00:40+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#2 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#3 /home/rod/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/rod/public_html/wp-cont in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-03-14T07:01:51+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#2 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#3 /home/rod/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/rod/public_html/wp-cont in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-03-14T07:03:37+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include()
+#1 /home/rod/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#2 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/rod/publi...')
+#3 /home/rod/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/rod/public_html/wp-cont in /home/rod/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-03-14T10:09:05+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T10:12:11+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T10:12:12+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T10:12:17+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php on line 622
+
+2020-03-14T10:45:55+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T11:20:14+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T11:58:51+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T12:27:31+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:19:18+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:20:20+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:20:27+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:24:42+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:33:31+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:36:29+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php on line 622
+
+2020-03-14T13:41:04+00:00 CRITICAL Uncaught Error: Call to undefined function iconv() in /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php:3589
+Stack trace:
+#0 /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php(1079): elFinder->put(Array)
+#1 /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinderConnector.class.php(160): elFinder->exec('put', Array)
+#2 /home/rod/public_html/wp-content/plugins/wp-file-manager/file_folder_manager.php(790): elFinderConnector->run()
+#3 /home/rod/public_html/wp-includes/class-wp-hook.php(286): mk_file_folder_manager->mk_file_folder_manager_action_callback('')
+#4 /home/rod/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/rod/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /home/rod/public_html/wp-admin/admin-ajax.php(173): do_action('wp_ajax_mk_file...')
+#7 {main}
+  thrown in /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php on line 3589
+
+2020-03-14T13:41:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:41:30+00:00 CRITICAL Uncaught Error: Call to undefined function iconv() in /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php:3589
+Stack trace:
+#0 /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php(1079): elFinder->put(Array)
+#1 /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinderConnector.class.php(160): elFinder->exec('put', Array)
+#2 /home/rod/public_html/wp-content/plugins/wp-file-manager/file_folder_manager.php(790): elFinderConnector->run()
+#3 /home/rod/public_html/wp-includes/class-wp-hook.php(286): mk_file_folder_manager->mk_file_folder_manager_action_callback('')
+#4 /home/rod/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#5 /home/rod/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#6 /home/rod/public_html/wp-admin/admin-ajax.php(173): do_action('wp_ajax_mk_file...')
+#7 {main}
+  thrown in /home/rod/public_html/wp-content/plugins/wp-file-manager/lib/php/elFinder.class.php on line 3589
+
+2020-03-14T13:45:10+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:48:34+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:51:41+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T13:51:50+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T14:05:55+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T14:06:03+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/widget-base.php on line 156
+
+2020-03-14T14:06:12+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-content/plugins/elementor/includes/base/controls-stack.php on line 622
+
+2020-03-14T14:15:23+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 634880 bytes) in /home/rod/public_html/wp-includes/shortcodes.php on line 467
+
+2020-03-14T14:15:39+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 634880 bytes) in /home/rod/public_html/wp-includes/shortcodes.php on line 467
+
+2020-03-14T14:16:01+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 20480 bytes) in /home/rod/public_html/wp-includes/wp-db.php on line 1972
+
+2020-03-14T14:17:15+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 634880 bytes) in /home/rod/public_html/wp-includes/shortcodes.php on line 467
+
+2020-03-14T14:19:05+00:00 CRITICAL Allowed memory size of 134217728 bytes exhausted (tried to allocate 634880 bytes) in /home/rod/public_html/wp-includes/shortcodes.php on line 467
+

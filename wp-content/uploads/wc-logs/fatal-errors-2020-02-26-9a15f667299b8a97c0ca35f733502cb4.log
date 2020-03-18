@@ -1,0 +1,212 @@
+2020-02-26T02:31:04+00:00 CRITICAL syntax error, unexpected ''<div class="three gridcell"><' (T_ENCAPSED_AND_WHITESPACE) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1217
+
+2020-02-26T02:31:25+00:00 CRITICAL syntax error, unexpected ''<div class="three gridcell"><' (T_ENCAPSED_AND_WHITESPACE) in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1217
+
+2020-02-26T05:32:27+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-02-26T06:41:51+00:00 CRITICAL Uncaught Error: Call to undefined function get_appointments_for_user() in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1702
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/w in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1702
+
+2020-02-26T06:45:54+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1706
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1706
+
+2020-02-26T06:47:31+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1702
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/pl in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1702
+
+2020-02-26T06:48:20+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1707
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/pl in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1707
+
+2020-02-26T06:48:34+00:00 CRITICAL Uncaught Error: Call to a member function get_start() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1703
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1703
+
+2020-02-26T06:49:33+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1707
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/pl in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1707
+
+2020-02-26T06:51:02+00:00 CRITICAL Uncaught Error: Call to a member function get_product_name() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1705
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp- in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1705
+
+2020-02-26T06:51:19+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1707
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/pl in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1707
+
+2020-02-26T06:53:19+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1711
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1711
+
+2020-02-26T06:53:23+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1711
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1711
+
+2020-02-26T06:53:39+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1711
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1711
+
+2020-02-26T06:53:53+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1711
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1711
+
+2020-02-26T06:54:00+00:00 CRITICAL Uncaught Error: Function name must be a string in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1711
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-content/plugins/elemen in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1711
+
+2020-02-26T07:06:52+00:00 CRITICAL Uncaught Error: Call to undefined function get_appointment_statuses() in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php:9
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/wcfm-custom-menus.php(175): require_once()
+#1 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): wcfm_csm_load_views('wcfm-upgrade')
+#2 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#3 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#4 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(871): do_action('before_wcfm_loa...', 'wcfm-upgrade')
+#5 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/includes/shortcodes/class-wcfm-shortcode-wc-frontend-manager.php(42): WCFM_Library->load_views('wcfm-upgrade')
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-shortcode.php(99): WCFM_Frontend_Manager_Sho in /home/gigant/public_html/wp-content/plugins/wcfm-custom-menus/views/wcfm-views-upgrade.php on line 9
+
+2020-02-26T07:54:24+00:00 CRITICAL Uncaught Error: Call to a member function get_top_seller() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1719
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-co in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1719
+
+2020-02-26T07:55:01+00:00 CRITICAL Uncaught Error: Call to a member function get_top_seller() on null in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php:1719
+Stack trace:
+#0 /home/gigant/public_html/wp-includes/shortcodes.php(325): pendingstatus('', '', 'pending_status')
+#1 [internal function]: do_shortcode_tag(Array)
+#2 /home/gigant/public_html/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(displa...', 'do_shortcode_ta...', '\t\t<div data-ele...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): do_shortcode('\t\t<div data-ele...')
+#4 /home/gigant/public_html/wp-includes/plugin.php(206): WP_Hook->apply_filters('\t\t<div data-ele...', Array)
+#5 /home/gigant/public_html/wp-includes/post-template.php(253): apply_filters('the_content', '<ul>\n\t\t\t\t\t\t\t<li...')
+#6 /home/gigant/public_html/wp-content/plugins/elementor/modules/page-templates/module.php(176): the_content()
+#7 [internal function]: Elementor\Modules\PageTemplates\Module->print_callback()
+#8 /home/gigant/public_html/wp-co in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 1719
+
+2020-02-26T08:06:23+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+

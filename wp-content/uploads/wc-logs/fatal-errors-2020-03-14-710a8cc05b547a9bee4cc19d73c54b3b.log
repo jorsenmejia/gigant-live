@@ -1,0 +1,56 @@
+2020-03-14T01:44:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-14T02:55:39+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 66
+
+2020-03-14T02:58:00+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 63
+
+2020-03-14T02:58:22+00:00 CRITICAL syntax error, unexpected '.', expecting end of file in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 67
+
+2020-03-14T03:40:19+00:00 CRITICAL syntax error, unexpected '"', expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 265
+
+2020-03-14T03:40:37+00:00 CRITICAL syntax error, unexpected '"', expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 265
+
+2020-03-14T03:51:15+00:00 CRITICAL syntax error, unexpected '" method ='POST' class='needs-' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 279
+
+2020-03-14T03:51:33+00:00 CRITICAL syntax error, unexpected '" method ='POST' class='needs-' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 279
+
+2020-03-14T03:53:23+00:00 CRITICAL syntax error, unexpected '" method ='POST' class='needs-' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 279
+
+2020-03-14T06:05:36+00:00 CRITICAL syntax error, unexpected '" method ="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 254
+
+2020-03-14T06:06:58+00:00 CRITICAL syntax error, unexpected '" method ="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 254
+
+2020-03-14T06:08:26+00:00 CRITICAL syntax error, unexpected '"', expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 254
+
+2020-03-14T06:09:12+00:00 CRITICAL syntax error, unexpected '"', expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 254
+
+2020-03-14T06:30:05+00:00 CRITICAL syntax error, unexpected '.' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 278
+
+2020-03-14T06:30:51+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 278
+
+2020-03-14T06:46:54+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php:422
+Stack trace:
+#0 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(119) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php on line 422
+
+2020-03-14T06:56:19+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php:422
+Stack trace:
+#0 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(119) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php on line 422
+
+2020-03-14T07:37:42+00:00 CRITICAL syntax error, unexpected 'wp_safe_redirect' (T_STRING) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 57
+
+2020-03-14T07:38:51+00:00 CRITICAL syntax error, unexpected 'wp_safe_redirect' (T_STRING) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 57
+
+2020-03-14T07:39:09+00:00 CRITICAL syntax error, unexpected 'wp_safe_redirect' (T_STRING) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 57
+
+2020-03-14T07:39:22+00:00 CRITICAL syntax error, unexpected 'wp_safe_redirect' (T_STRING) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 57
+
+2020-03-14T08:10:52+00:00 CRITICAL syntax error, unexpected '<' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 173
+

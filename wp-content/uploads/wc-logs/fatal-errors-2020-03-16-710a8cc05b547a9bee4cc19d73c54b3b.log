@@ -1,0 +1,4 @@
+2020-03-16T00:45:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-frontend-manager-elementor\includes\Controls\SortableList.php on line 5
+
+2020-03-16T00:45:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\ajax-login-and-registration-modal-popup-pro\free\includes\settings\class-settings-field--password.php on line 31
+

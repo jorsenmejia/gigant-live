@@ -12,16 +12,16 @@
 get_header();
 ?>
 
-	<div id="primary" class="content-area">
+	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
 
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
 				<h1 class="page-title">
-					<?php _e( 'Search results for: ', 'twentynineteen' ); ?>
-					<span class="page-description"><?php echo get_search_query(); ?></span>
+					<?php _e( 'Search results for:', 'twentynineteen' ); ?>
 				</h1>
+				<div class="page-description"><?php echo get_search_query(); ?></div>
 			</header><!-- .page-header -->
 
 			<?php
@@ -49,7 +49,7 @@ get_header();
 		endif;
 		?>
 		</main><!-- #main -->
-	</div><!-- #primary -->
+	</section><!-- #primary -->
 
 <?php
 get_footer();

@@ -1,0 +1,13 @@
+ffmpeg version N-94454-gad97be9 Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 4.4.7 (GCC) 20120313 (Red Hat 4.4.7-23)
+  configuration: --prefix=/root/ffmpeg_build --pkg-config-flags=--static --extra-cflags=-I/root/ffmpeg_build/include --extra-ldflags=-L/root/ffmpeg_build/lib --extra-libs=-lpthread --extra-libs=-lm --bindir=/root/bin --enable-gpl --enable-libfdk_aac --enable-libfreetype --enable-libmp3lame --enable-libopus --enable-libvorbis --enable-libvpx --enable-libx264 --enable-libx265 --enable-nonfree --enable-libspeex --enable-decoder=png --enable-encoder=png --enable-postproc --enable-openssl --enable-librtmp
+  libavutil      56. 33.100 / 56. 33.100
+  libavcodec     58. 55.100 / 58. 55.100
+  libavformat    58. 30.100 / 58. 30.100
+  libavdevice    58.  9.100 / 58.  9.100
+  libavfilter     7. 58.100 /  7. 58.100
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+[rtsp @ 0x3e1f480] method DESCRIBE failed: 404 Not Found
+rtsp://r1.webrtchost.com:1935/gigant/growers?channel_id=28876&userID=&key=ae66e3cfd74d822311520a28a98bbe64&ip=198.27.106.24&transcoding=1&room=Karl&privateUID=0: Server returned 404 Not Found

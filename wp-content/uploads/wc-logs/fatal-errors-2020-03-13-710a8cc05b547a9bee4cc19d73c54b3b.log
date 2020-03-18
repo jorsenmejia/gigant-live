@@ -1,0 +1,51 @@
+2020-03-13T01:51:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\content-control\classes\Admin\Widget\Settings.php on line 8
+
+2020-03-13T01:51:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\ti-woocommerce-wishlist\integrations\wp-fastest-cache.php on line 16
+
+2020-03-13T02:39:17+00:00 CRITICAL syntax error, unexpected ''woocommerce_admin_order_data_' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1767
+
+2020-03-13T02:39:19+00:00 CRITICAL syntax error, unexpected ''woocommerce_admin_order_data_' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1767
+
+2020-03-13T02:39:32+00:00 CRITICAL syntax error, unexpected ''woocommerce_admin_order_data_' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1767
+
+2020-03-13T02:39:36+00:00 CRITICAL syntax error, unexpected ''woocommerce_admin_order_data_' (T_ENCAPSED_AND_WHITESPACE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1767
+
+2020-03-13T02:47:34+00:00 CRITICAL syntax error, unexpected '$current_user' (T_VARIABLE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 186
+
+2020-03-13T02:47:46+00:00 CRITICAL syntax error, unexpected '$current_user' (T_VARIABLE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 186
+
+2020-03-13T02:51:32+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 168
+
+2020-03-13T02:52:15+00:00 CRITICAL syntax error, unexpected '$current_user' (T_VARIABLE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 186
+
+2020-03-13T03:00:00+00:00 CRITICAL syntax error, unexpected '$current_user' (T_VARIABLE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\woocommerce\myaccount\appointments.php on line 190
+
+2020-03-13T03:09:09+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store-session.php:96
+Stack trace:
+#0 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): WC_Customer_Data_Store_Session->read(Object(WC_Customer))
+#1 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-customer.php(116): WC_Data_Store->read(Object(WC_Customer))
+#2 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(1187): WC_Customer->__construct(1, true)
+#3 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(209): WC_Checkout->get_value('billing_country')
+#4 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-checkout.php(148): WC_Checkout->get_checkout_fields()
+#5 C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php(1775): WC_Checkout- in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\data-stores\class-wc-customer-data-store-session.php on line 96
+
+2020-03-13T03:35:13+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php:422
+Stack trace:
+#0 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(251): include()
+#1 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\wc-core-functions.php(270): wc_get_template('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#2 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', 'C:\\xampp2\\htdoc...')
+#3 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\emails\class-wc-email.php(540): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\includes\store-emails\class-wcfmmp-email-store-new-order.php(119) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\views\emails\store-new-order.php on line 422
+
+2020-03-13T04:11:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-13T04:11:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-13T04:11:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-13T04:11:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-13T05:14:00+00:00 CRITICAL Out of memory (allocated 23068672) (tried to allocate 32768 bytes) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-vendor.php on line 1954
+
+2020-03-13T05:35:14+00:00 CRITICAL syntax error, unexpected '" method="' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\wcfm\wc_appointments\wcfmu-view-wcappointments-details.php on line 255
+

@@ -1,0 +1,1471 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YIT WooCommerce Advanced Reviews\n"
+"POT-Creation-Date: 2018-10-22 12:35+0100\n"
+"PO-Revision-Date: 2018-10-22 12:36+0100\n"
+"Last-Translator: \n"
+"Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPathExcluded-0: ../plugin-fw\n"
+
+#: ../functions.php:89
+msgid ""
+"YITH WooCommerce Advanced Reviews is enabled but not effective. It requires "
+"WooCommerce in order to work."
+msgstr ""
+"YITH WooCommerce Advanced Reviews is ingeschakeld, maar niet effectief. Het "
+"vereist WooCommerce om te kunnen werken."
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:53
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1796
+msgid "Author"
+msgstr "Author"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:54
+msgid "Review"
+msgstr "Review"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:55
+msgid "Date"
+msgstr "Datum"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:56
+msgid "Rate"
+msgstr "Rate"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:57
+#: ../templates/reports/class.ywar-review-report.php:136
+msgid "Product"
+msgstr "Product"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:343
+#: ../includes/class.yith-advanced-reviews-list-table.php:442
+msgid "Restore"
+msgstr "Herstellen"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:344
+msgid "Move to bin"
+msgstr "Verplaats naar prullebak"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:346
+#: ../includes/class.yith-advanced-reviews-list-table.php:447
+msgid "Delete permanently"
+msgstr "Verwijder permanent"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:347
+msgid "Approve reviews"
+msgstr "Beoordelingen goedkeuren"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:348
+msgid "Unapprove reviews"
+msgstr "Reviews afkeuren"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:361
+msgid "All"
+msgstr "Alle"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:362
+#: ../includes/class.yith-advanced-reviews-list-table.php:444
+msgid "Bin"
+msgstr "Prullebak"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:363
+msgid "Not approved"
+msgstr "Afgekeurd"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:419
+msgid "[No Title]"
+msgstr "[Geen Titel]"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:427
+#, php-format
+msgctxt "a link from a reply that points to the parent review"
+msgid "In reply to %s"
+msgstr "In beantwoording op %s"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:463
+#: ../templates/ywar-review.php:64
+#, php-format
+msgid "Rated %d out of 5"
+msgstr "Geschat %d uit 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:465
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2012
+#: ../templates/ywar-review.php:66
+msgid "out of 5"
+msgstr "Uit 5"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:484
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1372
+msgid "Edit"
+msgstr "Bewerk"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:487
+msgid "View"
+msgstr "Weergeef"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:503
+#: ../templates/ywar-review.php:40
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:514
+msgid "Y/m/d g:i:s a"
+msgstr "J/m/d g:i:s a"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:521
+#, php-format
+msgid "%s ago"
+msgstr "%s geleden"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:523
+msgid "Y/m/d"
+msgstr "J/m/d"
+
+#: ../includes/class.yith-advanced-reviews-list-table.php:560
+msgid "No reviews found."
+msgstr "Geen reviews gevonden."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:495
+msgid "Add to featured"
+msgstr "Voeg toe aan featured"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:496
+msgid "Remove from featured"
+msgstr "Verwijderen uit aanbevolen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:497
+msgid "Block replies"
+msgstr "Blokkeer antwoorden"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:498
+msgid "Unblock replies"
+msgstr "Antwoorden Deblokkeren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:555
+msgid "Inappropriate content"
+msgstr "Ongepaste inhoud"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:556
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:924
+msgid "Reply blocked"
+msgstr "Antwoord geblokkeerd"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:557
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:923
+msgid "Featured"
+msgstr "Featured"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:564
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:327
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:328
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:349
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:947
+#: ../templates/reports/class.ywar-review-report.php:137
+#: ../templates/ywar-product-reviews.php:42
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:567
+msgid "By most commented"
+msgstr "Met meeste antwoorden"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:573
+msgid "By average rate"
+msgstr "Met beste stemmen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:579
+msgid "By min rate"
+msgstr "Bij minimale stemmen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:585
+msgid "By max rate"
+msgstr "Bij hoogste stemming"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:800
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2100
+msgid "Impossible to filter by rate"
+msgstr "Niet mogelijk om te filteren op stemmen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:922
+msgid "Inappropriate"
+msgstr "Ongepast"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:959
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:964
+msgid "Report for inappropriate content"
+msgstr "Meld voor ongepaste inhoud"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:980
+msgid "Select/Deselect this as a featured review"
+msgstr "Selecteer / Deselecteer dit als een aanbevolen recensie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:997
+msgid "Select/Deselect to block any reply of this review"
+msgstr "Selecteer / Deselecteer om elk antwoord van deze recensie te blokkeren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1225
+msgid "Flag as inappropriate content"
+msgstr "Markeren als ongepaste inhoud"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1283
+msgid "Reply to a previous review"
+msgstr "Antwoord op een eerdere beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1284
+msgid "Reply"
+msgstr "Antwoord"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1348
+msgid "This review cannot receive replies"
+msgstr "Deze beoordeling kan geen antwoorden ontvangen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1348
+msgid "Block reply"
+msgstr "Antwoord blokkeren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1351
+msgid "This review cannot receive comments."
+msgstr "Deze beoordeling kan geen opmerkingen ontvangen."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1354
+msgid "Allow replies"
+msgstr "Laat antwoorden toe"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1354
+msgid "Allow reply"
+msgstr "Laat antwoord toe"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1368
+msgid "Edit to a previous review"
+msgstr "Bewerken naar een eerdere beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1472
+msgid "Was this review helpful to you?"
+msgstr "Was deze beoordeling nuttig voor u?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1473
+msgid "This reviews is helpful"
+msgstr "Deze beoordeling is nuttig"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1474
+msgid "This reviews is not helpful"
+msgstr "Deze beoordeling is niet nuttig"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1501
+msgid "Most recent reviews"
+msgstr "Meest recente beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1502
+msgid "Most helpful reviews"
+msgstr "Meest nuttige beoordelingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1543
+#, php-format
+msgid "Reviews with %s star"
+msgid_plural "Reviews with %s stars"
+msgstr[0] "Reviews met %s ster"
+msgstr[1] "Reviews met %s sterren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1574
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2157
+msgid "star"
+msgid_plural "stars"
+msgstr[0] "ster"
+msgstr[1] "sterren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1575
+#, php-format
+msgid "%d reviews with rating of %s %s (%s of %s)"
+msgstr "%d beoordeling met  %s %s (%s of %s)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1577
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2163
+msgid "(Show unfiltered results)"
+msgstr "(Toon ongefilterde resultaten)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1633
+msgctxt "The user tried to upload more files than allowed."
+msgid "Too many files selected!"
+msgstr "Te veel bestanden geselecteerd!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1634
+msgctxt "The user tried to upload files with extension or size not allowed."
+msgid ""
+"One or more file was not accepted because do not match the expected "
+"requirements"
+msgstr ""
+"Een of meer bestanden zijn niet geaccepteerd omdat ze niet overeenkomen met "
+"de verwachte vereisten"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1635
+msgctxt "No attachment is selected"
+msgid "No Files Selected"
+msgstr "Geen bestanden geselecteerd"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1660
+msgid "Please, write a review"
+msgstr "Schrijf alsjeblieft een beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1661
+msgid "Please, select a rating before submitting your review"
+msgstr "Selecteer een beoordeling voordat u uw beoordeling verzendt"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1662
+msgid "Edit review"
+msgstr "Beoordeling bewerken"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1663
+#: ../plugin-options/premium-options.php:113
+msgid "Reply to review"
+msgstr "Antwoord op recensie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1664
+#: ../templates/ywar-product-reviews.php:77
+msgid "Add a review"
+msgstr "Voeg een beoordeling toe"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:1958
+msgid "Thanks for your message, we will check the content of the review."
+msgstr ""
+"Bedankt voor uw bericht, we zullen de inhoud van de beoordeling controleren."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2022
+#, php-format
+msgid "%s of %s people found this review helpful"
+msgstr "%s van %s mensen vonden deze beoordeling nuttig"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2069
+msgid "Product ID is not valid"
+msgstr "Product ID is niet geldig"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2077
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2197
+msgid "Product ID is in an invalid format"
+msgstr "Product-ID heeft een ongeldig formaat"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2160
+#, php-format
+msgid "%d reviews with rate of %d %s (%d of %d)"
+msgstr "%d recensies met percentage van% d% s (% d van% d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2492
+#: ../plugin-options/premium-options.php:67
+msgid ""
+"Only allow one review for a product. Require \"Only allow reviews from "
+"verified owners\" to be set to work properly"
+msgstr ""
+"Laat slechts één recensie voor een product toe. Vereisen dat alleen "
+"beoordelingen van geverifieerde eigenaren mogen worden ingeschakeld om "
+"correct te kunnen werken"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2521
+msgid ""
+"You can't add more than one review for this product. Would you like to edit "
+"the review you have already written?"
+msgstr ""
+"U kunt niet meer dan één beoordeling voor dit product toevoegen. Wilt u de "
+"beoordeling die u al hebt geschreven bewerken?"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-premium.php:2568
+msgid ""
+"Bots are not allowed to submit comments. If you are not a bot then please "
+"enable JavaScript in browser."
+msgstr ""
+"Bots hebben geen toestemming om opmerkingen te plaatsen. Als je geen bot bent "
+"schakel JavaScript in in browser."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:28
+msgctxt "Privacy Policy Content"
+msgid "YITH Advanced Reviews for WooCommerce premium"
+msgstr "YITH Advanced Reviews for WooCommerce premium"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:77
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:195
+msgctxt "GDPR privacy"
+msgid "Yith Advanced Reviews"
+msgstr "Yith Advanced Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:167
+msgctxt "GDPR privacy"
+msgid "Reviews"
+msgstr "Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:243
+msgctxt "GDPR privacy"
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews-privacy.php:266
+#, php-format
+msgid "Review %d contains personal data but could not be anonymized."
+msgstr ""
+"Review %d bevat persoonlijke gegevens maar kon niet anoniem gemaakt worden."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:291
+msgid "Review title"
+msgstr "Weergeef titel"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:545
+msgid "Approve review"
+msgstr "Beoordeling goedkeuren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:545
+msgid "Approve"
+msgstr "Goedkeuren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:547
+msgid "Unapprove review"
+msgstr "Beoordeling afkeuren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:547
+msgid "Unapprove"
+msgstr "Afkeuren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:617
+#, php-format
+msgid "Rated %s out of 5 stars"
+msgstr "Rated% s van de 5 sterren"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:627
+msgid " review"
+msgid_plural " reviews"
+msgstr[0] " review"
+msgstr[1] " reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:675
+msgctxt "Plugin Row Meta"
+msgid "Live Demo"
+msgstr "Live Demo"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:681
+msgctxt "Plugin Row Meta"
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:687
+msgid "Support"
+msgstr "Support"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:695
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:746
+msgid "Premium version"
+msgstr "Premium versie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:724
+msgid "Settings"
+msgstr "Instellingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:727
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:809
+msgid "Premium Version"
+msgstr "Premium Versie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:731
+msgid "License"
+msgstr "Licentie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:745
+msgid ""
+"YITH WooCommerce Advanced Reviews is available in an outstanding PREMIUM "
+"version with many new options, discover it now."
+msgstr ""
+"YITH WooCommerce Advanced Reviews is beschikbaar in een uitstekende PREMIUM-"
+"versie met veel nieuwe opties, ontdek deze nu."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:753
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:765
+msgid "YITH WooCommerce Advanced Reviews"
+msgstr "YITH WooCommerce Advanced Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:754
+msgid ""
+"In YIT Plugins tab you can find YITH WooCommerce Advanced Reviews options. "
+"From this menu you can access all settings of YITH plugins activated."
+msgstr ""
+"Op het tabblad YIT-plug-ins vindt u de opties YITH WooCommerce Advanced "
+"Reviews. Vanuit dit menu hebt u toegang tot alle instellingen van "
+"geactiveerde YITH-plug-ins."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:766
+msgid ""
+"From now on, you can find all YITH WooCommerce Advanced Reviews options in "
+"YIT Plugin -> Advanced Reviews instead of WooCommerce -> Settings -> Advanced "
+"Reviews, as in the previous version. Any time one of our plugins is updated, "
+"a new entry will be added to this menu."
+msgstr ""
+"Vanaf nu kun je alle YITH WooCommerce Advanced Reviews-opties vinden in YIT "
+"Plugin -> Advanced Reviews in plaats van WooCommerce -> Instellingen -> "
+"Advanced Reviews, zoals in de vorige versie. Telkens wanneer een van onze "
+"plug-ins wordt bijgewerkt, wordt een nieuw item aan dit menu toegevoegd."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:802
+msgid "General"
+msgstr "Algemeen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:803
+msgid "Layout"
+msgstr "Lay-out"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:807
+msgid "Voting/Review settings"
+msgstr "Stem / Review-instellingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:815
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:816
+msgid "Advanced Reviews"
+msgstr "Advanced Reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:874
+msgid "Too many files selected!"
+msgstr "Te veel bestanden geselecteerd!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:875
+msgid "No Files Selected"
+msgstr "Geen bestanden geselecteerd!"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:945
+msgctxt "Post Type General Name"
+msgid "Reviews"
+msgstr "Beoordelingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:946
+msgctxt "Post Type Singular Name"
+msgid "Review"
+msgstr "Beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:948
+msgid "Parent Review"
+msgstr "Ouder Beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:949
+msgid "All reviews"
+msgstr "Alle beoordelingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:950
+msgid "View review"
+msgstr "Bekijk beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:951
+msgid "Add New Review"
+msgstr "Voeg nieuwe beoordeling toe"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:952
+msgid "Add New"
+msgstr "Voeg nieuwe toe"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:953
+msgid "Edit Review"
+msgstr "Bewerk beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:954
+msgid "Update Review"
+msgstr "Update weergeven"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:955
+msgid "Search Review"
+msgstr "Zoek Beoordeling"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:956
+msgid "Not Found"
+msgstr "Niet Gevonden"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:957
+msgid "Not found in bin"
+msgstr "Niet gevonden in prullenbak"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:963
+msgid "YIT Product reviews"
+msgstr "YITH Product reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:964
+msgid "Advanced WooCommerce product reviews"
+msgstr "Advanced WooCommerce product reviews"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1535
+msgid "Your Rating"
+msgstr "Uw Stem"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1537
+msgid "Rate&hellip;"
+msgstr "Rate&hellip;"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1538
+msgid "Perfect"
+msgstr "Perfect"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1539
+msgid "Good"
+msgstr "Goed"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1540
+msgid "Average"
+msgstr "Gemiddeld"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1541
+msgid "Not that bad"
+msgstr "Niet slecht"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1542
+msgid "Very Poor"
+msgstr "Slecht"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1551
+msgid "Attachments"
+msgstr "Bijlages"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1552
+msgid "Choose file(s)"
+msgstr "Kies bestand(en)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1557
+#, php-format
+msgid "Use one of the allowed file type: %s. "
+msgstr "Gebruik een van de toegestane bestandstypen: %s."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1561
+#, php-format
+msgid "The max size allowed is : %s MB."
+msgstr "De maximale toegestane grootte is: %s MB."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1648
+#, php-format
+msgid " (%d)"
+msgstr " (%d)"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1697
+msgid "Review information"
+msgstr "Beoordeling informatie"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1758
+msgid "Rating"
+msgstr "Stemmen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1777
+msgid "Block review edit"
+msgstr "Blokeer bewerkingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1783
+msgid "The review author is a registered user."
+msgstr "De auteur van de recensie is een geregistreerde gebruiker."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1784
+msgid "User profile"
+msgstr "Gebruikersprofiel"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1787
+msgid "Use user data"
+msgstr "Gebruik gebruikersgegevens"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:1804
+msgid "Author email"
+msgstr "E-mail van auteur"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2009
+#: ../templates/ywar-rating.php:25
+#, php-format
+msgid "Rated %s out of 5"
+msgstr "%s op 5 beoordeeld"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2032
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2038
+msgid "Convert reviews"
+msgstr "Converteer beoordelingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2041
+msgid ""
+"If this is the first time you install the YITH Advanced Reviews plugin, or if "
+"you are using an older version prior to the 1.1.0, first you have to convert "
+"the older reviews if you want to use them."
+msgstr ""
+"Als dit de eerste keer is dat u de YITH Advanced Reviews-plug-in installeert, "
+"of als u een oudere versie gebruikt vóór 1.1.0, moet u eerst de oudere "
+"beoordelingen converteren als u deze wilt gebruiken."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2048
+msgctxt "convert into reviews"
+msgid "CONVERTING COMMENTS INTO REVIEWS"
+msgstr "OPMERKINGEN CONVERTEREN IN REVIEWS"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2051
+msgctxt "convert into reviews"
+msgid "comments checked"
+msgstr "geselecteerde opmerkingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2054
+msgctxt "convert into reviews"
+msgid "comments converted"
+msgstr "geconverteerde opmerkingen"
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2081
+#, php-format
+msgid "Task completed. %d reviews have been processed and converted."
+msgstr "Taak volbracht. % d beoordelingen zijn verwerkt en geconverteerd."
+
+#: ../includes/class.yith-woocommerce-advanced-reviews.php:2083
+msgid "Task completed. No review to convert has been found."
+msgstr "Taak volbracht. Er is geen recensie voor conversie gevonden."
+
+#: ../plugin-options/general-options.php:20
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: ../plugin-options/general-options.php:25
+msgid "Show title"
+msgstr "Weergeef titel"
+
+#: ../plugin-options/general-options.php:27
+msgid "Add a title field in the reviews."
+msgstr "Voeg een titelveld toe aan de beoordelingen."
+
+#: ../plugin-options/general-options.php:32
+msgid "Show attachments"
+msgstr "Weergeef bijlages"
+
+#: ../plugin-options/general-options.php:34
+msgid "Add an attachment section in the reviews."
+msgstr "Voeg een bijlage toe aan de beoordelingen."
+
+#: ../plugin-options/general-options.php:39
+msgid "Attachment type"
+msgstr "Type Bijlage"
+
+#: ../plugin-options/general-options.php:41
+msgid "Set the file type allowed as the review attachment"
+msgstr "Stel het bestandstype in dat is toegestaan ​​als de beoordelingsbijlage"
+
+#: ../plugin-options/general-options.php:47
+msgid "Multiple attachment limit"
+msgstr "Meerdere bijlagelimiet"
+
+#: ../plugin-options/general-options.php:49
+msgid ""
+"Set the maximum number of attachments that can be selected (0 = no limit)."
+msgstr ""
+"Stel het maximale aantal bijlagen in dat kan worden geselecteerd (0 = geen "
+"limiet)."
+
+#: ../plugin-options/general-options.php:54
+msgid "Attachment max size"
+msgstr "Maximale grootte van de bijlage"
+
+#: ../plugin-options/general-options.php:56
+msgid "Set the file max size allowed in MB. Set to 0 for no size limit."
+msgstr ""
+"Stel de toegestane bestandsgrootte in MB in. Stel in op 0 voor geen maximale "
+"grootte."
+
+#: ../plugin-options/general-options.php:66
+msgid "Review content selector"
+msgstr "Review inhoudselector"
+
+#: ../plugin-options/general-options.php:68
+msgid ""
+"Set the id or CSS class that matches the review tab content (default: #tab-"
+"reviews)."
+msgstr ""
+"Stel de ID- of CSS-klasse in die overeenkomt met de inhoud van het "
+"overzichtstabblad (standaard: # tab-recensies)."
+
+#: ../plugin-options/general-options.php:74
+msgid "reCaptcha"
+msgstr "reCaptcha"
+
+#: ../plugin-options/general-options.php:76
+msgid "Enable reCaptcha on review submitting"
+msgstr "reCaptcha inschakelen bij indienen review"
+
+#: ../plugin-options/general-options.php:81
+msgid "reCaptcha site key"
+msgstr "reCaptcha site key"
+
+#: ../plugin-options/general-options.php:83
+msgid "Insert your reCaptcha site key"
+msgstr "Je reCaptcha site key invoeren"
+
+#: ../plugin-options/general-options.php:89
+msgid "reCaptcha secret key"
+msgstr "reCaptcha secret key"
+
+#: ../plugin-options/general-options.php:91
+msgid "Insert your reCaptcha secret key"
+msgstr "Je reCaptcha secret key invoeren"
+
+#: ../plugin-options/general-options.php:96
+msgid "reCaptcha message error"
+msgstr "reCaptcha foutmelding"
+
+#: ../plugin-options/general-options.php:98
+msgid "Insert your message error when the review is submitted without recaptcha"
+msgstr ""
+"Voeg je foutmelding bericht in wanneer de review is ingediend zonder recaptcha"
+
+#: ../plugin-options/general-options.php:104
+msgid "Previous reviews"
+msgstr "Vorige beoordelingen"
+
+#: ../plugin-options/layout-options.php:21
+msgid "Layout options"
+msgstr "Lay-out opties"
+
+#: ../plugin-options/layout-options.php:27
+msgid "Fixed background bar color"
+msgstr "Vaste achtergrondkleur van balk"
+
+#: ../plugin-options/layout-options.php:34
+msgid "Percentage bar color"
+msgstr "Percentage barkleur"
+
+#: ../plugin-options/layout-options.php:41
+msgid "Show percentage value"
+msgstr "Toon procentuele waarde"
+
+#: ../plugin-options/layout-options.php:43
+msgid "Show % value on percentage bars."
+msgstr "Toon% -waarde op percentage balken."
+
+#: ../plugin-options/layout-options.php:48
+msgid "Rating label color"
+msgstr "Classificatie labelkleur"
+
+#: ../plugin-options/layout-options.php:55
+msgid "Percentage value color"
+msgstr "Percentagewaarde kleur"
+
+#: ../plugin-options/layout-options.php:62
+msgid "Rating count color"
+msgstr "Beoordeling tel kleur"
+
+#: ../plugin-options/premium-options.php:21
+msgid "Voting system"
+msgstr "Stemsysteem"
+
+#: ../plugin-options/premium-options.php:26
+msgid "Show vote section"
+msgstr "Toon stemgedeelte"
+
+#: ../plugin-options/premium-options.php:28
+msgid "Allow user to upvote or downvote a review."
+msgstr "Sta toe dat de gebruiker een beoordeling omhoog of omlaag stemt."
+
+#: ../plugin-options/premium-options.php:34
+msgid "Show review votes"
+msgstr "Toon recensie stemmen"
+
+#: ../plugin-options/premium-options.php:36
+msgid "Add a string stating how many people found the review useful."
+msgstr ""
+"Voeg een tekenreeks toe die aangeeft hoeveel mensen de beoordeling nuttig "
+"vonden."
+
+#: ../plugin-options/premium-options.php:42
+msgid "Enable vote for all"
+msgstr "Stemmen voor iedereen mogelijk maken"
+
+#: ../plugin-options/premium-options.php:44
+msgid "Allow unregistered users to vote the reviews."
+msgstr ""
+"Sta niet-geregistreerde gebruikers toe om op de beoordelingen te stemmen."
+
+#: ../plugin-options/premium-options.php:53
+msgid "Review settings"
+msgstr "Controleer de instellingen"
+
+#: ../plugin-options/premium-options.php:59
+msgid "Manual review approval"
+msgstr "Handmatige beoordeling goedkeuring"
+
+#: ../plugin-options/premium-options.php:61
+msgid ""
+"When a user submits a review, it should be manually approved to be showed"
+msgstr ""
+"Wanneer een gebruiker een beoordeling indient, moet deze handmatig worden "
+"goedgekeurd om te worden getoond"
+
+#: ../plugin-options/premium-options.php:66
+msgid "Limit multiple reviews"
+msgstr "Beperk meerdere beoordelingen"
+
+#: ../plugin-options/premium-options.php:73
+msgid "Edit reviews"
+msgstr "Beoordelingen aanpassen"
+
+#: ../plugin-options/premium-options.php:74
+msgid "Allow the users to edit their review"
+msgstr "Sta de gebruikers toe om hun beoordeling te bewerken"
+
+#: ../plugin-options/premium-options.php:80
+msgid "Number of reviews to display"
+msgstr "Aantal beoordelingen dat moet worden weergegeven"
+
+#: ../plugin-options/premium-options.php:82
+msgid "Limit the maximum number of reviews to display, 0 for unlimited"
+msgstr ""
+"Beperk het maximumaantal recensies dat u wilt weergeven, 0 voor onbeperkt "
+"aantal beoordelingen"
+
+#: ../plugin-options/premium-options.php:92
+msgid "\"Load more\""
+msgstr "“Meer laden”"
+
+#: ../plugin-options/premium-options.php:94
+msgid ""
+"Choose if reviews should be shown grouped and which link style should be "
+"applied."
+msgstr ""
+"Kies of beoordelingen moeten worden gegroepeerd weergegeven en welke "
+"linkstijl moet worden toegepast."
+
+#: ../plugin-options/premium-options.php:97
+msgid "Don't group reviews"
+msgstr "Groepeer geen beoordelingen"
+
+#: ../plugin-options/premium-options.php:98
+msgid "Group reviews and show a textual link on bottom"
+msgstr "Groepsrecensies en laat onderaan een tekstuele link zien"
+
+#: ../plugin-options/premium-options.php:99
+msgid "Group reviews and show a button link on bottom"
+msgstr "Groepsrecensies en laat onderaan een knop zien"
+
+#: ../plugin-options/premium-options.php:105
+msgid "Modal window"
+msgstr "Modaal raam"
+
+#: ../plugin-options/premium-options.php:107
+msgid "Display reviews filtered by rate in a modal window."
+msgstr "Geef reviews weer, gefilterd op snelheid in een modaal venster."
+
+#: ../plugin-options/premium-options.php:115
+msgid "Choose who can reply to a review."
+msgstr "Kies wie kan reageren op een beoordeling."
+
+#: ../plugin-options/premium-options.php:118
+msgid "No one can reply"
+msgstr "Niemand kan reageren"
+
+#: ../plugin-options/premium-options.php:119
+msgid "Only administrators can reply"
+msgstr "Alleen administratoren kunnen reageren"
+
+#: ../plugin-options/premium-options.php:120
+msgid "Everyone can reply"
+msgstr "Iedereen kan reageren"
+
+#: ../plugin-options/premium-options.php:126
+msgid "Inappropriate reviews"
+msgstr "Ongepaste reviews"
+
+#: ../plugin-options/premium-options.php:128
+msgid "Let users report a review as inappropriate content."
+msgstr "Laat gebruikers een beoordeling als ongepaste inhoud melden."
+
+#: ../plugin-options/premium-options.php:131
+msgid "Not enabled"
+msgstr "Niet ingeschakeld"
+
+#: ../plugin-options/premium-options.php:132
+msgid "Only registered users can report an inappropriate content"
+msgstr "Alleen geregistreerde gebruikers kunnen ongepaste inhoud melden"
+
+#: ../plugin-options/premium-options.php:133
+msgid "Everyone can report an inappropriate content"
+msgstr "Iedereen kan een ongepaste inhoud melden"
+
+#: ../plugin-options/premium-options.php:139
+msgid "Hiding threshold"
+msgstr "Verberg threshold"
+
+#: ../plugin-options/premium-options.php:141
+msgid ""
+"Hide temporarily a review when a specific number of users has flagged it as "
+"inappropriate. Set this value to 0 to never hide automatically the reviews."
+msgstr ""
+"Een beoordeling tijdelijk verbergen wanneer een bepaald aantal gebruikers het "
+"als ongepast heeft gemarkeerd. Stel deze waarde in op 0 om de beoordelingen "
+"nooit automatisch te verbergen."
+
+#: ../plugin-options/premium-options.php:151
+msgid "Featured reviews"
+msgstr "Aanbevolen beoordelingen"
+
+#: ../plugin-options/premium-options.php:153
+msgid ""
+"Number of reviews to show as featured items. Set this value to 0 to never "
+"show featured reviews."
+msgstr ""
+"Aantal beoordelingen dat als uitgelichte artikelen moet worden weergegeven. "
+"Stel deze waarde in op 0 om nooit aanbevolen beoordelingen weer te geven."
+
+#: ../plugin-options/premium-options.php:163
+msgid "Enable Most Helpful Reviews tab by default"
+msgstr "Meest bruikbare reviews tabblad inschakelen via default"
+
+#: ../plugin-options/premium-options.php:165
+msgid "Show Most Helpful Reviews tab selected by default."
+msgstr "Toon meest bruikbare reviews tabblad geselecteerd via default."
+
+#: ../plugin-options/premium-options.php:171
+msgid "\"Load more\" text"
+msgstr "“Meer laden” tekst"
+
+#: ../plugin-options/premium-options.php:173
+msgid "Text to show in the textual link or button."
+msgstr "Tekst die in de tekstuele link of knop wordt weergegeven."
+
+#: ../plugin-options/premium-options.php:176
+msgid "Load more"
+msgstr "Laad meer"
+
+#: ../templates/reports/class.ywar-review-report.php:43
+msgid "Export CSV"
+msgstr "Export CSV"
+
+#: ../templates/reports/class.ywar-review-report.php:56
+msgid "Year"
+msgstr "Jaar"
+
+#: ../templates/reports/class.ywar-review-report.php:57
+msgid "Last Month"
+msgstr "Afgelopen Maand"
+
+#: ../templates/reports/class.ywar-review-report.php:58
+msgid "This Month"
+msgstr "Deze Maand"
+
+#: ../templates/reports/class.ywar-review-report.php:138
+msgid "Best rate"
+msgstr "Beste stem"
+
+#: ../templates/reports/class.ywar-review-report.php:139
+msgid "Worst rate"
+msgstr "Slechtste stem"
+
+#: ../templates/reports/class.ywar-review-report.php:140
+msgid "Average rate"
+msgstr "Gemiddelde stem"
+
+#: ../templates/reports/class.ywar-review-report.php:162
+msgid "No reviews found in this period"
+msgstr "Geen beoordelingen gevonden in deze periode"
+
+#: ../templates/reports/ywar-html-review-report.php:23
+msgid "Custom:"
+msgstr "Custom:"
+
+#: ../templates/reports/ywar-html-review-report.php:41
+msgid "Go"
+msgstr "Ga"
+
+#: ../templates/ywar-product-reviews-table.php:17
+msgid "Product reviews"
+msgstr "Product beoordelingen"
+
+#: ../templates/ywar-product-reviews-table.php:23
+msgid "Search reviews"
+msgstr "Zoek beoordelingen"
+
+#: ../templates/ywar-product-reviews.php:40
+#, php-format
+msgid "%s review for %s"
+msgid_plural "%s reviews for %s"
+msgstr[0] "%s beoordeling voor %s"
+msgstr[1] "%s beoordelingen voor %s"
+
+#: ../templates/ywar-product-reviews.php:60
+msgid "There are no reviews yet."
+msgstr "Er zijn nog geen beoordelingen."
+
+#: ../templates/ywar-product-reviews.php:77
+msgid "Be the first to review"
+msgstr "Schrijf de eerste beoordeling"
+
+#: ../templates/ywar-product-reviews.php:78
+msgid "Write a reply"
+msgstr "Schrijf een antwoord"
+
+#: ../templates/ywar-product-reviews.php:82
+msgid "Name"
+msgstr "Naam"
+
+#: ../templates/ywar-product-reviews.php:84
+msgid "Email"
+msgstr "E-mail"
+
+#: ../templates/ywar-product-reviews.php:87
+msgid "Submit"
+msgstr "Toevoegen"
+
+#: ../templates/ywar-product-reviews.php:92
+msgid "Your Review"
+msgstr "Jouw beoordeling"
+
+#: ../templates/ywar-product-reviews.php:103
+msgid ""
+"Only logged in customers who have purchased this product may write a review."
+msgstr ""
+"Alleen ingelogde klanten die dit product hebben gekocht, kunnen een recensie "
+"schrijven."
+
+#: ../templates/ywar-product-reviews.php:106
+msgid "Edit my reviews"
+msgstr "Pas mijn beoordelingen aan"
+
+#: ../templates/ywar-rating.php:27
+#, php-format
+msgid "out of %s5%s"
+msgstr "uit %s5%s"
+
+#: ../templates/ywar-rating.php:28
+#, php-format
+msgid "based on %s customer rating"
+msgid_plural "based on %s customer ratings"
+msgstr[0] "op basis van klantbeoordeling van %s"
+msgstr[1] "op basis van klantbeoordelingen van %s"
+
+#: ../templates/ywar-rating.php:33
+#, php-format
+msgid "%s customer review"
+msgid_plural "%s customer reviews"
+msgstr[0] "%s klantbeoordeling"
+msgstr[1] "%s klantbeoordelingen"
+
+#: ../templates/ywar-review-bars.php:34
+#, php-format
+msgid "%s star"
+msgid_plural "%s stars"
+msgstr[0] "%s ster"
+msgstr[1] "%s sterren"
+
+#: ../templates/ywar-review.php:74
+msgid "Your comment is waiting for approval"
+msgstr "Uw opmerking wacht op goedkeuring"
+
+#: ../templates/ywar-review.php:85
+msgid "verified owner"
+msgstr "geverifieerde eigenaar"
+
+#: ../templates/ywar-single-product-reviews.php:15
+msgid "Customer reviews"
+msgstr "Klant beoordelingen"
+
+#: ../views/privacy/html-policy-content-collect_and_store.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"While you visit our site, we collect information about you during the process "
+"of creating comments or reviews of products. We’ll track:"
+msgstr ""
+"Terwijl u onze site bezoekt, verzamelen wij informatie over u tijdens het "
+"proces van het schrijven van opmerkingen of product reviews. We volgen:"
+
+#: ../views/privacy/html-policy-content-collect_and_store.php:4
+msgctxt "Privacy Policy Content"
+msgid ""
+"Author name, author email, author IP, date, title, content and review url:  "
+"we’ll use this to create reviews of products"
+msgstr ""
+"Auteur naam, auteur e-mail, auteur IP, datum, titel, inhoud en review url: we "
+"gebruiken dit om reviews van producten te maken"
+
+#: ../views/privacy/html-policy-content-has_access.php:1
+msgctxt "Privacy Policy Content"
+msgid ""
+"Members of our team have access to the information you provide us. For "
+"example, both Administrators and Shop Managers can access:"
+msgstr ""
+"Onze teamleden hebben toegang tot de informatie die u ons geeft. Voorbeeld, "
+"zowel administrateurs als winkelmanagers hebben toegang tot:"
+
+#: ../views/privacy/html-policy-content-has_access.php:4
+msgctxt "Privacy Policy Content"
+msgid ""
+"Author name, author email, author IP, date, title and content of the reviews "
+"you have made"
+msgstr ""
+"Auteur naam, auteur e-mail, auteur IP, datum, titel en inhoud van reviews die "
+"je hebt gemaakt"
+
+#~ msgid "Plugin Documentation"
+#~ msgstr "Plugin Documentatie"
+
+#~ msgid "Reviews (%d)"
+#~ msgstr "Beoordelingen (%d)"
+
+#~ msgid "Customers' review"
+#~ msgstr "Klantbeoordeling"
+
+#~ msgid ""
+#~ "Choose to show a textual link or a button to load additionally reviews."
+#~ msgstr ""
+#~ "Kies ervoor om een ​​tekstlink of een knop weer te geven om extra "
+#~ "beoordelingen te laden."
+
+#~ msgid "This review is closed for replies"
+#~ msgstr "Deze beoordeling is gesloten voor antwoorden"
+
+#~ msgid "This review is closed for comments"
+#~ msgstr "Deze beoordeling is voor opmerkingen gesloten"
+
+#~ msgid "Product id is in invalid format"
+#~ msgstr "Product-ID staat in ongeldig formaat"
+
+#~ msgid "Voting/Reviews settings"
+#~ msgstr "Instellingen stemmen/recensies"
+
+#~ msgid ""
+#~ "In the YIT Plugins tab you can find the YITH WooCommerce Advanced Reviews "
+#~ "options. With this menu, you can access to all the settings of our plugins "
+#~ "that you have activated."
+#~ msgstr ""
+#~ "Op het tabblad YIT-plug-ins vindt u de geavanceerde YITH WooCommerce-"
+#~ "opties. Met dit menu hebt u toegang tot alle instellingen van onze plug-"
+#~ "ins die u hebt geactiveerd."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of YITH WooCommerce Advanced "
+#~ "Reviews under YIT Plugin -> Advanced Reviews instead of WooCommerce -> "
+#~ "Settings -> Advanced Reviews, as in the previous version. When one of our "
+#~ "plugins updates, a new voice will be added to this menu."
+#~ msgstr ""
+#~ "Vanaf nu kun je alle opties van YITH WooCommerce Advanced Reviews vinden "
+#~ "onder YITH Plugin -> Advanced Reviews in plaats van WooCommerce -> "
+#~ "Instellingen -> Advanced Reviews, zoals in de vorige versie. Wanneer een "
+#~ "van onze plug-ins wordt bijgewerkt, wordt een nieuwe stem aan dit menu "
+#~ "toegevoegd."
+
+#~ msgid "The layout for this "
+#~ msgstr "De lay-out hiervoor"
+
+#~ msgid "The word used for the URL of each project (the slug of post if empty)"
+#~ msgstr ""
+#~ "Het woord dat wordt gebruikt voor de URL van elk project (de spatie van "
+#~ "het bericht als deze leeg is)"
+
+#~ msgid "Label Singular"
+#~ msgstr "Enkel label"
+
+#~ msgid ""
+#~ "Set the label in singular to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr ""
+#~ "Stel het label in enkelvoud in voor elk label (de titel van het portfolio "
+#~ "is leeg)"
+
+#~ msgid "Label Plural"
+#~ msgstr "Meervoudig label"
+
+#~ msgid ""
+#~ "Set the label in plural to use for each label (the title of portfolio if "
+#~ "empty)"
+#~ msgstr ""
+#~ "Stel het label in meervoud in voor elk label (de titel van het portfolio "
+#~ "is leeg)"
+
+#~ msgid ""
+#~ "If you want to use a category section for the portfolio, set the name of "
+#~ "taxonomy. Name should be in slug form (must not contain capital letters or "
+#~ "spaces) and not more than 32 characters long (database structure "
+#~ "restriction)."
+#~ msgstr ""
+#~ "Als u een categoriesectie voor de portfolio wilt gebruiken, stelt u de "
+#~ "naam van de taxonomie in. De naam moet in slakvorm zijn (mag geen "
+#~ "hoofdletters of spaties bevatten) en mag niet langer zijn dan 32 tekens "
+#~ "(beperking van de databasestructuur)."
+
+#~ msgid "Set the word to use in the URL for each category page."
+#~ msgstr ""
+#~ "Stel het woord in dat moet worden gebruikt in de URL voor elke "
+#~ "categoriepagina."
+
+#~ msgid "The layout for single page of this portfolio"
+#~ msgstr "De lay-out voor één pagina van deze portfolio"
+
+#~ msgid "Show the frontend of the %s"
+#~ msgstr "Toon de frontend van de %s"
+
+#~ msgid ""
+#~ "The changes you made will be lost if you navigate away from this page."
+#~ msgstr ""
+#~ "De wijzigingen die u aanbrengt, gaan verloren als u deze pagina verlaat."
+
+#~ msgid ""
+#~ "If you continue with this action, you will reset all options are in this "
+#~ "page."
+#~ msgstr "Als je doorgaat met deze actie, reset je alle opties op deze pagina."
+
+#~ msgid ""
+#~ "The element you have written is already exists. Please, add another name."
+#~ msgstr ""
+#~ "Het element dat je hebt geschreven bestaat al. Voeg alsjeblieft een andere "
+#~ "naam toe."
+
+#~ msgid "An error encoured during during import. Please try again."
+#~ msgstr "Een fout tijdens het importeren. Probeer het opnieuw."
+
+#~ msgid "The file you have insert doesn't valid."
+#~ msgstr "Het bestand dat u invoegt, is niet geldig."
+
+#~ msgid "I'm sorry, the import featured is disabled."
+#~ msgstr "Het spijt me, de geïmporteerde import is uitgeschakeld."
+
+#~ msgid "Sorting done correctly."
+#~ msgstr "Correct gesorteerd."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                     For every installation of our new "
+#~ "plugins, a new voice will be added to access to the customization settings."
+#~ msgstr ""
+#~ "Vanaf nu kun je alle opties van je plug-ins vinden onder de stem van het "
+#~ "YIT Plugin-menu.\n"
+#~ "                                     Voor elke installatie van onze nieuwe "
+#~ "plug-ins wordt een nieuwe stem toegevoegd om toegang te krijgen tot de "
+#~ "aanpassingsinstellingen."
+
+#~ msgid ""
+#~ "From now on, you can find all the options of your plugins under the YIT "
+#~ "Plugin menu voice.\n"
+#~ "                                    When one of our plugins updates, a new "
+#~ "voice will be added to this menu.\n"
+#~ "                                    For example, after the update, the "
+#~ "options from the plugins (YITH WooCommerce Wishlist, YITH WooCommerce Ajax "
+#~ "Search, etc.)\n"
+#~ "                                    will be removed from the previous "
+#~ "location and moved under the YIT Plugin tab."
+#~ msgstr ""
+#~ "Vanaf nu kun je alle opties van je plugins vinden onder de tab van het "
+#~ "YITH Plugin-menu. \n"
+#~ "                                    \n"
+#~ "Wanneer een van onze plugins wordt bijgewerkt, wordt een nieuwe stem aan "
+#~ "dit menu toegevoegd.\n"
+#~ "                                   \n"
+#~ " Bijvoorbeeld na de update, de opties van de plug-ins (YITH WooCommerce "
+#~ "Wishlist, YITH WooCommerce Ajax Search, enz.)\n"
+#~ " \n"
+#~ "                                    wordt verwijderd van de vorige locatie "
+#~ "en verplaatst naar het tabblad YIT-plug-in."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\">View version %4$s "
+#~ "details</a>. <em>You have to activate the plugin on a single site of the "
+#~ "network to benefit from the automatic updates.</em>"
+#~ msgstr ""
+#~ "Er is een nieuwe versie van%1$s beschikbaar. <a href=\"%2$s\" class="
+#~ "\"thickbox yit-changelog-button\" title=\"%3$s\"> Bekijk details van versie"
+#~ "%4$ </a>. <em> U moet de plug-in activeren op één enkele site van het "
+#~ "netwerk om te profiteren van de automatische updates. </em>"
+
+#~ msgid "%field% field can not be empty"
+#~ msgstr "%field% mag niet leeg zijn"
+
+#~ msgid "%field_1% and %field_2% fields can not be empty"
+#~ msgstr "% field_1% en% field_2% velden mogen niet leeg zijn"
+
+#~ msgid "Software has been deactive"
+#~ msgstr "Software is gedeactiveerd"
+
+#~ msgid "Licence key has be banned"
+#~ msgstr "Licentiesleutel is verbannen"
+
+#~ msgid "To Active"
+#~ msgstr "Actief"
+
+#~ msgid "Insert the title of field."
+#~ msgstr "Voer de titel van het veld in."
+
+#~ msgid ""
+#~ "REQUIRED: The identification name of this field, that you can insert into "
+#~ "body email configuration. <strong>Note:</strong>Use only lowercase "
+#~ "characters and underscores."
+#~ msgstr ""
+#~ "VERPLICHT: De identificatienaam van dit veld, dat u kunt invoegen in de e-"
+#~ "mailconfiguratie van het lichaam. <strong> Opmerking: </strong> gebruik "
+#~ "alleen kleine letters en onderstrepingstekens."
+
+#~ msgid "Select the type of this field."
+#~ msgstr "Selecteer het type van dit veld."
+
+#~ msgid "Select this if it's the email where you can reply."
+#~ msgstr "Selecteer dit als het de e-mail is waar u op kunt antwoorden."
+
+#~ msgid ""
+#~ "Insert an additional class(es) (separateb by comma) for more "
+#~ "personalization."
+#~ msgstr ""
+#~ "Voeg extra klas (sen) in (gescheiden door een komma) voor meer "
+#~ "personalisatie."
+
+#~ msgid "Choose how much long will be the field."
+#~ msgstr "Kies hoe lang het veld zal zijn."
+
+#~ msgid "The content of the tab. (HTML is supported)"
+#~ msgstr "De inhoud van het tabblad. (HTML wordt ondersteund)"
+
+#~ msgid "Sidebar Left"
+#~ msgstr "Linker Zijbalk"
+
+#~ msgid "Sidebar Right"
+#~ msgstr "Rechter Zijbalk"
+
+#~ msgid "Add a title field on reviews."
+#~ msgstr "Voeg een titelveld toe aan beoordelingen."
+
+#~ msgid "Set maximum number of attachments selectable (0 = no limit)."
+#~ msgstr ""
+#~ "Stel maximaal aantal bijlagen in dat kan worden geselecteerd (0 = geen "
+#~ "limiet)."
+
+#~ msgid "Reviews summary options"
+#~ msgstr "Overzicht van opties"
+
+#~ msgid "Fixed bars color"
+#~ msgstr "Vaste balkenkleur"
+
+#~ msgid "Percentage bars color"
+#~ msgstr "Percentage balken kleur"
+
+#~ msgid "Show people's votes"
+#~ msgstr "Toon de stemmen van mensen"
+
+#~ msgid "Add a string stating how many people's found the review useful."
+#~ msgstr ""
+#~ "Voeg een string toe die aangeeft hoeveel mensen de beoordeling nuttig "
+#~ "vonden."
+
+#~ msgid "Reviews settings"
+#~ msgstr "Instellingen van de beoordelingen"
+
+#~ msgid "How many reviews to show"
+#~ msgstr "Hoeveel beoordelingen weergeven"
+
+#~ msgid "Limit how many reviews to show (0 for unlimited)."
+#~ msgstr ""
+#~ "Beperk het aantal beoordelingen dat u wilt weergeven (0 voor onbeperkt "
+#~ "aantal)."
+
+#~ msgid "Show reviews filtered by users rating in a modal window."
+#~ msgstr ""
+#~ "Recensies weergeven die zijn gefilterd op waardering van gebruikers in een "
+#~ "modaal venster."
+
+#~ msgid "Load more text"
+#~ msgstr "Laad meer tekst"
+
+#~ msgid "Text to show inside textual link or button."
+#~ msgstr "Tekst die binnen de tekstuele link of knop wordt weergegeven."
+
+#~ msgid "Customers reviews"
+#~ msgstr "Klantbeoordeling"

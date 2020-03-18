@@ -1,0 +1,130 @@
+form.ajax-auth{
+    display: none;
+    z-index: 999;
+	position: fixed;
+    top: 150px;
+	left: 50%;
+	width: 350px;
+	margin-left: -200px;
+    padding: 40px 25px 25px 25px;
+	background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);   
+}
+.wpalrp-login-btn{
+	text-align:center;
+	margin-bottom: 20px;
+}
+.ajax-auth h1, .ajax-auth h3{
+    font-weight: 400;
+    color: #333333;    
+	line-height: 1;    
+}
+
+.ajax-auth h1{
+    font-size: 27px;
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+.ajax-auth h3{
+    font-size: 18px;
+    text-align: left;
+    margin: 0;
+}
+
+.ajax-auth h3 a{
+	color: #e25c4c;
+}
+
+.ajax-auth hr {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0 none;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.ajax-auth input#username,
+.ajax-auth input#password,
+.ajax-auth input#signonname,
+.ajax-auth input#email,
+.ajax-auth input#signonpassword,
+.ajax-auth input#password2{
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1) inset;
+    padding: 10px 10px 10px 13px;
+    width: 295px;
+    margin: 7px 0 20px 0;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+}
+
+.ajax-auth input#username:focus,
+.ajax-auth input#password:focus,
+.ajax-auth input#signonname:focus,
+.ajax-auth input#email:focus,
+.ajax-auth input#signonpassword:focus,
+.ajax-auth input#password2:focus{
+    background-color: #FFF;
+}
+
+.ajax-auth label.error{
+	display: none !important;
+}
+
+.ajax-auth input.error{
+	border: 1px solid #FF0000 !important;
+}
+
+.ajax-auth input.submit_button{
+    border-radius: 3px;
+    padding: 9px 31px 9px 31px;
+    float: right;
+}
+
+.ajax-auth a{
+    text-decoration: none;
+}
+
+.ajax-auth a.close{
+    color: #DCDCDC;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+
+.ajax-auth a.text-link{
+    float: left;
+    margin: 10px 0 0 0;
+	color:#FF0000;
+}
+
+.ajax-auth p.status{
+    text-align: center;
+    margin: -15px 0 20px 0;
+	font-weight: 600;
+    display: none;
+	color:#ff0000 !important;
+}
+
+a.login_button{
+    padding: 7px 9px 7px 9px;
+    background-color: #FFF;
+    border-radius: 3px;
+    border: 1px solid #DCDCDC;
+    color: #333;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.login_overlay{
+    height: 100%;
+    width: 100%;
+    background-color: #ccc;
+    opacity: 0.8;
+    position: fixed;
+    z-index: 998;
+}
+.cancel{
+	width:35px;
+	height:35px;
+}

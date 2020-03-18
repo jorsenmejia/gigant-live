@@ -1,0 +1,6 @@
+2020-03-09T01:32:23+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 163
+
+2020-03-09T02:53:21+00:00 CRITICAL syntax error, unexpected '55728' (T_LNUMBER), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/functions.php on line 363
+
+2020-03-09T02:53:34+00:00 CRITICAL syntax error, unexpected '55728' (T_LNUMBER), expecting ',' or ';' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 179
+

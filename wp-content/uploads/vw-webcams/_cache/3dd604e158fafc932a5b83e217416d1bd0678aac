@@ -1,0 +1,81 @@
+<div class="ui  tiny equal width form"><div class="inline fields"><div class="field"><select class="ui dropdown" id="pstatus1" name="pstatus1" onchange="aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&ob=default&layout=grid&st='+ this.value; loadWebcams1('<div class=\'ui active inline text large loader\'>Filtering Webcams...</div>')"><option value="all" selected>All</option><option value="paid">All, Paid</option><option value="free">All, Free</option><option value="online">Online</option><option value="public">Online, Available</option><option value="available_paid">Available, Paid</option><option value="available_free">Available, Free</option><option value="private">Online, Occupied</option><option value="offline">Offline</option></select></div><div class="field"><select  name='category1' id='category1' class='ui dropdown' >
+	<option value='0' selected='selected'>All Categories</option>
+	<option class="level-0" value="1">Uncategorized</option>
+</select>
+</div><script>var category1 = document.getElementById("category1"); 			category1.onchange = function(){aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&ob=default&layout=grid&cat='+ this.value; loadWebcams1('<div class=\'ui active inline text large loader\'>Loading category...</div>')}
+			</script><div class="field"><select class="ui dropdown" id="order_by1" name="order_by1" onchange="aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&layout=grid&ob='+ this.value; loadWebcams1('<div class=\'ui active inline text large loader\'>Ordering webcams...</div>')"><option value="">Order By:</option><option value="default" selected>Default Order</option><option value="viewers">Current Viewers</option><option value="edate">Broadcast Recently</option><option value="post_date">Created Recently</option><option value="maxViewers">Maximum Viewers</option><option value="rand">Random</option></select></div><div class="field"></div><div class="field" data-tooltip="Tags, Comma Separated"><div class="ui left icon input"><i class="tags icon"></i><INPUT class="videowhisperInput" type="text" size="12" name="tags" id="tags" placeholder="Tags" value="">
+					</div></div><div class="field"><div class="ui left corner labeled input"><INPUT class="videowhisperInput" type="text" size="12" name="name" id="name" placeholder="Name" value="">
+  <div class="ui left corner label">
+    <i class="asterisk icon"></i>
+  </div>
+					</div></div><div class="field" data-tooltip="Search by Tags and/or Name"><button class="ui fluid icon button" type="submit" name="submit" id="submit" value="Search" onclick="aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&ob=default&layout=grid&tags=' + document.getElementById('tags').value +'&name=' + document.getElementById('name').value; loadWebcams1('<div class=\'ui active inline text large loader\'>Searching webcams...</div>')"><i class="search icon"></i></button></div></div></div><div class="">			<div class="videowhisperWebcam offline layoutGrid">
+			
+			<div class="videowhisperTitle">test_professional</div>
+			<div class="videowhisperTime"> 10d 7h 28m</div>
+
+			<div class="videowhisperCPM">Private: 0.1 Php/m</div>
+
+			<a href="https://gigant.com.ph/webcam/test_professional/"><IMG src="https://gigant.com.ph/wp-content/uploads/vw-webcams/_thumbs/test_professional.jpg" class="videowhisperPreview"></a>
+			<div class="videowhisperBrief"></div>
+			<div class="videowhisperTags"></div>
+			<div class="videowhisperCategory"></div>
+
+			<div class="videowhisperGroupMode">Mode: Free Group Chat - PreSale</div>
+			<div class="videowhisperGroupCPM">0 Php/m</div>
+			<div class="videowhisperPerformers"><a href="https://gigant.com.ph/author/[user_nicename]ramon-arceo">test_professional</a></div>
+
+			<div class="videowhisperRating"></div>
+
+			<div class="videowhisperEnterDropdown"><a href="https://gigant.com.ph/webcam/test_professional/"><button class="videowhisperEnterButton">Enter</button></a><div class="videowhisperEnterDropdown-content"><a href="https://gigant.com.ph/webcam/test_professional/">Free Group Chat - PreSale</a><a href="https://gigant.com.ph/wp-login.php">Login for More ...</a><a href="https://gigant.com.ph/webcam/test_professional/?view=content">Profile</a></div></div>
+			</div>
+						<div class="videowhisperWebcam offline layoutGrid">
+			
+			<div class="videowhisperTitle">paidvideochat</div>
+			<div class="videowhisperTime"> 27d 20h 37m</div>
+
+			<div class="videowhisperCPM">Private: 0.1 Php/m</div>
+
+			<a href="https://gigant.com.ph/webcam/paidvideochat/"><IMG src="https://gigant.com.ph/wp-content/uploads/vw-webcams/_thumbs/paidvideochat.jpg" class="videowhisperPreview"></a>
+			<div class="videowhisperBrief"></div>
+			<div class="videowhisperTags"></div>
+			<div class="videowhisperCategory"></div>
+
+			<div class="videowhisperGroupMode">Mode: Free Group Chat - PreSale</div>
+			<div class="videowhisperGroupCPM">0 Php/m</div>
+			<div class="videowhisperPerformers"><a href="https://gigant.com.ph/author/[user_nicename]paidvideochat">paidvideochat</a></div>
+
+			<div class="videowhisperRating"></div>
+
+			<div class="videowhisperEnterDropdown"><a href="https://gigant.com.ph/webcam/paidvideochat/"><button class="videowhisperEnterButton">Enter</button></a><div class="videowhisperEnterDropdown-content"><a href="https://gigant.com.ph/webcam/paidvideochat/">Free Group Chat - PreSale</a><a href="https://gigant.com.ph/wp-login.php">Login for More ...</a><a href="https://gigant.com.ph/webcam/paidvideochat/?view=content">Profile</a></div></div>
+			</div>
+						<div class="videowhisperWebcam offline layoutGrid">
+			
+			<div class="videowhisperTitle">Test</div>
+			<div class="videowhisperTime"> 37d 23h 5m</div>
+
+			<div class="videowhisperCPM">Private: 0.1 Php/m</div>
+
+			<a href="https://gigant.com.ph/webcam/test/"><IMG src="https://gigant.com.ph/wp-content/uploads/vw-webcams/_thumbs/Test.jpg" class="videowhisperPreview"></a>
+			<div class="videowhisperBrief"></div>
+			<div class="videowhisperTags"></div>
+			<div class="videowhisperCategory"></div>
+
+			<div class="videowhisperGroupMode">Mode: Free Chat</div>
+			<div class="videowhisperGroupCPM">0 Php/m</div>
+			<div class="videowhisperPerformers"><a href="https://gigant.com.ph/author/[user_nicename]growers">growers</a></div>
+
+			<div class="videowhisperRating"></div>
+
+			<div class="videowhisperEnterDropdown"><a href="https://gigant.com.ph/webcam/test/"><button class="videowhisperEnterButton">Enter</button></a><div class="videowhisperEnterDropdown-content"><a href="https://gigant.com.ph/webcam/test/">Free Chat</a><a href="https://gigant.com.ph/wp-login.php">Login for More ...</a><a href="https://gigant.com.ph/webcam/test/?view=content">Profile</a></div></div>
+			</div>
+			</div><br style="clear:both"><br> <div class="ui equal width grid"><div class="column"><div class="ui form"><div class="inline fields"><a class="ui secondary button" href="#"> Page 1 </a></div></div></div>
+<div class="right floated column">
+<div class="ui icon buttons right floated">
+  <a class="ui button active" href="JavaScript: void()" onclick="aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&ob=default&p=0&layout=grid'; loadWebcams1('<div class=\'ui active inline text large loader\'>Loading grid layout...</div>');">
+    <i class="th icon"></i>
+  </a>
+  <a class="ui button " href="JavaScript: void()" onclick="aurl1='https://gigant.com.ph/wp-admin/admin-ajax.php?action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&ob=default&p=0&layout=list'; loadWebcams1('<div class=\'ui active inline text large loader\'>Loading list layout...</div>');">
+    <i class="th list icon"></i>
+  </a>
+</div>
+</div></div><!-- Generated Tue, 05 Nov 2019 08:40:30 +0000 action=vmls_cams&pp=5&pr=0&ss=1&sc=1&so=1&sn=1&sg=1&sp=1&id=1&tags=&name=&cat=0&ob=default&p=0&layout=grid&mob=1 3dd604e158fafc932a5b83e217416d1bd0678aac -->

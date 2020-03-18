@@ -1,0 +1,611 @@
+.woocommerce_page_woo-total-sales select:focus, 
+.woocommerce_page_woo-total-sales a:focus,
+.woocommerce_page_woo-total-sales a strong:focus{
+	outline:none !important;
+	-webkit-box-shadow: none;
+     box-shadow: none; 
+} 
+
+#awts-monthly-sales-summary .awts-products-list a {
+	display: block;
+	color: #aaa;
+	-webkit-transition: all ease .5s;
+	position: relative;
+	font-size: 12px;
+}
+#awts-monthly-sales-summary .awts-products-list a:before {
+	font-family: WooCommerce;
+	speak: none;
+	font-weight: 400;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	margin: 0 12px 12px 0;
+	text-indent: 0;
+	top: 0;
+	left: 0;
+	height: 100%;
+	text-align: center;
+	content: "";
+	font-size: 2em;
+	position: relative;
+	width: auto;
+	color: #464646;
+	float: left;
+}
+
+#awts-monthly-sales-summary .awts-products-list a.awts-product-link:before {
+
+	margin: 0 ;
+	
+}
+
+#awts-monthly-sales-summary .awts-products-list th{
+	padding: 15px;
+	background: #96588a;
+    color: #fff;
+}
+#awts-monthly-sales-summary .awts-products-list td{
+	padding: 15px;	
+	color: #666;
+}
+
+#awts-monthly-sales-summary .awts-products-list td span.awts-payment-methods,
+#awts-monthly-sales-summary .awts-products-list td span.awts-shipping-methods{
+	display: block;
+}
+
+
+#awts-monthly-sales-summary .awts-products-list td.seller-this-month a:before {
+	content: "\e006";
+}
+
+ 
+#awts-monthly-sales-summary .awts-products-list a:hover strong, #awts-monthly-sales-summary .awts-products-list a:hover:before {
+	color: #96588a !important;
+}
+ 
+#awts-monthly-sales-summary .awts-products-list a strong {
+	font-size: 14px;
+	
+	display: block;
+	color: #96588a;
+	font-weight: bold;
+}
+
+#awts-filter-by-date {
+	margin-bottom: 10px;
+	display: inline-block;    
+    border: 1px solid #ececec; 
+    height: 50px;
+    width: 20%;
+    padding: 5px 15px;
+    color: #96588a;
+    font-weight: bold; 
+    /*-webkit-appearance: none;*/   
+    /*background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #fff;
+    -webkit-appearance: none;
+    background-position-x: 95%;*/
+}
+
+/*.awts-filter-by-month-wrap{
+	overflow: hidden;       
+    position: relative;
+    display: inline-block;
+    width:25%;
+    clear: both;
+}
+
+.awts-filter-by-month-wrap:before{
+	content: '\f145'; 
+    color: #000;
+    position: absolute; 
+    left: 0; 
+    top: 18px;
+    z-index: 1;
+    width: 10%;
+    height: 100%;  
+    pointer-events: none;    
+}*/
+
+/*added*/
+
+#woocommerce_dashboard_status .wc_status_list li{
+	padding: 10px;
+	
+}
+
+#woocommerce_dashboard_status .awts-additional-data{
+	display: inline-block;
+	clear: both;	
+}
+
+#woocommerce_dashboard_status .awts-additional-data li.awts-sales-summary{
+	width: 100%;	
+}
+
+
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-sales-this-month a .wc_sparkline{
+	top: 10%;
+}
+
+#woocommerce_dashboard_status ul.awts-monthly-overview{
+	display:block;
+	height: 100%;
+	background: red;
+}
+
+#woocommerce_dashboard_status .wc_status_list li.best-seller-this-month a.awts-additional-data-wrap::before{
+	content: none;
+}
+
+
+
+#woocommerce_dashboard_status .wc_status_list li.completed-orders a::before {
+    content: '\e015';
+    color: #7ad03a;
+}
+
+#woocommerce_dashboard_status .wc_status_list li.awts-full-width{
+	width:100%;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li{
+	border:none;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock{
+	border:none;
+}
+
+/*low in stock*/
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul li,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul li{
+float: left;
+width: 100%;
+clear: both;
+box-sizing: inherit; 
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul a::before,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul a::before {
+content: none;
+display: block;
+float: left;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-shop-thumbnail img,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-shop-thumbnail img{
+display: block;
+float: left;
+width: 15%;
+height: 15%;
+border-radius: 50%;
+box-shadow: 1px 0px 2px #adabab;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-stock-detail,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-stock-detail{
+display: block;
+float: left;
+padding: 0 20px;
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-poduct-title, 
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-stock-status, 
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-allow-backorders,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-poduct-title, 
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-stock-status, 
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-allow-backorders
+{
+display: block;
+float: left;
+clear: both;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li ul span.awts-poduct-title{
+	text-decoration: underline;
+} 
+
+
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-stock-status, 
+#woocommerce_dashboard_status .awts_wc_status_list li.low-in-stock ul span.awts-allow-backorders, 
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-stock-status, 
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-allow-backorders,
+#woocommerce_dashboard_status .awts_wc_status_list li.out-of-stock ul span.awts-product-status{
+text-transform: capitalize;
+}
+
+/*order summary*/
+/*#96588a #666*/
+
+
+.awts-status-widget-order-rows,
+.awts-status-widget-stock-rows{
+    display: inline-block;
+	background-color: #fbfbfb;    
+    width: 100%;
+   
+}
+
+.awts-status-widget-order-rows{
+	margin-bottom: 20px;
+}
+
+/*monthly sales summary*/
+#woocommerce_dashboard_status .awts_wc_status_list li .awts-monthly-sales-summary{
+    display: inline-block;
+	background-color: #f7f7f7;    
+    /*border: 1px solid #ececec;*/
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li .awts-no-sales-summary{
+width: 100%
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li .awts-no-sales-summary a:before{
+content: none;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li .awts-no-sales-summary a{
+	text-decoration: none;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li .awts-no-sales-summary strong{
+font-size: 75px;
+}
+
+.awts-red{
+	color: #a00;
+}
+
+.awts-yellow{
+	color: #ffba00;
+}
+.awts-green{
+	color: #7ad03a;
+}
+/*header*/
+#woocommerce_dashboard_status .awts_wc_status_list h3{
+	color: #fff;
+    background-color: #96588a;
+    padding: 15px 20px;
+    margin: 0;
+    font-weight: normal;
+}
+/*anchor text*/
+
+#woocommerce_dashboard_status .awts_wc_status_list li{
+	color: #666;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li a{
+	color: #666;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li a:hover {
+	color: #333;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li a:focus {	
+    -webkit-box-shadow: none;
+     box-shadow: none; 
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li a strong{
+	color: #96588a;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list .awts-no-sales-summary li a strong{
+	color: #a00;
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list .awts-no-sales-summary li a::before {
+    content: '\e013';
+    color: #a00;
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li a:hover strong, #woocommerce_dashboard_status .awts_wc_status_list li a:hover::before{
+	color: #96588a !important;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.cancelled-orders a:before{
+	color: #a00;
+}
+/*top seller part*/
+.awts-capitalize{
+	text-transform: capitalize;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul.awts-additional-data{
+	margin-top: 20px;
+	
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul.awts-additional-data .awts-link, .awts-setting-link{
+	float: left;
+	-webkit-border-radius: 100px;
+    border-radius: 100px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;   
+    line-height: 1;
+    color: #fff !important;
+    background: #96588a;
+    cursor: pointer;
+    border: none;
+    text-shadow: none;
+    font-size: .9em;
+    font-family: proxima-nova,sans-serif;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none !important;
+    text-transform: uppercase;
+    outline: none !important;
+}
+
+.awts-setting-link{
+    background-color: #fff !important;
+    color: #96588a !important;
+    border: .1em solid #fff;
+    opacity: 0.9;
+    filter: alpha(opacity=90); /* For IE8 and earlier */
+}
+
+.awts-setting-link:hover {
+    opacity: 1.0;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li{
+	padding:0;
+}
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-details{
+	margin-top :20px;
+
+}
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail{
+	width:40%;
+	display: block;
+	float: left;
+	padding:0 10px;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month .awts-no-sales-summary ul li.awts-product-thumbnail{
+	width:100%;
+	display: block;
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month .awts-no-sales-summary ul li.awts-product-thumbnail img{
+	width:37%;
+	display: block;
+	/*margin: 0 auto;*/
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail a img{
+	width: 100%;
+	height: 100%;
+}
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail a:before{
+	content: none;
+}
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail img{
+	border-radius: 50%;
+	box-shadow: 1px 0px 2px #adabab;
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-type,
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-stock,
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-details{
+	display: block;
+	float: left;
+	width: 60%;
+	padding:0 10px;
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month .awts-no-sales-summary ul li.awts-product-details{
+	display: block;
+	float: left;
+	width: 100%;
+	padding:0 10px;
+	/*text-align: center;*/
+
+}
+
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-edit-link{
+	padding:  0 10px;
+}
+#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li strong{
+font-size: 12px;
+}
+
+.awts-no-sales-overview{
+	width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0;
+    border-top: 1px solid #ececec;
+    background-color: #fff;
+    font-size: 14px;
+    
+}
+
+.awts-no-sales-overview a{
+    color: #a00;
+	text-decoration: none;
+
+}
+
+.awts-no-sales-overview a::before{
+	font-family: 'woocommerce';
+	content: '\e013';
+    color: #a00;  
+    padding-right: 10px;
+
+}
+
+/*admin product edit page*/
+
+
+#render_awts_product_total_sales_metabox h2{
+	background: #96588a;
+    color: #fff;
+}
+
+#render_awts_product_total_sales_metabox .handlediv{
+	color: #fff;
+}
+
+#render_awts_product_total_sales_metabox .inside{
+	background: #f7f7f7;
+	margin:0;
+}
+
+#render_awts_product_total_sales_metabox .dashicons:before{
+	/*background: #96588a;*/
+    color: #96588a;
+}
+
+#render_awts_product_total_sales_metabox strong{
+	/*background: #96588a;*/
+    color: #666;
+}
+
+table.awts-frontend-options{
+	min-width: 255px;
+   /* border: 1px solid #e5e5e5;*/
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    background: #fbfbfb;
+    padding: 5px 10px;
+
+}
+
+table.awts-frontend-options h3.hndle {	
+    color: #96588a;    
+    margin: 0;
+    font-weight: bold;
+    padding: 10px 0 0 0 !important;
+}
+
+table.awts-frontend-options td {
+padding: 5px;
+}
+
+table.awts-frontend-options strong {	
+    color: #96588a;    
+    margin: 0;
+    font-weight: normal;
+}
+
+table.awts-frontend-options .dashicons:before{
+	
+    font-size: 14px;
+}
+
+span.awts-radio-wrap{
+	display: block;
+	padding:2px 5px;
+	float: left;
+} 
+
+input.awts-custom-count{
+	display: block;
+	width: 25%;
+	padding:2px 5px;
+	float: left;
+	
+} 
+
+.awts-hide-section{
+	display: none;
+}
+
+table.awts-frontend-options .awts-shortcodes-wrap{
+	background: #ebebeb;
+    display: block;
+    padding: 8px;
+}
+
+
+
+/*media start*/
+@media only screen and (min-width: 768px){
+	#woocommerce_dashboard_status .awts_wc_status_list li.sales-this-month{
+		width: 50%;
+	}
+
+	#woocommerce_dashboard_status .awts_wc_status_list li.best-seller-this-month{
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 737px){
+	#woocommerce_dashboard_status .awts_wc_status_list li.sales-this-month{
+		width: 50%;
+	}
+
+	#woocommerce_dashboard_status .awts_wc_status_list li.best-seller-this-month{
+		width: 50%;
+	}
+
+	#awts-filter-by-date{
+		width: 50%;
+	}
+
+	#awts-monthly-sales-summary .awts-products-list td span.awts-shipping-methods,
+	#awts-monthly-sales-summary .awts-products-list td span.awts-payment-methods
+	{
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 567px){
+	#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail a img{
+		width: 180px;
+		height: auto;
+	}
+
+	#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-thumbnail,
+	#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-type, 
+	#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-stock, 
+	#woocommerce_dashboard_status .awts_wc_status_list li.awts-best-seller-this-month ul li.awts-product-details{
+		float: none;
+		width: 100%;
+	}
+
+	.awts-additional-data li a{
+		text-align: center;
+	}
+
+	#woocommerce_dashboard_status .wc_status_list li{
+		width: 100%;
+	}
+
+	/*monthly sales*/
+	#awts-filter-by-date{
+		width: 100%;
+	}
+
+	#awts-monthly-sales-summary .column-discount,
+	#awts-monthly-sales-summary .column-shipping-cost,
+	#awts-monthly-sales-summary .column-shipping-tax,
+	#awts-monthly-sales-summary .column-tax,
+	#awts-monthly-sales-summary .awts-products-list td span.awts-shipping-methods,
+	#awts-monthly-sales-summary .awts-products-list td span.awts-payment-methods
+	{
+		display: none;
+	}
+}

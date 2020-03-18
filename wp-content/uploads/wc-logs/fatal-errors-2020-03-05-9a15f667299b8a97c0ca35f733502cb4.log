@@ -1,0 +1,28 @@
+2020-03-05T02:32:12+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Appointment::get_start_created() in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php:179
+Stack trace:
+#0 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-template.php(38): include()
+#1 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager-ultimate/core/class-wcfmu-wcappointments.php(389): WCFMu_Template->get_template('wc_appointments...')
+#2 /home/gigant/public_html/wp-includes/class-wp-hook.php(288): WCFMu_WCAppointments->wca_load_views('wcfm-appointmen...')
+#3 /home/gigant/public_html/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#4 /home/gigant/public_html/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/gigant/public_html/wp-content/plugins/wc-frontend-manager/core/class-wcfm-library.php(992): do_action('wcfm_load_views', 'wcfm-appointmen...')
+#6 /home/gigant/public_html/wp-content/plugins/wc-frontend-m in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 179
+
+2020-03-05T02:34:32+00:00 CRITICAL syntax error, unexpected '.' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 179
+
+2020-03-05T08:21:33+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 180
+
+2020-03-05T09:09:04+00:00 CRITICAL syntax error, unexpected '60' (T_LNUMBER) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 181
+
+2020-03-05T09:19:44+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 186
+
+2020-03-05T09:20:00+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 186
+
+2020-03-05T09:20:50+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting variable (T_VARIABLE) or '{' or '$' in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 187
+
+2020-03-05T09:34:54+00:00 CRITICAL syntax error, unexpected '$total' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 190
+
+2020-03-05T09:35:18+00:00 CRITICAL syntax error, unexpected '$total' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 190
+
+2020-03-05T09:35:44+00:00 CRITICAL syntax error, unexpected '$total' (T_VARIABLE) in /home/gigant/public_html/wp-content/themes/storefront-child/wcfm/wc_appointments/wcfmu-view-wcappointments-details.php on line 190
+

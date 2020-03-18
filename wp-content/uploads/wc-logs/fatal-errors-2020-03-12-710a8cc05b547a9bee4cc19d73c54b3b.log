@@ -1,0 +1,128 @@
+2020-03-12T02:48:59+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-frontend-manager\core\class-wcfm-ajax.php on line 1212
+
+2020-03-12T02:49:02+00:00 CRITICAL Out of memory (allocated 50331648) (tried to allocate 65536 bytes) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-frontend-manager\core\class-wcfm-policy.php on line 41
+
+2020-03-12T02:49:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T02:49:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:13:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-includes\functions.php on line 2060
+
+2020-03-12T03:13:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:13:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:13:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:13:17+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:13:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\class-wc-query.php on line 195
+
+2020-03-12T03:36:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:15+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:16+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:20+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:21+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:25+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:29+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T03:36:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor\includes\conditions.php on line 4
+
+2020-03-12T03:36:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor-pro\modules\flip-box\widgets\flip-box.php on line 14
+
+2020-03-12T05:25:39+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T05:25:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T05:25:41+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T05:27:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 143
+
+2020-03-12T05:44:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\includes\integrations\maxmind-geolocation\class-wc-integration-maxmind-geolocation.php on line 11
+
+2020-03-12T05:44:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\i18n\countries.php on line 15
+
+2020-03-12T05:44:12+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\woocommerce\i18n\countries.php on line 15
+
+2020-03-12T05:44:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor\includes\controls\repeater.php on line 4
+
+2020-03-12T05:44:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-includes\wp-db.php on line 2030
+
+2020-03-12T05:44:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-includes\wp-db.php on line 2030
+
+2020-03-12T05:44:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T05:44:44+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T06:04:26+00:00 CRITICAL Out of memory (allocated 25165824) (tried to allocate 32768 bytes) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wc-multivendor-marketplace\core\class-wcfmmp-vendor.php on line 1954
+
+2020-03-12T06:53:44+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-upgrade.php on line 462
+
+2020-03-12T06:54:02+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-upgrade.php on line 462
+
+2020-03-12T06:57:54+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\wcfm-custom-menus\views\wcfm-views-upgrade.php on line 470
+
+2020-03-12T07:31:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\mycred\addons\buy-creds\gateways\Bitpay\PrivateKey.php on line 18
+
+2020-03-12T07:32:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 127
+
+2020-03-12T07:32:13+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\mycred\addons\buy-creds\gateways\Bitpay\PrivateKey.php on line 18
+
+2020-03-12T07:32:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor\includes\user.php on line 6
+
+2020-03-12T07:32:18+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor-pro\plugin.php on line 141
+
+2020-03-12T07:33:00+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T07:33:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\elementor-pro\modules\woocommerce\documents\product-archive.php on line 7
+
+2020-03-12T07:33:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T07:39:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\ajax-login-and-registration-modal-popup-pro\free\includes\class-core.php on line 316
+
+2020-03-12T07:39:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\ti-woocommerce-wishlist\integrations\woocommerce-composite-products.php on line 16
+
+2020-03-12T07:39:42+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 143
+
+2020-03-12T07:39:52+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\plugins\megamenu\classes\widget.class.php on line 3
+
+2020-03-12T07:40:08+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+
+2020-03-12T07:40:30+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp2\htdocs\gigant.com.ph\wp-content\themes\storefront-child\functions.php on line 1453
+

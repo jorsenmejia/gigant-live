@@ -1,0 +1,57 @@
+.zaddon_data {
+	text-align: right;
+	display: none;
+	margin-top: 15px;
+}
+
+.zaddon_closed div {
+	display: none;
+}
+
+.zaddon-open {
+	border: 0;
+	display: inline-block;
+	background: transparent;
+	padding: 0.25em;
+	margin: -0.25em 0;
+	width: 1.5em;
+	height: 1.5em;
+	font-size: 0.8em;
+	line-height: 1;
+}
+
+.zaddon-open:before {
+	display: block;
+	content: "";
+	border: 1px solid transparent;
+	border-left-color: currentColor;
+	border-bottom-color: currentColor;
+	width: 60%;
+	height: 60%;
+	transform: translateY(30%) translateX(20%) rotate(135deg);
+}
+
+.zaddon_closed .zaddon-open:before {
+	transform: translateY(-30%) translateX(20%) rotate(-45deg);
+}
+
+.zaddon_data > div {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.zaddon_data > div:first-child {
+	margin-top: 0;
+}
+
+.zaddon_data > div:last-child {
+	margin-bottom: 0;
+}
+
+.zaddon_hide_on_toggle.zaddon_hide {
+	display: none;
+}
+
+.zaddon-option-description{
+	margin: -0.2rem  0 0.5rem 1rem;
+}
