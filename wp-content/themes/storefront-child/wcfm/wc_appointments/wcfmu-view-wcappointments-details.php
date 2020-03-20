@@ -34,28 +34,8 @@
 
     do_action( 'before_wcfm_appointments_details' );
     ?>
-    <?php
-    if(isset($_POST['submitreason'])){
-    global $wpdb;
     
-    $table=$wpdb->prefix.'reason';
-    $id = isset( $_POST['id'] ) ? sanitize_text_field( $_POST['id'] ) : '';
-    $post_id = isset( $_POST['post_id'] ) ? sanitize_text_field( $_POST['post_id'] ) : '';
-    $reason = isset( $_POST['reason'] ) ? sanitize_text_field( $_POST['reason'] ) : '';
-    $appointment = new WC_Appointment( $appointment_id );
-    $appointment_id = $wp->query_vars['wcfm-appointments-details'];
-    $post_data=array(
-        'id' => $id,
-        'post_id' => $post_id,
-        'reason' => $reason,
-    );
-    $wpdb->insert( $table, $post_data,array('%s','%s','%s'));
-    $page_url = home_url( $wp->request );
-    $redirect_to = add_query_arg($page_url);
-    wp_safe_redirect( $redirect_to );
-    exit;
-    }
-    ?>
+
 
       <div class="collapse wcfm-collapse" id="wcfm_appointment_details">
 
@@ -225,11 +205,55 @@
                             <div class='btn-position'>
                                   <button id='accept' class='transac-buttons' onclick='transacUpdateStatus(".$appointment_id.")'>Accept</button>
                             </div>
+
                             <div class='btn-position'>
-                                  <button class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Decline & Respond</button>
+                                  <button class='transac-buttons' id='myBtn-decline'>Decline & Respond</button>
+                                  <div id='myModal-decline' class='modaldecline'>
+
+                                    <!-- Modal content -->
+                                    <div class='modal-decline-content'>
+                                      <span class='close'>&times;</span>";
+                                       echo "<h1 class='cancellation-title'>Cancellation Policy</h1><div class='policy-modal'>";
+                                        echo "<form action='' method ='POST' class='needs-validation' novalidate>
+                                        <p>Please choose a reason for cancelling the appointment below:</p>
+                                        <select id='reason_comment' name='reason_comment' required>
+                                          <option value='I have an Emergency'>I have an Emergency</option>
+                                          <option value='Option 1'>Option 1</option>
+                                          <option value='Option 2'>Option 2</option>
+                                          <option value='Option 3'>Option 3</option>
+                                        </select>
+                                        <input type='text' class='modal_postid'  id='reasonpost_id' placeholder='Remarks' value=' ".$appointment_id."' name='reasonpost_id' required></input>
+                                        </div><h1 class='confirmation'>Are you sure you want to cancel this appointment?</h1>
+                                        <button name='submitdecline' id='submitdecline' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
+                                        <button class='transac-buttons' onclick='closebutton()'>No</button>
+                                        </form>
+                                      </div>
+                                  </div>    
                             </div>
+                            
                             <div class='btn-position'>
-                                  <button class='transac-buttons'>Refer & Respond</button>
+                            <!-- Trigger/Open The Modal -->
+                            <button class='transac-buttons' id='myReferBtn'>Refer & Respond</button>
+
+                            <!-- The Modal -->
+                            <div id='myReferModal' class='refermodal'>
+
+                              <!-- Modal content -->
+                              <div class='refer-modal-content'>
+                                <span class='close'>&times;</span>
+                                <p class ='reasonfordecline'>Please choose a reason for referring the appointment to another professional</p>
+                                <select id='reason' name='reason' required>
+                                          <option value='I have an Emergency'>I have an Emergency</option>
+                                          <option value='Option 1'>Option 1</option>
+                                          <option value='Option 2'>Option 2</option>
+                                          <option value='Option 3'>Option 3</option>
+                                </select>
+                                <button class='transac-buttons' onclick='closebutton2()'>Close</button>
+                              </div>
+
+                            </div>
+                                  
+
                             </div>
                             <div class='btn-position'>
                                   <button class='transac-buttons'>Report for Abuse</button>
@@ -278,7 +302,8 @@
                                             echo the_field('strict',  $product_id);              }
                                         
                                         echo "
-                                        </div></div><h1 class='confirmation'>Are you sure you want to cancel this appointment?</h1>
+                                        </div>
+                                        </div><h1 class='confirmation'>Are you sure you want to cancel this appointment?</h1>
                                         <button name='submitreason' id='saveAppointment' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
                                         <button class='transac-buttons' onclick='closebutton()'>No</button>
                                         </form>
@@ -316,6 +341,58 @@
 <html>
 <head>
   <style>
+/* The Modal (background) */
+.modaldecline {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-decline-content {
+    background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    margin-left: 19%;
+    margin-top: 10%;
+}
+
+p.reasonfordecline {
+    text-align: left;
+}
+.refermodal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.refer-modal-content {
+  background-color: #fefefe;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    margin-left: 19%;
+    margin-top: 10%;
+}
+
 select#reason {
     position: relative;
     margin-bottom: 4%;
@@ -413,31 +490,73 @@ p.right-content {
     margin-top: 10%;
 }
 
-/* The Close Button */
-.close {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 h1.cancellation-title {
     padding-bottom: 29px;
 }
   </style>
+  <script>
+// Get the modal
+var modaldecline = document.getElementById("myModal-decline");
+
+// Get the button that opens the modal
+var btndecline = document.getElementById("myBtn-decline");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btndecline.onclick = function() {
+  modaldecline.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modaldecline.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+  <script>
+// Get the modal
+var refermodal = document.getElementById("myReferModal");
+
+// Get the button that opens the modal
+var referbtn = document.getElementById("myReferBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+referbtn.onclick = function() {
+  refermodal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  refermodal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == refermodal) {
+    refermodal.style.display = "none";
+  }
+}
+</script>
  <script>
 function closebutton() {
   document.getElementById("myModal").style.display = "none";
 }
 function closebutton1() {
   document.getElementById("myModal1").style.display = "none";
+}
+function closebutton2() {
+  document.getElementById("myReferModal").style.display = "none";
 }
 </script>
   <script>

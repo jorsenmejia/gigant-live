@@ -7,14 +7,14 @@ X-ORIGINAL-URL:http://localhost/gigant-live/
 X-WR-CALDESC:Appointments from Gigant
 X-WR-TIMEZONE:Asia/Manila
 BEGIN:VEVENT
-DTEND:20200307T173000
-UID:wc_appointments_85956
-DTSTAMP:20200320T142727
+DTEND:20200324T134500
+UID:wc_appointments_86601
+DTSTAMP:20200320T103521
 LOCATION:
 DESCRIPTION:
-URL;VALUE=URI:http://localhost/gigant-live/my-account/view-order/85959/
-SUMMARY:#85956 - Legal Advice (Copy) (Copy)
-DTSTART:20200307T163000
+URL;VALUE=URI:http://localhost/gigant-live/my-account/view-order/86602/
+SUMMARY:#86601 - Basketball Coach
+DTSTART:20200324T133000
 ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
 END:VEVENT
 END:VCALENDAR

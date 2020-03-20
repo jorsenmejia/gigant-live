@@ -1,0 +1,883 @@
+.elementor-68 .elementor-element.elementor-element-ae54929{margin-top:0px;margin-bottom:0px;padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-5e69a66:not(.elementor-motion-effects-element-type-background) > .elementor-column-wrap, .elementor-68 .elementor-element.elementor-element-5e69a66 > .elementor-column-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#1C2B36;}.elementor-68 .elementor-element.elementor-element-5e69a66 > .elementor-element-populated{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}.elementor-68 .elementor-element.elementor-element-5e69a66 > .elementor-element-populated > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-68 .elementor-element.elementor-element-ba0fcbb > .elementor-widget-container{margin:0px 0px 0px 0px;padding:0px 0px 0px 0px;}body.elementor-page-68 h1.entry-title, .elementor-page-title{display:none;}@media(min-width:768px){.elementor-68 .elementor-element.elementor-element-5e69a66{width:17.857%;}.elementor-68 .elementor-element.elementor-element-bbde0a4{width:82.143%;}}/* Start custom CSS for page-settings *//*end of original side nav hidden*/
+
+/*Jaspher Side nav bar Css*/
+
+
+.list-con li.elementor-icon-list-item:hover {
+    background-color: #17A2B8 !important;
+    padding: 10px 0px 10px 12px!important;
+  
+}
+  
+.list-con li.elementor-icon-list-item {
+   
+    padding: 10px 0px 10px 12px!important;
+  
+}
+
+/*end of Jaspher Side nav bar Css*/
+
+
+
+
+/*.grid-appointments {*/
+/*  display: grid;*/
+/*  grid-template-columns: auto auto;*/
+/*  background-color: #2196F3;*/
+/*  padding: 10px;*/
+ 
+/*}*/
+.grid-appointments-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+input#account_first_name, input#account_last_name, input#account_display_name, input#account_email {
+    opacity: 0.6;
+    pointer-events: none;
+}
+input#account_first_name:focus, input#account_last_name:focus, input#account_display_name:focus, input#account_email:focus {
+    outline: none;
+    background-color: #f2f2f2;
+    
+}
+section.elementor-element.elementor-element-c5533d9.elementor-section-full_width.elementor-section-height-default.elementor-section-height-default.elementor-section.elementor-top-section {
+    display: none;
+}
+table.shop_table.my_account_appointments.past_appointments .appointment-actions {
+    display: none;
+}
+table.shop_table.my_account_appointments.upcoming_appointments a.button.call {
+    display: none;
+}
+a.button.cancel {
+    width: auto;
+}
+a.woocommerce-Button.button {
+    display: none;
+}
+h.woocommerce-MyAccount-navigation {
+    display: none;
+}
+.woo-wallet-content {
+    background-color: #fffffffa;
+}
+p.user {
+    display: none;
+}
+.woocommerce-MyAccount-content {
+    width: 100% !important;
+    float: right;
+    margin-right: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  background-color:#003399;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  color: #003399;
+  font-family: Montserrat, montserrat;
+  
+  text-align: center;
+}
+.grid-container1 {
+  display: grid;
+  grid-template-columns: auto;
+  padding: 10px;
+  background-color:#003399;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 16px;
+  color: #003399;
+  font-family: Montserrat, montserrat;
+  
+  text-align: center;
+}
+p.points {
+    color: black;
+}
+.cancel {
+    width: 83px;
+    height: 40px;
+}
+
+/*dashboard css*/
+
+  .my-account-container{
+    width: 100%;
+    height: 593px;
+    background-color:#ECEEF2;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    }
+  .home-grid-container{
+    grid-gap: 10px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .home-container {
+    background-color:#ECEEF2;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom:1px;
+  }
+  .home-header-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color:white;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 30px;
+  }
+  .home-body-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    text-align: center;
+    margin: 10px;
+    font-size: 30px;
+
+  }
+  .home-header-item {
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 30px;
+    border-right: 1px solid rgba(138, 138, 138, 0.5);
+    padding: 5px;
+  }
+  .home-header-label,.home-header-label a{
+    font-size: 15px;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    color:#6d6d6d !important;
+    text-decoration:none;
+
+  }
+  .home-week-label{
+    font-size: 18px;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+    color: rgb(66, 201, 201);
+    
+  }
+  .home-appointment-requests{
+
+  }
+  .home-upcoming-appointments{
+  
+  }
+  .home-wallet{
+  
+  }
+  .my-account-bold{
+    font-size: 18px;
+    font-weight: 500;
+    margin:0;
+    padding:0;
+    color: black;
+  }
+  
+  .home-body-item{
+  background-color: white;
+  border-radius:5px;
+  text-align: center;
+  height: 354px;
+  margin: 10px;
+  display: grid;
+  grid-template-rows: max-content auto;
+  }
+  p.home-body-label {
+    color: white;
+    background-color: #1c2b36;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding-left: 20px;
+    font-size: 13px;
+    font-weight: 400;
+    margin:0;
+    padding:10px 10px 10px 20px;
+    border-bottom: 1px solid rgba(138, 138, 138, 0.5);
+    text-align:left;
+}
+.schedule-container{
+    border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size:18px;
+  overflow-y: scroll
+}
+.notification-container{
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow-y: scroll;
+  padding-left: 20px;
+    padding-right: 20px;
+}
+
+a.wcfm_submit_button {
+    color: #6d6d6d;
+}
+
+div#wcfm_dashboard_notifications {
+    display: none;
+}
+
+.wcfm_dashboard_notification {
+    font-size: 14.4px;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 8px;
+}
+
+.wcfm_dashboard_notifications_show_all {
+    text-align: right;
+}
+
+a.wcfm_submit_button {
+    font-size: 10px;
+    color: white;
+    background-color: #1c2b36;
+    padding: 5px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: white;
+  color: #6d6d6d;
+  text-align: center;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 70%;
+  margin-left: -45%;
+
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity .5s;
+
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  border: 1px solid lightgray;
+  opacity: 1;
+}
+.tooltiptext {
+font-size: 15px;
+font-weight: 400; 
+}
+.tooltiptext-container{
+padding:10px;
+}
+.plain-link{
+  text-decoration:none;
+}
+
+td.home-appointment-date {
+    line-height: 15px;
+    vertical-align: middle;
+    text-align: center;
+}
+span.home-date-of-month {
+    font-size: 22px;
+    font-weight: 500;
+}
+td.home-appointment-details {
+    vertical-align: middle;
+}
+span.home-listing-pro-name a,span.home-customer-name {
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
+    
+}
+
+td.home-appointment-date {
+    width: 10%;
+}
+td.home-appointment-details {
+    width: 45%;
+}
+td.home-appointment-status {
+    width: 10%;
+}
+td.home-appointment-actions {
+    width: 35%;
+    text-align: center;
+    vertical-align: middle;
+}
+span.home-appointment-countdown {
+    font-size: 13px;
+    font-weight: 500;
+}
+span.home-customer-note {
+    font-size: 13px;
+}
+table.shop_table.my_account_appointments.today_appointments {
+    border-collapse: collapse;
+}
+tr.last-row {
+    border-bottom: 1px solid lightgrey;
+}
+a.woocommerce-button.button.pay {
+    background-color: #43cf62;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-size:14px;
+}
+a.woocommerce-button.button.pay:hover {
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 8px;
+    color: black;
+    font-size:14px;
+}
+/*dashboard css end*/
+
+/*account details css*/
+.account-details-container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}
+.address-container, .user-details-container {
+   
+}
+fieldset.password, fieldset.password>legend{
+    background-color: #fdfdfd !important;
+    margin: 0;
+    padding: 0;
+}
+ div.ywpar-wrapper, div.user-details-container{
+    background-color: #fdfdfd;
+    padding:10px;
+     margin-left: 30px;
+    margin-top: 30px;
+}
+
+div.ywpar-wrapper{
+    margin-right:30px;
+}
+
+div.blank-divider{
+    margin-right:-10px;
+    margin-left:-10px;
+    margin-top:10px;
+    height:30px;
+    background-color: white;
+}
+
+.woocommerce-Input,.woocommerce-form-row {
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    padding-bottom: 0px !important;
+    margin-bottom: 5px !important;
+    
+}
+.woocommerce-Input{
+    padding-left:5px;
+}
+
+div.ywpar-wrapper p {
+    font-size: 30px;
+    margin: 24px !important;
+    text-align-last: center;
+}
+
+button.woocommerce-Button.button {
+    margin-left: 2%;
+}
+address {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+}
+h3.address-header {
+        margin-top: 10px !important;
+}
+.edit-address {
+    padding: 10px 23px 10px 23px;
+    background-color: #eeeeee;
+    color: #333333 !important;
+    font-weight: 600;
+    width: max-content;
+    margin-left: 14.297px !important;
+}
+.edit-address:hover {
+    padding: 10px 23px 10px 23px;
+    background-color: lightgray;
+    color: #333333 !important;
+    font-weight: 600;
+    width: max-content;
+}
+a.edit {
+    color: #333333 !important;
+}
+div.my-points {
+    padding: 2%;
+    background-color: #eeeeee;
+    color: #333333 !important;
+    font-weight: 600;
+    width: max-content;
+}
+div.my-points:hover {
+    padding: 2%;
+    background-color: lightgray;
+    color: #333333 !important;
+    font-weight: 600;
+    width: max-content;
+}
+a.my-points {
+    color: #333333 !important;
+}
+fieldset, fieldset legend {
+    background-color: white !important;
+}
+
+
+/*account details css end*/
+
+/*SIDEBAR TOOLTIPS*/
+#sidebar1:after{
+    content: "Dashboard";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;
+    position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar1:hover:after{
+    visibility:visible;
+}
+#sidebar2:after{
+    content: "Appointments";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar2:hover:after{
+    visibility:visible;
+}
+#sidebar3:after{
+    content: "My Address";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar3:hover:after{
+    visibility:visible;
+}
+#sidebar4:after{
+    content: "My Wallet";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar4:hover:after{
+    visibility:visible;
+}
+#sidebar5:after{
+    content: "Account Details";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar5:hover:after{
+    visibility:visible;
+}
+#sidebar6:after{
+    content: "Professional Manager";
+    visibility:hidden;
+    height:max-content;
+    font-size:18px;
+    text-align: center;
+    background-color:#808080;
+    padding:5px;
+    border-radius: 5px;
+    color:white;
+    z-index:98;position:relative;
+    right:5px;
+    white-space: nowrap;
+}
+#sidebar6:hover:after{
+    visibility:visible;
+}
+/*SIDEBAR TOOLTIPS END*/
+
+@media only screen and (max-width: 420px) and (min-width: 393px) {
+  .tabs label {
+    font-size: 8.5px !important;
+}
+     .wrapper {
+    width: 77%  !important;
+    display: block  !important;
+  height: 175px !important;
+}
+
+.three {
+    margin-top: -58px !important;
+}
+.four.gridcell {
+    margin-top: 22px;
+	
+}
+
+.five.gridcell {
+    margin-top: -24px;
+}
+.seven.gridcell {
+    margin-top: 10px !important;
+}
+
+.two.gridcell {
+    margin-left: 0px !important;
+}
+.wrapper {
+    height: 185px !important;
+}
+#wcfm-main-contentainer .tabs label {
+    width: 25%;
+
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}}
+
+@media only screen and (max-width: 393px) and (min-width: 375px) {
+  .tabs label {
+    font-size: 8.5px !important;
+}
+     .wrapper {
+    width: 77%  !important;
+    display: block  !important;
+  height: 175px !important;
+}
+
+.three {
+    margin-top: -58px !important;
+}
+.four.gridcell {
+    margin-top: 22px;
+	
+}
+
+.five.gridcell {
+    margin-top: -24px;
+}
+.seven.gridcell {
+    margin-top: 10px !important;
+}
+
+.two.gridcell {
+    margin-left: 0px !important;
+}
+.wrapper {
+    height: 185px !important;
+}
+#wcfm-main-contentainer .tabs label {
+    width: 25%;
+
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+}
+@media only screen and (max-width: 375px) and (min-width: 360px) {
+
+  .tabs label {
+    font-size: 8.5px !important;
+}
+     .wrapper {
+    width: 77%  !important;
+    display: block  !important;
+  height: 175px !important;
+}
+
+.three {
+    margin-top: -58px !important;
+}
+.four.gridcell {
+    margin-top: 22px;
+	
+}
+
+.five.gridcell {
+    margin-top: -24px;
+}
+.seven.gridcell {
+    margin-top: 10px !important;
+}
+
+.two.gridcell {
+    margin-left: 0px !important;
+}
+.wrapper {
+    height: 185px !important;
+}
+#wcfm-main-contentainer .tabs label {
+    width: 25%;
+
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+}
+@media only screen and (max-width: 360px) and (min-width: 320px) {
+  
+.tabs label {
+    font-size: 8px !important;
+}
+     .wrapper {
+    width: 77%  !important;
+    display: block  !important;
+  height: 175px !important;
+}
+
+.three {
+    margin-top: -58px !important;
+}
+.four.gridcell {
+    margin-top: 22px;
+	
+}
+
+.five.gridcell {
+    margin-top: -24px;
+}
+.seven.gridcell {
+    margin-top: 10px !important;
+}
+
+.two.gridcell {
+    margin-left: 0px !important;
+}
+.wrapper {
+    height: 185px !important;
+}
+#wcfm-main-contentainer .tabs label {
+    width: 25%;
+
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+}
+@media only screen and (max-width: 320px) and (min-width: 100px) {
+.tabs label {
+    font-size: 8px !important;
+}
+     .wrapper {
+    width: 77%  !important;
+    display: block  !important;
+  height: 175px !important;
+}
+
+.three {
+    margin-top: -58px !important;
+}
+.four.gridcell {
+    margin-top: 22px;
+	
+}
+
+.five.gridcell {
+    margin-top: -24px;
+}
+.seven.gridcell {
+    margin-top: 10px !important;
+}
+
+.two.gridcell {
+    margin-left: 0px !important;
+}
+.wrapper {
+    height: 185px !important;
+}
+#wcfm-main-contentainer .tabs label {
+    width: 25%;
+
+    margin: 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.home-week-label {
+    font-size: 14px !important;
+        margin-top: 10px !important;
+}
+    
+
+.home-header-label, .home-header-label a {
+    font-size: 10px !important;}
+
+
+span.woocommerce-Price-amount.amount {
+    font-size: 12px!important;
+    padding: 0px !important;
+    margin-top: 14px!important;
+}
+.home-body-item {
+    margin: 2px !important;
+}
+}
+
+@media only screen and (max-width: 1080px) and (min-width: 420px) {
+ 
+#m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}
+.wrapper {
+    width: 40% !important;
+
+}
+} 
+
+@media only screen and (max-width: 1280px) and (min-width:1080px) {
+ .wcfm-page-headig {
+    background-color: black !important;
+}
+#m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}
+.wrapper {
+    width: 40% !important;
+
+}
+} 
+@media only screen and (max-width: 1366px) and (min-width: 1280px) {
+
+#m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}#m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}
+.wrapper {
+    width: 40% !important;
+
+}
+} 
+@media only screen and (max-width: 1440px) and (min-width: 1366x) {
+
+#m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}
+.wrapper {
+    width: 40% !important;
+
+}
+} 
+@media only screen and (max-width: 1920px) and (min-width: 1440px) {
+
+  #m-nav{
+    display:block !important;
+}
+a.burger {
+    display: none !important;
+}
+   
+   .wrapper {
+    width: 40% !important;
+
+}
+
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1080px) {
+
+.elementor-68 .elementor-element.elementor-element-5e69a66 {
+    width: 22%!important;
+}
+}
+
+.pending-status {
+    margin-left: 3px!Important;
+}
+
+/**/
+.home-body-item {
+    background-color: white;
+    border-radius: 5px;
+    text-align: center;
+    height: 460px!important;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: max-content auto;
+}
+
+/**/
+tr.table-header-row {
+    background-color: #17A2B8;
+    color: white!Important;
+    font-family: montserrat!Important;
+    text-transform: uppercase;
+    font-size: 13px!Important;
+    font-weight: 700;
+}/* End custom CSS */

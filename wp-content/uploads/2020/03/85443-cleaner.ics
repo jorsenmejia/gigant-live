@@ -7,14 +7,14 @@ X-ORIGINAL-URL:http://localhost/gigant-live/
 X-WR-CALDESC:Appointments from Gigant
 X-WR-TIMEZONE:Asia/Manila
 BEGIN:VEVENT
-DTEND:20200307T173000
-UID:wc_appointments_85956
-DTSTAMP:20200320T142727
+DTEND:20200229T120000
+UID:wc_appointments_85443
+DTSTAMP:20200320T142818
 LOCATION:
 DESCRIPTION:
-URL;VALUE=URI:http://localhost/gigant-live/my-account/view-order/85959/
-SUMMARY:#85956 - Legal Advice (Copy) (Copy)
-DTSTART:20200307T163000
+URL;VALUE=URI:http://localhost/gigant-live/my-account/view-order/85446/
+SUMMARY:#85443 - Cleaner
+DTSTART:20200229T114500
 ORGANIZER;CN="Gigant":bagonglalagyan@yahoo.com
 END:VEVENT
 END:VCALENDAR
