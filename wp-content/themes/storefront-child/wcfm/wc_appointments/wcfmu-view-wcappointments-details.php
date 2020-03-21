@@ -211,21 +211,23 @@
                                   <div id='myModal-decline' class='modaldecline'>
 
                                     <!-- Modal content -->
-                                    <div class='modal-decline-content'>
-                                      <span class='close'>&times;</span>";
-                                       echo "<h1 class='cancellation-title'>Cancellation Policy</h1><div class='policy-modal'>";
+                                    <div class='modal-decline-content'>";
+                                       echo "<div class='policy-modal'>";
                                         echo "<form action='' method ='POST' class='needs-validation' novalidate>
                                         <p>Please choose a reason for cancelling the appointment below:</p>
                                         <select id='reason_comment' name='reason_comment' required>
-                                          <option value='I have an Emergency'>I have an Emergency</option>
-                                          <option value='Option 1'>Option 1</option>
-                                          <option value='Option 2'>Option 2</option>
-                                          <option value='Option 3'>Option 3</option>
+                                          <option value='The client needs another kind of professional for their concern'>The client needs another kind of professional for their concern</option>
+                                          <option value='I have a prior appointment'>I have a prior appointment</option>
+                                          <option value='Filler choice 3'>Filler choice 3</option>
+                                          <option value='Filler choice 4'>Filler choice 4</option>
+                                          <option value='There is not enough information from client'>There is not enough information from client</option>
+                                          <option value='Other reason'>Other reason</option>
                                         </select>
-                                        <input type='text' class='modal_postid'  id='reasonpost_id' placeholder='Remarks' value=' ".$appointment_id."' name='reasonpost_id' required></input>
-                                        </div><h1 class='confirmation'>Are you sure you want to cancel this appointment?</h1>
+                                        <input type='hidden' class='modal_postid'  id='reasonpost_id' placeholder='Remarks' value=' ".$appointment_id."' name='reasonpost_id' required></input>
+                                        </div><p class='confirmation'>Are you sure you want to cancel this appointment?</p>
                                         <button name='submitdecline' id='submitdecline' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
                                         <button class='transac-buttons' onclick='closebutton()'>No</button>
+                                        <a class='transac-buttons' href='http://localhost/gigant-live/professional-manager/appointments-manual'/ target='_blank'>Invite to New Schedule</a>
                                         </form>
                                       </div>
                                   </div>    
@@ -241,6 +243,7 @@
                               <!-- Modal content -->
                               <div class='refer-modal-content'>
                                 <span class='close'>&times;</span>
+                                <div class='reasonfordecline'>
                                 <p class ='reasonfordecline'>Please choose a reason for referring the appointment to another professional</p>
                                 <select id='reason' name='reason' required>
                                           <option value='I have an Emergency'>I have an Emergency</option>
@@ -248,6 +251,16 @@
                                           <option value='Option 2'>Option 2</option>
                                           <option value='Option 3'>Option 3</option>
                                 </select>
+                                <p class = 'search-listing'> Please select the professional you will refer to this using the search box below:</p>
+                                <input type = 'text'>
+                                <p class='professional-listing'> Select a listing from this professional:</p>
+                                <select id='reason' name='reason' required>
+                                          <option value='I have an Emergency'>I have an Emergency</option>
+                                          <option value='Option 1'>Option 1</option>
+                                          <option value='Option 2'>Option 2</option>
+                                          <option value='Option 3'>Option 3</option>
+                                </select>
+                                </div>
                                 <button class='transac-buttons' onclick='closebutton2()'>Close</button>
                               </div>
 
@@ -263,7 +276,7 @@
                     else if ($appointment_status == "cancelled") {
                         echo "";
                     }
-                    else if ($appointment_status == "completed") {
+                    else if ($appointment_status == "complete") {
                         echo "";
                     }
                     else{
@@ -341,6 +354,16 @@
 <html>
 <head>
   <style>
+.policy-modal {
+    padding-bottom: 83px;
+}
+a.transac-buttons {
+    background-color: white;
+    border: 1px solid;
+    width: 250px;
+    font-size: 20px;
+    padding: 16px;
+}
 /* The Modal (background) */
 .modaldecline {
   display: none; /* Hidden by default */
@@ -366,7 +389,7 @@
     margin-top: 10%;
 }
 
-p.reasonfordecline {
+div.reasonfordecline {
     text-align: left;
 }
 .refermodal {

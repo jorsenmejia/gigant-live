@@ -1,0 +1,440 @@
+body.elementor-page-14153 h1.entry-title, .elementor-page-title{display:none;}/* Start custom CSS for page-settings */li.product {
+     border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -4px !important;
+}
+
+a.reviewstar:before {
+    font-size: 14px !important;
+}
+
+
+@media only screen and (max-width: 320px) and (min-width: 300px) {
+
+#wcfmmp-store .logo_area a img {
+  
+    height: 190% !important;
+   
+}
+
+.logo_area.lft {
+    width: 45% !important;
+}
+.logo_area_after {
+    margin-top: 40px;
+}
+
+#wcfmmp-store .address {
+    margin-top: 12% !important;
+}
+
+h1.wcfm_store_title {
+    font-size: 20px !important;
+}
+
+p.header_store_name {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+.header_store_name {
+    font-size: 12px;
+}
+
+#wcfmmp-store .logo_area_after {
+    left: 37%;
+}
+
+a#wcfm_follow_delete {
+    margin-left: 250%;
+}
+
+#wcfmmp-store .right_side {
+    padding: 13% 3% 10% 22% !important;
+}
+ul.tab_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#wcfmmp-store .tab_area .tab_links {
+    margin-bottom: 5% !important;
+}
+
+select.orderby {
+    margin-left: 25% !important;
+}
+
+
+.grid-content-profilelist p {
+    font-size: 10px;
+    width: 93%;
+}
+.grid-profilelist-ratings {
+    font-size: 11px;
+}
+.below {
+    font-size: 11px !important;
+}
+a.read-more {
+    font-size: 10px;
+
+    
+}
+li.product {
+    margin: 0px 2px 12px 2px !important;
+     border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -4.5px !important;
+}
+
+a.reviewstar:before {
+    font-size: 12px !important;
+}
+
+}
+
+@media only screen and (max-width: 360px) and (min-width: 321px) {
+
+
+#wcfmmp-store .logo_area a img {
+  
+    height: 180% !important;
+   
+}
+
+.logo_area.lft {
+    width: 45% !important;
+}
+.logo_area_after {
+    margin-top: 40px;
+}
+
+#wcfmmp-store .address {
+    margin-top: 12% !important;
+}
+
+h1.wcfm_store_title {
+    font-size: 20px !important;
+}
+
+p.header_store_name {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+.header_store_name {
+    font-size: 12px;
+}
+
+#wcfmmp-store .logo_area_after {
+    left: 37%;
+}
+
+a#wcfm_follow_delete {
+    margin-left: 288% !important;
+}
+
+#wcfmmp-store .right_side {
+    padding: 13% 3% 10% 21% !important;
+}
+ul.tab_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#wcfmmp-store .tab_area .tab_links {
+    margin-bottom: 5% !important;
+}
+
+select.orderby {
+    margin-left: 25% !important;
+}
+
+
+.grid-content-profilelist p {
+    font-size: 10px;
+    width: 93%;
+}
+.grid-profilelist-ratings {
+    font-size: 11px;
+}
+.below {
+    font-size: 11px !important;
+}
+a.read-more {
+    font-size: 10px;
+  
+    
+}
+li.product {
+    margin: 0px 2px 12px 2px !important;
+     border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -4.5px !important;
+}
+
+a.reviewstar:before {
+    font-size: 12px !important;
+}
+}
+
+@media only screen and (max-width: 375px) and (min-width: 361px) {
+
+ 
+
+#wcfmmp-store .logo_area a img {
+  
+    height: 190% !important;
+   
+}
+
+.logo_area.lft {
+    width: 45% !important;
+}
+.logo_area_after {
+    margin-top: 40px;
+}
+
+#wcfmmp-store .address {
+    margin-top: 12% !important;
+}
+
+h1.wcfm_store_title {
+    font-size: 20px !important;
+}
+
+p.header_store_name {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+.header_store_name {
+    font-size: 12px;
+}
+
+#wcfmmp-store .logo_area_after {
+    left: 38%;
+}
+
+a#wcfm_follow_delete {
+    margin-left: 305%;
+}
+
+#wcfmmp-store .right_side {
+    padding: 13% 3% 10% 20% !important;
+}
+ul.tab_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#wcfmmp-store .tab_area .tab_links {
+    margin-bottom: 5% !important;
+}
+
+select.orderby {
+    margin-left: 25% !important;
+}
+
+
+.grid-content-profilelist p {
+    font-size: 10px;
+    width: 93%;
+}
+.grid-profilelist-ratings {
+    font-size: 11px;
+}
+.below {
+    font-size: 11px !important;
+}
+a.read-more {
+    font-size: 10px;
+
+
+}
+li.product {
+    margin: 0px 2px 12px 2px !important;
+     border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -4.5px !important;
+}
+
+a.reviewstar:before {
+    font-size: 12px !important;
+}
+}
+
+
+
+@media only screen and (max-width: 393px) and (min-width: 376px) {
+
+
+#wcfmmp-store .logo_area a img {
+  
+    height: 190% !important;
+   
+}
+
+.logo_area.lft {
+    width: 45% !important;
+}
+.logo_area_after {
+    margin-top: 40px;
+}
+
+#wcfmmp-store .address {
+    margin-top: 12% !important;
+}
+
+h1.wcfm_store_title {
+    font-size: 20px !important;
+}
+
+p.header_store_name {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+.header_store_name {
+    font-size: 12px;
+}
+
+#wcfmmp-store .logo_area_after {
+    left: 38%;
+}
+
+a#wcfm_follow_delete {
+    margin-left: 320%;
+}
+
+#wcfmmp-store .right_side {
+    padding: 13% 3% 10% 19% !important;
+}
+ul.tab_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#wcfmmp-store .tab_area .tab_links {
+    margin-bottom: 5% !important;
+}
+
+select.orderby {
+    margin-left: 25% !important;
+}
+
+
+.grid-content-profilelist p {
+    font-size: 10px;
+    width: 93%;
+}
+.grid-profilelist-ratings {
+    font-size: 11px;
+}
+.below {
+    font-size: 11px !important;
+}
+a.read-more {
+    font-size: 10px;
+  
+
+}
+li.product {
+    margin: 0px 2px 12px 2px !important;
+     border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -5px !important;
+}
+
+a.reviewstar:before {
+    font-size: 12px !important;
+}
+}
+
+@media only screen and (max-width: 420px) and (min-width: 394px) {
+
+
+
+#wcfmmp-store .logo_area a img {
+  
+    height: 190% !important;
+   
+}
+
+.logo_area.lft {
+    width: 45% !important;
+}
+.logo_area_after {
+    margin-top: 40px;
+}
+
+#wcfmmp-store .address {
+    margin-top: 12% !important;
+}
+
+h1.wcfm_store_title {
+    font-size: 20px !important;
+}
+
+p.header_store_name {
+    font-size: 12px;
+    font-weight: 400 !important;
+}
+.header_store_name {
+    font-size: 12px;
+}
+
+#wcfmmp-store .logo_area_after {
+    left: 38%;
+}
+
+a#wcfm_follow_delete {
+    margin-left: 338%;
+}
+
+#wcfmmp-store .right_side {
+    padding: 13% 3% 10% 18% !important;
+}
+ul.tab_links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#wcfmmp-store .tab_area .tab_links {
+    margin-bottom: 5% !important;
+}
+
+select.orderby {
+    margin-left: 25% !important;
+}
+
+
+.grid-content-profilelist p {
+    font-size: 10px;
+    width: 93%;
+}
+.grid-profilelist-ratings {
+    font-size: 11px;
+}
+.below {
+    font-size: 11px !important;
+}
+a.read-more {
+    font-size: 10px;
+
+
+}
+li.product {
+    margin: 0px 2px 12px 2px !important;
+ border-radius: 10px;  
+}
+p.reviewstar {
+    margin-top: -4px !important;
+}
+
+a.reviewstar:before {
+    font-size: 12px !important;
+}
+}/* End custom CSS */
