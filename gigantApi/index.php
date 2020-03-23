@@ -5,7 +5,7 @@ header('Access-Control-Allow-Header:*');
 header('Access-Control-Allow-Methods:*');
 header('Content-type:application/json');
 header('Pragma: no-cache');
-$db = new Conn('localhost','rod_gigant','&h0,^PZb;c)o','rod_gigant.com.ph');
+$db = new Conn('localhost','root','','gigant-live');
 $request = explode('/',rtrim($_REQUEST['res'],'/'));
 switch ($_SERVER['REQUEST_METHOD']) {
     case 'GET':
