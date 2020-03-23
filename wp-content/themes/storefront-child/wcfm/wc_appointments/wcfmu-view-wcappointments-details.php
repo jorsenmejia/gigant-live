@@ -167,7 +167,7 @@
                                 <?php elseif ( $appointment->get_status() === 'complete') :?>
                                     <?php echo "<p style='background-color:grey;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Completed</p>";?> 
                                 <?php elseif ( $appointment->get_status() === 'cancelled') :?>
-                                    <?php echo "<p style='background-color:#f91717c2;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Refunded/Lapsed</p>";?> 
+                                    <?php echo "<p style='background-color:#f91717c2;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>asdasdasdasd/Lapsed</p>";?> 
                                 <?php elseif ( $appointment->get_status() === 'pending-confirmation') :?>
                                     <?php echo "<p style='background-color:#337ab7;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Pending Confirmation</p>";?> 
                                 <?php else: ?>  
