@@ -733,14 +733,12 @@ class WCFMmp_Commission {
 	/**
 	 * WC POS New Order Check 
 	 */
-	function wcfmmp_pos_order_check( $payment_details, $order ) {
-		if( !$order || !is_a($order , 'WC_Order') ) return;
-		$order_id = $order->get_id();
+	function wcfmmp_pos_order_check( $order_id, $data ) {
 		if( $order_id ) {
 			wcfm_log( "POS Order: #" . $order_id );
 			if ( get_post_meta( $order_id, '_wcfmmp_order_processed', true ) ) return;
 			$order_posted = get_post( $order_id );
-			$this->wcfmmp_checkout_order_processed( $order_id, $order_posted, $order );
+			$this->wcfmmp_checkout_order_processed( $order_id, $order_posted, '' );
 		}
 	}
 	
@@ -820,7 +818,7 @@ class WCFMmp_Commission {
 		if( !empty( $commissions ) ) {
 			foreach( $commissions as $commission ) {
 				// Update commission ledger status
-				$WCFMmp->wcfmmp_vendor->wcfmmp_ledger_status_update( $commission->ID, $status_to );
+				$WCFMmp->wcfmmp_ledger->wcfmmp_ledger_status_update( $commission->ID, $status_to );
 				
 				// Update auto withdrawal complated
 				if( in_array( $status_to, $withdrawal_auto_complate_order_status ) && $commission->is_auto_withdrawal && apply_filters( 'wcfm_is_pref_withdrawal', true ) ) {

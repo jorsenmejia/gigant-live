@@ -18,7 +18,11 @@ class WCFMmp_Rewrites {
 	 * Hook into the functions
 	 */
 	public function __construct() {
-		$this->wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+		if( function_exists( 'wcfm_get_option' ) ) {
+			$this->wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
+		} else {
+			$this->wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+		}
 		
 		add_action( 'init', array( $this, 'register_rule' ), 9 );
 		
@@ -84,7 +88,7 @@ class WCFMmp_Rewrites {
 	 */
 	public function store_page_breadcrumb( $crumbs ) {
 		if (  wcfm_is_store_page() ) {
-			$author      = get_query_var( $this->wcfm_store_url );
+			$author      = apply_filters( 'wcfmmp_store_query_var', get_query_var( $this->wcfm_store_url ) );
 			$seller_info = get_user_by( 'slug', $author );
 			if( $seller_info ) {
 				$store_info = wcfmmp_get_store_info( $seller_info->data->ID );
@@ -118,6 +122,15 @@ class WCFMmp_Rewrites {
 			if( $seller_info ) {
 				$store_info = wcfmmp_get_store_info( $seller_info->data->ID );
 				return $store_info['store_name'];
+			} else {
+				$store_name   = get_query_var( $this->wcfm_store_url );
+				if( $store_name ) {
+					$seller_info  = get_user_by( 'slug', $store_name );
+					if( $seller_info ) {
+						$store_info = wcfmmp_get_store_info( $seller_info->data->ID );
+						return $store_info['store_name'];
+					}
+				}
 			}
 		}
 		
@@ -427,6 +440,11 @@ class WCFMmp_Rewrites {
 
 		$store_name   = urldecode( get_query_var( $this->wcfm_store_url ) );
 		$seller_info  = get_user_by( 'slug', $store_name );
+		
+		if( !$seller_info ) {
+			$store_name   = get_query_var( $this->wcfm_store_url );
+			$seller_info  = get_user_by( 'slug', $store_name );
+		}
 		
 		$store_url = '';
 		if( $seller_info ) {

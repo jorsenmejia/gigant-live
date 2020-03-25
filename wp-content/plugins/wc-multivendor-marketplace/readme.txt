@@ -3,11 +3,11 @@ Contributors: wclovers
 Tags: woocommerce marketplace, multivendor marketplace, multi vendor, multi seller, woocommerce product vendors 
 Donate link: https://www.paypal.me/wclovers/25usd
 Requires at least: 4.4
-Tested up to: 5.3
+Tested up to: 5.4
 WC requires at least: 3.0
-WC tested up to: 3.8.0
+WC tested up to: 4.0.0
 Requires PHP: 5.6
-Stable tag: 3.3.3
+Stable tag: 3.3.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -194,10 +194,12 @@ If you already have a multi-vendor store setup using WC Marketplace or WC Vendor
 🔖 WooCommerce Dynamic Pricing
 🔖 WooCommerce Tiered Table Price
 🔖 WooCommerce License Manager / License Manager for WooCommerce
+🔖 PW WooCommerce Gift Cards
 🔖 MSRP for WooCommerce (Algoritmika)
 🔖 Cost of Goods for WooCommerce (Algoritmika)
 🔖 Advanced Product Size Charts for WooCommerce
 🔖 Fancy Product Designer
+🔖 Post Expirator
 🔖 FooEvents
 
 = Setup Guide = 
@@ -211,7 +213,7 @@ If you already have a multi-vendor store setup using WC Marketplace or WC Vendor
 
 ### Feedback 
 
-All we want is love. We are extremely responsive about support requests - so if you face a problem or find any bugs, shoot us a mail or post it in the support forum, and we will respond within 6 hours(during business days). If you get the impulse to rate the plugin low because it is not working as it should, please do wait for our response because the root cause of the problem may be something else. 
+All we want is love. We are extremely responsive about support requests - so if you face a problem or find any bugs, shoot us a mail or post it in the support forum, and we will respond within 6-12 hours(during business days). If you get the impulse to rate the plugin low because it is not working as it should, please do wait for our response because the root cause of the problem may be something else. 
 
 It is extremely disheartening when trigger happy users downrate a plugin for no fault of the plugin. 
 
@@ -263,6 +265,39 @@ NONE.
 
 
 == Changelog ==
+
+= 3.3.6 =
+*Updated - 15/03/2020
+
+* Feature - Post Expirator compatibility added
+* Enhance - WooCommerce 4.0+ compatibility added
+* Enhance - WP 5.4+ compatibility added
+* Enhance - Admin order list "vendor/store filter" option added
+* Enhance - Withdrawal request auto-cancel on refund process
+* Enhance - Reverse Withdrawal auto-cancel and re-generate on refund process
+* Tweak   - Store page policy tab title display change to as per vendor's "Policy Tab Label" setting
+* Fixed   - Order item Tax refund issue resolved
+* Fixed   - Stripe Split pay direct charge full refund application not fully refunded issue resolved
+* Fixed   - Yoast SEO - Store page "Canonical URL" trailing slash missing issue resolved
+* Fixed   - Rank Math SEO - Store page "Meta Description" and "Canonical URL" not properly rendering issue resolved
+* Fixed   - Without policy content "Policies" heading visible under order details page issue resolved
+* Fixed   - Without customer support content heading visible under order details page issue resolved
+* Fixed   - Without "policy" and "customer support" content headings visible under store invoice issue resolved
+
+= 3.3.5 =
+*Updated - 09/03/2020
+
+* Fixed   - On install "wcfm_get_option" function not-defined error issue resolved
+
+= 3.3.4 =
+*Updated - 07/03/2020
+
+* Feature - PW WooCommerce Gift Cards compatibility added
+* Enhance - Store page url base WPML compatibility added
+* Enhance - FooEvent Check-in APP Rest API compatibility added
+* Enhance - Store category filter SEO improved
+* Enhance - Product list GEO location auto-filter compatibility added
+* Tweak   - SPMV "more offers" product list "out of stock" products exclude
 
 = 3.3.3 =
 *Updated - 18/02/2020
@@ -1317,13 +1352,18 @@ NONE.
 
 == Upgrade Notice ==
 
-= 3.3.3 =
-* Feature - Store list "registration custom fileds" meta filter widget added 
-* Enhance - Store Zone Shipping "No class cost" support added
-* Enhance - Inquiry and Support Tickets "My Account" view improved
-* Enhance - Firebase Chat conversation email format improved
-* Enhance - Bookable and Appointment products order commission invoice improved
-* Enhance - Store and product radius filter Firefox display improved 
-* Enhance - Store zone shipping locaton rule "postcode ranges" compatibility added 
-* Enhance - Store list full card linked option added - enable by pass TRUE to this filter "wcfmmp_is_allow_full_store_card_linked"  
-* Fixed   - Archived products breaking store page pagination issue resolved 
+= 3.3.6 =
+* Feature - Post Expirator compatibility added
+* Enhance - WooCommerce 4.0+ compatibility added
+* Enhance - WP 5.4+ compatibility added
+* Enhance - Admin order list "vendor/store filter" option added
+* Enhance - Withdrawal request auto-cancel on refund process
+* Enhance - Reverse Withdrawal auto-cancel and re-generate on refund process
+* Tweak   - Store page policy tab title display change to as per vendor's "Policy Tab Label" setting
+* Fixed   - Order item Tax refund issue resolved
+* Fixed   - Stripe Split pay direct charge full refund application not fully refunded issue resolved
+* Fixed   - Yoast SEO - Store page "Canonical URL" trailing slash missing issue resolved
+* Fixed   - Rank Math SEO - Store page "Meta Description" and "Canonical URL" not properly rendering issue resolved
+* Fixed   - Without policy content "Policies" heading visible under order details page issue resolved
+* Fixed   - Without customer support content heading visible under order details page issue resolved
+* Fixed   - Without "policy" and "customer support" content headings visible under store invoice issue resolved

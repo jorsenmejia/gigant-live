@@ -20,7 +20,7 @@ $product_ids = '';
 if( !empty( $more_offers ) ) {
 	foreach ($more_offers as $key => $value) {
 		$product_ids = $value->products . ',' . $value->parent_product_id;
-		$sql = "SELECT product_id FROM {$wpdb->wc_product_meta_lookup} wc_product_meta_lookup WHERE product_id IN ({$product_ids})";
+		$sql = "SELECT product_id, stock_status, stock_quantity FROM {$wpdb->wc_product_meta_lookup} wc_product_meta_lookup WHERE product_id IN ({$product_ids})";
 	}
 }
 
@@ -83,6 +83,9 @@ if( !empty( $wcfm_store_color_settings ) ) {
 	<?php
 	foreach( $more_offers as $more_offer ) {
 		$offer_product_id = absint($more_offer->product_id);
+		if( $more_offer->stock_status == 'outofstock' ) continue;
+		$post_status = get_post_status( $offer_product_id );
+		if( $post_status != 'publish' ) continue;
 		if( !apply_filters( 'wcfmmp_is_allow_product_for_more_offers', true, $offer_product_id ) ) continue;
 		if( ( $product_id == $offer_product_id ) && apply_filters( 'wcfmmp_is_allow_skip_current_product_from_more_offers', true, $offer_product_id ) ) continue;
 		$store_id         = wcfm_get_vendor_id_by_post($more_offer->product_id);

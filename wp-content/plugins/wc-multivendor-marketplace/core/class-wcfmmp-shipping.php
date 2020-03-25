@@ -507,30 +507,32 @@ class WCFMmp_Shipping {
     $free_shipping_available = false;
     $wcfmmp_shipping = array();
     
-    if( isset( $package['vendor_id'] ) ) {
-			foreach ( $rates as $rate_id => $rate ) {
-				if ( 'wcfmmp_product_shipping_by_country' === $rate->method_id || 'wcfmmp_product_shipping_by_zone' === $rate->method_id || 'wcfmmp_product_shipping_by_weight' === $rate->method_id ) {
-					$id = explode(":", $rate_id, 2);
-					$id = $id[0];
-					if($id === 'free_shipping') {
-						$free_shipping_available = apply_filters( 'wcfm_is_allow_hide_other_shipping_if_free', true );
-					}
-					$wcfmmp_shipping[ $rate_id ] = $rate;  
-				}
-			}
-			
-			if($free_shipping_available) {
-				foreach ( $wcfmmp_shipping as $rate_id => $rate ) { 
-					$id = explode(":", $rate_id, 2);
-					$id = $id[0];
-					if($id !== 'free_shipping') {
-						unset($wcfmmp_shipping[$rate_id]);
+    if( apply_filters( 'wcfm_is_allow_hide_admin_shipping_for_vendor_shipping', true ) ) {
+			if( isset( $package['vendor_id'] ) ) {
+				foreach ( $rates as $rate_id => $rate ) {
+					if ( 'wcfmmp_product_shipping_by_country' === $rate->method_id || 'wcfmmp_product_shipping_by_zone' === $rate->method_id || 'wcfmmp_product_shipping_by_weight' === $rate->method_id ) {
+						$id = explode(":", $rate_id, 2);
+						$id = $id[0];
+						if($id === 'free_shipping') {
+							$free_shipping_available = apply_filters( 'wcfm_is_allow_hide_other_shipping_if_free', true );
+						}
+						$wcfmmp_shipping[ $rate_id ] = $rate;  
 					}
 				}
-			}
-			
-			if( !apply_filters( 'wcfm_is_allow_admin_shipping_if_no_vendor_shipping', true ) ) {
-				$rates = array();
+				
+				if($free_shipping_available) {
+					foreach ( $wcfmmp_shipping as $rate_id => $rate ) { 
+						$id = explode(":", $rate_id, 2);
+						$id = $id[0];
+						if($id !== 'free_shipping') {
+							unset($wcfmmp_shipping[$rate_id]);
+						}
+					}
+				}
+				
+				if( !apply_filters( 'wcfm_is_allow_admin_shipping_if_no_vendor_shipping', true ) ) {
+					$rates = array();
+				}
 			}
 		}
     

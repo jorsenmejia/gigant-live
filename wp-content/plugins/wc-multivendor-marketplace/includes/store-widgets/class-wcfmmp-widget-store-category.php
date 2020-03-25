@@ -40,7 +40,7 @@ class WCFMmp_Store_Category extends WP_Widget {
 			$title        = apply_filters( 'widget_title', $instance['title'] );
 		}
 		$has_toggle   = isset( $instance['has_toggle'] ) ? $instance['has_toggle'] : '';
-		$wcfm_store_url    = get_option( 'wcfm_store_url', 'store' );
+		$wcfm_store_url    = wcfm_get_option( 'wcfm_store_url', 'store' );
 		$wcfm_store_name   = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 		$seller_info       = get_user_by( 'slug', $wcfm_store_name );
 		if( !$seller_info ) return;

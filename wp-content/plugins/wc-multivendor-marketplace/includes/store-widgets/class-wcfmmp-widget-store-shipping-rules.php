@@ -43,7 +43,7 @@ class WCFMmp_Store_Shipping_Rules extends WP_Widget {
 		}
 		
 		if (  wcfm_is_store_page() ) {
-			$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+			$wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
 			$store_name = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 			$store_id  = 0;
 			if ( !empty( $store_name ) ) {

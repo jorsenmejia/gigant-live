@@ -88,9 +88,9 @@ class WCFMmp_Ajax {
 			
 			// Add Order Note for Log
 			if( apply_filters( 'wcfmmp_is_allow_sold_by_linked', true ) ) {
-				$shop_name = $WCFM->wcfm_vendor_support->wcfm_get_vendor_store_by_vendor( absint($vendor_id) );
+				$shop_name = wcfm_get_vendor_store( absint($vendor_id) );
 			} else {
-				$shop_name = $WCFM->wcfm_vendor_support->wcfm_get_vendor_store_name_by_vendor( absint($vendor_id) );
+				$shop_name = wcfm_get_vendor_store_name( absint($vendor_id) );
 			}
 			
 			// Fetch Product ID
@@ -110,11 +110,11 @@ class WCFMmp_Ajax {
 						
 						add_filter( 'woocommerce_new_order_note_data', array( $WCFM->wcfm_marketplace, 'wcfm_update_comment_vendor' ), 10, 2 );
 						$is_customer_note = apply_filters( 'wcfm_is_allow_order_update_note_for_customer', '1' );
-						$comment_id = $order->add_order_note( $wcfm_messages, $is_customer_note );
+						$comment_id = $order->add_order_note( apply_filters( 'wcfm_order_item_status_update_message', $wcfm_messages, $order_id, $vendor_id, $product_id ), $is_customer_note );
 						add_comment_meta( $comment_id, '_vendor_id', $vendor_id );
 						remove_filter( 'woocommerce_new_order_note_data', array( $WCFM->wcfm_marketplace, 'wcfm_update_comment_vendor' ), 10, 2 );
 						
-						$wcfm_messages = sprintf( __( '<b>%s</b> order item <b>%s</b> status updated to <b>%s</b> by <b>%s</b>', 'wc-multivendor-marketplace' ), '#<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_wcfm_view_order_url($order_id) . '">' . wcfm_get_order_number( $order_id ) . '</a>', '<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_permalink($product_id) . '">' . get_the_title( $product_id ) . '</a>', $WCFMmp->wcfmmp_vendor->wcfmmp_vendor_order_status_name( $order_status ), $shop_name );
+						$wcfm_messages = apply_filters( 'wcfm_order_item_status_update_admin_message', sprintf( __( '<b>%s</b> order item <b>%s</b> status updated to <b>%s</b> by <b>%s</b>', 'wc-multivendor-marketplace' ), '#<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_wcfm_view_order_url($order_id) . '">' . wcfm_get_order_number( $order_id ) . '</a>', '<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_permalink($product_id) . '">' . get_the_title( $product_id ) . '</a>', $WCFMmp->wcfmmp_vendor->wcfmmp_vendor_order_status_name( $order_status ), $shop_name ), $order_id, $vendor_id, $product_id );
 						$WCFM->wcfm_notification->wcfm_send_direct_message( $vendor_id, 0, 0, 1, $wcfm_messages, 'status-update' );
 					}
 				}
@@ -123,11 +123,11 @@ class WCFMmp_Ajax {
 				
 				add_filter( 'woocommerce_new_order_note_data', array( $WCFM->wcfm_marketplace, 'wcfm_update_comment_vendor' ), 10, 2 );
 				$is_customer_note = apply_filters( 'wcfm_is_allow_order_update_note_for_customer', '1' );
-				$comment_id = $order->add_order_note( $wcfm_messages, $is_customer_note);
+				$comment_id = $order->add_order_note( apply_filters( 'wcfm_order_item_status_update_message', $wcfm_messages, $order_id, $vendor_id, 0 ), $is_customer_note);
 				add_comment_meta( $comment_id, '_vendor_id', $vendor_id );
 				remove_filter( 'woocommerce_new_order_note_data', array( $WCFM->wcfm_marketplace, 'wcfm_update_comment_vendor' ), 10, 2 );
 				
-				$wcfm_messages = sprintf( __( '<b>%s</b> order status updated to <b>%s</b> by <b>%s</b>', 'wc-frontend-manager' ), '#<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_wcfm_view_order_url($order_id) . '">' . $order->get_order_number() . '</a>', $WCFMmp->wcfmmp_vendor->wcfmmp_vendor_order_status_name( $order_status ), $shop_name );
+				$wcfm_messages = apply_filters( 'wcfm_order_item_status_update_admin_message', sprintf( __( '<b>%s</b> order status updated to <b>%s</b> by <b>%s</b>', 'wc-frontend-manager' ), '#<a target="_blank" class="wcfm_dashboard_item_title" href="' . get_wcfm_view_order_url($order_id) . '">' . $order->get_order_number() . '</a>', $WCFMmp->wcfmmp_vendor->wcfmmp_vendor_order_status_name( $order_status ), $shop_name ), $order_id, $vendor_id, 0 );
 				$WCFM->wcfm_notification->wcfm_send_direct_message( -2, 0, 1, 0, $wcfm_messages, 'status-update' );
 			}
 			
@@ -160,7 +160,7 @@ class WCFMmp_Ajax {
 						
 						$WCFM->wcfm_notification->wcfm_send_direct_message( -2, 0, 1, 0, $wcfm_messages, 'status-update' );
 						
-						do_action( 'woocommerce_order_edit_status', $order_id, $statusv );
+						do_action( 'woocommerce_order_edit_status', $order_id, $status );
 						do_action( 'wcfm_order_status_updated', $order_id, $status );
 					}
 				}
@@ -276,7 +276,7 @@ class WCFMmp_Ajax {
 				$store_description = $store_user->get_shop_description();
 				$gravatar        = $store_user->get_avatar();
 				
-				if( $store_address && ( ( $store_info['store_hide_address'] == 'yes' ) || !$WCFM->wcfm_vendor_support->wcfm_vendor_has_capability( $store_id, 'vendor_address' ) ) ) {
+				if( $store_address && ( ( $store_info['store_hide_address'] == 'yes' ) || !wcfm_vendor_has_capability( $store_id, 'vendor_address' ) ) ) {
 					$store_address = '';
 				}
 				

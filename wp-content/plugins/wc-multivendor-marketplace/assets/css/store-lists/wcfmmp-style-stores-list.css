@@ -86,7 +86,7 @@
 }
 
 #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form div.wcfm_radius_filter_container, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form input.wcfmmp-radius-addr, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form div.wcfm_radius_slidecontainer, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form input#search, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form input.wcfm-search-field, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form select#wcfmmp_store_category, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form select#wcfmmp_store_country, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form #wcfmmp_store_state, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form .select2-container, #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form .wcfmmp-search-box {
-  width: 95%; 
+  width: 95% !important; 
   margin-bottom:10px;
 }
 #wcfmmp-store-lists-sidebar .wcfmmp-store-search-form div.wcfm_radius_filter_container{width:100%;}

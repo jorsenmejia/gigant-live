@@ -20,6 +20,9 @@ switch ($_SERVER['REQUEST_METHOD']) {
         }if($request[0]=='category'){
             $db->fetchcategory($request[1]);
         }
+        if($request[0]=='product'){
+            $db->fetchproduct($request[1]);
+        }
         if($request[0]=='status'){
             $db->fetchstatus();
         }

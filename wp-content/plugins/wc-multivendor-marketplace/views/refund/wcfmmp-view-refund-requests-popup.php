@@ -242,6 +242,8 @@ $request_mode = apply_filters( 'wcfm_refund_request_default_mode', 'partial' );
 		<?php } else { ?>
 			<div><?php _e( 'This order\'s item(s) are already requested for refund!', 'wc-multivendor-marketplace' ); ?></div>
 		<?php } ?>
+		<div class="wcfm-clearfix"></div>
 	</form>
+	<div class="wcfm-clearfix"></div>
 </div>
 <div class="wcfm-clearfix"></div>

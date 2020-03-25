@@ -1170,7 +1170,7 @@ class WCFMmp_Gateway_Stripe_Split extends WC_Payment_Gateway {
     
     $WCFMmp->refund_processed = true;
     
-    $sql = "SELECT item_id, commission_id, vendor_id, order_id, is_partially_refunded, refunded_amount, refund_reason FROM {$wpdb->prefix}wcfm_marketplace_refund_request";
+    $sql = "SELECT ID, item_id, commission_id, vendor_id, order_id, is_partially_refunded, refunded_amount, refund_reason FROM {$wpdb->prefix}wcfm_marketplace_refund_request";
 		$sql .= " WHERE 1=1";
 		$sql .= " AND ID = {$refund_id}";
 		$refund_infos = $wpdb->get_results( $sql );
@@ -1204,7 +1204,7 @@ class WCFMmp_Gateway_Stripe_Split extends WC_Payment_Gateway {
 							}
 							
 					} catch( Exception $e ) {
-						 wcfm_stripe_log( "Stripe Split Pay refund error: " . $e->getMessage() );
+						wcfm_stripe_log( "Stripe Split Pay refund error: " . $e->getMessage() );
 					}
 				}
 					

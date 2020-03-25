@@ -105,14 +105,15 @@ class WCFMmp {
 		// Init Text Domain
 		$this->load_plugin_textdomain();
 		
-		$this->wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
 		
 		$this->vendor_id = apply_filters( 'wcfm_current_vendor_id', get_current_user_id() );
 		
 		if( function_exists( 'wcfm_get_option' ) ) {
+			$this->wcfm_store_url               = wcfm_get_option( 'wcfm_store_url', 'store' );
 			$this->wcfmmp_marketplace_options   = wcfm_get_option( 'wcfm_marketplace_options', array() );
 			$this->wcfmmp_store_endpoints       = wcfm_get_option( 'wcfm_store_endpoints', array() );
 		} else {
+			$this->wcfm_store_url               = get_option( 'wcfm_store_url', 'store' );
 			$this->wcfmmp_marketplace_options   = get_option( 'wcfm_marketplace_options', array() );
 			$this->wcfmmp_store_endpoints       = get_option( 'wcfm_store_endpoints', array() );
 		}
@@ -269,12 +270,8 @@ class WCFMmp {
 		}
 		
 		// Marketplace Ledger Load
-		if( apply_filters( 'wcfm_is_pref_ledger_book', true ) ) {
-			if (!is_admin() || defined('DOING_AJAX')) {
-				$this->load_class('ledger');
-				$this->wcfmmp_ledger = new WCFMmp_Ledger();
-			}
-		}
+		$this->load_class('ledger');
+		$this->wcfmmp_ledger = new WCFMmp_Ledger();
 		
 		// Marketplace Store Hours Load
 		if( apply_filters( 'wcfm_is_pref_store_hours', true ) ) {

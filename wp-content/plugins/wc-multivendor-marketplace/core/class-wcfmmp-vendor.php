@@ -104,18 +104,6 @@ class WCFMmp_Vendor {
 		// Vendor order item repair
 		add_action( 'wcfm_order_repair_order_item', array( &$this, 'wcfmmp_order_repair_order_item' ) );
 		
-		// Vendor Ledger update on order process
-		add_action( 'wcfmmp_order_item_processed', array( &$this, 'wcfmmp_order_item_processed_ledger_update' ), 10, 9 );
-		
-		// Vendor Ledger update on withdraw request process
-		add_action( 'wcfmmp_withdraw_request_processed', array( &$this, 'wcfmmp_withdraw_request_processed_ledger_update' ), 10, 9 );
-		
-		// Vendor Ledger update on reverse withdraw request process
-		add_action( 'wcfmmp_reverse_withdraw_request_processed', array( &$this, 'wcfmmp_reverse_withdraw_request_processed_ledger_update' ), 10, 10 );
-		
-		// Vendor Ledger update on refund request process
-		add_action( 'wcfmmp_refund_request_processed', array( &$this, 'wcfmmp_refund_request_processed_ledger_update' ), 10, 6 );
-		
 		// Vendor Details In Order Eamail
 		if( apply_filters( 'wcfm_is_allow_policy_under_order_details', true ) ) {
 			add_action( 'woocommerce_order_details_after_order_table', array( &$this, 'wcfmmp_vendor_details_in_order' ) );
@@ -2055,120 +2043,12 @@ class WCFMmp_Vendor {
 	}
 	
 	/**
-	 * Vendor Ledger update on new commission processed
-	 */
-	function wcfmmp_order_item_processed_ledger_update( $commission_id, $order_id, $order, $vendor_id, $product_id, $order_item_id, $grosse_total, $total_commission, $is_auto_withdrawal ) {
-		global $WCFM, $WCFMmp, $wpdb;
-		
-		$reference_details = sprintf( __( 'Commission for %s order #%s.', 'wc-multivendor-marketplace' ), '<b>' . get_the_title( $product_id ) . '</b>', '<b>' . $order->get_order_number() . '</b>' );
-		$this->wcfmmp_ledger_update( $vendor_id, $commission_id, $total_commission, 0, 'order', $reference_details );
-	}
-	
-	/**
-	 * Vendor Ledger update on new withdrawal request processed
-	 */
-	function wcfmmp_withdraw_request_processed_ledger_update( $withdraw_request_id, $vendor_id, $order_ids, $commission_ids, $withdraw_amount, $withdraw_charges, $withdraw_status, $withdraw_mode, $is_auto_withdrawal ) {
-		global $WCFM, $WCFMmp, $wpdb;
-		
-		// Withdrawal Charges Ledger Entry
-		if( $withdraw_charges ) {
-			$reference_details = __( 'Withdrawal Charges.', 'wc-multivendor-marketplace' );
-			$this->wcfmmp_ledger_update( $vendor_id, $withdraw_request_id, 0, $withdraw_charges, 'withdraw-charges', $reference_details );
-			$withdraw_amount = (float)$withdraw_amount - (float)$withdraw_charges;
-		}  
-		
-		if( $is_auto_withdrawal ) {
-			$reference_details = sprintf( __( 'Auto withdrawal by paymode for order #%s.', 'wc-multivendor-marketplace' ), '<b>' . wcfm_get_order_number( $order_ids ) . '</b>' );
-		} elseif( $withdraw_mode == 'by_split_pay' ) {
-			$reference_details = sprintf( __( 'Withdrawal by Stripe Split Pay for order #%s.', 'wc-multivendor-marketplace' ), '<b>' . wcfm_get_order_number( $order_ids ) . '</b>' );
-		} else {
-			$reference_details = sprintf( __( 'Withdrawal by request for order(s) %s.', 'wc-multivendor-marketplace' ), '<b>' . wcfm_get_order_number( $order_ids ) . '</b>' );
-		}
-		$this->wcfmmp_ledger_update( $vendor_id, $withdraw_request_id, 0, $withdraw_amount, 'withdraw', $reference_details );
-	}
-	
-	/**
-	 * Vendor Ledger update on new reverse withdrawal request processed
-	 */
-	function wcfmmp_reverse_withdraw_request_processed_ledger_update( $reverse_withdraw_request_id, $vendor_id, $order_id, $commission_id, $grosse_total, $withdraw_amount, $balance, $withdraw_status, $withdraw_mode, $is_auto_withdrawal ) {
-		global $WCFM, $WCFMmp, $wpdb;
-		
-		$order = wc_get_order( $order_id );
-		$reference_details = sprintf( __( 'Reverse Withdrawal for order #%s.', 'wc-multivendor-marketplace' ), '<b>' .  $order->get_order_number() . '</b>' );
-		$this->wcfmmp_ledger_update( $vendor_id, $reverse_withdraw_request_id, 0, $balance, 'reverse-withdraw', $reference_details );
-	}
-	
-	/**
-	 * Vendor Ledger update on new refund request processed
-	 */
-	function wcfmmp_refund_request_processed_ledger_update( $refund_request_id, $vendor_id, $order_id, $commission_id, $refunded_amount, $refund_type ) {
-		global $WCFM, $WCFMmp, $wpdb;
-		
-		if( !$order_id ) return;
-		if( !$vendor_id ) return;
-		if( !$commission_id ) return;
-		
-		$order = wc_get_order( $order_id );
-		
-		if( wcfm_is_vendor() ) {
-			$reference_details = sprintf( __( 'Request by Vendor for order #%s.', 'wc-multivendor-marketplace' ), '<b>' .  $order->get_order_number() . '</b>' );
-		} elseif( current_user_can('administrator') ) {
-			$reference_details = sprintf( __( 'Request by Admin for order #%s.', 'wc-multivendor-marketplace' ), '<b>' .  $order->get_order_number() . '</b>' );
-		} else {
-			$reference_details = sprintf( __( 'Request by Customer for order #%s.', 'wc-multivendor-marketplace' ), '<b>' .  $order->get_order_number() . '</b>' );
-		}
-		$this->wcfmmp_ledger_update( $vendor_id, $refund_request_id, 0, $refunded_amount, $refund_type, $reference_details );
-	}
-	
-	/**
-	 * Vendor Ledger Update
-	 */
-	public function wcfmmp_ledger_update( $vendor_id, $reference_id, $credit = 0, $debit = 0, $reference = 'order', $reference_details = '', $reference_status = 'pending' ) {
-		global $WCFM, $WCFMmp, $wpdb;
-		
-		$wpdb->query(
-						$wpdb->prepare(
-							"INSERT INTO `{$wpdb->prefix}wcfm_marketplace_vendor_ledger` 
-									( vendor_id
-									, credit
-									, debit
-									, reference_id
-									, reference
-									, reference_details
-									, reference_status
-									, created
-									) VALUES ( %d
-									, %s
-									, %s
-									, %d
-									, %s
-									, %s
-									, %s 
-									, %s
-									) ON DUPLICATE KEY UPDATE `created` = %s"
-							, $vendor_id
-							, $credit
-							, $debit
-							, $reference_id
-							, $reference
-							, $reference_details
-							, $reference_status
-							, date( 'Y-m-d H:i:s', current_time( 'timestamp', 0 ) )
-							, date( 'Y-m-d H:i:s', current_time( 'timestamp', 0 ) )
-			)
-		);
-		$ledger_id = $wpdb->insert_id;
-		do_action( 'after_wcfmmp_ledger_update', $ledger_id, $reference_id, $reference, $credit, $debit );
-	}
-	
-	/**
 	 * Vendor Ledger Entry Status Update
 	 */
 	public function wcfmmp_ledger_status_update( $reference_id, $reference_status  = 'completed', $reference = 'order' ) {
 		global $WCFM, $WCFMmp, $wpdb;
 		if( !$reference_id ) return;
-		$wpdb->update("{$wpdb->prefix}wcfm_marketplace_vendor_ledger", array('reference_status' => $reference_status, 'reference_update_date' => date('Y-m-d H:i:s', current_time( 'timestamp', 0 ))), array('reference_id' => $reference_id, 'reference' => $reference), array('%s', '%s'), array('%d', '%s'));
-		do_action( 'wcfmmp_ledger_status_updated', $reference_id, $reference_status );
+		$WCFMmp->wcfmmp_ledger->wcfmmp_ledger_status_update( $reference_id, $reference_status, $reference );
 	}
 	
 	/**
@@ -2281,28 +2161,35 @@ class WCFMmp_Vendor {
 		
 		if( is_wcfm_page() ) return;
 		
-		$wcfm_vendor_invoice_options  = get_option( 'wcfm_vendor_invoice_options', array() );
-		$wcfm_vendor_invoice_policies = isset( $wcfm_vendor_invoice_options['policies'] ) ? 'yes' : '';
-		$order_items                  = $order->get_items( apply_filters( 'woocommerce_purchase_order_item_types', 'line_item' ) );
+		if( WCFM_Dependencies::wcfmu_plugin_active_check() ) {
+			$wcfm_vendor_invoice_options  = get_option( 'wcfm_vendor_invoice_options', array() );
+			$wcfm_vendor_invoice_policies = isset( $wcfm_vendor_invoice_options['policies'] ) ? 'yes' : '';
+		} else {
+			$wcfm_vendor_invoice_policies = apply_filters( 'wcfm_is_allow_policies_under_order_details', true );
+		}
+		$order_items                    = $order->get_items( apply_filters( 'woocommerce_purchase_order_item_types', 'line_item' ) );
 		
-		if( apply_filters( 'wcfm_is_pref_policies', true ) && $wcfm_vendor_invoice_policies ) {
+		if( apply_filters( 'wcfm_is_pref_policies', true ) && $wcfm_vendor_invoice_policies && apply_filters( 'wcfm_is_allow_policies_under_order_details', true ) ) {
 			$processed_vendor_ids = array();
 			foreach ( $order_items as $item_id => $item ) {
 				$product_id          = $item->get_product_id();
 				$vendor_id           = wcfm_get_vendor_id_by_post( $product_id );
 				if( !$vendor_id || !wcfm_is_vendor( $vendor_id ) ) continue;
-				if( apply_filters( 'wcfm_is_allow_order_item_policies_by_vendor', false ) && in_array( $vendor_id, $processed_vendor_ids ) ) continue;
+				if( ( apply_filters( 'wcfm_is_allow_order_item_policies_by_vendor', true ) || !apply_filters( 'wcfm_is_show_marketplace_itemwise_orders', true ) ) && in_array( $vendor_id, $processed_vendor_ids ) ) continue;
 				$processed_vendor_ids[$vendor_id] = $vendor_id;
 				if( wcfm_vendor_has_capability( $vendor_id, 'policy' ) && wcfm_vendor_has_capability( $vendor_id, 'vendor_policy' ) ) {
 					$store_name          = wcfm_get_vendor_store_name( $vendor_id );
 					$shipping_policy     = $WCFM->wcfm_policy->get_shipping_policy( $product_id );
 					$refund_policy       = $WCFM->wcfm_policy->get_refund_policy( $product_id );
 					$cancellation_policy = $WCFM->wcfm_policy->get_cancellation_policy( $product_id );
+					$customer_support_details = wcfmmp_get_store( $vendor_id )->get_customer_support_details();
+					
+					if( wcfm_empty($shipping_policy) && wcfm_empty($refund_policy) && wcfm_empty($cancellation_policy) && wcfm_empty($customer_support_details) ) continue;
 					?>
 					<br/>
 					<h2 style="font-size: 18px; color: #17a2b8; line-height: 20px;margin-top: 6px;margin-bottom: 10px;padding: 0px;text-decoration: underline;">
 					  <?php 
-					    if( apply_filters( 'wcfm_is_allow_order_item_policies_by_vendor', false ) ) {
+					    if( apply_filters( 'wcfm_is_allow_order_item_policies_by_vendor', true ) || !apply_filters( 'wcfm_is_show_marketplace_itemwise_orders', true ) ) {
 					    	echo $store_name . ' ';
 					    } else {
 					    	echo get_the_title( $product_id ) . ' ('. $store_name .') ';
@@ -2336,11 +2223,14 @@ class WCFMmp_Vendor {
 							
 							<?php do_action( 'wcfm_order_details_policy_content_after', $vendor_id ); ?>
 							
-							<?php if( wcfm_vendor_has_capability( $vendor_id, 'customer_support' ) ) { ?>
-								<tr>
-									<th colspan="3" style="background-color: #eeeeee;padding: 1em 1.41575em;line-height: 1.5;"><strong><?php echo apply_filters('wcfm_customer_support_heading', __('Customer Support', 'wc-frontend-manager')); ?></strong></th>
-									<td colspan="5" style="background-color: #f8f8f8;padding: 1em;"><?php echo wcfmmp_get_store( $vendor_id )->get_customer_support_details(); ?></td>
-								</tr>
+							<?php if( wcfm_vendor_has_capability( $vendor_id, 'customer_support' ) ) { 
+								if( !wcfm_empty( $customer_support_details ) ) {
+									?>
+									<tr>
+										<th colspan="3" style="background-color: #eeeeee;padding: 1em 1.41575em;line-height: 1.5;"><strong><?php echo apply_filters('wcfm_customer_support_heading', __('Customer Support', 'wc-frontend-manager')); ?></strong></th>
+										<td colspan="5" style="background-color: #f8f8f8;padding: 1em;"><?php echo $customer_support_details; ?></td>
+									</tr>
+								<?php } ?>
 							<?php } ?>
 							
 							<?php do_action( 'wcfm_order_details_customer_support_after', $vendor_id ); ?>

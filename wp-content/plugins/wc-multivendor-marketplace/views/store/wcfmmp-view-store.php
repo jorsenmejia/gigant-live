@@ -12,7 +12,7 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 global $WCFM, $WCFMmp;
 
-$wcfm_store_url    = get_option( 'wcfm_store_url', 'store' );
+$wcfm_store_url    = wcfm_get_option( 'wcfm_store_url', 'store' );
 $wcfm_store_name   = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 if ( empty( $wcfm_store_name ) ) return;
 $seller_info       = get_user_by( 'slug', $wcfm_store_name );

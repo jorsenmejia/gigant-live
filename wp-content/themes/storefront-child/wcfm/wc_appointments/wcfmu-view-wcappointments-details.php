@@ -193,12 +193,32 @@
           <div class="notes">
           <div class="customer-notes"><?php echo $appointment->get_order()->customer_note; ?>            
           </div>
+      
+            
 
           </div>
-          <div><hr></div>
+          <div><hr></div><?php
+
+          $args = array(
+              'role'    => 'wcfm_vendor',
+              'orderby' => 'user_nicename',
+              'order'   => 'ASC',
+              'status'  => 'publish',
+              'id'      => ''
+          );
+          $users = get_users( $args );
+          $pro_id = '<input type="hidden" id="demo" >';
+          echo $pro_id;
+          ?>
+
           <?php $appointment_status = $appointment->get_status(); 
            $id = $user->ID;
+
+           $result = $wpdb->get_results ( "select u.ID,u.user_login, u.user_nicename, u.display_name, p.post_author,p.post_title,p.post_status from wp_users as u Inner join wp_posts as p On p.post_author = u.id WHERE p.post_author = '.$id.' AND p.post_status = 'publish'" );
+           
+
            $appointment = new WC_Appointment( $appointment_id );
+
                     if ($appointment_status == "pending-confirmation") {
                         echo " 
                             <div class='transaction-buttons'>
@@ -227,7 +247,7 @@
                                         </div><p class='confirmation'>Are you sure you want to cancel this appointment?</p>
                                         <button name='submitdecline' id='submitdecline' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
                                         <button class='transac-buttons' onclick='closebutton()'>No</button>
-                                        <a class='transac-buttons' href='http://localhost/gigant-live/professional-manager/appointments-manual'/ target='_blank'>Invite to New Schedule</a>
+                                        <a class='transac-buttons' href='".home_url()."/professional-manager/appointments-manual'/ target='_blank'>Invite to New Schedule</a>
                                         </form>
                                       </div>
                                   </div>    
@@ -244,26 +264,44 @@
                               <div class='refer-modal-content'>
                                 <span class='close'>&times;</span>
                                 <div class='reasonfordecline'>
+                                <form action='' method ='POST' class='needs-validation' novalidate onsubmit='return false'>
                                 <p class ='reasonfordecline'>Please choose a reason for referring the appointment to another professional</p>
-                                <select id='reason' name='reason' required>
+                                <select id='refer_pro' name='refer_pro' required>
                                           <option value='I have an Emergency'>I have an Emergency</option>
                                           <option value='Option 1'>Option 1</option>
                                           <option value='Option 2'>Option 2</option>
                                           <option value='Option 3'>Option 3</option>
                                 </select>
-                                <p class = 'search-listing'> Please select the professional you will refer to this using the search box below:</p>
-                                <input type = 'text'>
-                                <p class='professional-listing'> Select a listing from this professional:</p>
-                                <select id='reason' name='reason' required>
-                                          <option value='I have an Emergency'>I have an Emergency</option>
-                                          <option value='Option 1'>Option 1</option>
-                                          <option value='Option 2'>Option 2</option>
-                                          <option value='Option 3'>Option 3</option>
-                                </select>
-                                </div>
-                                <button class='transac-buttons' onclick='closebutton2()'>Close</button>
-                              </div>
+                                <p class = 'search-listing'> Please select the professional you will refer to this using the search box below:</p>  
+                                
+                                <input type='text' class='modal_postid'  id='validationCustom03' placeholder='Remarks' value=' ".$appointment_id."' name='referpost_id' required></input>";
+                                echo '<select id="posters" onchange="searchlisting()">';
+                                echo '<option selected="selected" disabled=disabled>No Selected Professional</option>';
+                                foreach ( $users as $user ) {
 
+                                    echo '<option class="posters" data-poster-id="'. esc_html( $user->id ) .'">' . esc_html( $user->id ) . '/' . esc_html( $user->display_name ) . '</option>';
+                                } 
+                                echo '</select>
+
+                                <p class = "search-listing">Select a listing from this professional</p>  '; 
+                                echo '<select id="reason" name="posttitle"  required onchange="searchlisting()">';
+                                foreach( $result as $value ) {
+
+                                    echo '<option class="posters" data-poster-id="'. esc_html( $user->id ) .'">' . esc_html( $value->post_title ) . '/' . esc_html( $value->post_title ) . '</option>';
+                                  
+                                }
+                                echo '</select>';
+                                
+
+                                
+                                echo "
+
+                                </div>
+                                <button name='submitrefer' id='submitrefer' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
+                                <button class='transac-buttons' onclick='closebutton2()'>Close</button>
+
+                              </div>
+                              </form>
                             </div>
                                   
 
@@ -517,6 +555,8 @@ h1.cancellation-title {
     padding-bottom: 29px;
 }
   </style>
+
+
   <script>
 // Get the modal
 var modaldecline = document.getElementById("myModal-decline");
@@ -636,11 +676,44 @@ window.onclick = function(event) {
   }
 }
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<!-- <script>
+            $("#posters").change(function(){
+                alert($('option:selected', this).attr("data-poster-id"));
+            });
+</script>     -->
+<script>
+  function searchlisting() {
+  $("#posters").change(function(){
+                document.getElementById("demo").innerHTML = ($('option:selected', this).attr("data-poster-id"));
+                 let id = $(this).val();
+  testjorsen(id);
+            });
+ 
+}
+
+
+function testjorsen(id){
+  let ls='';
+  $.ajax({ 
+    type: 'GET', 
+    url: 'http://localhost/gigant-live/gigantApi/product/'+id, 
+    dataType: 'json',
+    success: function (data) { 
+        data.forEach(x=>{
+          ls+=`<option value="${x.post_title}">${x.post_title}</option>`;
+        });
+        $('#reason').html(ls);
+    }
+
+});
+}
+</script>
 <?php 
-      $appointment = new WC_Appointment( $appointment_id ); 
-      // echo $appointment;
+      $appointment = new WC_Appointment( $appointment_id );
+       // echo $appointment;
       ?>
-  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  
   <script type='text/javascript'>
     // var secondsBeforeExpire = 10;
     var appointment_datetime = new Date("<?php echo date('Y-m-d H:i:s',$appointment->get_date_created())?>");

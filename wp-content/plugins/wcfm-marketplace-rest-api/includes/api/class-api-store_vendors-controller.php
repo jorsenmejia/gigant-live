@@ -46,7 +46,7 @@ class WCFM_REST_Store_Vendors_Controller extends WCFM_REST_Controller {
     ) );
   }
 
-  public function get_store_vendors() {
+  public function get_store_vendors($request) {
     //print_r('testing');
     global $WCFM;
     $_POST["controller"] = 'wcfm-vendors';
@@ -150,6 +150,58 @@ class WCFM_REST_Store_Vendors_Controller extends WCFM_REST_Controller {
     } else {
       $wcfm_vendors_json_arr['vendor_additional_info'] = array();
     }
+
+    $wcfm_membership = get_user_meta( $wcfm_vendors_id, 'wcfm_membership', true );
+      //print_r($wcfm_membership);
+    if( $wcfm_membership && function_exists( 'wcfm_is_valid_membership' ) && wcfm_is_valid_membership( $wcfm_membership ) ) {
+        $wcfm_vendors_json_arr['membership_details']['membership_title'] = get_the_title( $wcfm_membership );
+        $wcfm_vendors_json_arr['membership_details']['membership_id'] = $wcfm_membership;
+        
+        $next_schedule = get_user_meta( $wcfm_vendors_id, 'wcfm_membership_next_schedule', true );
+        if( $next_schedule ) {
+          $subscription = (array) get_post_meta( $wcfm_membership, 'subscription', true );
+          $is_free = isset( $subscription['is_free'] ) ? 'yes' : 'no';
+          $subscription_type = isset( $subscription['subscription_type'] ) ? $subscription['subscription_type'] : 'one_time';
+              
+          if( ( $is_free == 'no' ) && ( $subscription_type != 'one_time' ) ) {
+              $wcfm_vendors_json_arr['membership_details']['membership_next_payment'] = date_i18n( wc_date_format(), $next_schedule );
+          }
+          
+          $member_billing_period = get_user_meta( $wcfm_vendors_id, 'wcfm_membership_billing_period', true );
+          $member_billing_cycle = get_user_meta( $wcfm_vendors_id, 'wcfm_membership_billing_cycle', true );
+          if( $member_billing_period && $member_billing_cycle ) {
+              $billing_period = isset( $subscription['billing_period'] ) ? $subscription['billing_period'] : '1';
+              $billing_period_count = isset( $subscription['billing_period_count'] ) ? $subscription['billing_period_count'] : '';
+              $billing_period_type = isset( $subscription['billing_period_type'] ) ? $subscription['billing_period_type'] : 'M';
+              $period_options = array( 'D' => 'days', 'M' => 'months', 'Y' => 'years' );
+              
+              if( $billing_period_count ) {
+                  if( $member_billing_period ) $member_billing_period = absint( $member_billing_period );
+                  else $member_billing_period = absint( $billing_period_count );
+                  if( !$member_billing_cycle ) $member_billing_cycle = 1;
+                  $remaining_cycle = ( $member_billing_period - $member_billing_cycle );
+                  if( $remaining_cycle == 0 ) {
+                      $wcfm_vendors_json_arr['membership_details']['membership_expiry_on'] = date_i18n( wc_date_format(), $next_schedule );
+                  } else {
+                      $expiry_time = strtotime( '+' . $remaining_cycle . ' ' . $period_options[$billing_period_type], $next_schedule );
+                      $wcfm_vendors_json_arr['membership_details']['membership_expiry_on'] = date_i18n( wc_date_format(), $expiry_time );
+                  }
+              } else { 
+                  
+                  if( $is_free == 'yes' ) {
+                      $wcfm_vendors_json_arr['membership_details']['membership_expiry_on'] = date_i18n( wc_date_format(), $next_schedule );
+                  } else {
+                      $wcfm_vendors_json_arr['membership_details']['membership_expiry_on'] = __( 'Never Expire', 'wc-frontend-manager' );
+                  }
+              }
+              
+          } else {
+              $wcfm_vendors_json_arr['membership_details']['membership_expiry_on'] = __( 'Never Expire', 'wc-frontend-manager' );
+          }
+            
+        }
+    }
+
     return $wcfm_vendors_json_arr;
   }
 

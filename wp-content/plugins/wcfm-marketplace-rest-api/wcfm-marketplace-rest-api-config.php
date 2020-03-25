@@ -4,7 +4,7 @@ define('WCFMapi_TOKEN', 'wcfmapi');
 
 define('WCFMapi_TEXT_DOMAIN', 'wcfm-marketplace-rest-api');
 
-define('WCFMapi_VERSION', '1.2.5');
+define('WCFMapi_VERSION', '1.2.10');
 
 define('WCFMapi_SERVER_URL', 'https://wclovers.com');
 

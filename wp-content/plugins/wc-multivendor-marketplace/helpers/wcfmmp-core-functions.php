@@ -149,7 +149,11 @@ if(!function_exists('wcfm_sell_items_catalog_url')) {
  * @return boolean
  */
 function wcfm_is_store_page() {
-	$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+	if( function_exists( 'wcfm_get_option' ) ) {
+		$wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
+	} else {
+		$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+	}
 	if ( get_query_var( $wcfm_store_url ) ) {
 		return true;
 	}
@@ -191,7 +195,11 @@ function wcfmmp_get_store_url( $user_id ) {
 	$userdata = get_userdata( $user_id );
 	$user_nicename = ( !false == $userdata ) ? $userdata->user_nicename : '';
 
-	$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+	if( function_exists( 'wcfm_get_option' ) ) {
+		$wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
+	} else {
+		$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+	}
 	return apply_filters( 'wcfmmp_get_store_url', trailingslashit( trailingslashit( home_url( $wcfm_store_url ) ) . $user_nicename ), $user_id );
 }
 
@@ -224,6 +232,20 @@ function wcfmmp_get_store_info( $store_id = null ) {
 }
 
 /**
+ * Author Link replace by Store URL
+ */
+add_filter( 'author_link', function( $link, $author_id, $author_nicename ) {
+	if( apply_filters( 'wcfm_is_allow_author_link_replace_by_store_url', true ) ) {
+		if( function_exists( 'wcfm_is_vendor' ) && wcfm_is_vendor( $author_id ) ) {
+			if( function_exists( 'wcfmmp_get_store_url' ) ) {
+				$link = wcfmmp_get_store_url( $author_id );
+			}
+		}
+	}
+  return $link;
+}, 50, 3 );
+
+/**
  * Martfury Template support
  */
 if ( ! function_exists( 'martfury_get_page_base_url' ) ) :
@@ -237,7 +259,7 @@ if ( ! function_exists( 'martfury_get_page_base_url' ) ) :
 		} elseif ( is_product_tag() ) {
 			$link = get_term_link( get_query_var( 'product_tag' ), 'product_tag' );
 		} elseif( function_exists( 'wcfm_is_store_page' ) && wcfm_is_store_page() ) {
-			$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+			$wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
 			$author         = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 			$seller_info    = get_user_by( 'slug', $author );
 			$link           = wcfmmp_get_store_url( $seller_info->data->ID );
@@ -455,6 +477,14 @@ if(!function_exists('get_wcfm_marketplace_active_withdrwal_order_status')) {
 				$wcfm_marketplace_active_withdrawal_order_status[$wcfm_marketplace_withdrawal_order_status_key] = $wcfm_marketplace_withdrawal_order_stat;
 			}
 		}
+		
+		if( apply_filters( 'wcfmmp_is_allow_withdrawal_by_shipped_status', false ) ) {
+			$wcfmmp_marketplace_options   = get_option( 'wcfm_marketplace_options', array() );
+			$order_sync  = isset( $wcfmmp_marketplace_options['order_sync'] ) ? $wcfmmp_marketplace_options['order_sync'] : 'no';
+			if( $order_sync == 'no' ) {
+				$wcfm_marketplace_active_withdrawal_order_status['wc-shipped'] = __( 'Shipped', 'wc-multivendor-marketplace' );
+			}
+		}
 		return apply_filters( 'wcfm_marketplace_active_withdrawal_order_status', $wcfm_marketplace_active_withdrawal_order_status );
 	}
 }
@@ -475,7 +505,9 @@ if(!function_exists('get_wcfm_marketplace_disallow_order_payment_methods')) {
 		if ( WC()->payment_gateways() ) {
 			$payment_gateways = WC()->payment_gateways->payment_gateways();
 			foreach( $payment_gateways as $payment_method => $payment_gateway ) {
-				$wcfm_marketplace_disallow_order_payment_methods[$payment_method] = esc_html( $payment_gateway->get_title() );
+				if ( wc_string_to_bool( $payment_gateway->enabled ) ) {
+					$wcfm_marketplace_disallow_order_payment_methods[$payment_method] = esc_html( $payment_gateway->get_title() );
+				}
 			}
 		} else {
 			$wcfm_marketplace_disallow_order_payment_methods = array();
@@ -794,12 +826,18 @@ add_filter( 'woocommerce_pos_menu', function( $pos_menus ) {
 
 // FooEvents App Compatibility
 add_action( 'pre_get_posts', function( $query ) {
-	if ( defined('XMLRPC_REQUEST') && XMLRPC_REQUEST ) {
-		if( wcfm_is_vendor() ) {
-			if( $query->get( 'post_type' ) == 'product' ) {
+	global $_SERVER;
+	if( function_exists('wcfm_is_vendor') && wcfm_is_vendor() ) {
+		if( $query->get( 'post_type' ) == 'product' ) {
+			if ( defined('XMLRPC_REQUEST') && XMLRPC_REQUEST ) {
 				global $HTTP_RAW_POST_DATA;
 				$message = new IXR_Message($HTTP_RAW_POST_DATA);
 				if( $message->parse() && ( $message->messageType == 'methodCall' ) && in_array( $message->methodName, array( 'fooevents.get_all_data', 'fooevents.get_list_of_events' ) ) ) {
+					$vendor_id   = apply_filters( 'wcfm_current_vendor_id', get_current_user_id() );
+					$query->set( 'author', $vendor_id );
+				}
+			} elseif( isset( $_SERVER['REQUEST_URI'] ) && isset( $_SERVER['HTTP_USER_AGENT'] ) && ( $_SERVER['HTTP_USER_AGENT'] == 'FooEvents_app' ) ) {
+				if (strpos( $_SERVER['REQUEST_URI'], 'get_list_of_events') !== false) {
 					$vendor_id   = apply_filters( 'wcfm_current_vendor_id', get_current_user_id() );
 					$query->set( 'author', $vendor_id );
 				}

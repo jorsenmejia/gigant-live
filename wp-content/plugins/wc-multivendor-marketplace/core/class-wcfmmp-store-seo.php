@@ -28,14 +28,14 @@ class WCFMmp_Store_SEO {
 			return;
 		}
 		
-		$wcfm_store_url    = get_option( 'wcfm_store_url', 'store' );
+		$wcfm_store_url    = wcfm_get_option( 'wcfm_store_url', 'store' );
 		$wcfm_store_name   = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 		$seller_info       = get_user_by( 'slug', $wcfm_store_name );
 		if( !$seller_info ) return;
 		
 		$this->store_id = $seller_info->data->ID;
 
-		if ( !$WCFM->wcfm_vendor_support->wcfm_vendor_has_capability( $this->store_id, 'vendor_seo' ) ) {
+		if ( !wcfm_vendor_has_capability( $this->store_id, 'vendor_seo' ) ) {
 			return;
 		}
 
@@ -48,7 +48,6 @@ class WCFMmp_Store_SEO {
 			add_filter( 'aioseop_description', array( $this, 'wcfmmp_replace_seo_desc' ), 250 );
 			add_action( 'wp_head', array( $this, 'wcfmmp_print_social_tags' ), 1 );
 		} elseif ( class_exists( 'WPSEO_Frontend' ) ) {
-		 
 			add_filter( 'wpseo_title', array( $this, 'wcfmmp_replace_seo_title' ), 250 );
 			add_filter( 'wp_title', array( $this, 'wcfmmp_replace_seo_title' ), 250 );
 			add_filter( 'wpseo_metakeywords', array( $this, 'wcfmmp_replace_seo_keywords' ) );
@@ -66,8 +65,9 @@ class WCFMmp_Store_SEO {
 			add_filter( 'wpseo_twitter_image', array( $this, 'wcfmmp_replace_twitter_img' ) );
 			add_action( 'wpseo_twitter', array( $this, 'wcfmmp_print_twitter_img' ), 250 );
 		} elseif ( defined('RANK_MATH_FILE' ) ) {
-			add_filter('rank_math/frontend/title', array( $this, 'wcfmmp_replace_rank_math_seo_title' ), 16 );
+			add_filter( 'rank_math/frontend/title', array( $this, 'wcfmmp_replace_rank_math_seo_title' ), 16 );
 			add_filter( 'rank_math/frontend/description', array( $this, 'wcfmmp_replace_rank_math_seo_description' ) );
+			add_filter( 'rank_math/frontend/canonical', array( $this, 'wcfmmp_replace_seo_canonical' ) );
 			add_filter( 'rank_math/frontend/robots', array( $this, 'wcfmmp_replace_rank_math_seo_robots' ) );
 		} else {
 			add_filter( 'wp_title', array( $this, 'wcfmmp_replace_seo_title' ), 250 );
@@ -267,9 +267,8 @@ class WCFMmp_Store_SEO {
 	}
 	
 	function wcfmmp_replace_rank_math_seo_description( $description ) {
-		if (wcfm_is_store_page()) {
-			$description = RankMath\Post::get_meta( 'description', get_option( 'page_on_front' ) );
-			return $description;
+		if( wcfm_is_store_page() ) {
+			$description = $this->replace_seo_meta( $description, 'desc', 'meta' );
 		}
 		return $description;
 	}
@@ -289,7 +288,7 @@ class WCFMmp_Store_SEO {
 	
 	function wcfmmp_replace_seo_canonical( $canonical ) {
 		global $WCFM, $WCFMmp;
-		$canonical = $WCFMmp->wcfmmp_rewrite->store_archive_link( $canonical );
+		$canonical = trailingslashit( $WCFMmp->wcfmmp_rewrite->store_archive_link( $canonical ) );
 		return $canonical;
 	}
 

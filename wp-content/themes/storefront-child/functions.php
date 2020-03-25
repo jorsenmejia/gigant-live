@@ -1762,6 +1762,9 @@ if(isset($_POST['submitreason'])){
 if(isset($_POST['submitdecline'])){
     insert_reasondecline();
 }
+if(isset($_POST['submitrefer'])){
+    insert_referandrespond();
+}
 
 function insert_reasoncomplete(){
     global $wpdb;
@@ -1800,6 +1803,36 @@ function insert_reasondecline(){
         'reason' => $reason
     );
     $wpdb->insert( $table, $post_datadecline,array('%s','%s','%s'));
+    $page_url = home_url( $wp->request );
+    $redirect_to = add_query_arg($page_url);
+
+    wp_safe_redirect( $redirect_to );
+    exit;
+}
+
+function insert_referandrespond(){
+    global $wpdb;
+
+    $table=$wpdb->prefix.'reason';
+    $id = isset( $_POST['refer_id'] ) ? sanitize_text_field( $_POST['refer_id'] ) : '';
+    $post_id = isset( $_POST['referpost_id'] ) ? sanitize_text_field( $_POST['referpost_id'] ) : '';
+    $reason = isset( $_POST['refer_pro'] ) ? sanitize_text_field( $_POST['refer_pro'] ) : '';
+    $post_author = isset( $_POST['postauthor'] ) ? sanitize_text_field( $_POST['postauthor'] ) : '';
+    $display_name = isset( $_POST['displayname'] ) ? sanitize_text_field( $_POST['displayname'] ) : '';
+    $post_title = isset( $_POST['posttitle'] ) ? sanitize_text_field( $_POST['posttitle'] ) : '';
+    $post_status = isset( $_POST['poststatus'] ) ? sanitize_text_field( $_POST['poststatus'] ) : '';
+    $appointment = new WC_Appointment( $appointment_id );
+    $appointment_id = $wp->query_vars['wcfm-appointments-details'];
+    $post_datarefer=array(
+        'id' => NULL,
+        'post_id' => $post_id,
+        'reason' => $reason,
+        'post_author' => $post_author,
+        'display_name' => $display_name,
+        'post_title' => $post_title,
+        'post_status' => $post_status
+    );
+    $wpdb->insert( $table, $post_datarefer,array('%s','%s','%s','%s','%s','%s','%s'));
     $page_url = home_url( $wp->request );
     $redirect_to = add_query_arg($page_url);
 

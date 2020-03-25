@@ -65,7 +65,9 @@ jQuery(document).ready(function($) {
 				});
 				
 				if( wcfmmp_product_list_options.is_geolocate ) {
-					$('.wcfmmmp_locate_icon').click();
+					if( !$('#wcfmmp_radius_lat').val() ) {
+						$('.wcfmmmp_locate_icon').click();
+					}
 				}
 				
 				function setUser_CurrentLocation() {
@@ -82,9 +84,9 @@ jQuery(document).ready(function($) {
 										$('#wcfmmp_radius_addr').val( results[0].formatted_address );
 										$('#wcfmmp_radius_lat').val( position.coords.latitude );
 										$('#wcfmmp_radius_lng').val( position.coords.longitude );
-										if( wcfmmp_product_list_options.is_geolocate ) {
-											//form.submit();
-										}
+										//if( wcfmmp_product_list_options.is_geolocate ) {
+											form.submit();
+										//}
 									}
 							} )
 						} else {
@@ -92,7 +94,9 @@ jQuery(document).ready(function($) {
 								$('#wcfm_radius_filter_container').find('.search-input').val( data.address.road );
 								$('#wcfmmp_radius_lat').val( position.coords.latitude );
 								$('#wcfmmp_radius_lng').val( position.coords.longitude );
-								//refreshStoreList();
+								//if( wcfmmp_product_list_options.is_geolocate ) {
+									form.submit();
+								//}
 							});
 						}
 					});
@@ -149,12 +153,18 @@ jQuery(document).ready(function($) {
 				$.each(locations, function( i, beach ) {
 					var myLatLng = new google.maps.LatLng(beach.lat, beach.lang);
 					latlngbounds.extend(myLatLng);
+					var customIcon = {
+														url: beach.icon,
+														scaledSize: new google.maps.Size( wcfmmp_product_list_options.icon_width, wcfmmp_product_list_options.icon_height ), // scaled size
+														origin: new google.maps.Point( 0, 0 ), // origin
+														anchor: new google.maps.Point( 0, 0 ) // anchor
+													};
 					var marker = new google.maps.Marker({
 							position: myLatLng,
 							map: store_list_map,
 							animation: google.maps.Animation.DROP,
 							title: beach.name,
-							icon: beach.icon,
+							icon: customIcon,
 							zIndex: i 
 					});
 					
@@ -178,7 +188,8 @@ jQuery(document).ready(function($) {
 			} else {
 					$.each(locations, function( i, beach ) {
 					var customIcon = L.icon({
-						iconUrl: beach.icon
+						iconUrl: beach.icon,
+						iconSize: [wcfmmp_product_list_options.icon_width, wcfmmp_product_list_options.icon_height]
 					});
 					var marker = L.marker([beach.lat, beach.lang], {icon:customIcon}).bindPopup(beach.info_window_content);
 					
@@ -248,6 +259,8 @@ jQuery(document).ready(function($) {
 				$('#wcfmmp_radius_addr').remove();
 			}//inizialize search control
 		}
-    fetchMarkers();
+		//if( !wcfmmp_product_list_options.is_geolocate ) {
+      fetchMarkers();
+    //}
 	}
 });

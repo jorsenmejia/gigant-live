@@ -625,10 +625,12 @@ class WCFMmp_Store_Setup {
 																												'stripe_user' => array( 
 																																							'email'         => $user_email,
 																																							'url'           => wcfmmp_get_store_url( $user_id ),
-																																							'business_name' => $store_name
+																																							'business_name' => $store_name,
+																																							'first_name'    => $the_user->first_name,
+																																							'last_name'     => $the_user->last_name
 																																							)
-																											) );
-							if( apply_filters( 'wcfm_is_allow_stripe_express_api', false ) ) {
+																											), $user_id );
+							if( apply_filters( 'wcfm_is_allow_stripe_express_api', true ) ) {
 								$authorize_request_body['suggested_capabilities'] = array( 'transfers', 'card_payments' );
 								$url = 'https://connect.stripe.com/express/oauth/authorize?' . http_build_query($authorize_request_body);
 							} else {
@@ -996,6 +998,12 @@ class WCFMmp_Store_Setup {
 			foreach( $wcfm_setup_data['address'] as $address_field => $address_val ) {
 				update_user_meta( $user_id, '_wcfm_' . $address_field, $address_val );
 			}
+		}
+		
+		// Save Store Name
+		if(isset($wcfm_setup_data['store_name']) && !empty($wcfm_setup_data['store_name'])) {
+			update_user_meta( $user_id, 'store_name', $wcfm_setup_data['store_name'] );
+			update_user_meta( $user_id, 'wcfmmp_store_name', $wcfm_setup_data['store_name'] );
 		}
 		
 		update_user_meta( $user_id, 'wcfmmp_profile_settings', $wcfm_setup_data );

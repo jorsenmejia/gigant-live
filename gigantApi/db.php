@@ -291,6 +291,18 @@ class Conn{
             echo json_encode($info);
         }
     }
+
+    public function fetchproduct($id){
+        $this->string = "SELECT u.ID,u.user_login, u.user_nicename, u.display_name, p.post_author,p.post_title,p.post_status from wp_users as u Inner join wp_posts as p On p.post_author = u.id WHERE p.post_author = $id AND p.post_status = 'publish'";
+    $info=[];
+    if($result=$this->db->query($this->string)){
+        while($rows = $result->fetch_assoc()){
+            array_push($info,$rows);
+        }
+ 
+        json_encode($info);
+        }
+    }
     
     public function fetchcategory($name){
         $this->string = "SELECT u.ID,

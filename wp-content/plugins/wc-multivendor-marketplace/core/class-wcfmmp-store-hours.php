@@ -335,7 +335,7 @@ class WCFMmp_Store_Hours {
 		
 		$vendor_id = '';
 		if( wcfm_is_store_page() ) {
-			$custom_store_url = get_option( 'wcfm_store_url', 'store' );
+			$custom_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
 			$store_name = get_query_var( $custom_store_url );
 			if ( !empty( $store_name ) ) {
 				$store_user = get_user_by( 'slug', $store_name );

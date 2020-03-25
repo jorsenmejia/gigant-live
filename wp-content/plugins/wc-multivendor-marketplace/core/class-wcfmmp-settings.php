@@ -257,7 +257,7 @@ class WCFMmp_Settings {
 		
 		if( isset( $wcfm_settings_form['vendor_store_url'] ) ) {
 			$wcfm_marketplace_options['wcfm_store_url'] = sanitize_title( $wcfm_settings_form['vendor_store_url'] );
-			update_option( 'wcfm_store_url', sanitize_title( $wcfm_settings_form['vendor_store_url'] ) );
+			wcfm_update_option( 'wcfm_store_url', sanitize_title( $wcfm_settings_form['vendor_store_url'] ) );
 		}
 		
 		if( isset( $wcfm_settings_form['vendor_sold_by'] ) ) {

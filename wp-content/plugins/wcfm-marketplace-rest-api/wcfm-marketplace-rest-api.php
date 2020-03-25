@@ -4,7 +4,7 @@
  * Plugin URI: https://wclovers.github.io/wcfm-rest-api/
  * Description: Most featured and flexible marketplace solution for your e-commerce store. Simply and Smoothly.
  * Author: WC Lovers
- * Version: 1.2.5
+ * Version: 1.2.10
  * Author URI: https://wclovers.com
  *
  * Text Domain: wcfm-marketplace-rest-api

@@ -3,11 +3,11 @@ Contributors: wclovers
 Tags: woocommerce marketplace api, rest api, remote api, http api
 Donate link: https://www.paypal.me/wclovers/25usd
 Requires at least: 4.4
-Tested up to: 5.3
+Tested up to: 5.3.2
 WC requires at least: 3.0
-WC tested up to: 3.8.0
+WC tested up to: 3.9.3
 Requires PHP: 5.6
-Stable tag: 1.2.5
+Stable tag: 1.2.10
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -148,6 +148,24 @@ NONE.
 
 == Changelog ==
 
+= 1.2.10 =
+* Bug-fix - Delivery orders update bugfix
+
+= 1.2.9 =
+* Bug-fix - Delivery orders cod amount remaining total fixed
+* Enhance - Coordinates added for delivery order store details.
+
+= 1.2.8 =
+* Enhance - Support for grouped delivery order added
+
+= 1.2.7 =
+* Bugfix - store-vendors route pagination issue fixed
+
+= 1.2.6 =
+*Updated - 16/01/2020*
+
+* Enhance - Membership data added in store vendor route
+
 = 1.2.5 =
 *Updated - 19/11/2019*
 
@@ -243,6 +261,6 @@ NONE.
 
 == Upgrade Notice ==
 
-= 1.2.5 =
+= 1.2.10 =
 
-* BugFix - Order items bugfix for vendor orders.
+* Bug-fix - Delivery orders update bugfix

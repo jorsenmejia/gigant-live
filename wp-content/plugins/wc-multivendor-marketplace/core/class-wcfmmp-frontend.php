@@ -678,7 +678,7 @@ class WCFMmp_Frontend {
 	function wcfm_store_page_title( $title ) {
 		global $WCFM, $WCFM_Query, $wp_query;
 		if( ! is_null( $wp_query ) && !is_admin() && is_main_query() && in_the_loop() && wcfmmp_is_store_page() ) {
-			$wcfm_store_url = get_option( 'wcfm_store_url', 'store' );
+			$wcfm_store_url = wcfm_get_option( 'wcfm_store_url', 'store' );
 			$store_name = apply_filters( 'wcfmmp_store_query_var', get_query_var( $wcfm_store_url ) );
 			if ( !empty( $store_name ) ) {
 				$store_user = get_user_by( 'slug', $store_name );
@@ -735,7 +735,7 @@ class WCFMmp_Frontend {
 			
 			wp_enqueue_script( 'wcfmmp_store_list_js', $WCFMmp->library->js_lib_url_min . 'store-lists/wcfmmp-script-store-lists.js', array('jquery' ), $WCFMmp->version, true );
 			wp_localize_script( 'wcfmmp_store_list_js', 'wcfmmp_store_list_messages', array( 'choose_category' => __( 'Choose Category', 'wc-multivendor-marketplace' ), 'choose_location' => __( 'Choose Location', 'wc-multivendor-marketplace' ), 'choose_state' => __( 'Choose State', 'wc-multivendor-marketplace' ) ) );
-			wp_localize_script( 'wcfmmp_store_list_js', 'wcfmmp_store_list_options', array( 'search_location' => __( 'Insert your address ..', 'wc-multivendor-marketplace' ), 'is_geolocate' => apply_filters( 'wcfmmp_is_allow_store_list_by_user_location', true ), 'max_radius' => apply_filters( 'wcfmmp_radius_filter_max_distance', $max_radius_to_search ), 'radius_unit' => ucfirst( $radius_unit ), 'start_radius' => apply_filters( 'wcfmmp_radius_filter_start_distance', 10 ), 'default_lat' => $default_lat, 'default_lng' => $default_lng, 'is_poi' => apply_filters( 'wcfmmp_is_allow_map_poi', true ), 'is_rtl' => is_rtl() ) );
+			wp_localize_script( 'wcfmmp_store_list_js', 'wcfmmp_store_list_options', array( 'search_location' => __( 'Insert your address ..', 'wc-multivendor-marketplace' ), 'is_geolocate' => apply_filters( 'wcfmmp_is_allow_store_list_by_user_location', true ), 'max_radius' => apply_filters( 'wcfmmp_radius_filter_max_distance', $max_radius_to_search ), 'radius_unit' => ucfirst( $radius_unit ), 'start_radius' => apply_filters( 'wcfmmp_radius_filter_start_distance', 10 ), 'default_lat' => $default_lat, 'default_lng' => $default_lng, 'icon_width' => apply_filters( 'wcfmmp_map_icon_width', 50 ), 'icon_height' => apply_filters( 'wcfmmp_map_icon_height', 50 ), 'is_poi' => apply_filters( 'wcfmmp_is_allow_map_poi', true ), 'is_rtl' => is_rtl() ) );
 		}
 		
 		// Product List Geo Locate Filter 
@@ -756,7 +756,7 @@ class WCFMmp_Frontend {
 				
 				wp_enqueue_script( 'wcfmmp_product_list_js', $WCFMmp->library->js_lib_url_min . 'product-geolocate/wcfmmp-script-product-lists.js', array('jquery' ), $WCFMmp->version, true );
 				
-				wp_localize_script( 'wcfmmp_product_list_js', 'wcfmmp_product_list_options', array( 'search_location' => __( 'Insert your address ..', 'wc-multivendor-marketplace' ), 'is_geolocate' => apply_filters( 'wcfmmp_is_allow_store_list_by_user_location', true ), 'max_radius' => apply_filters( 'wcfmmp_radius_filter_max_distance', $max_radius_to_search ), 'radius_unit' => ucfirst( $radius_unit ), 'start_radius' => apply_filters( 'wcfmmp_radius_filter_start_distance', 10 ), 'default_lat' => $default_lat, 'default_lng' => $default_lng, 'is_poi' => apply_filters( 'wcfmmp_is_allow_map_poi', true ), 'is_rtl' => is_rtl() ) );
+				wp_localize_script( 'wcfmmp_product_list_js', 'wcfmmp_product_list_options', array( 'search_location' => __( 'Insert your address ..', 'wc-multivendor-marketplace' ), 'is_geolocate' => apply_filters( 'wcfmmp_is_allow_store_list_by_user_location', true ), 'max_radius' => apply_filters( 'wcfmmp_radius_filter_max_distance', $max_radius_to_search ), 'radius_unit' => ucfirst( $radius_unit ), 'start_radius' => apply_filters( 'wcfmmp_radius_filter_start_distance', 10 ), 'default_lat' => $default_lat, 'default_lng' => $default_lng, 'icon_width' => apply_filters( 'wcfmmp_map_icon_width', 50 ), 'icon_height' => apply_filters( 'wcfmmp_map_icon_height', 50 ), 'is_poi' => apply_filters( 'wcfmmp_is_allow_map_poi', true ), 'is_rtl' => is_rtl() ) );
 			}
  	  }
 		

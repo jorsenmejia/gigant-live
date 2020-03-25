@@ -55,7 +55,7 @@ class WCFMmp_Refund_Requests_Form_Controller {
 	  	$order_id               = absint( $wcfm_refund_tab_form_data['wcfm_refund_order_id'] );
 	  	$refund_request         = wc_clean( $wcfm_refund_tab_form_data['wcfm_refund_request'] );
 	  	$wcfm_refund_inputs     = wc_clean( $wcfm_refund_tab_form_data['wcfm_refund_input'] );
-	  	$wcfm_refund_tax_inputs = wc_clean( $wcfm_refund_tab_form_data['wcfm_refund_tax_input'] );
+	  	$wcfm_refund_tax_inputs = isset( $wcfm_refund_tab_form_data['wcfm_refund_tax_input'] ) ? wc_clean( $wcfm_refund_tab_form_data['wcfm_refund_tax_input'] ) : array();
 	  	$refund_status          = 'pending';
 	  	
 	  	//if( ( $refund_request == 'partial' ) && !$refunded_amount ) {
@@ -116,7 +116,7 @@ class WCFMmp_Refund_Requests_Form_Controller {
 					
 					// Adding Item Tax to Refund Amount
 	  		  if ( wc_tax_enabled() ) {
-	  		  	$refunded_tax     = $wcfm_refund_tax_inputs[$refund_item_id];
+	  		  	$refunded_tax     = isset( $wcfm_refund_tax_inputs[$refund_item_id] ) ? $wcfm_refund_tax_inputs[$refund_item_id] : array();
 	  		  	$refunded_tax_amt = 0; 
 	  		  	if( $refunded_tax && is_array( $refunded_tax ) && !empty( $refunded_tax ) ) {
 							foreach( $refunded_tax as $tax_item_id => $tax_item_cost ) {

@@ -68,6 +68,8 @@ $display_vendor_term = array();
 	  <input type="search" id="search" class="search-field wcfmmp-store-search" placeholder="<?php esc_attr_e( 'Search &hellip;', 'wc-multivendor-marketplace' ); ?>" value="<?php echo esc_attr( $search_query ); ?>" name="wcfmmp_store_search" title="<?php esc_attr_e( 'Search store &hellip;', 'wc-multivendor-marketplace' ); ?>" />
 	<?php } ?>
 	
+	<?php do_action( 'wcfmmp_after_store_list_serach_filter' ); ?>
+	
 	<?php if( $category && apply_filters( 'wcfmmp_is_allow_store_list_category_filter', true ) ) { ?>
 		<?php
 		$vendor_categories = $WCFMmp->wcfmmp_vendor->wcfmmp_get_vendor_taxonomy( 0, 'product_cat' );
@@ -215,6 +217,7 @@ $display_vendor_term = array();
 				?>
 			</select>
 		<?php } ?>
+		<?php do_action( 'wcfmmp_after_store_list_category_filter' ); ?>
   <?php } ?>
   
   <?php if( $radius ) { ?>
@@ -230,6 +233,7 @@ $display_vendor_term = array();
 		</div>
 		<input type="hidden" id="wcfmmp_radius_lat" name="wcfmmp_radius_lat" value="">
 		<input type="hidden" id="wcfmmp_radius_lng" name="wcfmmp_radius_lng" value="">
+		<?php do_action( 'wcfmmp_after_store_list_radius_filter' ); ?>
   <?php } ?>
 	
 	<?php if( $country && apply_filters( 'wcfmmp_is_allow_store_list_country_filter', true ) ) { ?>

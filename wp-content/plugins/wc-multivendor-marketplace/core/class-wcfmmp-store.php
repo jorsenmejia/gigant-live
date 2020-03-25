@@ -170,6 +170,12 @@ class WCFMmp_Store {
 			if( isset( $store_tabs['policies'] ) ) unset( $store_tabs['policies'] );
 		}
 		
+		if( isset( $store_tabs['policies'] ) && apply_filters( 'wcfmmp_is_allow_store_policy_tab_title_by_setting', true ) ) {
+			$wcfm_policy_vendor_options = (array) wcfm_get_user_meta( $this->id, 'wcfm_policy_vendor_options', true );
+			$_wcfm_vendor_policy_tab_title = isset( $wcfm_policy_vendor_options['policy_tab_title'] ) ? $wcfm_policy_vendor_options['policy_tab_title'] : '';
+			if( $_wcfm_vendor_policy_tab_title ) $store_tabs['policies'] = $_wcfm_vendor_policy_tab_title;
+		}
+			
 		if( !apply_filters( 'wcfm_is_pref_vendor_reviews', true ) ) {
 			//$WCFM->wcfm_vendor_support->wcfm_vendor_has_capability( $this->id, 'review_manage' )
 			if( isset( $store_tabs['reviews'] ) ) unset( $store_tabs['reviews'] );

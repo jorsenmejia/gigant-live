@@ -167,7 +167,9 @@ jQuery(document).ready(function($) {
 	if( $('.wcfmmp-store-search-form').length > 0 ) {
 		
 		if( wcfmmp_store_list_options.is_geolocate ) {
-			refreshStoreList();
+			if( ( $('#wcfmmp_radius_addr').length == 0 ) || !navigator.geolocation ) {
+				refreshStoreList();
+			}
 		}
 		
 		form.on('keyup', '.wcfm-search-field', function() {
@@ -461,12 +463,18 @@ jQuery(document).ready(function($) {
 				$.each(locations, function( i, beach ) {
 					var myLatLng = new google.maps.LatLng(beach.lat, beach.lang);
 					latlngbounds.extend(myLatLng);
+					var customIcon = {
+														url: beach.icon,
+														scaledSize: new google.maps.Size( wcfmmp_store_list_options.icon_width, wcfmmp_store_list_options.icon_height ), // scaled size
+														origin: new google.maps.Point( 0, 0 ), // origin
+														anchor: new google.maps.Point( 0, 0 ) // anchor
+													};
 					var marker = new google.maps.Marker({
 							position: myLatLng,
 							map: store_list_map,
 							animation: google.maps.Animation.DROP,
 							title: beach.name,
-							icon: beach.icon,
+							icon: customIcon,
 							zIndex: i 
 					});
 					
@@ -490,7 +498,8 @@ jQuery(document).ready(function($) {
 			} else {
 				$.each(locations, function( i, beach ) {
 					var customIcon = L.icon({
-						iconUrl: beach.icon
+						iconUrl: beach.icon,
+						iconSize: [ wcfmmp_store_list_options.icon_width, wcfmmp_store_list_options.icon_height ]
 					});
 					var marker = L.marker([beach.lat, beach.lang], {icon:customIcon}).bindPopup(beach.info_window_content);
 					
@@ -561,6 +570,9 @@ jQuery(document).ready(function($) {
 				$('#wcfm_radius_filter_container').find('.search-input').addClass('wcfmmp-radius-addr').attr( 'id', 'wcfmmp_radius_addr' ).css( 'float', 'none' ).attr( 'placeholder', wcfmmp_store_list_options.search_location );
 			}//inizialize search control
     }
-    fetchMarkers();
+    
+    if( !wcfmmp_store_list_options.is_geolocate ) {
+    	fetchMarkers();
+    }
 	}
 });

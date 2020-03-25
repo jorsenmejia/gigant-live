@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
 						// Intialize Quick Update Action
 						jQuery('#wcfm_refund_requests_submit_button').click(function(event) {
 							event.preventDefault();
-							jQuery('#wcfm_refund_requests_form').block({
+							jQuery('#wcfm_refund_form_wrapper').block({
 								message: null,
 								overlayCSS: {
 									background: '#fff',
@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
 							if( jQuery('#wcfm_refund_reason').val().length == 0 ) {
 								//alert(wcfm_refund_manage_messages.no_query);
 								jQuery('#wcfm_refund_requests_form .wcfm-message').html('<span class="wcicon-status-cancelled"></span>' + wcfm_refund_requests_messages.no_refund_reason).addClass('wcfm-error').slideDown();
-								jQuery('#wcfm_refund_requests_form').unblock();
+								jQuery('#wcfm_refund_form_wrapper').unblock();
 							} else {
 								var data = {
 									action                     : 'wcfm_ajax_controller',
@@ -106,7 +106,7 @@ jQuery(document).ready(function($) {
 												grecaptcha.reset();
 											}
 										}
-										jQuery('#wcfm_refund_requests_form').unblock();
+										jQuery('#wcfm_refund_form_wrapper').unblock();
 									}
 								} );
 							}

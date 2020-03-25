@@ -50,11 +50,11 @@ class WCFM_REST_Deliveries_Controller extends WCFM_REST_Controller {
       'schema' => array( $this, 'get_public_item_schema' ),
     ) );
 
-    register_rest_route( $this->namespace, '/' . $this->base . '/(?P<id>[\d]+)/', array(
+    register_rest_route( $this->namespace, '/' . $this->base . '/(?P<id>[\S]+)/', array(
       'args' => array(
           'id' => array(
               'description' => __( 'Unique identifier for the object.', 'wcfm-marketplace-rest-api' ),
-              'type'        => 'integer',
+              'type'        => 'string',
           )
       ),
       array(
@@ -122,44 +122,99 @@ class WCFM_REST_Deliveries_Controller extends WCFM_REST_Controller {
   public function get_delivery_items($wcfm_delivery_orders_array) {
     global $WCFM, $WCFMd;
     $response = array();
+    //print_r($wcfm_delivery_orders_array);
     foreach( $wcfm_delivery_orders_array as $key => $wcfm_delivery_order_single ) {
       $the_order = wc_get_order( $wcfm_delivery_order_single->order_id );
       if( !is_a( $the_order, 'WC_Order' ) ) continue;
-      $response[$key]['delivery_id'] = $wcfm_delivery_order_single->ID;
+      if(!empty($wcfm_delivery_order_single->delivery_order_ids)) { 
+        $response[$key]['delivery_id'] = $wcfm_delivery_order_single->delivery_order_ids;
+      } else {
+        $response[$key]['delivery_id'] = $wcfm_delivery_order_single->ID;
+      }
+      
+
       $response[$key]['order_id'] = esc_attr( $the_order->get_order_number() );
       $response[$key]['delivery_status'] = $wcfm_delivery_order_single->delivery_status;
       if ( $the_order->get_payment_method_title() ) {
         $response[$key]['payment_method'] = $the_order->get_payment_method_title();
       }
 
+      // if( in_array( $wcfm_delivery_order_single->payment_method, array( 'cod' ) ) ) {
+        
+      // }
+
       if( in_array( $wcfm_delivery_order_single->payment_method, array( 'cod' ) ) ) {
-        $gross_sales_total = $WCFMd->frontend->wcfmd_get_delivery_meta( $wcfm_delivery_order_single->ID, 'gross_sales_total', true );
-        if( $gross_sales_total ) {
-          $response[$key]['payment_remaining'] = $gross_sales_total;
+        if(!empty($wcfm_delivery_order_single->delivery_order_ids)) {
+          $delivery_order_ids = explode( ",", $wcfm_delivery_order_single->delivery_order_ids );
+          if( !empty( $delivery_order_ids ) ) {
+            $gross_sales_total = 0;
+            foreach( $delivery_order_ids as $delivery_order_id ) {
+              $gross_sales_total += (float)$WCFMd->frontend->wcfmd_get_delivery_meta( $delivery_order_id, 'gross_sales_total', true );
+            }
+            if( $gross_sales_total ) {
+              $response[$key]['payment_remaining'] = $gross_sales_total;
+            }
+          }
+        } else {
+          $gross_sales_total = $WCFMd->frontend->wcfmd_get_delivery_meta( $wcfm_delivery_order_single->ID, 'gross_sales_total', true );
+          if( $gross_sales_total ) {
+            $response[$key]['payment_remaining'] = $gross_sales_total;
+          }
         }
       }
-      $response[$key]['currency'] = get_woocommerce_currency();
-      //ITEM
-      try {
-        $line_item = new WC_Order_Item_Product( $wcfm_delivery_order_single->item_id );
-        $product   = $line_item->get_product();
-        $response[$key]['item']['name'] = $line_item->get_name();
-        $response[$key]['item']['quantity'] = $line_item->get_quantity();
 
-        if ( $product && $product->get_sku() ) {
-          $response[$key]['item']['sku'] = esc_html( $product->get_sku() );
+      $response[$key]['currency'] = get_woocommerce_currency();
+      //print_r($wcfm_delivery_order_single);
+      if(!empty($wcfm_delivery_order_single->order_item_ids))
+        $order_item_ids = explode( ",", $wcfm_delivery_order_single->order_item_ids );
+      else
+        $order_item_ids = array( $wcfm_delivery_order_single->item_id );
+      //print_r($wcfm_delivery_order_single);
+      //ITEM
+      $response[$key]['item']['name'] = '';
+      $number_of_items = count($order_item_ids);
+      if( !empty( $order_item_ids ) ) {
+        try {
+          foreach( $order_item_ids as $order_key => $order_item_id ) {
+
+            if( $order_item_id ) {
+              $line_item = new WC_Order_Item_Product( $order_item_id );
+              $product   = $line_item->get_product();
+              if( $order_key + 1 !== $number_of_items  ) {
+                $response[$key]['item']['name'] .= $line_item->get_quantity() . ' x ' . $line_item->get_name() . ', ';
+              } else {
+                $response[$key]['item']['name'] .= $line_item->get_quantity() . ' x ' . $line_item->get_name();
+              }
+              $response[$key]['items'][$order_key]['name'] = $line_item->get_name();
+              $response[$key]['items'][$order_key]['quantity'] = $line_item->get_quantity();
+
+              if ( $product && $product->get_sku() ) {
+                $response[$key]['items'][$order_key]['sku'] = esc_html( $product->get_sku() );
+              }
+            }
+          }
+        } catch (Exception $e) {
+          wcfm_log( "Order List Error Rest API CALL ::" . $wcfm_delivery_order_single->order_id . " => " . $e->getMessage() );
+          unset( $response[$key] );
+          continue;
         }
-      } catch (Exception $e) {
-        wcfm_log( "Order List Error Rest API CALL ::" . $wcfm_delivery_order_single->order_id . " => " . $e->getMessage() );
-        unset( $response[$key] );
-        continue;
       }
 
       //STORE
       if( $wcfm_delivery_order_single->vendor_id ) {
         $response[$key]['store']['name'] = $WCFM->wcfm_vendor_support->wcfm_get_vendor_store_name_by_vendor( $wcfm_delivery_order_single->vendor_id );
         if( apply_filters( 'wcfm_is_allow_store_location_to_delivery_boys', true ) ) {
+          //$response[$key]['store']['address_string'] = 'https://maps.google.com/?q=' . rawurlencode( $store_user->get_address_string() );
           $store_user = wcfmmp_get_store( $wcfm_delivery_order_single->vendor_id );
+          //print_r($store_user);
+          $response[$key]['store']['address_string'] = 'https://maps.google.com/?q=' . rawurlencode( $store_user->get_address_string() );
+          $store_info = $store_user->get_shop_info();
+          $response[$key]['store']['address_coordinate'] = array();
+          if(!empty($store_info['store_lat']) && !empty($store_info['store_lng'])) {
+            $response[$key]['store']['address_coordinate']['store_lat'] = $store_info['store_lat'];
+            $response[$key]['store']['address_coordinate']['store_lng'] = $store_info['store_lng'];
+          }
+
           if( $store_user->get_address() ) {
             $response[$key]['store']['address'] = $store_user->get_address();
 
@@ -241,38 +296,78 @@ class WCFM_REST_Deliveries_Controller extends WCFM_REST_Controller {
   }
 
   public function update_delivery_status($request) {
+    //print_r($request);
     global $WCFM, $WCFMd, $wpdb;
-    $id = isset( $request['id'] ) ? absint( $request['id'] ) : 0;
+    $id = isset( $request['id'] ) ? $request['id']  : '';
+    //print_r($id); die;
     if ( empty( $id ) ) {
         return new WP_Error( "wcfmapi_rest_invalid_delivery_id", __( 'Invalid delivery ID', 'wcfm-marketplace-rest-api' ), array(
             'status' => 404,
         ) );
     }
 
-    $sql  = "SELECT * FROM `{$wpdb->prefix}wcfm_delivery_orders`";
-    $sql .= " WHERE 1=1";
-    $sql .= " AND ID = {$id}";
-    $delivery_details = $wpdb->get_results( $sql );
+    // $sql  = "SELECT * FROM `{$wpdb->prefix}wcfm_delivery_orders`";
+    // $sql .= " WHERE 1=1";
+    // $sql .= " AND ID = {$id}";
+    // $delivery_details = $wpdb->get_results( $sql );
 
-    if ( empty( $delivery_details ) ) {
-        return new WP_Error( "wcfmapi_rest_invalid_delivery_id", __( 'Invalid delivery ID', 'wcfm-marketplace-rest-api' ), array(
-            'status' => 404,
-        ) );
-    }
+    // if ( empty( $delivery_details ) ) {
+    //     return new WP_Error( "wcfmapi_rest_invalid_delivery_id", __( 'Invalid delivery ID', 'wcfm-marketplace-rest-api' ), array(
+    //         'status' => 404,
+    //     ) );
+    // }
 
     $_POST['delivery_id'] = $id;
     define('WCFM_REST_API_CALL', TRUE);
     $WCFM->init();
     $WCFMd->ajax->wcfmd_mark_order_delivered();
 
-    $sql  = "SELECT * FROM `{$wpdb->prefix}wcfm_delivery_orders`";
-    $sql .= " WHERE 1=1";
-    $sql .= " AND ID = {$id}";
-    $wcfm_delivery_orders_array = $wpdb->get_results( $sql );
+    // $sql  = "SELECT * FROM `{$wpdb->prefix}wcfm_delivery_orders`";
+    // $sql .= " WHERE 1=1";
+    // $sql .= " AND ID = {$id}";
+    // $wcfm_delivery_orders_array = $wpdb->get_results( $sql );
+
+
+    $delivery_ids = explode( ",", $id );
+    
+    //$delivered_not_notified = false;
+    $wcfm_delivery_orders_array = array();
+    
+    if( $delivery_ids ) {
+      foreach( $delivery_ids as $key => $delivery_id ) {
+        $sql  = "SELECT * FROM `{$wpdb->prefix}wcfm_delivery_orders`";
+        $sql .= " WHERE 1=1";
+        $sql .= " AND ID = {$delivery_id}";
+        $wcfm_delivery_orders_array = array_merge( $wcfm_delivery_orders_array, $wpdb->get_results( $sql )  );
+      }
+    }
+    //print_r($wcfm_delivery_orders_array);
+
 
     $response = $this->get_delivery_items($wcfm_delivery_orders_array);
+    //print_r($response);
+    $final_res = array();
+    foreach ($response as $key => $value) {
+      # code...
+      if($key !== 0) {
+        $final_res[0]['delivery_id'] = $final_res[0]['delivery_id'] . ',' . $value['delivery_id'];
+        $final_res[0]['item']['name'] = $final_res[0]['item']['name'] . ',' . $value['item']['name'];
+      } else {
+        $final_res[0]['delivery_id'] = $value['delivery_id'];
+        $final_res[0]['item']['name'] = $value['item']['name'];
+      }
+      $final_res[0]['order_id'] = $value['order_id'];
+      $final_res[0]['delivery_status'] = $value['delivery_status'];
+      $final_res[0]['payment_method'] = $value['payment_method'];
+      $final_res[0]['currency'] = $value['currency'];
+      $final_res[0]['store'] = $value['store'];
+      $final_res[0]['customer'] = $value['customer'];
+      $final_res[0]['shipping_address'] = $value['shipping_address'];
+      $final_res[0]['delivered_on'] = $value['delivered_on'];
 
-    return rest_ensure_response( $response );
+    }
+
+    return rest_ensure_response( $final_res );
   }
   
 }

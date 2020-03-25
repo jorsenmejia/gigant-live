@@ -28,7 +28,7 @@ $display_vendor_term = array();
 					$vendor_term = get_term( absint( $vendor_category_id ), 'product_cat' ); 
 					if( $vendor_term && $vendor_term->term_id && $vendor_term->name ) {
 						?>
-						<li class="parent_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+						<li class="parent_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 						<?php
 					}
 					foreach( $vendor_category as $vendor_category_child_id => $vendor_category_child ) {
@@ -39,12 +39,12 @@ $display_vendor_term = array();
 								if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 								$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 								?>
-								<li class="child_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+								<li class="child_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 								<?php
 							}
 						} else {
 							?>
-							<li class="child_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+							<li class="child_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 							<?php
 							foreach( $vendor_category_child as $vendor_category_child2_id => $vendor_category_child2 ) {
 								if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child2_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -54,12 +54,12 @@ $display_vendor_term = array();
 										if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 										$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 										?>
-										<li class="child2_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+										<li class="child2_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 										<?php
 									}
 								} else {
 									?>
-									<li class="child2_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+									<li class="child2_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 									<?php
 									foreach( $vendor_category_child2 as $vendor_category_child3_id => $vendor_category_child3 ) {
 										if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child3_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -69,12 +69,12 @@ $display_vendor_term = array();
 												if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 												$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 												?>
-												<li class="child3_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+												<li class="child3_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 												<?php
 											}
 										} else {
 											?>
-											<li class="child3_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+											<li class="child3_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 											<?php
 											foreach( $vendor_category_child3 as $vendor_category_child4_id => $vendor_category_child4 ) {
 												if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child4_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -84,12 +84,12 @@ $display_vendor_term = array();
 														if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 														$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 														?>
-														<li class="child4_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+														<li class="child4_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 														<?php
 													}
 												} else {
 													?>
-													<li class="child4_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+													<li class="child4_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 													<?php
 													foreach( $vendor_category_child4 as $vendor_category_child5_id => $vendor_category_child5 ) {
 														if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child5_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -99,12 +99,12 @@ $display_vendor_term = array();
 																if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 																$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 																?>
-																<li class="child5_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+																<li class="child5_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 																<?php
 															}
 														} else {
 															?>
-															<li class="child5_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+															<li class="child5_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 															<?php
 															foreach( $vendor_category_child5 as $vendor_category_child6_id => $vendor_category_child6 ) {
 																if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child6_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -114,12 +114,12 @@ $display_vendor_term = array();
 																		if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 																		$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 																		?>
-																		<li class="child6_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+																		<li class="child6_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 																		<?php
 																	}
 																} else {
 																	?>
-																	<li class="child6_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+																	<li class="child6_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 																	<?php
 																	foreach( $vendor_category_child6 as $vendor_category_child7_id => $vendor_category_child7 ) {
 																		if( !apply_filters( 'wcfm_is_allow_vendor_store_taxomony_by_id', true, $vendor_category_child7_id, $store_user->get_id(), 'product_cat' ) ) continue;
@@ -129,12 +129,12 @@ $display_vendor_term = array();
 																				if( in_array( $vendor_term->term_id, $display_vendor_term) ) continue;
 																				$display_vendor_term[$vendor_term->term_id] = $vendor_term->term_id;
 																				?>
-																				<li class="child7_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+																				<li class="child7_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 																				<?php
 																			}
 																		} else {
 																			?>
-																			<li class="child7_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>"><?php echo $vendor_term->name; ?></a></li>
+																			<li class="child7_cat"><a class="<?php if( $vendor_term->slug == $selected_term ) echo 'active'; ?>" href="<?php echo $store_user->get_shop_url() . 'category/' . $vendor_term->slug; ?>/"><?php echo $vendor_term->name; ?></a></li>
 																			<?php
 																		}
 																	}
