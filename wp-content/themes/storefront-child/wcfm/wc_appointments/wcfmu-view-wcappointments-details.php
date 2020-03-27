@@ -264,7 +264,7 @@
                               <div class='refer-modal-content'>
                                 <span class='close'>&times;</span>
                                 <div class='reasonfordecline'>
-                                <form action='' method ='POST' class='needs-validation' novalidate onsubmit='return false'>
+                                <form action='' method ='POST' class='needs-validation' novalidate>
                                 <p class ='reasonfordecline'>Please choose a reason for referring the appointment to another professional</p>
                                 <select id='refer_pro' name='refer_pro' required>
                                           <option value='I have an Emergency'>I have an Emergency</option>
@@ -275,16 +275,16 @@
                                 <p class = 'search-listing'> Please select the professional you will refer to this using the search box below:</p>  
                                 
                                 <input type='text' class='modal_postid'  id='validationCustom03' placeholder='Remarks' value=' ".$appointment_id."' name='referpost_id' required></input>";
-                                echo '<select id="posters" onchange="searchlisting()">';
+                                echo '<select name="displayname" class="selectpicker" id="posters" onchange="searchlisting()" data-live-search="true">';
                                 echo '<option selected="selected" disabled=disabled>No Selected Professional</option>';
                                 foreach ( $users as $user ) {
 
-                                    echo '<option class="posters" data-poster-id="'. esc_html( $user->id ) .'">' . esc_html( $user->id ) . '/' . esc_html( $user->display_name ) . '</option>';
+                                    echo '<option class="posters" data-token="test" data-poster-id="'. esc_html( $user->id ) .'">' . esc_html( $user->id ) . '/' . esc_html( $user->display_name ) . '</option>';
                                 } 
                                 echo '</select>
 
                                 <p class = "search-listing">Select a listing from this professional</p>  '; 
-                                echo '<select id="reason" name="posttitle"  required onchange="searchlisting()">';
+                                echo '<select name="posttitle" id="productslist" name="posttitle"  required onchange="searchlisting()">';
                                 foreach( $result as $value ) {
 
                                     echo '<option class="posters" data-poster-id="'. esc_html( $user->id ) .'">' . esc_html( $value->post_title ) . '/' . esc_html( $value->post_title ) . '</option>';
@@ -550,6 +550,9 @@ p.right-content {
     margin-left: 19%;
     margin-top: 10%;
 }
+.dropdown-menu {
+  position: static !important;
+  }
 
 h1.cancellation-title {
     padding-bottom: 29px;
@@ -676,7 +679,17 @@ window.onclick = function(event) {
   }
 }
 </script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css" rel="stylesheet" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(function() {
+  $('.selectpicker').selectpicker();
+});
+</script>
 <!-- <script>
             $("#posters").change(function(){
                 alert($('option:selected', this).attr("data-poster-id"));
@@ -703,7 +716,7 @@ function testjorsen(id){
         data.forEach(x=>{
           ls+=`<option value="${x.post_title}">${x.post_title}</option>`;
         });
-        $('#reason').html(ls);
+        $('#productslist').html(ls);
     }
 
 });
