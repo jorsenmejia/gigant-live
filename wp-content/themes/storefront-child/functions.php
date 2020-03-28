@@ -1752,10 +1752,7 @@ function add_sublisting($product_id){
 
 add_action( 'woocommerce_order_details_after_order_table', 'nolo_custom_field_display_cust_order_meta', 10, 1 );
 
-function nolo_custom_field_display_cust_order_meta($order){
-    echo '<p><strong>'.__('Pickup Location').':</strong> ' . get_post_meta( $order->id, 'Pickup Location', true ). '</p>';
-    echo '<p><strong>'.__('Pickup Date').':</strong> ' . get_post_meta( $order->id, 'Pickup Date', true ). '</p>';
-}
+
 if(isset($_POST['submitreason'])){
     insert_reasoncomplete();
 }
