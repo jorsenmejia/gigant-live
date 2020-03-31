@@ -333,7 +333,7 @@
                                        
                                        echo "<h1 class='cancellation-title'>Cancellation Policy</h1><div class='policy-modal'>";
                                         echo "<form action='' method ='POST' class='needs-validation' novalidate>
-                                        <p class='pnotes'>Please choose a reason for cancelling the appointment below:</p>
+                                        <span class='pnotes'><p>Please choose a reason for cancelling the appointment below:</p></span>
                                         <select id='reason' name='reason' required>
                                           <option value='I have an Emergency'>I have an Emergency</option>
                                           <option value='Option 1'>Option 1</option>
