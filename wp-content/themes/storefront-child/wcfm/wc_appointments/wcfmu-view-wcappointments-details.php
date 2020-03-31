@@ -307,7 +307,7 @@
 
                             </div>
                             <div class='btn-position'>
-                                  <button class='transac-buttons'>Report for Abuse</button>
+                                  <button class='transac-buttons' id='btn-report'>Report for Abuse</button>
                             </div>
                         </div>";
                         }
