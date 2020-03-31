@@ -298,7 +298,7 @@
 
                                 </div>
                                 <button name='submitrefer' id='submitrefer' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
-                                <button class='transac-buttons' onclick='closebutton2()'>Close</button>
+                                <button class='transac-buttons' id='btn-close' onclick='closebutton2()'>Close</button>
 
                               </div>
                               </form>
