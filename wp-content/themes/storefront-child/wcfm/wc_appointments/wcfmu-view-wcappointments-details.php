@@ -134,7 +134,7 @@
                                     
                                         echo "</div>";
                         ?>
-                        <button class='transac-buttons' onclick='closebutton1()'>Close</button>
+                        <button class='transac-buttons' id="btn-close" onclick='closebutton1()'>Close</button>
                     </p>
                   </div>
 
@@ -246,7 +246,7 @@
                                         <input type='hidden' class='modal_postid'  id='reasonpost_id' placeholder='Remarks' value=' ".$appointment_id."' name='reasonpost_id' required></input>
                                         </div><p class='confirmation'>Are you sure you want to cancel this appointment?</p>
                                         <button name='submitdecline' id='submitdecline' class='transac-buttons' onclick='transacDeleteStatus(".$appointment_id.")'>Yes</button>
-                                        <button class='transac-buttons' onclick='closebutton()'>No</button>
+                                        <button class='transac-buttons' id='btn-no'onclick='closebutton()'>No</button>
                                         <a class='transac-buttons' href='".home_url()."/professional-manager/appointments-manual'/ target='_blank'>Invite to New Schedule</a>
                                         </form>
                                       </div>
