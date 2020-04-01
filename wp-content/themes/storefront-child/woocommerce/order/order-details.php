@@ -83,15 +83,15 @@ if ( $show_downloads ) {
 				?>
 					<tr>
 						<th scope="row" class="table-subtotal"><?php echo esc_html( $total['label'] ); ?></th>
-						<td><?php echo ( 'payment_method' === $key ) ? esc_html( $total['value'] ) : wp_kses_post( $total['value'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></td>
+						<td class="table-payment"><?php echo ( 'payment_method' === $key ) ? esc_html( $total['value'] ) : wp_kses_post( $total['value'] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></td>
 					</tr>
 					<?php
 			}
 			?>
 			<?php if ( $order->get_customer_note() ) : ?>
 				<tr>
-					<th><?php esc_html_e( 'Note:', 'woocommerce' ); ?></th>
-					<td><?php echo wp_kses_post( nl2br( wptexturize( $order->get_customer_note() ) ) ); ?></td>
+					<th class="table-subtotal"><?php esc_html_e( 'Note:', 'woocommerce' ); ?></th>
+					<td class="table-payment"><?php echo wp_kses_post( nl2br( wptexturize( $order->get_customer_note() ) ) ); ?></td>
 				</tr>
 			<?php endif; ?>
 		</tfoot>
