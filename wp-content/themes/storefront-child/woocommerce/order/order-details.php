@@ -53,7 +53,7 @@ if ( $show_downloads ) {
 			</tr>
 		</thead>
 
-		<tbody>
+		<tbody class="table-note">
 			<?php
 			do_action( 'woocommerce_order_details_before_order_table_items', $order );
 
