@@ -1836,3 +1836,28 @@ function insert_referandrespond(){
     wp_safe_redirect( $redirect_to );
     exit;
 }
+add_filter('woocommerce_appointments_my_appointments_today_query_args', function($data){
+    unset($data['date_after']);
+    unset($data['date_before']);
+    $data['order'] = 'DESC';
+    return $data;
+});
+
+add_filter('woocommerce_appointments_account_tables', function($tables){
+    unset($tables['upcoming']);
+    unset($tables['past']);
+    return $tables;
+});
+
+add_action( 'woocommerce_admin_order_actions_end', 'add_content_to_wcactions_column' );
+function add_content_to_wcactions_column() {
+
+    // create some tooltip text to show on hover
+    $tooltip = __('Some tooltip text here.', 'textdomain');
+
+    // create a button label
+    $label = __('Label', 'textdomain');
+
+    echo '<a class="button tips custom-class" href="#" data-tip="'.$tooltip.'">'.$label.'</a>';
+}
+

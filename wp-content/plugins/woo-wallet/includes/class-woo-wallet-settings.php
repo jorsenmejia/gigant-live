@@ -27,7 +27,7 @@ if ( ! class_exists( 'Woo_Wallet_Settings' ) ):
          * wc wallet menu
          */
         public function admin_menu() {
-            add_submenu_page( 'woo-wallet', __( 'Settings', 'woo-wallet' ), __( 'Settings', 'woo-wallet' ), 'manage_woocommerce', 'woo-wallet-settings', array( $this, 'plugin_page' ) );
+            add_submenu_page( 'woo-wallet', __( 'Settings', 'woo-wallet' ), __( 'Settings', 'woo-wallet' ), get_wallet_user_capability(), 'woo-wallet-settings', array( $this, 'plugin_page' ) );
         }
 
         /**
@@ -188,7 +188,7 @@ if ( ! class_exists( 'Woo_Wallet_Settings' ) ):
                         'label' => __( 'Cashback Rule', 'woo-wallet' ),
                         'desc' => __( 'Select Cashback Rule cart or product wise', 'woo-wallet' ),
                         'type' => 'select',
-                        'options' => array( 'cart' => __( 'Cart wise', 'woo-wallet' ), 'product' => __( 'Product wise', 'woo-wallet' ), 'product_cat' => __( 'Product category wise', 'woo-wallet' ) ),
+                        'options' => apply_filters('woo_wallet_cashback_rules', array( 'cart' => __( 'Cart wise', 'woo-wallet' ), 'product' => __( 'Product wise', 'woo-wallet' ), 'product_cat' => __( 'Product category wise', 'woo-wallet' ) ) ),
                         'size' => 'regular-text wc-enhanced-select'
                     ),
                     array(

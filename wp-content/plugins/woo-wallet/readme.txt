@@ -3,8 +3,8 @@ Contributors: wcbeginner, subratamal, moumitaadak
 Tags: woo wallet, woocommerce wallet, wp wallet, user wallet, refund, cashback, partial payment, wallet, wc wallet, woocommerce credits
 Requires PHP: 5.6
 Requires at least: 4.4
-Tested up to: 5.2
-Stable tag: 1.3.10
+Tested up to: 5.3
+Stable tag: 1.3.14
 Donate link: https://www.paypal.me/SubrataMal941
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
@@ -129,6 +129,28 @@ Yes you can! Join in on our [GitHub repository](https://github.com/malsubrata/wo
 9. Wallet actions.
 
 == Changelog ==
+= 1.3.14 - 2020-03-07 =
+* Add - Bulk credit debit option for admin #46.
+* Fix - Current link attributes in wallet details page #45.
+
+= 1.3.13 - 2020-02-08 =
+* Fix - Wallet top-up issue.
+
+= 1.3.12 - 2020-02-07 =
+* Add - Mini wallet RTL support.
+* Add - Support for WooCommerce subscription payment method change.
+* Add - Copy to clipboard function in referral URL.
+* Fix - Cashback recalculation function.
+* Fix - Loading issue in wallet transfer searchbox.
+* Tweak - `is_full_payment_through_wallet` function.
+* Dev - Added `woo_wallet_cashback_rules` filter.
+* Dev - Added `created_by` database column to `woo_wallet_transactions` table.
+
+= 1.3.11 - 2019-11-13 =
+* Add - Mini wallet shortcode.
+* Fix - Cashback amount for product cart rule.
+* Fix - Wallet endpoint issue for shortcode.
+
 = 1.3.10 - 2019-09-11 =
 * Add - Submit button at Wallet Top-Up widget.
 * Fix - Cashback calculation issue for product category.

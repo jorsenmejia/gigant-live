@@ -70,22 +70,27 @@ tbody {
                             <!--</td> -->
                             <!-- Status -->
                             <td class="appointment-date"><!--DATE -->
-                                <?php if ( $appointment->get_status() === 'confirmed') :?>
-                                <?php echo "<p style='background-color:#ffaf1dc4;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Confirmed";?> 
-                                <?php elseif ( $appointment->get_status() === 'paid') :?>
-                                    <?php echo "<p style='background-color:#43cf62;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Accepted";?> 
-                                <?php elseif ( $appointment->get_status() === 'unpaid') :?>
-                                    <?php echo "<p style='background-color:#49a589;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Awaiting Payment";?> 
-                                <?php elseif ( $appointment->get_status() === 'complete') :?>
-                                    <?php echo "<p style='background-color:grey;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Completed</p>";?> 
-                                <?php elseif ( $appointment->get_status() === 'cancelled') :?>
-                                    <?php echo "<p style='background-color:#f91717c2;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Refunded/Lapsed</p>";?> 
-                                <?php elseif ( $appointment->get_status() === 'pending-confirmation') :?>
-                                    <?php echo "<p style='background-color:#337ab7;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Pending Confirmation</p>";?> 
-                                <?php else: ?>  
-                                    <?php echo esc_html( wc_appointments_get_status_label( $appointment->get_status() ) ); ?>
-                                <?php endif; ?>
-                            
+                                <?php  echo $appointment->get_order()->get_status();?>
+                                <?php if ($appointment->get_order()->get_status() === 'pending-confirmation') {
+                                    echo "string";
+                                }
+                                ?>
+                                <!-- <?php // if (  $appointment->get_order()->get_status() === 'confirmed') :?>
+                                <?php // echo "<p style='background-color:#ffaf1dc4;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Confirmed";?> 
+                                <?php // elseif ( $appointment->get_order()->get_status() === 'paid') :?>
+                                    <?php // echo "<p style='background-color:#43cf62;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Accepted";?> 
+                                <?php // elseif ( $appointment->get_order()->get_status() === 'unpaid') :?>
+                                    <?php // echo "<p style='background-color:#49a589;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Awaiting Payment";?> 
+                                <?php // elseif ( $appointment->get_order()->get_status() === 'complete') :?>
+                                    <?php // echo "<p style='background-color:grey;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Completed</p>";?> 
+                                <?php // elseif ( $appointment->get_order()->get_status() === 'cancelled') :?>
+                                    <?php // echo "<p style='background-color:#f91717c2;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Refunded/Lapsed</p>";?> 
+                                <?php // elseif ( $appointment->get_order()->get_status() === 'pending-confirmation') :?>
+                                    <?php // echo "<p style='background-color:#337ab7;color:white;border-radius:50px;padding: 6px;width: 150px;text-align:center;'>Pending Confirmation</p>";?> 
+                                <?php // else: ?>  
+                                    <?php // echo esc_html( wc_appointments_get_status_label( $appointment->get_order()->get_status() ) ); ?>
+                                <?php // endif; ?> -->
+                                
                             </td>
               <td class="scheduled-product">
                 <?php if ( $appointment->get_product() && $appointment->get_product()->is_type( 'appointment' ) ) : ?>
@@ -159,7 +164,7 @@ tbody {
                <div class="container">
   
   <!-- Trigger the modal with a button -->
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Cancel Appointment</button>
+  <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Cancel Appointment</button> -->
 
   <!-- Modal -->
    <div class="modal fade" id="myModal" role="dialog">
@@ -187,8 +192,35 @@ tbody {
                                     
                                   <!-- Modal content -->
             </td> 
-             <td class="appointment-actions" style="box-sizing: border-box;">
+            <?php
+            // $appointment->get_order()->get_cancel_order_url()
+            $pay_now_url = $appointment->get_order()->get_checkout_payment_url('/checkout/order-pay/{{order_number}}/?pay_for_order=true&key={{order_key}}');
+            $order = new WC_Order($order_id);
+             echo '<td class="appointment-actions" style="box-sizing: border-box;">
+                <select id="myselect" onchange="window.location=this.value">
+                    <option value='. $appointment->get_order()->get_view_order_url().'>View</option>
+                    <option value='. $pay_now_url.'>Pay</option>
+                    <option value="secondoption">Cancel</option>
+                   
+                </select>
+                <!-- Trigger/Open The Modal -->
+                <button id="myBtnCancel" data-target="#myModalCancel'.$appointment->get_order()->get_id().'">Cancel</button>
+
+                <!-- The Modal -->
+                <div id="myModalCancel'.$appointment->get_order()->get_id().'" class="modal">
+
+                  <!-- Modal content -->
+                  <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>'.$appointment->get_order()->get_view_order_url().'</p>
+                  </div>
+
+                </div>
+                ';
+
+                ?>
               <?php
+
               if ( $appointment->get_order() ) : 
 
                 $actions = wc_get_account_orders_actions( $appointment->get_order());
@@ -199,8 +231,8 @@ tbody {
             }
 
           endif;
-          ?>  
-
+          ?>    
+            
         </td>
 
         
@@ -278,10 +310,59 @@ tbody {
 <html>
 <head>
  <style>
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    padding: 20px;
+    margin-top: 10%;
+    margin-left: 22%;
+    border: 1px solid #888;
+    width: 73%;
+    z-index: 10000000 !important;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
  .modal-dialog.modal-sm {
     width: 50%!Important;
     margin-top: 280px!Important;
+}
+a.woocommerce-button.button.pay {
+    background-color: #43cf62;
+    border-radius: 5px;
+    padding: 8px;
+    color: white;
+    font-size: 14px;
+    display: block;
+}
+a.woocommerce-button.button.view {
+    display: block;
 }
 
 h1.cancellation-title {
@@ -294,6 +375,33 @@ function closebutton() {
 }
 function closebutton1() {
   document.getElementById("myModal1").style.display = "none";
+}
+</script>
+<script>
+// Get the modal
+var modalcancel = document.getElementById("myModalCancel");
+
+// Get the button that opens the modal
+var btncancel = document.getElementById("myBtnCancel");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btncancel.onclick = function() {
+  modalcancel.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
 }
 </script>
   <script>

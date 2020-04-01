@@ -168,6 +168,7 @@ if ( ! class_exists( 'Woo_Wallet_Wallet' ) ) {
                 $this->credit( $order->get_customer_id(), $partial_payment_amount, sprintf( __( 'Your order with ID #%s has been cancelled and hence your wallet amount has been refunded!', 'woo-wallet' ), $order->get_order_number() ) );
                 $order->add_order_note(sprintf( __( 'Wallet amount %s has been credited to customer upon cancellation', 'woo-wallet' ), $partial_payment_amount ) );
                 delete_post_meta( $order_id, '_partial_pay_through_wallet_compleate' );
+                update_post_meta($order_id, '_woo_wallet_partial_payment_refunded', true);
             }
 
             /** debit cashback amount * */
@@ -207,13 +208,15 @@ if ( ! class_exists( 'Woo_Wallet_Wallet' ) ) {
             } else if ( $type == 'debit' ) {
                 $balance -= $amount;
             }
-            if ( $wpdb->insert( "{$wpdb->base_prefix}woo_wallet_transactions", apply_filters( 'woo_wallet_transactions_args', array( 'blog_id' => $GLOBALS['blog_id'], 'user_id' => $this->user_id, 'type' => $type, 'amount' => $amount, 'balance' => $balance, 'currency' => get_woocommerce_currency(), 'details' => $details, 'date' => current_time('mysql') ), array( '%d', '%d', '%s', '%f', '%f', '%s', '%s', '%s' ) ) ) ) {
+            if ( $wpdb->insert( "{$wpdb->base_prefix}woo_wallet_transactions", apply_filters( 'woo_wallet_transactions_args', array( 'blog_id' => $GLOBALS['blog_id'], 'user_id' => $this->user_id, 'type' => $type, 'amount' => $amount, 'balance' => $balance, 'currency' => get_woocommerce_currency(), 'details' => $details, 'date' => current_time('mysql'), 'created_by' => get_current_user_id() ), array( '%d', '%d', '%s', '%f', '%f', '%s', '%s', '%s', '%d' ) ) ) ) {
                 $transaction_id = $wpdb->insert_id;
                 update_user_meta($this->user_id, $this->meta_key, $balance);
                 clear_woo_wallet_cache( $this->user_id );
                 do_action( 'woo_wallet_transaction_recorded', $transaction_id, $this->user_id, $amount, $type);
                 $email_admin = WC()->mailer()->emails['Woo_Wallet_Email_New_Transaction'];
-                $email_admin->trigger( $transaction_id );
+                if( !is_null( $email_admin ) && apply_filters( 'is_enable_email_notification_for_transaction', true, $transaction_id ) ){
+                    $email_admin->trigger( $transaction_id );
+                }
                 return $transaction_id;
             }
             return false;
