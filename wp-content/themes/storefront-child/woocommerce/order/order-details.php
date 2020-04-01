@@ -77,7 +77,7 @@ if ( $show_downloads ) {
 			?>
 		</tbody>
 
-		<tfoot>
+		<tfoot class="table-subtotal">
 			<?php
 			foreach ( $order->get_order_item_totals() as $key => $total ) {
 				?>
