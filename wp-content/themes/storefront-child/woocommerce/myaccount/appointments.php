@@ -204,10 +204,10 @@ tbody {
                    
                 </select>
                 <!-- Trigger/Open The Modal -->
-                <button id="myBtnCancel" data-target="#myModalCancel'.$appointment->get_order()->get_id().'">Cancel</button>
+                <button id="myBtnCancel" data-target="#myModalCancel">Cancel</button>
 
                 <!-- The Modal -->
-                <div id="myModalCancel'.$appointment->get_order()->get_id().'" class="modal">
+                <div id="myModalCancel" class="modal">
 
                   <!-- Modal content -->
                   <div class="modal-content">
